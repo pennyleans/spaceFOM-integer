@@ -1,0 +1,35 @@
+GMAT Build Date: Mar 26 2026 15:02:55
+
+GMAT Log file set to <reference-root>\evidence\qualification\reference\final-v1\gmat-moon-orbit-128\GmatLog.txt
+The log file mode is create
+Moderator is updating data files...
+Moderator is creating core engine...
+Successfully set Planetary Source to use: DE405
+Successfully set Planetary Source to use: DE405
+Successfully set Planetary Source to use: DE405
+Setting nutation file to ..\data\planetary_coeff\NUTATION.DAT
+Setting leap seconds file to ..\data\time\tai-utc.dat
+2026-09-28 13:52:59 GMAT Moderator successfully created core engine
+
+Interpreting scripts from the file.
+***** file: <reference-root>\evidence\qualification\reference\final-v1\gmat-moon-orbit-128\matched.script
+Successfully set Planetary Source to use: DE405
+Successfully set Planetary Source to use: DE405
+Successfully interpreted the script
+Running mission...
+Successfully set Planetary Source to use: DE405
+Successfully set Planetary Source to use: DE405
+Kernel ../data/planetary_ephem/spk/DE405AllPlanets.bsp has been loaded.
+Kernel ..\data\planetary_coeff\SPICEPlanetaryConstantsKernel.tpc has been loaded.
+Kernel ..\data\time\SPICELeapSecondKernel.tls has been loaded.
+Kernel ..\data\planetary_coeff\SPICEEarthPredictedKernel.bpc has been loaded.
+Kernel ..\data\planetary_coeff\SPICEEarthCurrentKernel.bpc has been loaded.
+Kernel ..\data\planetary_coeff\earth_latest_high_prec.bpc has been loaded.
+Kernel ..\data\planetary_coeff\SPICELunaCurrentKernel.bpc has been loaded.
+Kernel ..\data\planetary_coeff\SPICELunaFrameKernel.tf has been loaded.
+
+Mission run completed.
+===> Total Run Time: 0.542 seconds
+
+========================================
+Moderator is deleting core engine...

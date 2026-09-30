@@ -1,0 +1,39 @@
+pass: different integration presets rejected before connection
+pass: monotonic64hz deadline does not truncate to15ms
+pass: orderly acknowledged two-peer stop
+pass: complete shared prefix
+pass: full two-peer canonical session agreement
+pass: all candidate hashes agree
+pass: sparse anchors retain bounded full state
+pass: network tape integer replay
+pass: wrong credential rejected before simulation
+pass: wrong certificate pin rejected
+pass: bounded ordered queue fails visibly
+pass: production rejects loopback wildcard public address and dns name
+pass: end drains both accepted queues from host
+pass: end drains both accepted queues from guest
+pass: mismatch retains pending without replacement
+pass: mismatch incomplete diagnostic remains exportable
+pass: disconnect before commit preserves pending
+pass: pending-disconnect incomplete diagnostic remains exportable
+pass: disconnect after local commit preserves unconfirmed suffix
+pass: committed-disconnect incomplete diagnostic remains exportable
+pass: late peer pauses without prediction
+pass: delay incomplete diagnostic remains exportable
+pass: oversize rejected before advance
+pass: oversize incomplete diagnostic remains exportable
+pass: malformed rejected before advance
+pass: malformed incomplete diagnostic remains exportable
+pass: timeout stops without prediction
+pass: timeout incomplete diagnostic remains exportable
+pass: unready peer cannot erase accepted command at end
+pass: end-queued-unready incomplete diagnostic remains exportable
+pass: two independent processes agree at frame128
+pass: two processes orderly stop
+pass: two process child cleanup
+Unhandled exception. System.Exception: host paired diagnostic identity-refused
+   at HostPipeCanary.Run(String data, Int32 port) in {work}\source\tests\Flight.Lan.Tests\HostPipeCanary.cs:line 71
+   at HostPipeCanary.Run(String data, Int32 port) in {work}\source\tests\Flight.Lan.Tests\HostPipeCanary.cs:line 72
+   at HostPipeCanary.Run(String data, Int32 port) in {work}\source\tests\Flight.Lan.Tests\HostPipeCanary.cs:line 72
+   at Program.<Main>$(String[] args) in {work}\source\tests\Flight.Lan.Tests\Program.cs:line 152
+   at Program.<Main>(String[] args)

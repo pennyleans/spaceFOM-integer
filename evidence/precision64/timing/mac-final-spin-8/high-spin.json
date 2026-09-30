@@ -1,0 +1,22 @@
+{
+  "schema": "precision-full-session-timing-v1",
+  "substeps": 8,
+  "workload": "high-spin",
+  "warmup_ticks": 1024,
+  "measured_ticks": 8192,
+  "runtime": ".NET 10.0.12",
+  "architecture": "Arm64",
+  "os": "macOS 26.6.1",
+  "mean_ms": 3.5219803100586,
+  "p95_ms": 3.5551,
+  "p99_ms": 4.404,
+  "p999_ms": 6.6757,
+  "max_ms": 8.4335,
+  "over_budget_ticks": 0,
+  "max_64_tick_work_ms": 295.31289999999996,
+  "cpu_headroom_gate": true,
+  "qualification_length": true,
+  "lastHash": "38047d5fec32995cbdaba9d13d44a06118b41974849affa4e47e4b4df108268d",
+  "lastViewBytes": 16289,
+  "scope": "14 rad/s principal-axis neutral spin; single peer Candidate clone/restore, coupled 11-body dynamics, full canonical serialization and SHA256, reference-view calculation and JSON serialization every tick; excludes GPU, transport wait and evidence disk IO"
+}

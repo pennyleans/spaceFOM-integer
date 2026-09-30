@@ -1,0 +1,60 @@
+{
+  "scope": "UTF-8 and line-ending normalization, final blank-line trimming, workstation-root replacement and neutral wording of one approval note only; results unchanged",
+  "files": [
+    {
+      "path": "native-manifest.json",
+      "original_sha256": "fb53d277ceb19ade7d20dd8cfeed3b73268145eb4395181f6230dd6bf1a31ca1",
+      "export_sha256": "bcbd7b51475ce6580877130e22b2548c6569f72ee1b14cf84da06dd909b60cb7"
+    },
+    {
+      "path": "managed-verification.json",
+      "original_sha256": "0686f0df6c804412ef203d22c4159413b5fd1d07d68a6de80a73b8f74d16a74f",
+      "export_sha256": "a38152add310b645606680b6bea1d1b66d9ab1bbca1edae9d7704ca3ccae3f71"
+    },
+    {
+      "path": "viewer-pipe.json",
+      "original_sha256": "407dca2e928f605c30b7304d52ac44338a17b8ac4a73592c2df5344fe61388e9",
+      "export_sha256": "9932ad6d7041a50e0aec72d2d8f3851a469856b660e8fa09a8199d253d1f5d9a"
+    },
+    {
+      "path": "native-rejections.json",
+      "original_sha256": "aa303ca3f6f0ab405ddb8f70b81e307773802b1af32119fe76df94cd0a387ffd",
+      "export_sha256": "b839f7737cc210780a99148b3f48d0f466f88823d8f3f0a718058ea83cbc9fb9"
+    },
+    {
+      "path": "openrti-tests.txt",
+      "original_sha256": "c282a730f7150e1db471ecc580c094e102b1558aa2451059c4975a9e1255c477",
+      "export_sha256": "927953ca3a5b39417dd70a7f2cc9095c61d10565de7c804e02e4ddb715e3c882"
+    },
+    {
+      "path": "contract-review.md",
+      "original_sha256": "254f953436c8062583a49a89895cf71ce980b21d5c4890be57ee48ac2bf2c38b",
+      "export_sha256": "254f953436c8062583a49a89895cf71ce980b21d5c4890be57ee48ac2bf2c38b"
+    },
+    {
+      "path": "epoch-evaluation.json",
+      "original_sha256": "4e14d17cfa4d76b049d5ef44ad709eef0a024d18e5896b5f37bc4998bbdc080b",
+      "export_sha256": "d83582e2d819da834ca8f832a9fd638bed5661019d6b5d349e2e89fba61eb236"
+    },
+    {
+      "path": "review.md",
+      "original_sha256": "690eb7ce83f74694548b1ee94e4f95782250c3538901fc7f0267b7882f67dbe3",
+      "export_sha256": "f9664ce8fe85239602efb139dd73f3e3263782e2f6337262f3e548b5d6e7c327"
+    },
+    {
+      "path": "interop/receipt.json",
+      "original_sha256": "1b59516ce595fb5256bc96f4f9a279ac349e316682efa452286cfc5c934163ac",
+      "export_sha256": "1863540c00631d51d04f1eb3c9ee41fe0b449043fe93723bd372d2bdd17f80b7"
+    },
+    {
+      "path": "interop/publisher.log",
+      "original_sha256": "ecae4649c0e438bbed69778b371265e4c3d6847829487241afb43c3eb70611cc",
+      "export_sha256": "c3259436151ae10937a4bc342fbff412e33e44e337b04e598c1f1374701969d2"
+    },
+    {
+      "path": "interop/observer.log",
+      "original_sha256": "7013bfa6aad2a8da82c9d1ad3e583207bbe5a885f7832a8e6bc8eba10ed3607a",
+      "export_sha256": "f37adede199f7a74282e1ed226808e83e4ea7b166717a20a1199ef410be7f72d"
+    }
+  ]
+}

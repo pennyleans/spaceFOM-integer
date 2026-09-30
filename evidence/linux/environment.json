@@ -1,0 +1,15 @@
+{
+  "schema": "linux-environment-v1",
+  "processor": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "architecture": "x86-64",
+  "operating_system": "Ubuntu 24.04.4 LTS (Linux container)",
+  "dotnet_runtimes": {
+    "framework_dependent": ".NET 10.0.12, Ubuntu source build (dotnet-sdk-10.0 10.0.112-0ubuntu1~24.04.1)",
+    "self_contained": ".NET 10.0.12, Microsoft runtime pack from NuGet"
+  },
+  "cxx_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cmake": "cmake version 3.28.3",
+  "openrti_revision": "6e31e0cd50de1852813a98679e8731ad2c97e54b, unmodified, built with -DOPENRTI_ENABLE_RTI13=OFF -DOPENRTI_ENABLE_RTI1516=OFF -DOPENRTI_ENABLE_PYTHON_BINDINGS=OFF",
+  "simulator_source_identity": "9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f",
+  "scope": "one virtual machine; processor model as reported by the container"
+}

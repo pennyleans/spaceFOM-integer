@@ -1,0 +1,19 @@
+filtered; the third federate joined as a late joiner
+1:|L   0|2026/09/28,20:52:17.808603|{host}| |T 0|0.000000| [00mFederate::print_version():227
+2:     TrickHLA-version:'v3.2.2'
+5:          RTI-version:'5.5.10'
+27:[00m|L   0|2026/09/28,20:52:17.809952|{host}| |T 0|0.000000| [00mFederate::create_RTI_ambassador_and_connect():619 Local settings designator for RTI connection:'crcHost = {crc-host}
+34:[00m|L   0|2026/09/28,20:52:18.171380|{host}| |T 0|0.000000| [00mFederate::create_federation():2636 Federation already exists for 'orbital_8989'
+35:[00m|L   0|2026/09/28,20:52:18.171433|{host}| |T 0|0.000000| [00mFederate::join_federation():2803 Attempting to Join Federation 'orbital_8989'
+38:[00m|L   0|2026/09/28,20:52:18.304776|{host}| |T 0|0.000000| [00mFederate::join_federation():2828 Joined Federation 'orbital_8989', Federate-Handle:FederateHandle<18>
+42:[00m|L   0|2026/09/28,20:52:18.306608|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+43:[00m|L   0|2026/09/28,20:52:18.306674|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():783 This is a Late Joining Federate.
+==== tail ====
+               SIMULATION RAM USAGE:      204.629MB
+      (External program RAM usage not included!)
+  VOLUNTARY CONTEXT SWITCHES (INIT):            0
+INVOLUNTARY CONTEXT SWITCHES (INIT):            0
+   VOLUNTARY CONTEXT SWITCHES (RUN):       334456
+ INVOLUNTARY CONTEXT SWITCHES (RUN):           11
+
+[00m

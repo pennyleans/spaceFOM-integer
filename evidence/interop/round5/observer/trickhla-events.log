@@ -1,0 +1,84 @@
+# Trimmed view of the complete TrickHLA log; the full log is not committed.
+# Per-update lines are in trickhla-interop.log.
+36:[00m|L   0|2026/09/29,02:24:15.290947|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_started'
+37:[00m|L   0|2026/09/29,02:24:15.291680|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'initialization_started'
+38:[00m|L   0|2026/09/29,02:24:15.292551|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'root_frame_discovered'
+39:[00m|L   0|2026/09/29,02:24:15.292989|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'root_frame_discovered'
+40:[00m|L   0|2026/09/29,02:24:15.293540|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'prototype_metadata'
+42:[00m|L   0|2026/09/29,02:24:15.294000|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():446 Unrecognized sync-point:'prototype_metadata', which will be achieved.
+47:[00m|L   0|2026/09/29,02:24:15.296090|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'objects_discovered'
+48:[00m|L   0|2026/09/29,02:24:15.296926|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'objects_discovered'
+49:[00m|L   0|2026/09/29,02:24:15.297636|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+50:[00m|L   0|2026/09/29,02:24:15.298054|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():791 This is an Early Joining Federate.
+51:[00m|L   0|2026/09/29,02:24:15.298453|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [initialization_started] -- SYNC_PT_STATE_ANNOUNCED
+52:[00m|L   0|2026/09/29,02:24:15.298840|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [objects_discovered] -- SYNC_PT_STATE_ANNOUNCED
+53:[00m|L   0|2026/09/29,02:24:15.299220|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [root_frame_discovered] -- SYNC_PT_STATE_ANNOUNCED
+118:[00m|L   0|2026/09/29,02:24:15.339775|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'objects_discovered'
+121:[00m|L   0|2026/09/29,02:24:15.341860|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'objects_discovered'
+122:[00m|L   0|2026/09/29,02:24:15.342234|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'objects_discovered'
+150:       current_execution_mode: EXEC_MODE_INITIALIZING
+151:          next_execution_mode: EXEC_MODE_INITIALIZING
+185:       current_execution_mode: EXEC_MODE_INITIALIZING
+186:          next_execution_mode: EXEC_MODE_INITIALIZING
+190:[00m|L   0|2026/09/29,02:24:15.355581|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'root_frame_discovered'
+193:[00m|L   0|2026/09/29,02:24:15.357358|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'root_frame_discovered'
+194:[00m|L   0|2026/09/29,02:24:15.357746|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'root_frame_discovered'
+209:[00m|L   0|2026/09/29,02:24:15.367641|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'prototype_metadata'
+211:[00m|L   0|2026/09/29,02:24:15.368333|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'prototype_metadata'
+304:[00m|L   0|2026/09/29,02:24:15.406800|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'initialization_started'
+307:[00m|L   0|2026/09/29,02:24:15.408738|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'initialization_started'
+308:[00m|L   0|2026/09/29,02:24:15.409146|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'initialization_started'
+309:[00m|L   0|2026/09/29,02:24:15.410730|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_completed'
+310:[00m|L   0|2026/09/29,02:24:15.411133|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'initialization_completed'
+311:[00m|L   0|2026/09/29,02:24:15.414804|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_run'
+312:[00m|L   0|2026/09/29,02:24:15.415225|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'mtr_run'
+340:       current_execution_mode: EXEC_MODE_INITIALIZING
+341:          next_execution_mode: EXEC_MODE_RUNNING
+344:[00m|L   0|2026/09/29,02:24:15.420040|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [mtr_run] -- SYNC_PT_STATE_ANNOUNCED
+345:[00m|L   0|2026/09/29,02:24:15.420403|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'mtr_run'
+348:[00m|L   0|2026/09/29,02:24:15.422113|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'mtr_run'
+349:[00m|L   0|2026/09/29,02:24:15.422560|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'mtr_run'
+379:       current_execution_mode: EXEC_MODE_RUNNING
+380:          next_execution_mode: EXEC_MODE_RUNNING
+76535:       current_execution_mode: EXEC_MODE_RUNNING
+76536:          next_execution_mode: EXECUTION_MODE_FREEZE
+76548:	 scenario_freeze_time:      7529673630.00018024
+76549:	 simulation_freeze_time:    30
+79173:[00m|L   0|2026/09/29,02:24:25.514178|{host}| |T 0|30.000000| [00mFederate::enter_freeze():2453
+79174:[00m|L   0|2026/09/29,02:24:25.514541|{host}| |T 0|30.000000| [00mSpaceFOM::ExecutionControl::enter_freeze():2520
+79176:   Requested-ExCO-mode:EXECUTION_MODE_FREEZE
+79177:   Trick-sim-time:30   Trick-exec-command:FreezeCmd
+79178:   Sim-freeze-time:30   Freeze-announced:No   Freeze-pending:No
+79179:[00m|L   0|2026/09/29,02:24:25.514933|{host}| |T 0|30.000000| [00mSyncPointList::wait_for_announced():751 Sync-point: [mtr_freeze] -- SYNC_PT_STATE_KNOWN
+79180:[00m|L   0|2026/09/29,02:24:25.516931|{host}| |T 0|30.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_freeze'
+79181:[00m|L   0|2026/09/29,02:24:25.517395|{host}| |T 0|30.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'mtr_freeze'
+79182:[00m|L   0|2026/09/29,02:24:25.525400|{host}| |T 0|30.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [mtr_freeze] -- SYNC_PT_STATE_ANNOUNCED
+79183:[00m|L   0|2026/09/29,02:24:25.525867|{host}| |T 0|30.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'mtr_freeze'
+79186:[00m|L   0|2026/09/29,02:24:25.527287|{host}| |T 0|30.000000| [00mFedAmb::federationSynchronized():302 Label:'mtr_freeze'
+79187:[00m|L   0|2026/09/29,02:24:25.527744|{host}| |T 0|30.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'mtr_freeze'
+79200:[00m|L   1|2026/09/29,02:24:25.537732|{host}| |T 0|30.000000| [32mFreeze ON. Simulation time holding at 30.000000 seconds.
+79214:       current_execution_mode: EXECUTION_MODE_FREEZE
+79215:          next_execution_mode: EXECUTION_MODE_FREEZE
+79231:       current_execution_mode: EXECUTION_MODE_FREEZE
+79232:          next_execution_mode: EXEC_MODE_RUNNING
+79235:[00m|L   1|2026/09/29,02:24:25.780108|{host}| |T 0|30.000000| [32mFreeze OFF.
+79236:[00m|L   0|2026/09/29,02:24:25.780530|{host}| |T 0|30.000000| [00mFederate::exit_freeze():2469 announce_freeze:Yes, freeze_federation:No
+79237:[00m|L   0|2026/09/29,02:24:25.780729|{host}| |T 0|30.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_run'
+79238:[00m|L   0|2026/09/29,02:24:25.780945|{host}| |T 0|30.000000| [00mSyncPointList::wait_for_announced():751 Sync-point: [mtr_run] -- SYNC_PT_STATE_SYNCHRONIZED
+79239:[00m|L   0|2026/09/29,02:24:25.781368|{host}| |T 0|30.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'mtr_run'
+79240:[00m|L   0|2026/09/29,02:24:25.791816|{host}| |T 0|30.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [mtr_run] -- SYNC_PT_STATE_ANNOUNCED
+79241:[00m|L   0|2026/09/29,02:24:25.792371|{host}| |T 0|30.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'mtr_run'
+79244:[00m|L   0|2026/09/29,02:24:25.793915|{host}| |T 0|30.000000| [00mFedAmb::federationSynchronized():302 Label:'mtr_run'
+79245:[00m|L   0|2026/09/29,02:24:25.794350|{host}| |T 0|30.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'mtr_run'
+79273:       current_execution_mode: EXEC_MODE_RUNNING
+79274:          next_execution_mode: EXEC_MODE_RUNNING
+158034:[00m|L   0|2026/09/29,02:24:36.788120|{host}| |T 0|60.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_shutdown'
+158036:[00m|L   0|2026/09/29,02:24:36.788683|{host}| |T 0|60.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'mtr_shutdown'
+158041:[00m|L   2|2026/09/29,02:24:36.794973|{host}| |T 0|60.015625| [33mSpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2441 WARNING: This Federate 'orbital_observer' detected a Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+158042:[00m|L   0|2026/09/29,02:24:36.795444|{host}| |T 0|60.015625| [00mFederate::shutdown():3397
+158052:   5/7 FOM-Attribute:'current_execution_mode' Trick-Name:'THLA.ExCO.current_execution_mode' locally_owned: No
+158053:   6/7 FOM-Attribute:'next_execution_mode' Trick-Name:'THLA.ExCO.next_execution_mode' locally_owned: No
+158057:[00m|L   0|2026/09/29,02:24:36.798518|{host}| |T 0|60.015625| [00mFederate::resign():3513 Attempting to resign from Federation 'orbital_8989'
+158098:[00m|L   0|2026/09/29,02:24:36.812708|{host}| |T 0|60.015625| [00mFederate::resign():3523 Resigned from Federation 'orbital_8989'
+158103:[00m|L   3|2026/09/29,02:24:37.324080|{host}| |T 0|60.015625| [31mSpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2441 WARNING: This Federate 'orbital_observer' detected a Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+158112:  DIAGNOSTIC: SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2441 WARNING: This Federate 'orbital_observer' detected a Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.

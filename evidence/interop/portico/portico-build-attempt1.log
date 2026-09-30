@@ -1,0 +1,10 @@
+Buildfile: {work}/portico/codebase/build.xml
+     [echo] Build Version: portico-2.2.0 (build 0)
+ [platform] Operating System platform is: linux64
+[verifyJdk] Scanning for JDK {arch=amd64,ver=21}: /usr/lib/jvm/java-21-openjdk-amd64
+
+BUILD FAILED
+{work}/portico/codebase/build.xml:96: The following error occurred while executing this line:
+{work}/portico/codebase/profiles/linux/hla13.xml:24: (Verify JDK) Location not identifiable as JDK [/usr/lib/jvm/java-21-openjdk-amd64]
+
+Total time: 0 seconds

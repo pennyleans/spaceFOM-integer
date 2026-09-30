@@ -1,0 +1,4 @@
+RTI failure: java.lang.NullPointerException: Cannot read field "handle" because "handle" is null
+	at org.portico.impl.hla1516e.types.HLA1516eHandle.fromHandle(HLA1516eHandle.java:172)
+	at org.portico.impl.cpp1516e.ProxyRtiAmbassador.getFederateHandle(ProxyRtiAmbassador.java:1730)
+

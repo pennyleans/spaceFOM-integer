@@ -1,0 +1,72 @@
+INFO  [c++] (Runtime) RID file processing finished
+19:17:32,386 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:17:32,391 INFO  [main] portico.lrc: Opening LRC Connection
+19:17:32,392 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+INFO  [rti-1] Initialized new JavaRTI (rti-1)
+INFO  [c++] (Runtime) Created new JavaRTI [id:1]
+connected hlt_us=0
+
+-------------------------------------------------------------------
+GMS: address={host}-33331, cluster=orbital_31417, physical address=127.0.0.1:55355
+-------------------------------------------------------------------
+19:17:35,741 WARN  [main] portico.lrc.jgroups: No co-ordinator found - appointing myself!
+19:17:35,779 INFO  [Regular] portico.lrc.jgroups: Federation [orbital_31417] has been created
+19:17:35,780 INFO  [main] portico.lrc.jgroups: SUCCESS createFederation: name=orbital_31417
+19:17:35,781 INFO  [main] portico.lrc: SUCCESS Created federation execution [orbital_31417]
+19:17:35,798 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master] joined federation [orbital_31417]
+19:17:36,219 ERROR [Regular] portico.lrc.jgroups: (Coordinator) Failed to join federate [orbital_observer] to federation [orbital_31417]: Couldn't merge their FOM modules with our base FOM
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at org.portico.bindings.jgroups.channel.Manifest.federateJoined(Manifest.java:204) ~[portico.jar:?]
+	at org.portico.bindings.jgroups.Federation.receiveJoinFederation(Federation.java:610) ~[portico.jar:?]
+	at org.portico.bindings.jgroups.channel.ChannelListener.receive(ChannelListener.java:181) ~[portico.jar:?]
+	at org.jgroups.blocks.MessageDispatcher$ProtocolAdapter.handleUpEvent(MessageDispatcher.java:528) ~[portico.jar:?]
+	at org.jgroups.blocks.MessageDispatcher$ProtocolAdapter.up(MessageDispatcher.java:606) ~[portico.jar:?]
+	at org.jgroups.JChannel.up(JChannel.java:715) ~[portico.jar:?]
+	at org.jgroups.stack.ProtocolStack.up(ProtocolStack.java:1020) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.FLUSH.up(FLUSH.java:504) ~[portico.jar:?]
+	at org.jgroups.protocols.FRAG2.up(FRAG2.java:181) ~[portico.jar:?]
+	at org.jgroups.protocols.FlowControl.up(FlowControl.java:418) ~[portico.jar:?]
+	at org.jgroups.protocols.FlowControl.up(FlowControl.java:418) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.GMS.up(GMS.java:896) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.STABLE.up(STABLE.java:244) ~[portico.jar:?]
+	at org.jgroups.protocols.RSVP.up(RSVP.java:164) ~[portico.jar:?]
+	at org.jgroups.protocols.UNICAST2.up(UNICAST2.java:432) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.NAKACK2.handleMessage(NAKACK2.java:754) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.NAKACK2.up(NAKACK2.java:570) ~[portico.jar:?]
+	at org.jgroups.protocols.VERIFY_SUSPECT.up(VERIFY_SUSPECT.java:143) ~[portico.jar:?]
+	at org.jgroups.protocols.FD_ALL.up(FD_ALL.java:177) ~[portico.jar:?]
+	at org.jgroups.protocols.Discovery.up(Discovery.java:359) ~[portico.jar:?]
+	at org.jgroups.protocols.TP.passMessageUp(TP.java:1293) ~[portico.jar:?]
+	at org.jgroups.protocols.TP$IncomingPacket.handleMyMessage(TP.java:1856) ~[portico.jar:?]
+	at org.jgroups.protocols.TP$IncomingPacket.run(TP.java:1829) ~[portico.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+19:17:36,800 INFO  [main] portico.lrc.jgroups: SUCCESS Joined federation with name=orbital_master
+19:17:36,817 INFO  [main] portico.lrc: SUCCESS Joined federate [orbital_master] to federation [orbital_31417]: handle=1
+19:17:36,823 INFO  [main] portico.lrc: SUCCESS Published [736] with attributes [737, 738, 739, 740, 741, 742, 502, 743]
+19:17:36,824 INFO  [main] portico.lrc: SUCCESS Published [746] with attributes [502, 747, 748, 749]
+19:17:36,825 INFO  [main] portico.lrc: SUCCESS Published [755] with attributes [756, 757, 502, 759, 760, 762, 763, 764]
+19:17:36,827 INFO  [main] portico.lrc: SUCCESS Subscribed to interaction class [744]
+19:17:36,830 INFO  [main] portico.lrc: SUCCESS Register instance of class [736], object handle=2
+19:17:36,832 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=3
+19:17:36,834 INFO  [main] portico.lrc: SUCCESS Register instance of class [755], object handle=4
+19:17:36,836 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=5
+19:17:36,838 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=6
+19:17:36,840 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=7
+19:17:36,842 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=8
+19:17:36,844 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=9
+19:17:36,846 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=10
+19:17:36,848 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=11
+19:17:36,850 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=12
+19:17:36,852 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=13
+19:17:36,854 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=14
+19:17:36,856 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=15
+19:17:36,857 WARN  [main] portico.lrc: The IEEE 1516e interface doesn't yet support getFederateHandle()
+INFO  [rti-1] Exception received: NullPointerException
+INFO  [rti-1] java.lang.NullPointerException: Cannot read field "handle" because "handle" is null
+	at org.portico.impl.hla1516e.types.HLA1516eHandle.fromHandle(HLA1516eHandle.java:172)
+	at org.portico.impl.cpp1516e.ProxyRtiAmbassador.getFederateHandle(ProxyRtiAmbassador.java:1730)
+
+ERROR [exception-hacks]: Unknown Exception: NullPointerException
+INFO  [c++] (Runtime) Removing removing JavaRTI reference [id:1]

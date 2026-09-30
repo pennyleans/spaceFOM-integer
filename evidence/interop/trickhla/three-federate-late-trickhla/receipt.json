@@ -1,0 +1,12 @@
+{
+  "check": "three federate exchange, TrickHLA started after our publisher and observer",
+  "federation": "orbital_8989",
+  "federates": ["orbital_master (ours)", "orbital_observer (ours)", "orbital_other (TrickHLA)"],
+  "publisher_exit": 1,
+  "observer_exit": 1,
+  "publisher_error": "timeout: MTR 3",
+  "observer_error": "state received before metadata",
+  "trickhla_role": "late joining federate; waited for the initialization_completed sync point",
+  "byte_identity": false,
+  "result": "TrickHLA joined as a late joiner and stalled in role determination; our observer failed before the freeze request; the exchange did not complete"
+}

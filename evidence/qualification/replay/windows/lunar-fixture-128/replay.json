@@ -1,0 +1,13 @@
+{
+  "schema": "qualification-physical-replay-v1",
+  "case": "lunar-fixture",
+  "rate_hz": 128,
+  "compared_complete_states": 7681,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 60,
+  "elapsed_wall_seconds": 11.0546625,
+  "dynamics": "integer-flight-v3-rotation-substeps",
+  "final_physical_hash": "cf6898f54c169be7e50cd1c0848ec39e195f2a7df416ca16b37b9d5fa66ca4f8",
+  "scope": "same-process independent genesis and complete-byte comparison at every tick; serialized midpoint restore; numerical accuracy assessed separately"
+}

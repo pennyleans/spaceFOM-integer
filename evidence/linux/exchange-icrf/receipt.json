@@ -1,0 +1,14 @@
+{
+  "transport": "OpenRTI IEEE1516e TCP loopback",
+  "platform": "Linux x86_64",
+  "url": "rti://127.0.0.1:31417",
+  "federation": "orbital_31417",
+  "publisher_exit": 0,
+  "observer_exit": 0,
+  "published_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "observed_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "byte_identity": true,
+  "input_bytes": 5316325,
+  "provenance": "transferred source hash is metadata, not receiver authority or authenticity proof",
+  "scope": "bounded two-federate subset; no full SpaceFOM or RTI compliance claim"
+}

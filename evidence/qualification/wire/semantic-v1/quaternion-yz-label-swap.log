@@ -1,0 +1,13 @@
+
+--- stderr ---
+Traceback (most recent call last):
+  File "$SCRATCH\quaternion-yz-label-swap\test_oracle.py", line 204, in <module>
+    result = run_semantic_checks(args.production_state.read_bytes() if args.production_state else None) if args.semantic_only else run_checks()
+                                                                                                                                   ~~~~~~~~~~^^
+  File "$SCRATCH\quaternion-yz-label-swap\test_oracle.py", line 188, in run_checks
+    semantics = run_semantic_checks()
+  File "$SCRATCH\quaternion-yz-label-swap\test_oracle.py", line 46, in run_semantic_checks
+    observed = semantic_observation(known, fixture)
+  File "$SCRATCH\quaternion-yz-label-swap\test_oracle.py", line 28, in semantic_observation
+    raise AssertionError("semantic component mismatch: " + name)
+AssertionError: semantic component mismatch: quaternion_y

@@ -1,0 +1,41 @@
+{
+  "schema": "qualification-parent-reproduction-v1",
+  "numerical": [
+    {
+      "case": "earth-orbit-64",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "earth-orbit-128",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "moon-orbit-64",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "moon-orbit-128",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "inertial-burn-64",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "inertial-burn-128",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "lunar-fixture-64",
+      "reference_receipt_reproduced": true
+    },
+    {
+      "case": "lunar-fixture-128",
+      "reference_receipt_reproduced": true
+    }
+  ],
+  "physical_digest_streams_cross_device_equal": true,
+  "session_1025_full_records_cross_device_equal": true,
+  "declared_contract_unchanged": true,
+  "scope": "fresh recomputation from observations and retained raw cross-device traces; not a substitute for independent review"
+}

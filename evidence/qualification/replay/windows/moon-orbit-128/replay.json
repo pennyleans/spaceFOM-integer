@@ -1,0 +1,13 @@
+{
+  "schema": "qualification-physical-replay-v1",
+  "case": "moon-orbit",
+  "rate_hz": 128,
+  "compared_complete_states": 921601,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 7200,
+  "elapsed_wall_seconds": 43.9598333,
+  "dynamics": "integer-flight-v3-rotation-substeps",
+  "final_physical_hash": "4ff635a9858829796625f1fad1156d09dc3accce005e94c7ea30f80481460a43",
+  "scope": "same-process independent genesis and complete-byte comparison at every tick; serialized midpoint restore; numerical accuracy assessed separately"
+}

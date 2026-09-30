@@ -1,0 +1,36 @@
+{
+  "architecture": "arm64",
+  "rows": [
+    {
+      "case": "lunar-fixture",
+      "exit": 0
+    },
+    {
+      "case": "inertial-burn",
+      "exit": 0
+    },
+    {
+      "case": "earth-orbit",
+      "exit": 0
+    },
+    {
+      "case": "moon-orbit",
+      "exit": 0
+    },
+    {
+      "mode": "session",
+      "exit": 0,
+      "expected": 0
+    },
+    {
+      "mode": "interrupt",
+      "exit": 23,
+      "expected": 23
+    },
+    {
+      "mode": "resume",
+      "exit": 0,
+      "expected": 0
+    }
+  ]
+}

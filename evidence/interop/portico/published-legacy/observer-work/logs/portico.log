@@ -1,0 +1,8 @@
+19:49:42,714 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:49:42,718 INFO  [main] portico.lrc: Opening LRC Connection
+19:49:42,719 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+19:49:44,024 INFO  [main] portico.lrc.jgroups: Found co-ordinator: 5889daf1-920d-4f42-a87b-ed661d23a84b
+19:49:53,520 WARN  [VERIFY_SUSPECT.TimerThread,orbital_31417,{host}-52104] portico.lrc.jgroups: Detected that federate [orbital_master] may have crashed, investigating...
+19:49:53,626 WARN  [Regular] portico.lrc.jgroups: Federate [orbital_master] has crashed. Sending fake resignation because it was too rude to.
+19:49:53,630 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master] has resigned from [orbital_31417]
+19:49:53,631 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master,1] disconnected, synthesized resign message. All done.

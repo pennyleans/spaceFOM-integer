@@ -1,0 +1,72 @@
+[
+  {
+    "path": "logs/existing-core-qualification.log",
+    "raw_sha256": "eea3d551b0f61190dff9adbf06aa63f9683265edb0b6f716b67a758ea977b728",
+    "export_sha256": "891c073e3be0c85f4dcae76e8a92686351fa4fc2873fc97ee18484302e27f82c"
+  },
+  {
+    "path": "logs/existing-session-qualification.log",
+    "raw_sha256": "305c62ee3f4d8c3b82a6420a2cf78d46e0fc6afd4a8804d5a73552b0e85b8bf4",
+    "export_sha256": "f68c20f70714336637cfbd36385580b0e677fd7059d45692d040c90ad6d0c74f"
+  },
+  {
+    "path": "logs/probe-build.log",
+    "raw_sha256": "adca7589ed601a28299766cc593d77938d9e23993568ed75f06ae667e192171d",
+    "export_sha256": "b3404720ccc8426aec2963d8b8ec2a36d0a3eac7f0ea34e5d39e0ce17829f145"
+  },
+  {
+    "path": "logs/earth-orbit-128.log",
+    "raw_sha256": "0d732c7b068143c502cf67efd6dbbf62f9e87d30bf5fdc87ce82c911b9ab7299",
+    "export_sha256": "5bada168dfa53f36cc4055da5147c313c2221d4179df1433f57131ae08039371"
+  },
+  {
+    "path": "logs/earth-orbit-64.log",
+    "raw_sha256": "eb20847c0e0abe6455766eaadb0521333b2524840447b63148fe02f84bebebe0",
+    "export_sha256": "c96303b22501b17d276db5b3a2d0078d6a1f92a5cb5b02b1038fd2f60781b508"
+  },
+  {
+    "path": "logs/inertial-burn-128.log",
+    "raw_sha256": "d16afbcb0c227534d0e06e4e93ba1e59fb6f96ba31fb39e188bf8441af93e304",
+    "export_sha256": "0bc96c92c6d7902842f7cc0d23d59db3e46279c1c75ac5e9d5baa80117dca927"
+  },
+  {
+    "path": "logs/inertial-burn-64.log",
+    "raw_sha256": "8d21188c7961e7e9af7db0c915b60fd72a195a3fd9b501153babc61a907c239b",
+    "export_sha256": "4f12ab821c2b85fd14d108b23e3d0951b6f02c766b904a0c89c018f7ef56e425"
+  },
+  {
+    "path": "logs/lunar-fixture-128.log",
+    "raw_sha256": "23a4162612b4fcbb6114b396edb9c5195bfd8e8c0fd9f37fba5a6bbc3951711c",
+    "export_sha256": "ab5dcb1aeb638466740c7ca533fa00ecde3e0c11d7b2219aa4a41f312a8253ab"
+  },
+  {
+    "path": "logs/lunar-fixture-64.log",
+    "raw_sha256": "ebb2c665c82750d2f44b3784506ef02470973ea763811c4b825173aa90c612ef",
+    "export_sha256": "3904f0d53736e09970ebc39fbce6dc22e2c1419d77cc5660ce99d4ba0f62acc2"
+  },
+  {
+    "path": "logs/moon-orbit-128.log",
+    "raw_sha256": "1d033e615aa88dd34928d327141c10d04db01f46da3f1f315b4351f8e89bcd7b",
+    "export_sha256": "ce509a8c003754e813c4dddba19abe1bd83939f7c2b34925236d23b10f4e526d"
+  },
+  {
+    "path": "logs/moon-orbit-64.log",
+    "raw_sha256": "1377267adc531328e3fbbe0c0f45f8c4f5634de490700fd951f4d51ddffd2ef7",
+    "export_sha256": "3c4ef639e8c29161f0e471a06231c55789864d63949026d66973bc2a799ac1d9"
+  },
+  {
+    "path": "logs/session-interrupt.log",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "logs/session-resume.log",
+    "raw_sha256": "2dfb730f0b45057d2a4259502af74c3508f7dc10fc8930ea4592be645b7ae9df",
+    "export_sha256": "dee2943b5f13d0930d3e4df0ddfb8bc3174ec5327cad02547204374b1a783db1"
+  },
+  {
+    "path": "logs/session-session.log",
+    "raw_sha256": "249b180338f073ea71f2ffb312ecf199ffcae6dd9f0b96207e5c9447fc39ef51",
+    "export_sha256": "8d5ddd2a907fb1dc986e73d2f8f3766260a59b3cd35bdbf8edc66bd368105d68"
+  }
+]

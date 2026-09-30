@@ -1,0 +1,18 @@
+{
+  "rti": "Portico IEEE 1516-2010",
+  "rti_version": "2.2.0",
+  "rti_commit": "5345bf2ad90d1b792a0d89039d166e971152e6de",
+  "platform": "Linux x86_64",
+  "transport": "JGroups UDP multicast bound to LOOPBACK; no rtinode",
+  "url_argument_ignored_by_portico": "rti://127.0.0.1:31416",
+  "federation": "orbital_31416",
+  "publisher_exit": 1,
+  "observer_exit": 1,
+  "timed_out": false,
+  "published_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "observed_sha256": null,
+  "byte_identity": false,
+  "observer_freeze_seen": false,
+  "observer_resume_seen": false,
+  "input_bytes": 5316325
+}

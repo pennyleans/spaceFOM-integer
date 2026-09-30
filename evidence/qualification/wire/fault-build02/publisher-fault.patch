@@ -1,0 +1,44 @@
+--- accepted/publisher.cpp
++++ injected/publisher.cpp
+@@ -1,4 +1,5 @@
+ #include "transport.hpp"
++#include <cstdlib>
+ using namespace sf;
+ 
+ class Publisher final : public Session {
+@@ -20,6 +21,11 @@
+ int main(int argc,char** argv) {
+     try {
+         require(argc==5,"usage: spacefom-publisher input.spool fom-directory rti://127.0.0.1:port federation");
++        // Qualification-only fault selection in this isolated copy.
++        char* injected = nullptr; size_t injectedLength = 0;
++        require(_dupenv_s(&injected,&injectedLength,"SF_QUAL_FAULT")==0,"qualification environment read failed");
++        const std::string qualificationFault = injected ? injected : "";
++        std::free(injected);
+         Bytes source=readFile(argv[1]); Reader reader{source}; Header header=parseHeader(reader);
+         const size_t recordSize=40+(header.bodies.size()+1)*stateBytes;
+         require(source.size()==reader.offset+static_cast<size_t>(header.count)*recordSize,"spool file length mismatch");
+@@ -75,6 +81,11 @@
+             size_t offset=frameOffset+static_cast<size_t>(index)*recordSize;
+             Bytes tag(source.begin()+offset,source.begin()+offset+40);
+             for(size_t j=0;j<=bodies.size();++j) {
++                // Qualification-only loss of one declared body sample at tick 128.
++                if(qualificationFault=="missing-update" && index==128 && j==1) {
++                    session.log("qualification_omitted_body_sample tick=128 body_index=0");
++                    continue;
++                }
+                 size_t begin=offset+40+j*stateBytes; Bytes state(source.begin()+begin,source.begin()+begin+stateBytes);
+                 const Class& cls=j==0?session.entity:session.reference;
+                 auto object=j==0?vessel:bodies[j-1];
+@@ -95,6 +106,11 @@
+         for(int32_t i=1;i<header.count;++i) {
+             if(i==freeze) {session.expectRequest(3);excoUpdate(2,3,epoch+static_cast<double>(i)/64.0);}
+             publishFrame(i,true); session.advance(static_cast<int64_t>(i)*stepUs);
++            // Qualification-only rendezvous so the harness interrupts a known in-flight tick.
++            if(qualificationFault=="peer-interrupt" && i==256) {
++                session.log("qualification_interrupt_ready tick=256");
++                std::this_thread::sleep_for(std::chrono::seconds(20));
++            }
+             if(i==freeze) {
+                 session.barrier("mtr_freeze",true);excoUpdate(3,3,epoch+static_cast<double>(i)/64.0);session.log("freeze");
+                 session.expectRequest(2);excoUpdate(3,2,epoch+static_cast<double>(i)/64.0);session.barrier("mtr_run",true);excoUpdate(2,2,epoch+static_cast<double>(i)/64.0);session.log("run");

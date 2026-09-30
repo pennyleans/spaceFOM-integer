@@ -1,0 +1,23 @@
+{
+  "rti": "Pitch pRTI IEEE 1516-2010",
+  "rti_version": "Pitch pRTI Free v 5.5.10",
+  "rti_edition": "Free (two federates)",
+  "rti_installer_sha256": "unknown",
+  "platform": "Linux x86_64",
+  "transport": "TCP from the WSL federates to the pRTI central component (remote)",
+  "crc_host": "{crc-host}",
+  "crc_port": 8989,
+  "local_settings": "crcHost = {crc-host}; crcPort = 8989",
+  "federation": "orbital_8989",
+  "publisher_exit": 0,
+  "observer_exit": 1,
+  "timed_out": false,
+  "published_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "observed_sha256": null,
+  "byte_identity": false,
+  "observer_freeze_seen": true,
+  "observer_resume_seen": true,
+  "publisher_options": "--master-modes --save-restore",
+  "rematerialized_frames": 0,
+  "input_bytes": 5316325
+}

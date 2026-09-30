@@ -1,0 +1,58 @@
+[
+  {
+    "case": "earth-orbit-64",
+    "path": "earth-orbit-64/canonical-digests.bin",
+    "bytes": 12288032,
+    "sha256": "a3d446c2af71102b1df2f856022548b0c9c2117c9244fd24e700308dc4965c0f",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "earth-orbit-128",
+    "path": "earth-orbit-128/canonical-digests.bin",
+    "bytes": 24576032,
+    "sha256": "eeb13d0e0cbe5a2990105d2f3a88ce6be148a4dc2298a75901b3b2d2e7c9ba99",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "moon-orbit-64",
+    "path": "moon-orbit-64/canonical-digests.bin",
+    "bytes": 14745632,
+    "sha256": "d566238de7b3edc9161f2fcc5ccedca640fd3e127f06d8243d9cfbdc082b58ff",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "moon-orbit-128",
+    "path": "moon-orbit-128/canonical-digests.bin",
+    "bytes": 29491232,
+    "sha256": "3fac4eeb0598a09b1ea4174e9f33389bbe96b30f36ff4e8673e9cb15d495ea3e",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "inertial-burn-64",
+    "path": "inertial-burn-64/canonical-digests.bin",
+    "bytes": 245792,
+    "sha256": "23cabf1c095cfd6b09c57eb1a1dac12a1093e799cf4a04fb73c3c2ee831a89e9",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "inertial-burn-128",
+    "path": "inertial-burn-128/canonical-digests.bin",
+    "bytes": 491552,
+    "sha256": "d395c5dfd7a95f9d0c9ca6d5aabf3a2d82c2e9872be1c4dc13d06abd0beaf476",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "lunar-fixture-64",
+    "path": "lunar-fixture-64/canonical-digests.bin",
+    "bytes": 122912,
+    "sha256": "d85d491bd3411ae1aab23b17cf0bf9661ec60512c4d2f273d96fbc0e7d4c37c4",
+    "storage": "retained privately; full per-tick digest stream"
+  },
+  {
+    "case": "lunar-fixture-128",
+    "path": "lunar-fixture-128/canonical-digests.bin",
+    "bytes": 245792,
+    "sha256": "f341b1ebabfc23cbb35af250a8fe4973d2190b59bf0fd4ecd5cc6bcb4ebeee44",
+    "storage": "retained privately; full per-tick digest stream"
+  }
+]

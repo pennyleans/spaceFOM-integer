@@ -1,0 +1,8 @@
+Machine: AMD Ryzen 9 5900X 12-Core Processor, 48 GB
+Operating system: Windows 11, version 10.0.26200.9168 (reported by the runtime as
+Microsoft Windows 10.0.26200, X64)
+Runtime: .NET 10.0.12 (bundled self-contained runtime of the package)
+Package: iss-verify-9e44426-win-x64.zip (single executable),
+sha256 5c990bde2d19636487f70c9151adc7ecb3e25f4783a2f0d523188122bf388298
+Run: extracted fresh, then iss-verify.exe --quick --receipt receipt.json
+Result: pass, 12,547 states in 20 s, exit code 0

@@ -1,0 +1,14 @@
+{
+  "schema": "precision-physical-replay-v1",
+  "case": "earth-eccentric-inclined",
+  "rate_hz": 64,
+  "integration_substeps": 8,
+  "compared_complete_states": 640001,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 10000,
+  "elapsed_wall_seconds": 123.0560799,
+  "dynamics": "integer-flight-v4-fixed-substeps-n8",
+  "final_physical_hash": "a69f9844029fd78da22efcb0f7a243c025f82c254c71996c16d06f5c873485c2",
+  "scope": "complete physical comparison every outer tick; full accuracy assessed independently"
+}

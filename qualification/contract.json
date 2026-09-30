@@ -1,0 +1,39 @@
+{
+  "schema": "2207-bounded-qualification-v1",
+  "declared_before_measurement": true,
+  "runtime_authority": "unchanged integer core; 64 hz",
+  "reference_only_rate_hz": 128,
+  "cases": {
+    "earth-orbit": { "duration_seconds": 6000, "radius_m": "6778137", "gm_m3_s2": "398600435507000" },
+    "moon-orbit": { "duration_seconds": 7200, "radius_m": "1837400", "gm_m3_s2": "4902800066000" },
+    "inertial-burn": { "duration_seconds": 120, "burn_seconds": 60, "mass_kg": "18000", "dry_mass_kg": "12000", "thrust_n": "1000", "exhaust_velocity_m_s": "4500" },
+    "lunar-fixture": { "duration_seconds": 60, "body_count": 11, "fixture_sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56" }
+  },
+  "numerical_gates": {
+    "two_body_max_position_error_m": 0.1,
+    "two_body_max_velocity_error_m_s": 0.0001,
+    "two_body_max_relative_energy_drift": 0.000002,
+    "two_body_max_relative_angular_momentum_drift": 0.000002,
+    "refined_to_nominal_position_error_ratio_below": 0.4,
+    "refinement_exemption_requires_both_position_errors_below_m": 0.00001,
+    "refinement_exemption_requires_both_velocity_errors_below_m_s": 0.00000001,
+    "burn_max_position_error_m": 0.01,
+    "burn_max_velocity_error_m_s": 0.0001,
+    "burn_max_mass_error_kg": 0.000000001,
+    "multibody_max_relative_position_error_m": 0.1,
+    "multibody_max_relative_velocity_error_m_s": 0.0001,
+    "reference_refinement_max_position_difference_m": 0.001,
+    "reference_refinement_max_velocity_difference_m_s": 0.000001
+  },
+  "exact_gates": [
+    "complete canonical physical or session bytes equal at every compared tick",
+    "midpoint serialized restore continues to identical complete bytes",
+    "fresh-process interrupted/resumed branch matches uninterrupted suffix",
+    "one-field mutations are detected; malformed/version-mismatched session restore leaves accepted state unchanged",
+    "independent decoder validates dimensions, field meanings, time and quaternion norm",
+    "normal and delayed-join exchanges reproduce the frozen recording byte for byte",
+    "interrupted or missing-update exchange cannot publish a complete accepted output"
+  ],
+  "model_comparison": "Horizons discrepancy is reported separately without a numerical-pass threshold; no 2207 truth or uncertainty claim",
+  "scope": "bounded fixtures only; no automatic golden admission, no core change, no full SpaceFOM compliance"
+}

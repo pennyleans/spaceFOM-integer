@@ -1,0 +1,30 @@
+pass: inertial coast preserves fractional motion
+pass: gravity has the analytic magnitude and direction
+pass: all gravitational contributions superpose
+pass: fuel exhaustion ends thrust and reduces mass
+pass: released rotation persists without damping
+pass: massive bodies move simultaneously
+pass: swept impact stops transactionally
+pass: range violation stops before committing
+pass: deep clone and command replay include residual identity
+pass: invalid commands fail without advancing
+pass: delivered thrust diagnostics reflect exhaustion and cut
+pass: finite burn matches rocket equation with changing mass
+pass: full scale translation preserves relative acceleration
+pass: quaternion rotation points main thrust along body forward
+pass: principal spin matches analytic orientation
+pass: microgram depletion preserves the exact available impulse
+pass: rotating a millinewton preserves its norm
+pass: depleted torque preserves fractional angular impulse
+pass: two pending fuel fractions cannot spend the same final microgram
+pass: torque fuel respects a lever arm beyond one metre
+pass: large supported exhaust and lever retain wide fuel remainders
+pass: right translation follows negative y in the right handed body frame
+pass: positive pitch rotates around physical right
+qualification thresholds declared before measurement: verlet position < scenario limit; refinement ratio < 0.4; euler error > 5x verlet; energy and angular momentum relative drift < 2e-6; a/a exact hash equality
+training circular: verlet_error_m=0.00010357257293657575; euler_error_m=0.7442026784348489; refined_error_m=2.5921272890346298E-05; refinement_ratio=0.25027159367972435; max_energy_relative=1.114131009694118E-14; max_angular_momentum_relative=2.30085982194342E-16; aa_equal=True; hash=995f4b63236b2d3855bd084884e5f88b29694d0c94e1eba8ef3310f93c39e5ff
+holdout eccentric: verlet_error_m=0.00038199119618769346; euler_error_m=1.560368152181349; refined_error_m=9.55067591663399E-05; refinement_ratio=0.25002345635058076; max_energy_relative=7.070783408404566E-08; max_angular_momentum_relative=2.510443880389544E-16; aa_equal=True; hash=46c625b511f11f6bf6db0210a0f9e1ad22408c5b10fa614ce9161031037634fb
+holdout inclined earth scale: verlet_error_m=0.00021958302945905694; euler_error_m=46.04964631738692; refined_error_m=5.4822150055729044E-05; refinement_ratio=0.24966478598452474; max_energy_relative=7.601756272732771E-16; max_angular_momentum_relative=2.935594150556546E-16; aa_equal=True; hash=1d5cf94ea86135bd778f6d711295b124652ed3fe3e0eee42e6e6a7ac21035603
+holdout asymmetric torque-free rotation: relative_energy_drift=9.500595865574723E-11; hash=b1422b6640a37a58ba780be8683ddce7dc83e402c182005639231a2d82f32070
+pass: paired orbital qualification
+core tests: 24/24 passed

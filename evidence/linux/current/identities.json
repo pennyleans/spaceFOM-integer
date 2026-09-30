@@ -1,0 +1,33 @@
+{
+  "schema": "linux-current-identities-v3",
+  "adapter_sources": {
+    "publisher.cpp": "99d6a8cc5db5227cc665a61aa28a8cc1a5fbc76ca58e9b24ab1af658ea6e84d2",
+    "observer.cpp": "08e6691fcd0d3fc77ed3af50d1d1927136a414bb7e99224320fe28393f15d4d8",
+    "transport.hpp": "cf6fe2e889f31d97239d1afad5c42d135314f2f29c4cbdb9d1bed1c7b0961210",
+    "CMakeLists.txt": "a0554f1b57427f3e59c4fa121e4fb63ecdcdb7332e5851e08608de32fe4eb5ee"
+  },
+  "binaries": {
+    "spacefom-publisher": "3d808fcf50b94356f9572b34b7133e2ab65ee582380dd403df9e6a8eb4d81f2a",
+    "spacefom-observer": "4fc1f8a7649ca9dc8c522a80145c03b342414571234edcc2fbbad135d324aa58",
+    "spacefom-state-roundtrip": "5c998ca5fb1d0ab091111502d785d119b190942e7764a17d73fc58e106d9fce7"
+  },
+  "runners": {
+    "run-interop.sh": "d8a0a1a815df549543cee9197b0c9fb9a3b356cc93b48231075ad3bda2fbac70",
+    "run-latejoin.sh": "1f31c52322400cc8d5cba351228d2fc47fb2e9fb983927e8663a1eca39afd3c8",
+    "latejoin.cpp": "a9371c0a1dc47ccdcbe7ecc26f8a828a97aae9a65519208a60604375725984bc"
+  },
+  "state_roundtrip_sources": {
+    "state-roundtrip.cpp": "8baea8392b87aad4a79ef7f530ac3075d543d29e5f2e0042eac153f2fd599be2",
+    "CMakeLists.txt": "a106bbf073470a4d28492fa80e7bf86810f0451d344f7f954035a0278e7a8c55"
+  },
+  "publisher_options": {
+    "default": "",
+    "master-modes": "--master-modes",
+    "openrti-save-refused": "--master-modes --save-restore"
+  },
+  "recording": {
+    "data/published-icrf.sf": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade"
+  },
+  "rti": "OpenRTI 6e31e0cd50de1852813a98679e8731ad2c97e54b, Linux x86-64, GCC 13.3",
+  "compiler_flags": "GCC 13.3: -Wall -Wextra -Wshadow -Werror"
+}

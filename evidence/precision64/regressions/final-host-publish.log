@@ -1,0 +1,24 @@
+  Determining projects to restore...
+  Restored {work}\source\src\Flight.Core\Flight.Core.csproj (in 146 ms).
+  Restored {work}\source\src\Flight.Fp64\Flight.Fp64.csproj (in 153 ms).
+  Restored {work}\source\src\Flight.Guidance\Flight.Guidance.csproj (in 153 ms).
+  Restored {work}\source\src\Flight.Presentation\Flight.Presentation.csproj (in 146 ms).
+  Restored {work}\source\src\Flight.Mission\Flight.Mission.csproj (in 153 ms).
+  Restored {work}\source\src\Flight.SpaceFom\Flight.SpaceFom.csproj (in 162 ms).
+  Restored {work}\source\src\Flight.Lan\Flight.Lan.csproj (in 162 ms).
+  Restored {work}\source\src\Flight.Data\Flight.Data.csproj (in 162 ms).
+  Restored {work}\source\src\Flight.Shared\Flight.Shared.csproj (in 162 ms).
+  Restored {work}\source\src\Flight.Diagnostics\Flight.Diagnostics.csproj (in 162 ms).
+  Restored {work}\source\src\Flight.Host\Flight.Host.csproj (in 163 ms).
+  Flight.Presentation -> {work}\source\src\Flight.Presentation\bin\Release\net10.0\Flight.Presentation.dll
+  Flight.Fp64 -> {work}\source\src\Flight.Fp64\bin\Release\net10.0\Flight.Fp64.dll
+  Flight.Core -> {work}\source\src\Flight.Core\bin\Release\net10.0\Flight.Core.dll
+  Flight.Mission -> {work}\source\src\Flight.Mission\bin\Release\net10.0\Flight.Mission.dll
+  Flight.Guidance -> {work}\source\src\Flight.Guidance\bin\Release\net10.0\Flight.Guidance.dll
+  Flight.Data -> {work}\source\src\Flight.Data\bin\Release\net10.0\Flight.Data.dll
+  Flight.SpaceFom -> {work}\source\src\Flight.SpaceFom\bin\Release\net10.0\Flight.SpaceFom.dll
+  Flight.Shared -> {work}\source\src\Flight.Shared\bin\Release\net10.0\Flight.Shared.dll
+  Flight.Lan -> {work}\source\src\Flight.Lan\bin\Release\net10.0\Flight.Lan.dll
+  Flight.Diagnostics -> {work}\source\src\Flight.Diagnostics\bin\Release\net10.0\win-x64\Flight.Diagnostics.dll
+  Flight.Host -> {work}\source\src\Flight.Host\bin\Release\net10.0\win-x64\Flight.Host.dll
+  Flight.Host -> {work}\delivery-host-win-x64\

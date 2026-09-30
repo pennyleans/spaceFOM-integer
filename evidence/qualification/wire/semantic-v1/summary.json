@@ -1,0 +1,109 @@
+{
+  "schema": "wire-semantic-supplement-v1",
+  "passed": true,
+  "original_61_gate_receipt_sha256": "a2416b6c3ae55b9b161c78631b80f8181b3e852d3071af52f8494cb953fc0c81",
+  "original_known_state_document_sha256": "1527a9097f834dfd35be67191fefe3e95a14a6e026a1f8ba21abed8b384d8dc1",
+  "original_fixture_and_receipt_unchanged": true,
+  "updated_default_gate_count": 80,
+  "supplemental_gate_count_with_production": 20,
+  "boundary_source": {
+    "path": "qualification/BoundaryProbe/Program.cs",
+    "sha256": "5cb7cd35955fbaae3677d513f4ff0f1c2a3602f876867b811a34716cb361e1c9"
+  },
+  "boundary_receipt_sha256": "3bceac89d44ddd69b5f7e634b6d4e4d934a5a1c79a284f3aec9e27000278661d",
+  "production_wire_sha256": "5ae8613b4fbd5da657ae26fc56c86e1aa92da07d372af1684904862bd13c29da",
+  "producer_inputs": {
+    "position_mm": [
+      1250,
+      -2500,
+      3750
+    ],
+    "position_remainder": [
+      0,
+      0,
+      0
+    ],
+    "velocity_nmps": [
+      4000000000,
+      -8000000000,
+      16000000000
+    ],
+    "velocity_remainder": [
+      0,
+      0,
+      0
+    ],
+    "attitude_scale": 1152921504606846976,
+    "body_to_parent_attitude": "integer-truncated (1,2,4,10)*scale/11",
+    "body_rates_nradps": [
+      125000000,
+      -250000000,
+      500000000
+    ],
+    "angular_remainder": [
+      0,
+      0,
+      0
+    ],
+    "tick": 64
+  },
+  "isolated_source_mutants": [
+    {
+      "name": "quaternion-yz-label-swap",
+      "exit": 1,
+      "expected_rejection": "semantic component mismatch: quaternion_y",
+      "mutated_oracle_sha256": "3cf7e233907821b6c18febe2e7ab5ecec9b5719b542744267c689f27f6786dcb",
+      "patch_sha256": "62ed5d9b934856b9c42c7e55766e90965280e8407b23916f4558d4927f01c6c8",
+      "original_log_sha256": "96c8310fd2fff2f2ca428c7537ef20ba06bc6d6e477df95a5061814208976e77",
+      "redacted_log_sha256": "6f8016b2569448f0c935ddc66c9eee9932f0242474dbb7d8a097ac4bba828289"
+    },
+    {
+      "name": "wrong-decoder-conjugation",
+      "exit": 1,
+      "expected_rejection": "semantic component mismatch: quaternion_x",
+      "mutated_oracle_sha256": "b39190886ec45e085db3e7cba864bb0d9e6fc181c5a4a751931e12dd147049ed",
+      "patch_sha256": "bb7edcb6e872f1cbb98ed13121892c7fa97b779c874d5bf997c194310ad3bb89",
+      "original_log_sha256": "edf9effe94539e3011813f071910ae672d7b8dbb38e2323edaa29a3d2e1064ed",
+      "redacted_log_sha256": "66dff5dbe4fcde56168f9e53cabaf810327b3120504b3d56d32271f235a30baf"
+    }
+  ],
+  "qualification_sources": [
+    {
+      "path": "qualification/wire/.gitignore",
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "qualification/wire/asymmetric_state.json",
+      "sha256": "54bc6a02deb800d376b06c0f46bc214938f3ed0350d84d139a3b4c6e49e9d558"
+    },
+    {
+      "path": "qualification/wire/build_faults.py",
+      "sha256": "463f33f59bbe55c6366cfde56200cad4b25e8fab52b710dfd780f1e14fba3650"
+    },
+    {
+      "path": "qualification/wire/known_state.json",
+      "sha256": "1527a9097f834dfd35be67191fefe3e95a14a6e026a1f8ba21abed8b384d8dc1"
+    },
+    {
+      "path": "qualification/wire/oracle.py",
+      "sha256": "400c64b58f355d5ee4851c40665e16734a6aaedebeb7d61f46e63653918313ac"
+    },
+    {
+      "path": "qualification/wire/README.md",
+      "sha256": "77592e46ccd9d8b0accc17b1d7d35cff56d8512e14b5bdd95ebacdcd178aa885"
+    },
+    {
+      "path": "qualification/wire/run_probes.py",
+      "sha256": "c7dfd3d0c3b243482c6cc77d4deda322106dde471819005f252ae4ed8ccb680d"
+    },
+    {
+      "path": "qualification/wire/run_semantic.py",
+      "sha256": "f447c7426a491709fa94e0905b7a10ea6d8f7bf61b391d291517cd37c6753c67"
+    },
+    {
+      "path": "qualification/wire/test_oracle.py",
+      "sha256": "2ff10840db24182359492f5434650cdf7847342d3c4548afa70fb6cd567ffba4"
+    }
+  ],
+  "scope": "supplemental semantic qualification authored separately; independent hostile re-review pending"
+}

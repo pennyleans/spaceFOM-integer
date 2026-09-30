@@ -1,0 +1,21 @@
+{
+  "architecture": "arm64",
+  "probe_sha256": "409b19663059eee3c90aa65511549354f7d8c2b8cbe9933e29521b4e9696dc89",
+  "rows": [
+    {
+      "mode": "session",
+      "exit": 0,
+      "expected": 0
+    },
+    {
+      "mode": "interrupt",
+      "exit": 23,
+      "expected": 23
+    },
+    {
+      "mode": "resume",
+      "exit": 0,
+      "expected": 0
+    }
+  ]
+}

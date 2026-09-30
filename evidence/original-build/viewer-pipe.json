@@ -1,0 +1,16 @@
+{
+  "schema": "spacefom-viewer-pipe-v1",
+  "passed": true,
+  "source_recording_sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+  "final_tick": "3840",
+  "denied_operations": [
+    "assist",
+    "mission",
+    "restore",
+    "sleep",
+    "advance"
+  ],
+  "end_of_recording": "holds last frame without extrapolation",
+  "eof_exit_code": 0,
+  "scope": "actual child pipe; not human handling or rendered evidence"
+}

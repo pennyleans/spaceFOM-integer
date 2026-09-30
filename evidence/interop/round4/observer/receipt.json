@@ -1,0 +1,11 @@
+{
+  "check": "TrickHLA as orbital_observer, stock publisher with --master-modes",
+  "publisher_exit": 1,
+  "publisher_error": "failure: timeout: synchronize root_frame_discovered",
+  "trickhla_exit": 0,
+  "join_classification": "early joining federate",
+  "sync_points": "objects_discovered synchronized; prototype_metadata synchronized as an unknown point; root_frame_discovered announced but not achieved (TrickHLA waits for a second ExCO update after the root frame publication that the publisher does not send); initialization_started not achieved",
+  "freeze_resume_shutdown": "not reached; the publisher timed out at root_frame_discovered and the peer resigned cleanly when the ExCO was deleted",
+  "states_compared": 0,
+  "note": "TrickHLA blocked at ExecutionConfiguration::wait_for_update() after receiving the root frame state, and the publisher blocked at the root_frame_discovered synchronization point"
+}

@@ -1,0 +1,81 @@
+{
+  "host": {
+    "machine": "{host}",
+    "windows": "Windows 11, version 10.0.26200.9168",
+    "cpu": "AMD Ryzen 9 5900X 12-Core Processor",
+    "memory_gb": 48,
+    "wsl": "2.7.12.0",
+    "wslg": "1.0.73.2"
+  },
+  "wsl": {
+    "distro": "Ubuntu 24.04.4 LTS",
+    "kernel": "6.18.33.2-microsoft-standard-WSL2",
+    "arch": "x86_64"
+  },
+  "toolchain": {
+    "gcc": "13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1)",
+    "clang": "18.1.3",
+    "make": "4.3",
+    "cmake": "3.28.3",
+    "java_runtime": "OpenJDK 21.0.12.1 (Ubuntu)",
+    "jdk_used_for_portico_build": "OpenJDK 21.0.12.1 unpacked from the Ubuntu openjdk-21-jdk-headless package into {work}/jdk21; the base image had only the JRE",
+    "ant": "bundled with Portico at codebase/system/ant/apache-ant-1.10.16git-patched",
+    "maven": "3.8.7",
+    "swig": "4.2.0"
+  },
+  "repositories": {
+    "2207-spacefom-candidate": {
+      "commit": "af543f881b80a45f0bc28b64ec6c5c046af95db7",
+      "starting_branch": "review/public-candidate",
+      "work_branch": "interop/20260928"
+    },
+    "portico": {
+      "url": "https://github.com/openlvc/portico",
+      "branch": "maintenance-2.2.x",
+      "commit": "5345bf2ad90d1b792a0d89039d166e971152e6de",
+      "version": "2.2.0 (build 0)"
+    },
+    "trick": {
+      "url": "https://github.com/nasa/trick",
+      "tag": "25.1.1",
+      "commit": "c2a3e5480dfdbe975fb94a3d54271116dbc8d89f"
+    },
+    "tricklha": {
+      "url": "https://github.com/nasa/TrickHLA",
+      "commit": "9faa0c5e547acb2596047c9bb875cb34ccb0fa2a",
+      "version": "v3.2.2 (2026-04-01)"
+    }
+  },
+  "rtis": {
+    "openrti": {
+      "source": "https://github.com/openlvc/openrti",
+      "commit": "6e31e0cd50de1852813a98679e8731ad2c97e54b",
+      "note": "the project's existing pinned RTI; not exercised in this task"
+    },
+    "portico": {
+      "version": "2.2.0",
+      "commit": "5345bf2ad90d1b792a0d89039d166e971152e6de",
+      "transport": "JGroups UDP multicast on loopback, no rtinode",
+      "jdk": "OpenJDK 21.0.12.1"
+    },
+    "pitch": {
+      "product": "Pitch pRTI Free",
+      "version": "5.5.10 build 9905",
+      "edition": "Free, states a two-federate limit",
+      "installer": "prti1516e-free_5_5_10_linux64.sh",
+      "installer_sha256": "5d2e7e1d35acb38a054878c704818c2b75675e3d38cb03ccdd353ae2589a1ddf",
+      "linux_install": "{work}/pRTI",
+      "crc": "Pitch pRTI Free CRC on the Windows host, direct mode, CRC.port 8989",
+      "crc_host_from_wsl": "{crc-host}"
+    }
+  },
+  "recordings": {
+    "data/published-icrf.sf": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+    "data/published.sf": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56"
+  },
+  "notes": [
+    "Trick and TrickHLA were installed from their official repositories; Trick at tag 25.1.1, TrickHLA at the pinned commit.",
+    "TrickHLA builds with RTI_HOME={work}/pRTI and RTI_VENDOR=Pitch_HLA_Evolved; the federate LRC links the Linux pRTI C++ libraries and connects to the Windows CRC over TCP.",
+    "Absolute paths under {work} are anonymised in captured logs."
+  ]
+}

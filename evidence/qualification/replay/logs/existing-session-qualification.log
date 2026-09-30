@@ -1,0 +1,45 @@
+pass full snapshot, midpoint replay, canonical integers, malformed/version rejection and clone isolation
+b8e5ef82849fc8e0cc1f52772e6c69018810fb6e69118ddebf7215ab954d254e
+pass checkpoint replay admission, endpoint equality, stale branch, forgery, duplicate commit and cancellation
+pass adversarial identity, guidance, null, diagnostic, normalization and all-mode restore cases
+pass save lineage replay and forged endpoint/history rejection
+pass authority inventory, interrupted/corrupt store preservation, immediate and partial sleep cancellation
+pass post-stop history, bounded save envelope, initial-root provenance, unicode rejection and nonempty sleep tape lineage
+pass high-rate snapshot closure and asynchronous restore cancellation/commit
+pass session field inventory and stale async restore branch rejection
+pass recoverable berth save, failed storage isolation, canonical reset and multi-interval commanded sleep replay
+pass caller catalogue isolation across reset and future replay
+pass published module geometry cannot mutate private session data
+pass actual nonfinite display serializer failure emits no partial frame and permits terminal response
+pass cold/disk/warm exact checkpoint cache, work accounting, future-input identity and corrupt evidence preservation
+pass mission genesis, admitted forecast boundary, finite steering and burn, midpoint restore, atomic rejection, takeover, coast and fault isolation
+pass missed ignition resumption to the original cutoff, metadata-only authorization, recorded omission, expired refusal and override clearing
+pass analytic rational enclosures, eccentricity 0.01 margins and unbound/parabolic/radial/invalid rejection
+pass catalogue moon 100 km fixture, 90/110 km margins, exact 15 % propellant with remainders; diagnostic only: within lunar arrival bounds periapsis_altitude_m=[99999.939,100000.000] apoapsis_altitude_m=[99999.999,100000.061] eccentricity=[0.000000000,0.000000033] propellant_fraction_of_initial=1.000000
+pass synthetic infeasible forecast, cutoff/final snapshots, A/A canonical record, per-call counters and live isolation
+pass replay admission, forged feasible/reason/final/cutoff/observation/anchor rejection and stale/reused token rejection
+pass restraint release, trial fault without retry, typed unavailable cases and midtrial cancellation after 22 attempted steps with no token
+pass missed-ignition forecast of the remaining burn, pre-ignition evidence refused, expired route reason and live resumption equal to its exact trial
+pass mission restraint/takeover lineage, replay equality, malformed command and capture isolation
+pass tiny moon forecast with 64-tick internal observation, record, explicit authorization, finite burn equal to forecast cutoff/end, full snapshot and journal restore
+pass root, law, authority, plan, anchor, tamper and shape refusals leave live state and journal unchanged; journal holds no aliases
+pass infeasible forecast excluded from authority, coordinator keeps the internal law, route law refuses shortened evidence, cross-law adoption refused, cancellation inside forecast replay after 21 and 19 attempted steps leaves live state and journal unchanged
+pass forecast coordinator progress, replayable evidence, stale branch, cancellation and history isolation
+pass mission data load, frozen values and identity, session genesis, aliasing, truncation, unknown/duplicate/missing fields, schema, integer grammar, dimensions and content binding
+pass wire escaping, duplicate fields and bounded save endpoint isolation
+pass per-root heads keep last, previous and recovery independent across roots and slots
+pass recovery after store recreation, immutable superseded records and root-bound restore
+pass malformed slot and root reads and saves touch no files
+pass damaged, foreign, missing and wrong-schema root heads never fall back; a later save quarantines their exact bytes and publishes a good head
+pass a head naming a corrupt record is quarantined by the next save of its root; the corrupt record and other roots are untouched
+pass failed saves leave the accepted heads and records in place
+pass windows reader without delete sharing can block a legacy mirror without refusing the committed scoped save
+pass legacy global heads are read only for the root their record names
+pass legacy flights are indexed before a global head is overwritten; root heads outrank stale global heads
+pass a global head over corrupt evidence is replaced as before while the corrupt record is retained
+pass contended and blocked saves fail before writing; reads and other store operations proceed while a save holds the cache
+pass simultaneous saves serialize: one quarantine, matching root and global heads, no records from contended saves
+pass a huge damaged head is moved aside without being read and the next read returns the new save
+pass exact and escaped enum names; restore retention after replay, before adoption; cancellation, stale anchors and failed-write isolation
+pass bounded crew-route continuous/checkpoint full endpoint and journal equality, exact restore, and complete-state compatibility without erased command provenance
+pass exact grid reconstruction: direct-replay equality, history commit and continuation, aligned/unaligned anchors, warm/disk/cold work, future-tape identity, refusal, assertion, freezing, stale commit, cancellation, corrupt and forged evidence

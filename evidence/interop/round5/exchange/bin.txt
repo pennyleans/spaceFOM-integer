@@ -1,0 +1,6 @@
+libfedtime1516e.dll 10240
+librti1516e.dll 1033728
+OpenRTI.dll 1443840
+rtinode.exe 23040
+spacefom-observer.exe 147456
+spacefom-publisher.exe 144384

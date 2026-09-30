@@ -1,0 +1,11 @@
+2207: Integer Spaceflight Simulator, SpaceFOM prototype
+Copyright 2026 Harriett Little
+
+Licensed under the Apache License, Version 2.0 (see LICENSE). Third-party
+components keep their own terms, listed in THIRD-PARTY-NOTICES.md.
+
+The verifier packages also contain compiled simulator code, whose source is
+not published. The Apache License covers the verifier's own source in verify/,
+not the simulator. Permission is granted to download and run the verifier
+packages unmodified to check the published results; no other rights are
+granted in the compiled simulator code.

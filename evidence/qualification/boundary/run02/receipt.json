@@ -1,0 +1,25 @@
+{
+  "schema": "qualification-boundary-v1",
+  "decoded_restore_rejections": [
+    "truncated bytes at decode boundary",
+    "invalid decoded physical attitude",
+    "duplicate decoded vessel and body id",
+    "invalid decoded guidance target"
+  ],
+  "complete_live_bytes_preserved": true,
+  "mapped_wire_fields": 14,
+  "bitwise_expected_fields_equal": true,
+  "parent_x_maps_to_body_z": true,
+  "asymmetric_parent_x_expected": [
+    -0.9173553719008265,
+    -0.03305785123966942,
+    0.39669421487603307
+  ],
+  "asymmetric_parent_x_observed": [
+    -0.9173553719008267,
+    -0.033057851239669395,
+    0.3966942148760332
+  ],
+  "asymmetric_tolerance": 1E-15,
+  "scope": "supplemental Windows x64 decoded-domain restore and known cyclic quaternion/units/time projection; no general frame or 2207 clock accuracy claim"
+}

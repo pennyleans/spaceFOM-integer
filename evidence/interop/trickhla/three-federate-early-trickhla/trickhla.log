@@ -1,0 +1,13 @@
+filtered from attempt log; join seat limit evidence
+29:[00mWelcome to Pitch pRTI Free. Note that it is limited to two federates. 
+35:[00m|L   0|2026/09/28,20:50:54.768467|{host}| |T 0|0.000000| [00mFederate::join_federation():2803 Attempting to Join Federation 'orbital_8989'
+36:[00m|L   0|2026/09/28,20:50:54.927205|{host}| |T 0|0.000000| [00mFederate::join_federation():2828 Joined Federation 'orbital_8989', Federate-Handle:FederateHandle<15>
+40:[00m|L   0|2026/09/28,20:50:54.928411|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+41:[00m|L   0|2026/09/28,20:51:24.933731|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():766 Sync-point status: [initialization_started] -- SYNC_PT_STATE_KNOWN, 'initialization_completed' sync-point announced: No, Still waiting...
+==== tail ====
+[00m|L   0|2026/09/28,20:50:54.927266|{host}| |T 0|0.000000| [00mFederate::enable_async_delivery():3023 Enabling Asynchronous Delivery
+[00m|L   0|2026/09/28,20:50:54.927500|{host}| |T 0|0.000000| [00mExecutionControl::join_federation_process():354 Checking for shutdown
+[00m|L   0|2026/09/28,20:50:54.927532|{host}| |T 0|0.000000| [00mFederate::initialize_MOM_handles():1626
+[00m|L   0|2026/09/28,20:50:54.928411|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+[00m|L   0|2026/09/28,20:51:24.933731|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():766 Sync-point status: [initialization_started] -- SYNC_PT_STATE_KNOWN, 'initialization_completed' sync-point announced: No, Still waiting...
+[00m[31mProcess terminated by signal SIGSEGV[0m

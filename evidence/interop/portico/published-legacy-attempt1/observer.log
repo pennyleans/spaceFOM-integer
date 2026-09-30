@@ -1,0 +1,27 @@
+INFO  [c++] (Runtime) RID file processing finished
+19:17:32,367 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:17:32,371 INFO  [main] portico.lrc: Opening LRC Connection
+19:17:32,372 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+INFO  [rti-1] Initialized new JavaRTI (rti-1)
+INFO  [c++] (Runtime) Created new JavaRTI [id:1]
+connected hlt_us=0
+
+-------------------------------------------------------------------
+GMS: address={host}-58142, cluster=orbital_31417, physical address=127.0.0.1:47971
+-------------------------------------------------------------------
+19:17:36,199 INFO  [main] portico.lrc.jgroups: Found co-ordinator: 55268f8e-7e9c-48ee-a3e1-51cf0a337b57
+INFO  [rti-1] Exception received: RTIinternalError
+INFO  [rti-1] hla.rti1516e.exceptions.RTIinternalError: Federation coordinator never acknowledged that we joined
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.joinFederationExecution(Rti1516eAmbassador.java:672)
+	at org.portico.impl.cpp1516e.ProxyRtiAmbassador.joinFederationExecution(ProxyRtiAmbassador.java:346)
+Caused by: org.portico.lrc.compat.JRTIinternalError: Federation coordinator never acknowledged that we joined
+	at org.portico.bindings.jgroups.Federation.sendJoinFederation(Federation.java:301)
+	at org.portico.bindings.jgroups.JGroupsConnection.joinFederation(JGroupsConnection.java:251)
+	at org.portico.lrc.services.federation.handlers.outgoing.JoinFederationHandler.process(JoinFederationHandler.java:110)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:188)
+	at org.portico.impl.hla1516e.Impl1516eHelper.processMessage(Impl1516eHelper.java:130)
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.processMessage(Rti1516eAmbassador.java:5558)
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.joinFederationExecution(Rti1516eAmbassador.java:651)
+	... 1 more
+
+INFO  [c++] (Runtime) Removing removing JavaRTI reference [id:1]

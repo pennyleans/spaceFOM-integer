@@ -1,0 +1,9 @@
+{
+  "schema": "frozen-tape-reexport-v1",
+  "command": "dotnet run --project tools/Flight.SpaceFom.Tool -c Release -- export data 3840 <fresh-output.sf> 301",
+  "exit_code": 0,
+  "byte_equal": true,
+  "bytes": 5316325,
+  "sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+  "scope": "fresh export from unchanged frozen private source; exact match to accepted published observation tape; no golden replacement"
+}

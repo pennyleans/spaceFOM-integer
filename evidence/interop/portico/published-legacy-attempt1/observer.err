@@ -1,0 +1,13 @@
+RTI failure: hla.rti1516e.exceptions.RTIinternalError: Federation coordinator never acknowledged that we joined
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.joinFederationExecution(Rti1516eAmbassador.java:672)
+	at org.portico.impl.cpp1516e.ProxyRtiAmbassador.joinFederationExecution(ProxyRtiAmbassador.java:346)
+Caused by: org.portico.lrc.compat.JRTIinternalError: Federation coordinator never acknowledged that we joined
+	at org.portico.bindings.jgroups.Federation.sendJoinFederation(Federation.java:301)
+	at org.portico.bindings.jgroups.JGroupsConnection.joinFederation(JGroupsConnection.java:251)
+	at org.portico.lrc.services.federation.handlers.outgoing.JoinFederationHandler.process(JoinFederationHandler.java:110)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:188)
+	at org.portico.impl.hla1516e.Impl1516eHelper.processMessage(Impl1516eHelper.java:130)
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.processMessage(Rti1516eAmbassador.java:5558)
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.joinFederationExecution(Rti1516eAmbassador.java:651)
+	... 1 more
+

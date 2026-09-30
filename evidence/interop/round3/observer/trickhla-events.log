@@ -1,0 +1,329 @@
+# Trimmed view of a 78587 line TrickHLA log; the full log is not committed.
+# The per-update state lines are kept separately in trickhla-interop.log.
+|L   0|2026/09/29,00:52:58.674677|{host}| |T 0|0.000000| [00mFederate::print_version():227
+     TrickHLA-version:'v3.2.2'
+TrickHLA-release-date:'2026-04-01'
+             RTI-name:'pRTI Evolved'
+          RTI-version:'5.5.10'
+[00m|L   2|2026/09/29,00:52:58.675494|{host}| |T 0|0.000000| [33mSpaceFOM::ExecutionControl::set_least_common_time_step():3036 This is not a Master federate so this setting will be ignored.
+[00m|L   0|2026/09/29,00:52:58.675964|{host}| |T 0|0.000000| [00mTimeManagementServices::initialize_thread_state():157 Trick main thread (id:0, data_cycle:0.016).
+[00m|L   0|2026/09/29,00:52:58.676462|{host}| |T 0|0.000000| [00mTrickThreadCoordinator::initialize_thread_coordinator():346 Trick main thread (id:0, data_cycle:0.015625000).
+[00m|L   0|2026/09/29,00:52:58.677167|{host}| |T 0|0.000000| [00mTrickThreadCoordinator::verify_trick_thread_associations():689
+[00m|L   0|2026/09/29,00:52:58.678096|{host}| |T 0|0.000000| [00mFederate::initialize():388 Federate:"orbital_observer" Type:"True"
+[00m|L   0|2026/09/29,00:52:58.678536|{host}| |T 0|0.000000| [00mFedAmb::initialize():157 Federate:"orbital_observer"
+[00m|L   0|2026/09/29,00:52:58.678884|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::initialize():193 Initialization-Scheme:'SpaceFOM'
+[00m|L   0|2026/09/29,00:52:58.679402|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'ExCO' FOM_name:'ExecutionConfiguration' create_HLA_instance:False
+[00m|L   0|2026/09/29,00:52:58.679792|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::initialize():255
+    I AM NOT THE PRESET MASTER
+[00m|L   0|2026/09/29,00:52:58.680132|{host}| |T 0|0.000000| [00mFederate::restart_initialization():410
+[00m|L   0|2026/09/29,00:52:58.680519|{host}| |T 0|0.000000| [00mTimeManagementServices::restart_initialization():184
+[00m|L   0|2026/09/29,00:52:58.680994|{host}| |T 0|0.000000| [00mManager::setup_all_ref_attributes():1061
+[00m|L   0|2026/09/29,00:52:58.681379|{host}| |T 0|0.000000| [00mManager::setup_object_ref_attributes():1110
+[00m|L   0|2026/09/29,00:52:58.681825|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'ExCO' FOM_name:'ExecutionConfiguration' create_HLA_instance:False
+[00m|L   0|2026/09/29,00:52:58.682382|{host}| |T 0|0.000000| [00mManager::setup_object_ref_attributes():1110
+[00m|L   0|2026/09/29,00:52:58.682836|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'SolarSystemBarycentricInertial' FOM_name:'ReferenceFrame' create_HLA_instance:False
+[00m|L   0|2026/09/29,00:52:58.683323|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'body_10' FOM_name:'ReferenceFrame' create_HLA_instance:False
+[00m|L   0|2026/09/29,00:52:58.683807|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'orbital_vessel' FOM_name:'PhysicalEntity' create_HLA_instance:False
+[00m|L   0|2026/09/29,00:52:58.684312|{host}| |T 0|0.000000| [00mManager::setup_interaction_ref_attributes():1168
+[00m|L   0|2026/09/29,00:52:58.684847|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::setup_interaction_ref_attributes():374 FOM-Parameter:'execution_mode' NOTE: This is an auto-generated parameter so there is no associated 'Trick-Name'.
+[00m|L   0|2026/09/29,00:52:58.685417|{host}| |T 0|0.000000| [00mFederate::create_RTI_ambassador_and_connect():619 Local settings designator for RTI connection:'crcHost = {crc-host}
+ crcPort = 8989'
+[00mWelcome to Pitch pRTI Free. Note that it is limited to two federates. 
+It may only be used for learning and testing purposes.
+No production or commercial development use allowed.
+Please read the End User License Agreement for more info.
+|L   0|2026/09/29,00:52:59.089341|{host}| |T 0|0.000000| [00mFederate::create_federation():2581 Attempting to create Federation 'orbital_8989'
+[00m|L   0|2026/09/29,00:52:59.092240|{host}| |T 0|0.000000| [00mFederate::create_federation():2636 Federation already exists for 'orbital_8989'
+[00m|L   0|2026/09/29,00:52:59.092823|{host}| |T 0|0.000000| [00mFederate::join_federation():2803 Attempting to Join Federation 'orbital_8989'
+[00m|L   0|2026/09/29,00:52:59.277135|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_completed'
+[00m|L   0|2026/09/29,00:52:59.277934|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'initialization_completed'
+[00m|L   0|2026/09/29,00:52:59.278812|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_run'
+[00m|L   0|2026/09/29,00:52:59.279313|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'mtr_run'
+[00m|L   0|2026/09/29,00:52:59.281343|{host}| |T 0|0.000000| [00mFederate::join_federation():2828 Joined Federation 'orbital_8989', Federate-Handle:FederateHandle<3>
+[00m|L   0|2026/09/29,00:52:59.281773|{host}| |T 0|0.000000| [00mFederate::enable_async_delivery():3023 Enabling Asynchronous Delivery
+[00m|L   0|2026/09/29,00:52:59.282491|{host}| |T 0|0.000000| [00mExecutionControl::join_federation_process():354 Checking for shutdown
+[00m|L   0|2026/09/29,00:52:59.282921|{host}| |T 0|0.000000| [00mFederate::initialize_MOM_handles():1626
+[00m|L   0|2026/09/29,00:52:59.284440|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+[00m|L   0|2026/09/29,00:52:59.284872|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():783 This is a Late Joining Federate.
+[00m|L   0|2026/09/29,00:52:59.285222|{host}| |T 0|0.000000| [00mManager::setup_all_RTI_handles():1217
+[00m|L   0|2026/09/29,00:52:59.285592|{host}| |T 0|0.000000| [00mManager::setup_object_RTI_handles():1269
+[00m|L   0|2026/09/29,00:52:59.286059|{host}| |T 0|0.000000| [00mManager::setup_object_RTI_handles():1269
+[00m|L   0|2026/09/29,00:52:59.286562|{host}| |T 0|0.000000| [00mManager::setup_interaction_RTI_handles():1467
+[00m|L   0|2026/09/29,00:52:59.287168|{host}| |T 0|0.000000| [00mManager::setup_interaction_RTI_handles():1467
+[00m|L   0|2026/09/29,00:52:59.287788|{host}| |T 0|0.000000| [00mObject::subscribe_to_object_attributes():1038 For object 'ExCO'.
+[00m|L   0|2026/09/29,00:52:59.289640|{host}| |T 0|0.000000| [00mExecutionConfigurationBase::wait_for_registration():224
+[00m|L   0|2026/09/29,00:52:59.290052|{host}| |T 0|0.000000| [00mExecutionConfigurationBase::wait_for_registration()268
+OBJECTS: 1
+  1:Object instance 'ExCO' for class 'ExecutionConfiguration' is REQUIRED and is Not Registered
+[00m|L   0|2026/09/29,00:52:59.304348|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'ExCO' Instance-ID:HandleKind<101>
+[00m|L   0|2026/09/29,00:52:59.304942|{host}| |T 0|0.000000| [00mManager::discover_object_instance():2652 Data-Object 'ExCO' Instance-ID:HandleKind<101>
+[00m|L   0|2026/09/29,00:52:59.310689|{host}| |T 0|0.000000| [00mExecutionConfigurationBase::wait_for_registration()268
+OBJECTS: 1
+  1:Object instance 'ExCO' (ID:HandleKind<101>) for class 'ExecutionConfiguration' is REQUIRED and is REGISTERED
+[00m|L   0|2026/09/29,00:52:59.311222|{host}| |T 0|0.000000| [00mManager::request_data_update():914 Object:'ExCO'
+[00m|L   0|2026/09/29,00:52:59.312199|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionConfiguration::wait_for_update():652 Waiting...
+[00m|L   0|2026/09/29,00:52:59.317159|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionConfiguration::wait_for_update():698 Received data.
+[00m|L   0|2026/09/29,00:52:59.317649|{host}| |T 0|0.000000| [00m
+=============================================================
+SpaceFOM::ExecutionConfiguration::unpack():307
+        Current Scenario Time: 0 (0)
+      Current Simulation Time: 0 (0)
+     Current HLA Granted Time: 0 (0)
+   Current HLA Requested Time: 0 (0)
+.............................................................
+                  Object-Name: 'ExCO'
+              root_frame_name: 'SolarSystemBarycentricInertial'
+          scenario_time_epoch: 7529673600.00018024
+      next_mode_scenario_time: 7529673600.00018024
+           next_mode_cte_time: -1.79769313486231571e+308
+       current_execution_mode: EXEC_MODE_INITIALIZING
+          next_execution_mode: EXEC_MODE_RUNNING
+       least_common_time_step: 15625 (unit:microseconds)
+=============================================================
+[00m|L   0|2026/09/29,00:52:59.318118|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::late_joiner_hla_init_process()
+	 current_scenario_time:     7529673600.00018024
+	 scenario_time_epoch:       7529673600.00018024
+	 scenario_time_epoch(ExCO): 7529673600.00018024
+	 scenario_time_sim_offset:  0
+	 Current HLA grant time:    0
+	 Current HLA request time:  0
+	 current_sim_time:          0
+	 simulation_time_epoch:     0
+[00m|L   0|2026/09/29,00:52:59.318556|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [mtr_run] -- SYNC_PT_STATE_ANNOUNCED
+[00m|L   0|2026/09/29,00:52:59.319048|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'mtr_run'
+[00m|L   0|2026/09/29,00:52:59.319452|{host}| |T 0|0.000000| [00mSyncPointList::achieve_sync_point():877 Known Sync-point [mtr_run] -- SYNC_PT_STATE_ANNOUNCED
+[00m|L   0|2026/09/29,00:52:59.320015|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_synchronized():1118 Sync-point 'mtr_run'
+[00m|L   0|2026/09/29,00:52:59.321231|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'mtr_run'
+[00m|L   0|2026/09/29,00:52:59.321587|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'mtr_run'
+[00m|L   0|2026/09/29,00:52:59.330596|{host}| |T 0|0.000000| [00mSyncPointManagerBase::print_sync_points():809
+SyncPointManagerBase::to_string():753 Number of Sync-Point Lists:1
+SyncPointList::to_string():1177 List:'SpaceFOM' List-size:7
+0:'SpaceFOM' Sync-point:[mtr_run] -- SYNC_PT_STATE_SYNCHRONIZED
+1:'SpaceFOM' Sync-point:[mtr_freeze] -- SYNC_PT_STATE_KNOWN
+2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+3:'SpaceFOM' Sync-point:[objects_discovered] -- SYNC_PT_STATE_KNOWN
+4:'SpaceFOM' Sync-point:[root_frame_discovered] -- SYNC_PT_STATE_KNOWN
+5:'SpaceFOM' Sync-point:[initialization_completed] -- SYNC_PT_STATE_ANNOUNCED
+6:'SpaceFOM' Sync-point:[initialization_started] -- SYNC_PT_STATE_KNOWN
+[00m|L   0|2026/09/29,00:52:59.331184|{host}| |T 0|0.000000| [00mManager::publish_and_subscribe():1788
+[00m|L   0|2026/09/29,00:52:59.331680|{host}| |T 0|0.000000| [00mObject::subscribe_to_object_attributes():1038 For object 'SolarSystemBarycentricInertial'.
+[00m|L   0|2026/09/29,00:52:59.333160|{host}| |T 0|0.000000| [00mObject::subscribe_to_object_attributes():1038 For object 'body_10'.
+[00m|L   0|2026/09/29,00:52:59.333860|{host}| |T 0|0.000000| [00mObject::subscribe_to_object_attributes():1038 For object 'orbital_vessel'.
+[00m|L   0|2026/09/29,00:52:59.336884|{host}| |T 0|0.000000| [00mObject::subscribe_to_object_attributes():1038 For object 'ExCO'.
+[00m|L   0|2026/09/29,00:52:59.341877|{host}| |T 0|0.000000| [00mInteraction::publish_interaction():483 Interaction 'ModeTransitionRequest'.
+[00m|L   0|2026/09/29,00:52:59.347229|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_10' Instance-ID:HandleKind<104>
+[00m|L   0|2026/09/29,00:52:59.347813|{host}| |T 0|0.000000| [00mManager::discover_object_instance():2652 Data-Object 'body_10' Instance-ID:HandleKind<104>
+[00m|L   0|2026/09/29,00:52:59.348319|{host}| |T 0|0.000000| [00mManager::reserve_object_names_with_RTI():1801
+[00m|L   0|2026/09/29,00:52:59.348814|{host}| |T 0|0.000000| [00mManager::wait_for_reservation_of_object_names():1820
+[00m|L   0|2026/09/29,00:52:59.349268|{host}| |T 0|0.000000| [00mManager::wait_for_reservation_of_object_names():1833 All Object instance names reserved.
+[00m|L   0|2026/09/29,00:52:59.349545|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_199' Instance-ID:HandleKind<105>
+[00m|L   0|2026/09/29,00:52:59.349689|{host}| |T 0|0.000000| [00mManager::register_objects_with_RTI():1850
+[00m|L   2|2026/09/29,00:52:59.350117|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_199' with Instance-ID:HandleKind<105> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.350706|{host}| |T 0|0.000000| [00mExecutionControlBase::register_objects_with_RTI():456
+[00m|L   0|2026/09/29,00:52:59.351645|{host}| |T 0|0.000000| [00mManager::wait_for_registration_of_required_objects():1905
+[00m|L   0|2026/09/29,00:52:59.351916|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_299' Instance-ID:HandleKind<106>
+[00m|L   0|2026/09/29,00:52:59.352158|{host}| |T 0|0.000000| [00mManager::wait_for_registration_of_required_objects():2005
+REQUIRED-OBJECTS:4  Total-Objects:4
+  1:Object instance 'ExCO' (ID:HandleKind<101>) for class 'ExecutionConfiguration' is REQUIRED and is REGISTERED
+  2:Object instance 'SolarSystemBarycentricInertial' for class 'ReferenceFrame' is REQUIRED and is Not Registered
+  3:Object instance 'body_10' (ID:HandleKind<104>) for class 'ReferenceFrame' is REQUIRED and is REGISTERED
+  4:Object instance 'orbital_vessel' for class 'PhysicalEntity' is REQUIRED and is Not Registered
+[00m|L   2|2026/09/29,00:52:59.352683|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_299' with Instance-ID:HandleKind<106> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.354104|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_5' Instance-ID:HandleKind<110>
+[00m|L   2|2026/09/29,00:52:59.354640|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_5' with Instance-ID:HandleKind<110> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.355425|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_499' Instance-ID:HandleKind<109>
+[00m|L   2|2026/09/29,00:52:59.355854|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_499' with Instance-ID:HandleKind<109> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.356313|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'SolarSystemBarycentricInertial' Instance-ID:HandleKind<102>
+[00m|L   0|2026/09/29,00:52:59.356840|{host}| |T 0|0.000000| [00mManager::discover_object_instance():2652 Data-Object 'SolarSystemBarycentricInertial' Instance-ID:HandleKind<102>
+[00m|L   0|2026/09/29,00:52:59.357443|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_399' Instance-ID:HandleKind<108>
+[00m|L   2|2026/09/29,00:52:59.357862|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_399' with Instance-ID:HandleKind<108> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.358578|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_606' Instance-ID:HandleKind<111>
+[00m|L   2|2026/09/29,00:52:59.359171|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_606' with Instance-ID:HandleKind<111> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.360210|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_799' Instance-ID:HandleKind<113>
+[00m|L   2|2026/09/29,00:52:59.360705|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_799' with Instance-ID:HandleKind<113> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.361504|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_301' Instance-ID:HandleKind<107>
+[00m|L   2|2026/09/29,00:52:59.362038|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_301' with Instance-ID:HandleKind<107> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.362643|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'orbital_vessel' Instance-ID:HandleKind<103>
+[00m|L   0|2026/09/29,00:52:59.363222|{host}| |T 0|0.000000| [00mManager::wait_for_registration_of_required_objects():2005
+REQUIRED-OBJECTS:4  Total-Objects:4
+  1:Object instance 'ExCO' (ID:HandleKind<101>) for class 'ExecutionConfiguration' is REQUIRED and is REGISTERED
+  2:Object instance 'SolarSystemBarycentricInertial' (ID:HandleKind<102>) for class 'ReferenceFrame' is REQUIRED and is REGISTERED
+  3:Object instance 'body_10' (ID:HandleKind<104>) for class 'ReferenceFrame' is REQUIRED and is REGISTERED
+  4:Object instance 'orbital_vessel' for class 'PhysicalEntity' is REQUIRED and is Not Registered
+[00m|L   0|2026/09/29,00:52:59.363484|{host}| |T 0|0.000000| [00mManager::discover_object_instance():2652 Data-Object 'orbital_vessel' Instance-ID:HandleKind<103>
+[00m|L   0|2026/09/29,00:52:59.364718|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_8' Instance-ID:HandleKind<114>
+[00m|L   2|2026/09/29,00:52:59.365275|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_8' with Instance-ID:HandleKind<114> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.365862|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'body_699' Instance-ID:HandleKind<112>
+[00m|L   2|2026/09/29,00:52:59.366618|{host}| |T 0|0.000000| [33mFedAmb::discoverObjectInstance():676 Object 'body_699' with Instance-ID:HandleKind<112> is UNKNOWN to me!
+[00m|L   0|2026/09/29,00:52:59.374105|{host}| |T 0|0.000000| [00mManager::wait_for_registration_of_required_objects():2005
+REQUIRED-OBJECTS:4  Total-Objects:4
+  1:Object instance 'ExCO' (ID:HandleKind<101>) for class 'ExecutionConfiguration' is REQUIRED and is REGISTERED
+  2:Object instance 'SolarSystemBarycentricInertial' (ID:HandleKind<102>) for class 'ReferenceFrame' is REQUIRED and is REGISTERED
+  3:Object instance 'body_10' (ID:HandleKind<104>) for class 'ReferenceFrame' is REQUIRED and is REGISTERED
+  4:Object instance 'orbital_vessel' (ID:HandleKind<103>) for class 'PhysicalEntity' is REQUIRED and is REGISTERED
+[00m|L   0|2026/09/29,00:52:59.374829|{host}| |T 0|0.000000| [00mFederate::pre_multiphase_initialization():523
+     Completed pre-multiphase initialization...
+[00m|L   0|2026/09/29,00:52:59.375327|{host}| |T 0|0.000000| [00mManager::initialize():179
+[00m|L   0|2026/09/29,00:52:59.376049|{host}| |T 0|0.000000| [00mLRTreeBase::find_root():658 INFO: Root node found: 'SolarSystemBarycentricInertial'!
+[00m|L   0|2026/09/29,00:52:59.376570|{host}| |T 0|0.000000| [00mLRTreeBase::check_tree():250 INFO: Root node found: 'SolarSystemBarycentricInertial'!
+[00m|L   0|2026/09/29,00:52:59.377051|{host}| |T 0|0.000000| [00mLRTreeBase::check_tree():261 INFO: Parent 'SolarSystemBarycentricInertial' found for node 'body_10'!
+[00m|L   0|2026/09/29,00:52:59.377559|{host}| |T 0|0.000000| [00mRefFrameTree::print_tree():89
+[00mNode Name: 'SolarSystemBarycentricInertial'
+	ID: 0
+	Parent: <NULL>
+	Is Root: True
+Node Name: 'body_10'
+	ID: 1
+	Parent: 'SolarSystemBarycentricInertial'
+	Is Root: False
+LRTreeBase::print_paths: 
+paths[0][0]: 0
+paths[0][1]: 0 > 1
+paths[1][0]: 1 < 0
+paths[1][1]: 1
+|L   0|2026/09/29,00:52:59.384741|{host}| |T 0|0.000000| [00mManager::send_init_data():492 Late joining federate so this call will be ignored.
+[00m|L   0|2026/09/29,00:52:59.385309|{host}| |T 0|0.000000| [00mManager::receive_init_data():617 Late joining federate so this call will be ignored.
+[00m|L   0|2026/09/29,00:52:59.385713|{host}| |T 0|0.000000| [00mExecutionControlBase::clear_multiphase_init_sync_points():532 Late joining federate so this call will be ignored.
+[00m|L   0|2026/09/29,00:52:59.387752|{host}| |T 0|0.000000| [00mTimeManagementServices::setup_time_management():587 time_management:Yes time_regulating:Yes time_constrained:Yes
+[00m|L   0|2026/09/29,00:52:59.388255|{host}| |T 0|0.000000| [00mTimeManagementServices::setup_time_constrained()682 "orbital_8989": ENABLING TIME CONSTRAINED
+[00m|L   0|2026/09/29,00:52:59.391126|{host}| |T 0|0.000000| [00mFedAmb::timeConstrainedEnabled():1842 Federate "orbital_observer" Time granted to: 0
+[00m|L   0|2026/09/29,00:52:59.391636|{host}| |T 0|0.000000| [00mTimeManagementServices::set_time_constrained_enabled():654 TimeManagementServices "orbital_observer" Time granted to: 0
+[00m|L   0|2026/09/29,00:52:59.399923|{host}| |T 0|0.000000| [00mTimeManagementServices::setup_time_regulation():876 "orbital_8989": ENABLING TIME REGULATION WITH LOOKAHEAD = 0.015625 seconds.
+[00m|L   0|2026/09/29,00:52:59.415304|{host}| |T 0|0.000000| [00mFedAmb::timeRegulationEnabled():1829 Federate "orbital_observer"
+[00m|L   0|2026/09/29,00:52:59.415895|{host}| |T 0|0.000000| [00mTimeManagementServices::set_time_regulation_enabled():848 TimeManagementServices "orbital_observer" Time granted to: 0.390626
+[00m|L   0|2026/09/29,00:52:59.422258|{host}| |T 0|0.000000| [00mTimeManagementServices::time_advance_request_to_GALT_LCTS_multiple():573 Requested-Time:0.531250
+[00m|L   0|2026/09/29,00:52:59.422929|{host}| |T 0|0.000000| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.53125 seconds.
+[00m|L   0|2026/09/29,00:52:59.424350|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::post_multi_phase_init_processes()
+     current_scenario_time: 7529673600.53143024
+       scenario_time_epoch: 7529673600.00018024
+ scenario_time_epoch(ExCO): 7529673600.00018024
+  scenario_time_sim_offset: 0.53125
+    Current HLA grant time: 0.390625999999999973
+  Current HLA request time: 0.53125
+          current_sim_time: 0
+     simulation_time_epoch: 0
+[00m|L   0|2026/09/29,00:52:59.424855|{host}| |T 0|0.000000| [00mFederate::post_multiphase_initialization():553
+     Simulation has started and is now running...
+[00m|L   0|2026/09/29,00:52:59.425704|{host}| |T 0|0.000000| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.53125 seconds.
+[00m|L   0|2026/09/29,00:52:59.432665|{host}| |T 0|0.000000| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.53125 seconds.
+[00m|L   0|2026/09/29,00:52:59.435274|{host}| |T 0|0.000000| [00mManager::receive_cyclic_data():2419
+[00m|L   0|2026/09/29,00:52:59.435768|{host}| |T 0|0.000000| [00m
+=============================================================
+SpaceFOM::ExecutionConfiguration::unpack():307
+        Current Scenario Time: 7529673600.53143024 (7529673600531430)
+      Current Simulation Time: 0 (0)
+     Current HLA Granted Time: 0.53125 (531250)
+   Current HLA Requested Time: 0.53125 (531250)
+.............................................................
+                  Object-Name: 'ExCO'
+              root_frame_name: 'SolarSystemBarycentricInertial'
+          scenario_time_epoch: 7529673600.00018024
+      next_mode_scenario_time: 7529673600.00018024
+           next_mode_cte_time: -1.79769313486231571e+308
+       current_execution_mode: EXEC_MODE_RUNNING
+          next_execution_mode: EXEC_MODE_RUNNING
+       least_common_time_step: 15625 (unit:microseconds)
+=============================================================
+[00m|L   0|2026/09/29,00:52:59.436238|{host}| |T 0|0.000000| [00mRefFrameBase::unpack():585
+	Object-Name: 'body_10'
+	time:   7529673600.10956
+	name:   'body_10'
+	parent: 'SolarSystemBarycentricInertial'
+	position: 		405242425.635357, 		-330330653.411759, 		-140563566.266515
+
+# ... trimmed startup body ...
+
+75429:[00m|L   3|2026/09/29,00:53:09.610733|{host}| |T 0|28.325000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75511:[00m|L   3|2026/09/29,00:53:09.622016|{host}| |T 0|28.350000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75552:[00m|L   3|2026/09/29,00:53:09.627484|{host}| |T 0|28.375000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75634:[00m|L   3|2026/09/29,00:53:09.639123|{host}| |T 0|28.400000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75716:[00m|L   3|2026/09/29,00:53:09.649998|{host}| |T 0|28.425000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75757:[00m|L   3|2026/09/29,00:53:09.655310|{host}| |T 0|28.450000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75839:[00m|L   3|2026/09/29,00:53:09.666921|{host}| |T 0|28.475000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75880:[00m|L   3|2026/09/29,00:53:09.673074|{host}| |T 0|28.500000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+75962:[00m|L   3|2026/09/29,00:53:09.684977|{host}| |T 0|28.525000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76044:[00m|L   3|2026/09/29,00:53:09.695585|{host}| |T 0|28.550000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76085:[00m|L   3|2026/09/29,00:53:09.701127|{host}| |T 0|28.575000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76167:[00m|L   3|2026/09/29,00:53:09.711821|{host}| |T 0|28.600000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76208:[00m|L   3|2026/09/29,00:53:09.716864|{host}| |T 0|28.625000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76290:[00m|L   3|2026/09/29,00:53:09.727662|{host}| |T 0|28.650000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76372:[00m|L   3|2026/09/29,00:53:09.737983|{host}| |T 0|28.675000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76413:[00m|L   3|2026/09/29,00:53:09.743041|{host}| |T 0|28.700000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76495:[00m|L   3|2026/09/29,00:53:09.753402|{host}| |T 0|28.725000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76536:[00m|L   3|2026/09/29,00:53:09.758710|{host}| |T 0|28.750000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76618:[00m|L   3|2026/09/29,00:53:09.770248|{host}| |T 0|28.775000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76700:[00m|L   3|2026/09/29,00:53:09.781586|{host}| |T 0|28.800000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76741:[00m|L   3|2026/09/29,00:53:09.787883|{host}| |T 0|28.825000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76823:[00m|L   3|2026/09/29,00:53:09.799081|{host}| |T 0|28.850000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76864:[00m|L   3|2026/09/29,00:53:09.804315|{host}| |T 0|28.875000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+76946:[00m|L   3|2026/09/29,00:53:09.815416|{host}| |T 0|28.900000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77028:[00m|L   3|2026/09/29,00:53:09.826860|{host}| |T 0|28.925000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77069:[00m|L   3|2026/09/29,00:53:09.832447|{host}| |T 0|28.950000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77151:[00m|L   3|2026/09/29,00:53:09.843776|{host}| |T 0|28.975000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77192:[00m|L   3|2026/09/29,00:53:09.849581|{host}| |T 0|29.000000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77274:[00m|L   3|2026/09/29,00:53:09.860762|{host}| |T 0|29.025000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77356:[00m|L   3|2026/09/29,00:53:09.872919|{host}| |T 0|29.050000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77397:[00m|L   3|2026/09/29,00:53:09.878921|{host}| |T 0|29.075000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77479:[00m|L   3|2026/09/29,00:53:09.891874|{host}| |T 0|29.100000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77520:[00m|L   3|2026/09/29,00:53:09.897600|{host}| |T 0|29.125000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77602:[00m|L   3|2026/09/29,00:53:09.909080|{host}| |T 0|29.150000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77684:[00m|L   3|2026/09/29,00:53:09.920232|{host}| |T 0|29.175000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77725:[00m|L   3|2026/09/29,00:53:09.926052|{host}| |T 0|29.200000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77807:[00m|L   3|2026/09/29,00:53:09.937455|{host}| |T 0|29.225000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77848:[00m|L   3|2026/09/29,00:53:09.943037|{host}| |T 0|29.250000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+77930:[00m|L   3|2026/09/29,00:53:09.954485|{host}| |T 0|29.275000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78012:[00m|L   3|2026/09/29,00:53:09.965829|{host}| |T 0|29.300000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78053:[00m|L   3|2026/09/29,00:53:09.971967|{host}| |T 0|29.325000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78135:[00m|L   3|2026/09/29,00:53:09.983040|{host}| |T 0|29.350000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78176:[00m|L   3|2026/09/29,00:53:09.988135|{host}| |T 0|29.375000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78258:[00m|L   3|2026/09/29,00:53:09.998862|{host}| |T 0|29.400000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78340:[00m|L   3|2026/09/29,00:53:10.009243|{host}| |T 0|29.425000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78381:[00m|L   3|2026/09/29,00:53:10.014285|{host}| |T 0|29.450000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78428:        Current Scenario Time: 7529673630.00018024 (7529673630000180)
+78436:      next_mode_scenario_time: 7529673630.00018024
+78438:       current_execution_mode: EXEC_MODE_RUNNING
+78439:          next_execution_mode: EXECUTION_MODE_FREEZE
+78446:	 scenario_time_sim_offset:  0.53125
+78447:	 current_sim_time:          29.46875
+78449:	 next_mode_scenario_time:   7529673630.00018024
+78452:	 simulation_freeze_time:    29.46875
+78454:[00m|L   3|2026/09/29,00:53:10.021857|{host}| |T 0|29.468750| [31mFreeze time specified in the past. specified 29.468750, current_time 29.468750
+78487:[00m|L   0|2026/09/29,00:53:10.023321|{host}| |T 0|29.468750| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_freeze'
+78495:[00m|L   3|2026/09/29,00:53:10.027465|{host}| |T 0|29.475000| [31mInteg Scheduler ERROR: Integrate job has no associated Integrator.
+78498:[00m|L   0|2026/09/29,00:53:41.526082|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<101> Valid-ID:Yes
+78504:   3/7 FOM-Attribute:'next_mode_scenario_time' Trick-Name:'THLA.ExCO.next_mode_scenario_time' locally_owned: No
+78509:[00m|L   2|2026/09/29,00:53:41.527485|{host}| |T 0|29.484375| [33mSpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2441 WARNING: This Federate 'orbital_observer' detected a Execution Configuration Object (ExCO) deleted from the RTI for the 'orbital_8989' Federation.
+78511:[00m|L   0|2026/09/29,00:53:41.528374|{host}| |T 0|29.484375| [00mFederate::shutdown():3397
+78512:[00m|L   0|2026/09/29,00:53:41.529414|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<102> Valid-ID:Yes
+78513:[00m|L   0|2026/09/29,00:53:41.529726|{host}| |T 0|29.484375| [00mTimeManagementServices::shutdown_time_constrained():1519 Disabling HLA Time Constrained.
+78520:[00m|L   0|2026/09/29,00:53:41.531730|{host}| |T 0|29.484375| [00mTimeManagementServices::shutdown_time_regulating():1581 Disabling HLA Time Regulation.
+78522:[00m|L   0|2026/09/29,00:53:41.533068|{host}| |T 0|29.484375| [00mFederate::resign():3513 Attempting to resign from Federation 'orbital_8989'
+78523:[00m|L   0|2026/09/29,00:53:41.533257|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<103> Valid-ID:Yes
+78537:[00m|L   0|2026/09/29,00:53:41.535625|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<104> Valid-ID:Yes
+78545:[00m|L   0|2026/09/29,00:53:41.537729|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<105> Valid-ID:Yes
+78546:[00m|L   0|2026/09/29,00:53:41.538266|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<106> Valid-ID:Yes
+78547:[00m|L   0|2026/09/29,00:53:41.538749|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<107> Valid-ID:Yes
+78548:[00m|L   0|2026/09/29,00:53:41.539201|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<108> Valid-ID:Yes
+78549:[00m|L   0|2026/09/29,00:53:41.539807|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<109> Valid-ID:Yes
+78550:[00m|L   0|2026/09/29,00:53:41.540323|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<110> Valid-ID:Yes
+78551:[00m|L   0|2026/09/29,00:53:41.540940|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<111> Valid-ID:Yes
+78552:[00m|L   0|2026/09/29,00:53:41.541464|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<112> Valid-ID:Yes
+78553:[00m|L   0|2026/09/29,00:53:41.542003|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<113> Valid-ID:Yes
+78554:[00m|L   0|2026/09/29,00:53:41.542533|{host}| |T 0|29.484375| [00mFedAmb::removeObjectInstance():1063 Instance-ID:HandleKind<114> Valid-ID:Yes
+78555:[00m|L   0|2026/09/29,00:53:41.547408|{host}| |T 0|29.484375| [00mFederate::resign():3523 Resigned from Federation 'orbital_8989'
+78560:[00m|L   3|2026/09/29,00:53:42.061583|{host}| |T 0|29.484375| [31mSpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2441 WARNING: This Federate 'orbital_observer' detected a Execution Configuration Object (ExCO) deleted from the RTI for the 'orbital_8989' Federation.
+78569:  DIAGNOSTIC: SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2441 WARNING: This Federate 'orbital_observer' detected a Execution Configuration Object (ExCO) deleted from the RTI for the 'orbital_8989' Federation.
+
+# ... end of trimmed view ...
+               SYSTEM CPU TIME USED:        4.494
+              SIMULATION / CPU TIME:        2.354
+       INITIALIZATION USER CPU TIME:        2.834
+     INITIALIZATION SYSTEM CPU TIME:        0.300
+               SIMULATION RAM USAGE:      284.844MB
+      (External program RAM usage not included!)
+  VOLUNTARY CONTEXT SWITCHES (INIT):         8731
+INVOLUNTARY CONTEXT SWITCHES (INIT):           14
+   VOLUNTARY CONTEXT SWITCHES (RUN):       391763
+ INVOLUNTARY CONTEXT SWITCHES (RUN):           85
+
+[00m

@@ -1,0 +1,39 @@
+{
+  "schema": "independent-reference-receipt-v1",
+  "case": "moon-orbit",
+  "steps_per_second": 64,
+  "reference": "analytic universal-variable two-body",
+  "duration_seconds": 7200.0,
+  "sample_count": 7201,
+  "sample_interval_seconds": 1,
+  "complete_declared_sample_coverage": true,
+  "sample_scope": "exported samples only; no assertion about extrema between samples",
+  "thresholds": {
+    "max_position_error_m": 0.1,
+    "max_velocity_error_m_s": 0.0001,
+    "max_relative_conservation_drift": 2e-06,
+    "mass_error_kg": 1e-09
+  },
+  "metrics": {
+    "max_relative_energy_drift": 5.551115123125783e-16,
+    "max_relative_angular_momentum_drift": 2.220446049250313e-16,
+    "conservation_pass": true,
+    "max_position_error_m": 0.0007758902137283504,
+    "max_velocity_error_m_s": 6.632833283062848e-07,
+    "rms_position_error_m": 0.000508525489143893,
+    "final_position_error_m": 0.0007356530122617413,
+    "final_velocity_error_m_s": 6.632833283062848e-07,
+    "position_pass": true,
+    "velocity_pass": true,
+    "pass": true
+  },
+  "identities": {
+    "initial_sha256": "cef1e04f33c86287569328b6536eaeb286d5701ece15767693deaa9fc02a3e86",
+    "samples_sha256": "c144e9bcaa0282e0354ee30903dd56aa09019d172b18a00897fa75770ccdf97b",
+    "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b"
+  },
+  "runtime": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

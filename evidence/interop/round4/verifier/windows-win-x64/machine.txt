@@ -1,0 +1,6 @@
+Machine: AMD Ryzen 9 5900X 12-Core Processor, 48 GB
+Operating system: Windows 11, version 10.0.26200.9168
+Runtime: .NET 10.0.12 (bundled self-contained runtime of the package)
+Package: iss-verify-9e44426-win-x64.zip, sha256 d01b7f2579f8ac4956686433e60ef76c48e09148174c6459fea0332a7d548433
+Run: quick then full, receipt written to receipt.json
+Result: pass, 12,547 states in the quick run and all 1,497,350 states in the full run

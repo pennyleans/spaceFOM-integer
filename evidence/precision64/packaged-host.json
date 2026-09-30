@@ -1,0 +1,32 @@
+{
+  "schema": "precision-packaged-host-v1",
+  "exit": 0,
+  "controls_hz": 64,
+  "substeps": 8,
+  "reset_preserved_setting": true,
+  "moon_scenario_preserved_setting": true,
+  "captures": [
+    {
+      "sequence": "3",
+      "tick": "64",
+      "endpoint_sha256": "b2996da7035fe2b2e9204c98fe4ee815bc55ca801fe88ba332f681eff00e4d75",
+      "substeps": 8
+    },
+    {
+      "sequence": "5",
+      "tick": "0",
+      "endpoint_sha256": "5f7777be94dd3675302f06b3af38a5084b57e33d3406d90cec0673288aa07d8a",
+      "substeps": 8
+    },
+    {
+      "sequence": "7",
+      "tick": "0",
+      "endpoint_sha256": "f86292c6faf50422509c7b400f809ce289b3235e3ce3c8da9cf160352ec0d131",
+      "substeps": 8
+    }
+  ],
+  "package_id": "6870bc0ca8e1c49890c1a93b00168853d7fc212befacbd9007a3daaa7558f2ec",
+  "source_identity": "9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f",
+  "exe_sha256": "3233ac1c4ebe06220441deba1590f796bd7b3e3f57c3054502863618b59cc5f2",
+  "scope": "self-contained published host, pipe protocol and packaged data; no visible engine launched"
+}

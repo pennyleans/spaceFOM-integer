@@ -1,0 +1,59 @@
+|L   0|2026/09/28,23:05:02.582533|{host}| |T 0|0.000000| [00mFederate::print_version():227
+     TrickHLA-version:'v3.2.2'
+TrickHLA-release-date:'2026-04-01'
+             RTI-name:'pRTI Evolved'
+          RTI-version:'5.5.10'
+[00m|L   2|2026/09/28,23:05:02.583419|{host}| |T 0|0.000000| [33mSpaceFOM::ExecutionControl::set_least_common_time_step():3036 This is not a Master federate so this setting will be ignored.
+[00m|L   0|2026/09/28,23:05:02.583923|{host}| |T 0|0.000000| [00mTimeManagementServices::initialize_thread_state():157 Trick main thread (id:0, data_cycle:0.016).
+[00m|L   0|2026/09/28,23:05:02.584670|{host}| |T 0|0.000000| [00mTrickThreadCoordinator::initialize_thread_coordinator():346 Trick main thread (id:0, data_cycle:0.015625000).
+[00m|L   0|2026/09/28,23:05:02.585562|{host}| |T 0|0.000000| [00mTrickThreadCoordinator::verify_trick_thread_associations():689
+[00m|L   0|2026/09/28,23:05:02.586534|{host}| |T 0|0.000000| [00mFederate::initialize():388 Federate:"orbital_other" Type:"True"
+[00m|L   0|2026/09/28,23:05:02.586975|{host}| |T 0|0.000000| [00mFedAmb::initialize():157 Federate:"orbital_other"
+[00m|L   0|2026/09/28,23:05:02.587381|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::initialize():193 Initialization-Scheme:'SpaceFOM'
+[00m|L   0|2026/09/28,23:05:02.587854|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'ExCO' FOM_name:'ExecutionConfiguration' create_HLA_instance:False
+[00m|L   0|2026/09/28,23:05:02.588209|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::initialize():255
+    I AM NOT THE PRESET MASTER
+[00m|L   0|2026/09/28,23:05:02.588588|{host}| |T 0|0.000000| [00mFederate::restart_initialization():410
+[00m|L   0|2026/09/28,23:05:02.588967|{host}| |T 0|0.000000| [00mTimeManagementServices::restart_initialization():184
+[00m|L   0|2026/09/28,23:05:02.589503|{host}| |T 0|0.000000| [00mManager::setup_all_ref_attributes():1061
+[00m|L   0|2026/09/28,23:05:02.589922|{host}| |T 0|0.000000| [00mManager::setup_object_ref_attributes():1110
+[00m|L   0|2026/09/28,23:05:02.590300|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'ExCO' FOM_name:'ExecutionConfiguration' create_HLA_instance:False
+[00m|L   0|2026/09/28,23:05:02.590814|{host}| |T 0|0.000000| [00mManager::setup_object_ref_attributes():1110
+[00m|L   0|2026/09/28,23:05:02.591290|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'SolarSystemBarycentricInertial' FOM_name:'ReferenceFrame' create_HLA_instance:False
+[00m|L   0|2026/09/28,23:05:02.591853|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'body_10' FOM_name:'ReferenceFrame' create_HLA_instance:False
+[00m|L   0|2026/09/28,23:05:02.592296|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'orbital_vessel' FOM_name:'PhysicalEntity' create_HLA_instance:False
+[00m|L   0|2026/09/28,23:05:02.592823|{host}| |T 0|0.000000| [00mManager::setup_interaction_ref_attributes():1168
+[00m|L   0|2026/09/28,23:05:02.593300|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::setup_interaction_ref_attributes():374 FOM-Parameter:'execution_mode' NOTE: This is an auto-generated parameter so there is no associated 'Trick-Name'.
+[00m|L   0|2026/09/28,23:05:02.593784|{host}| |T 0|0.000000| [00mFederate::create_RTI_ambassador_and_connect():619 Local settings designator for RTI connection:'crcHost = {crc-host}
+ crcPort = 8989'
+[00mWelcome to Pitch pRTI Free. Note that it is limited to two federates. 
+It may only be used for learning and testing purposes.
+No production or commercial development use allowed.
+Please read the End User License Agreement for more info.
+|L   0|2026/09/28,23:05:03.065349|{host}| |T 0|0.000000| [00mFederate::create_federation():2581 Attempting to create Federation 'orbital_8989'
+[00m|L   0|2026/09/28,23:05:03.068823|{host}| |T 0|0.000000| [00mFederate::create_federation():2636 Federation already exists for 'orbital_8989'
+[00m|L   0|2026/09/28,23:05:03.069618|{host}| |T 0|0.000000| [00mFederate::join_federation():2803 Attempting to Join Federation 'orbital_8989'
+[00m|L   3|2026/09/28,23:05:03.095534|{host}| |T 0|0.000000| [31mFederate::join_federation():2949 ERROR: Federate 'orbital_other' for Federation 'orbital_8989' encountered RTI Internal Error: No available pRTI federate seats
+[00m|L   0|2026/09/28,23:05:04.587005|{host}| |T 0|0.000000| [00m
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: {work}/TrickHLA/source/TrickHLA/DebugHandler.cpp:0
+  DIAGNOSTIC: Federate::join_federation():2949 ERROR: Federate 'orbital_other' for Federation 'orbital_8989' encountered RTI Internal Error: No available pRTI federate seats
+
+
+              SIMULATION START TIME:        0.000
+               SIMULATION STOP TIME:        0.000
+            SIMULATION ELAPSED TIME:        0.000
+                 USER CPU TIME USED:        2.715
+               SYSTEM CPU TIME USED:        0.291
+              SIMULATION / CPU TIME:        0.000
+       INITIALIZATION USER CPU TIME:        0.000
+     INITIALIZATION SYSTEM CPU TIME:        0.000
+               SIMULATION RAM USAGE:      187.648MB
+      (External program RAM usage not included!)
+  VOLUNTARY CONTEXT SWITCHES (INIT):            0
+INVOLUNTARY CONTEXT SWITCHES (INIT):            0
+   VOLUNTARY CONTEXT SWITCHES (RUN):         4088
+ INVOLUNTARY CONTEXT SWITCHES (RUN):           11
+
+[00m

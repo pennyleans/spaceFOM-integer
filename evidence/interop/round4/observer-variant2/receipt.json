@@ -1,0 +1,12 @@
+{
+  "check": "diagnostic publisher adding the second ExCO update and a repeat of the initial data in the multiphase window",
+  "publisher": "scratch build of native/spacefom/publisher.cpp with the two diagnostic additions described in qualification/trickhla/publisher-multiphase-diag.cpp",
+  "publisher_exit": 0,
+  "trickhla_exit": 0,
+  "join_classification": "early joining federate",
+  "sync_points": "objects_discovered, root_frame_discovered, prototype_metadata, initialization_started, mtr_run, mtr_freeze and mtr_shutdown all announced; objects_discovered, root_frame_discovered, prototype_metadata, initialization_started, mtr_freeze and mtr_run synchronized",
+  "freeze": "followed at the announced time: scenario freeze 7529673630.00018024, simulation freeze time 30, Freeze ON at 30.000000, about 240 ms hold, Freeze OFF",
+  "resume": "followed (mtr_run synchronized after the freeze)",
+  "shutdown": "followed (mtr_shutdown announced at 60.0, clean resignation)",
+  "states_compared": "orbital_vessel 3841 of 3841 and body_10 3841 of 3841 updates, all fourteen fields bit for bit, no missing ticks; root frame single update 14 of 14 fields"
+}

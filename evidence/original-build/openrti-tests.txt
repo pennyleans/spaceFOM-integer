@@ -1,0 +1,61 @@
+Test project {work}/transport/openrti-build
+      Start  1: OpenRTI/socketaddress
+ 1/28 Test  #1: OpenRTI/socketaddress ............   Passed    0.02 sec
+      Start  2: OpenRTI/url
+ 2/28 Test  #2: OpenRTI/url ......................   Passed    0.01 sec
+      Start  3: OpenRTI/threads-1
+ 3/28 Test  #3: OpenRTI/threads-1 ................   Passed    0.30 sec
+      Start  4: rti1516e/encode-1516e
+ 4/28 Test  #4: rti1516e/encode-1516e ............   Passed    0.38 sec
+      Start  5: rti1516e/fddget-1516e-1
+ 5/28 Test  #5: rti1516e/fddget-1516e-1 ..........   Passed    0.02 sec
+      Start  6: rti1516e/fddget-1516e-2
+ 6/28 Test  #6: rti1516e/fddget-1516e-2 ..........   Passed    0.01 sec
+      Start  7: rti1516e/fddget-1516e-3
+ 7/28 Test  #7: rti1516e/fddget-1516e-3 ..........   Passed    0.01 sec
+      Start  8: rti1516e/fddget-1516e-4
+ 8/28 Test  #8: rti1516e/fddget-1516e-4 ..........   Passed    0.01 sec
+      Start  9: rti1516e/fddget-1516e-5
+ 9/28 Test  #9: rti1516e/fddget-1516e-5 ..........   Passed    0.01 sec
+      Start 10: rti1516e/fddget-1516e-6
+10/28 Test #10: rti1516e/fddget-1516e-6 ..........   Passed    0.02 sec
+      Start 11: rti1516e/fddget-1516e-7
+11/28 Test #11: rti1516e/fddget-1516e-7 ..........   Passed    0.02 sec
+      Start 12: rti1516e/fddget-1516e-11
+12/28 Test #12: rti1516e/fddget-1516e-11 .........   Passed    0.02 sec
+      Start 13: rti1516e/fddget-1516e-12
+13/28 Test #13: rti1516e/fddget-1516e-12 .........   Passed    0.02 sec
+      Start 14: rti1516e/fddget-1516e-13
+14/28 Test #14: rti1516e/fddget-1516e-13 .........   Passed    0.02 sec
+      Start 15: rti1516e/fddget-1516e-14
+15/28 Test #15: rti1516e/fddget-1516e-14 .........   Passed    0.01 sec
+      Start 16: rti1516e/fddget-1516e-15
+16/28 Test #16: rti1516e/fddget-1516e-15 .........   Passed    0.02 sec
+      Start 17: rti1516e/fddget-1516e-16
+17/28 Test #17: rti1516e/fddget-1516e-16 .........   Passed    0.02 sec
+      Start 18: rti1516e/fddget-1516e-17
+18/28 Test #18: rti1516e/fddget-1516e-17 .........   Passed    0.02 sec
+      Start 19: rti1516e/fddget-1516e-20
+19/28 Test #19: rti1516e/fddget-1516e-20 .........   Passed    0.02 sec
+      Start 20: rti1516e/logical-time-1516e-1
+20/28 Test #20: rti1516e/logical-time-1516e-1 ....   Passed    0.40 sec
+      Start 21: rti1516e/logical-time-1516e-2
+21/28 Test #21: rti1516e/logical-time-1516e-2 ....   Passed    0.39 sec
+      Start 22: rti1516e/logical-time-1516e-3
+22/28 Test #22: rti1516e/logical-time-1516e-3 ....   Passed    0.01 sec
+      Start 23: rti1516e/modules-1516e-5
+23/28 Test #23: rti1516e/modules-1516e-5 .........   Passed    2.48 sec
+      Start 24: rti1516e/modules-1516e-6
+24/28 Test #24: rti1516e/modules-1516e-6 .........   Passed    0.87 sec
+      Start 25: rti1516e/modules-1516e-7
+25/28 Test #25: rti1516e/modules-1516e-7 .........   Passed    1.33 sec
+      Start 26: rti1516e/modules-1516e-8
+26/28 Test #26: rti1516e/modules-1516e-8 .........   Passed    1.17 sec
+      Start 27: rti1516e/modules-1516e-9
+27/28 Test #27: rti1516e/modules-1516e-9 .........   Passed    1.80 sec
+      Start 28: rti1516e/modules-1516e-10
+28/28 Test #28: rti1516e/modules-1516e-10 ........   Passed    2.53 sec
+
+100% tests passed out of 28
+
+Total Test time (real) =  12.04 sec

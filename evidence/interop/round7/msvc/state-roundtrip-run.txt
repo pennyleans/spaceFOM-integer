@@ -1,0 +1,9 @@
+pass observer state re-encodes to the saved bytes (3060732 bytes)
+pass observer returns to the saved tick
+pass frames after the save are kept for comparison
+pass truncated observer state refused
+pass extended observer state refused
+pass observer state for another recording refused
+pass publisher state re-encodes to the saved bytes (38 bytes)
+pass truncated publisher state refused
+all checks passed

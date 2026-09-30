@@ -1,0 +1,16 @@
+[
+  {
+    "case": "earth-orbit-64",
+    "initial_conic_period_seconds": 5553.624315090829,
+    "duration_seconds": 6000.0,
+    "complete_orbits": 1.0803755637010297,
+    "at_least_one_complete_orbit": true
+  },
+  {
+    "case": "moon-orbit-64",
+    "initial_conic_period_seconds": 7067.459765782938,
+    "duration_seconds": 7200.0,
+    "complete_orbits": 1.0187535887871275,
+    "at_least_one_complete_orbit": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "case": "lunar-fixture",
+    "rate": 64,
+    "exit": 0,
+    "wall_seconds": 6.52619059999779
+  },
+  {
+    "case": "lunar-fixture",
+    "rate": 128,
+    "exit": 0,
+    "wall_seconds": 11.601682299999084
+  },
+  {
+    "case": "inertial-burn",
+    "rate": 64,
+    "exit": 0,
+    "wall_seconds": 1.4735876000013377
+  },
+  {
+    "case": "inertial-burn",
+    "rate": 128,
+    "exit": 0,
+    "wall_seconds": 1.8812480999986292
+  },
+  {
+    "case": "earth-orbit",
+    "rate": 64,
+    "exit": 0,
+    "wall_seconds": 20.631745099999534
+  },
+  {
+    "case": "earth-orbit",
+    "rate": 128,
+    "exit": 0,
+    "wall_seconds": 39.22317180000027
+  },
+  {
+    "case": "moon-orbit",
+    "rate": 64,
+    "exit": 0,
+    "wall_seconds": 23.182323600001837
+  },
+  {
+    "case": "moon-orbit",
+    "rate": 128,
+    "exit": 0,
+    "wall_seconds": 44.06782409999869
+  }
+]

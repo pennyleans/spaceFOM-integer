@@ -1,0 +1,73 @@
+[
+
+  {
+
+    "exit": 1,
+
+    "rejected_before_connection": true,
+
+    "expected": "spool magic mismatch",
+
+    "name": "bad_magic"
+
+  },
+
+  {
+
+    "exit": 1,
+
+    "rejected_before_connection": true,
+
+    "expected": "ticks must be contiguous",
+
+    "name": "skipped_tick"
+
+  },
+
+  {
+
+    "exit": 1,
+
+    "rejected_before_connection": true,
+
+    "expected": "nonfinite state",
+
+    "name": "nonfinite_state"
+
+  },
+
+  {
+
+    "exit": 1,
+
+    "rejected_before_connection": true,
+
+    "expected": "quaternion not normalized",
+
+    "name": "invalid_quaternion"
+
+  },
+
+  {
+
+    "exit": 1,
+
+    "rejected_before_connection": true,
+
+    "expected": "state time disagrees",
+
+    "name": "wrong_time"
+
+  },
+
+  {
+
+    "exit": 1,
+
+    "unchanged": true,
+
+    "name": "existing_observer_output"
+
+  }
+
+]

@@ -1,0 +1,20 @@
+{
+  "schema": "linux-latejoin-identities-v1",
+  "with-update-requests": {
+    "publisher.cpp": "0def379e61199c89c7489a571f05d74b29e59406c7f1d2eca05ad6bcd68340e5",
+    "transport.hpp": "f8ced66b1084743a7fc7d0dc8831edef063ba6294fd185f95528462356c85e96",
+    "observer.cpp": "93c714e6271d88f399c52bdf0808cc36e0899d6320e1709191446af9c0a3ffde"
+  },
+  "control-previous-publisher": {
+    "publisher.cpp": "1b3fa6aa1dde9fbdd6a872317a70699aee5a6ecb0b418ff4baa75de9803406cb",
+    "transport.hpp": "2f5824178fa84d9a9a778ca2015c47aa92310b006cd9d01eda899c32f7e49169"
+  },
+  "probe": {
+    "latejoin.cpp": "a9371c0a1dc47ccdcbe7ecc26f8a828a97aae9a65519208a60604375725984bc",
+    "run-latejoin.sh": "1f31c52322400cc8d5cba351228d2fc47fb2e9fb983927e8663a1eca39afd3c8"
+  },
+  "recording": {
+    "data/published-icrf.sf": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade"
+  },
+  "rti": "OpenRTI 6e31e0cd50de1852813a98679e8731ad2c97e54b, Linux x86-64, GCC 13.3"
+}

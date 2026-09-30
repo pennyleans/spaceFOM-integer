@@ -1,0 +1,39 @@
+{
+  "schema": "independent-reference-receipt-v1",
+  "case": "lunar-fixture",
+  "steps_per_second": 128,
+  "reference": "independent mutual point-mass RK4, h=0.125 s; refinement h=0.25 s",
+  "duration_seconds": 60.0,
+  "sample_count": 61,
+  "sample_interval_seconds": 1,
+  "complete_declared_sample_coverage": true,
+  "sample_scope": "exported samples only; no assertion about extrema between samples",
+  "thresholds": {
+    "max_position_error_m": 0.1,
+    "max_velocity_error_m_s": 0.0001,
+    "max_relative_conservation_drift": 2e-06,
+    "mass_error_kg": 1e-09
+  },
+  "metrics": {
+    "reference_refinement_max_position_m": 2.328306436539755e-10,
+    "reference_refinement_max_velocity_m_s": 7.105427358130397e-14,
+    "reference_refinement_pass": true,
+    "max_position_error_m": 7.873428814769344e-07,
+    "max_velocity_error_m_s": 3.51722576992223e-10,
+    "rms_position_error_m": 4.5656205789646913e-07,
+    "final_position_error_m": 7.873428814769344e-07,
+    "final_velocity_error_m_s": 3.51722576992223e-10,
+    "position_pass": true,
+    "velocity_pass": true,
+    "pass": true
+  },
+  "identities": {
+    "initial_sha256": "b6538c8001ced63301dcf5716de077d7cd545878cbc2fadb1df225f759f26499",
+    "samples_sha256": "2ab3f0ecebe96c90f1fa38f820e425c32ef2694d7ef35cb5fb42108c09dee159",
+    "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b"
+  },
+  "runtime": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

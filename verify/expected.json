@@ -1,0 +1,46 @@
+{
+  "schema": "2207-verify-expected-v1",
+  "source_identity": "9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f",
+  "outer_hz": 64,
+  "integration_substep_power": 3,
+  "sources": [
+    "evidence/precision64/cross-device-physical.json",
+    "evidence/precision64/cross-device-session-final.json"
+  ],
+  "scenarios": [
+    {
+      "name": "earth-orbit",
+      "seconds": 6000,
+      "states": 384001,
+      "digest_stream_sha256": "27b76c00c84bd0c7c48e94ce5e25b1f41ab9f2550663dc305c03b8a1fd021aaf"
+    },
+    {
+      "name": "moon-orbit",
+      "seconds": 7200,
+      "states": 460801,
+      "digest_stream_sha256": "c5f30dae0001537615d9b14e0b46ac341c33015dff6020e5525b1a430e6447f3"
+    },
+    {
+      "name": "inertial-burn",
+      "seconds": 120,
+      "states": 7681,
+      "digest_stream_sha256": "533cfe6563267a131ab4c785b7fe81b238be75d25f30cdf873fb26cd4163171a"
+    },
+    {
+      "name": "lunar-fixture",
+      "seconds": 60,
+      "states": 3841,
+      "digest_stream_sha256": "a9f206f5bda9cfcfc30d9b944ae4eafdeccf06105b1c3bbd280a99d73a5fd3de"
+    },
+    {
+      "name": "earth-eccentric-inclined",
+      "seconds": 10000,
+      "states": 640001,
+      "digest_stream_sha256": "af7ae48cde4110f20233b55467f05faae8b49576a8a3885db9f75881ca270839"
+    }
+  ],
+  "session": {
+    "records": 1025,
+    "record_stream_sha256": "a4046b8fafaadf2b6f41230e0feb5bcb74527a50cd9704b64bc7955fc5c68651"
+  }
+}

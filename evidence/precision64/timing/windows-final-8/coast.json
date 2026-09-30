@@ -1,0 +1,22 @@
+{
+  "schema": "precision-full-session-timing-v1",
+  "substeps": 8,
+  "workload": "coast",
+  "warmup_ticks": 1024,
+  "measured_ticks": 8192,
+  "runtime": ".NET 10.0.12",
+  "architecture": "X64",
+  "os": "Microsoft Windows 10.0.26200",
+  "mean_ms": 4.57183212890625,
+  "p95_ms": 5.0758,
+  "p99_ms": 6.4637,
+  "p999_ms": 7.3615,
+  "max_ms": 9.0768,
+  "over_budget_ticks": 0,
+  "max_64_tick_work_ms": 342.8746,
+  "cpu_headroom_gate": true,
+  "qualification_length": true,
+  "lastHash": "a14b6b22458a46b48c5fb9d301bf49896beb83c7ec031db509f6113d469345bc",
+  "lastViewBytes": 16278,
+  "scope": "single peer Candidate clone/restore, coupled 11-body dynamics, full canonical serialization and SHA256, reference-view calculation and JSON serialization every tick; excludes GPU, transport wait and evidence disk IO"
+}

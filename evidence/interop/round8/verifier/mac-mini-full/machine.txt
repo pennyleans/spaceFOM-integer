@@ -1,0 +1,12 @@
+Machine: Apple M4, 24 GB, arm64
+Operating system: macOS 26.6.1 (build 25G76)
+Runtime: .NET 10.0.12 (bundled self-contained runtime of the package)
+Package: 2207-verify-9e44426-osx-arm64.tar.gz (folder layout), sha256
+13f1602c2a14209288b97de9ed9704946a8794dbf23f8a57e7755fb39f3c9387
+Source: copied to the machine from the draft release asset (id 598691426); hash
+checked against SHA256SUMS.
+Preparation: extracted fresh; ran only xattr -dr com.apple.quarantine .; no
+codesign and no chmod.
+Run: ./2207-verify --receipt receipt.json (full run, all six checks, one
+thread each, running in parallel)
+Result: pass, 1,497,350 states in 70 s, exit code 0, wall 71 s

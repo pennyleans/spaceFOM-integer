@@ -1,0 +1,73 @@
+Buildfile: {work}/portico/codebase/build.xml
+     [echo] Build Version: portico-2.2.0 (build 0)
+ [platform] Operating System platform is: linux64
+[verifyJdk] Scanning for JDK {arch=amd64,ver=21}: {work}/jdk21/usr/lib/jvm/java-21-openjdk-amd64
+[verifyJdk] Scanning for JDK {arch=amd64,ver=21}: {work}/jdk21/usr/lib/jvm/java-21-openjdk-amd64
+
+compile.portico:
+    [mkdir] Created dir: {work}/portico/codebase/build/java/portico/classes
+    [javac] Compiling 1112 source files to {work}/portico/codebase/build/java/portico/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile.tests:
+    [mkdir] Created dir: {work}/portico/codebase/build/java/test/classes
+    [javac] Compiling 171 source files to {work}/portico/codebase/build/java/test/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+compile.examples.hla13:
+    [mkdir] Created dir: {work}/portico/codebase/build/java/examples/hla13
+    [javac] Compiling 2 source files to {work}/portico/codebase/build/java/examples/hla13
+
+compile.examples.ieee1516e:
+    [mkdir] Created dir: {work}/portico/codebase/build/java/examples/ieee1516e
+    [javac] Compiling 2 source files to {work}/portico/codebase/build/java/examples/ieee1516e
+
+java.compile:
+
+onejar:
+    [mkdir] Created dir: {work}/portico/codebase/build/onejar
+    [touch] Creating {work}/portico/codebase/build/onejar/.created
+    [unjar] Expanding: {work}/portico/codebase/lib/asm/asm-9.1/asm-9.1.jar into {work}/portico/codebase/build/onejar
+    [unjar] Expanding: {work}/portico/codebase/lib/jgroups/jgroups-3.2.0-beta1/jgroups-3.2.0.Beta1.jar into {work}/portico/codebase/build/onejar
+    [unjar] Expanding: {work}/portico/codebase/lib/log4j/apache-log4j-2.24.3/log4j-1.2-api-2.24.3.jar into {work}/portico/codebase/build/onejar
+    [unjar] Expanding: {work}/portico/codebase/lib/log4j/apache-log4j-2.24.3/log4j-api-2.24.3.jar into {work}/portico/codebase/build/onejar
+    [unjar] Expanding: {work}/portico/codebase/lib/log4j/apache-log4j-2.24.3/log4j-core-2.24.3.jar into {work}/portico/codebase/build/onejar
+    [unjar] Expanding: {work}/portico/codebase/lib/testng-ant/1.0.0/testng-ant-1.0.0.jar into {work}/portico/codebase/build/onejar
+
+jar.portico:
+      [jar] Building jar: {work}/portico/codebase/dist/portico-2.2.0/lib/portico.jar
+
+... trimmed routine per-source compile output ...
+
+  [cpptask] Compile complete
+  [cpptask] Starting Link 
+  [cpptask] Link complete. Library in directory: {work}/portico/codebase/build/cpp/linux64/ieee1516e/complete/gcc11
+  [cpptask] 
+     [echo] (IEEE-1516e) Building libfedtime1516e64 (gcc11-release amd64)
+  [cpptask] Starting Compile 
+  [cpptask] Starting up-to-date analysis for 1 source files.
+  [cpptask] 0 file are up to date.
+  [cpptask] 1 files to be compiled.
+  [cpptask]   LogicalTimeFactoryFactory.cpp
+  [cpptask] Compile complete
+  [cpptask] Starting Link 
+  [cpptask] Link complete. Library in directory: {work}/portico/codebase/build/cpp/linux64/ieee1516e/complete/gcc11
+  [cpptask] 
+
+cpp.ieee1516e.sandbox:
+    [mkdir] Created dir: {work}/portico/codebase/dist/portico-2.2.0/include/ieee1516e
+     [copy] Copying 30 files to {work}/portico/codebase/dist/portico-2.2.0/include/ieee1516e
+     [copy] Copying 4 files to {work}/portico/codebase/dist/portico-2.2.0/lib
+    [mkdir] Created dir: {work}/portico/codebase/dist/portico-2.2.0/examples/cpp/ieee1516e
+     [copy] Copying 12 files to {work}/portico/codebase/dist/portico-2.2.0/examples/cpp/ieee1516e
+
+cpp.sandbox:
+
+master.sandbox:
+
+sandbox:
+
+BUILD SUCCESSFUL
+Total time: 16 seconds

@@ -1,0 +1,108 @@
+{
+  "schema": "independent-wire-semantics-v1",
+  "passed": true,
+  "count": 20,
+  "checks": [
+    "asymmetric named component position_x_m",
+    "asymmetric named component position_y_m",
+    "asymmetric named component position_z_m",
+    "asymmetric named component velocity_x_mps",
+    "asymmetric named component velocity_y_mps",
+    "asymmetric named component velocity_z_mps",
+    "asymmetric named component quaternion_w",
+    "asymmetric named component quaternion_x",
+    "asymmetric named component quaternion_y",
+    "asymmetric named component quaternion_z",
+    "asymmetric named component angular_velocity_x_radps",
+    "asymmetric named component angular_velocity_y_radps",
+    "asymmetric named component angular_velocity_z_radps",
+    "asymmetric named component tt_seconds",
+    "asymmetric parent x maps to hand-derived body (-111,-4,48)/121",
+    "semantic mutation rejected: quaternion y/z label swap",
+    "semantic mutation rejected: quaternion y/z wire swap",
+    "semantic mutation rejected: wrong conjugation",
+    "semantic mutation rejected: body angular y/z label swap",
+    "production From export matches declared asymmetric components and passive basis"
+  ],
+  "fixture_sha256": "bed3a239f6d9aace979705a56192ab42928e389f5259528d5fe6451d27150d4e",
+  "fixture_document_sha256": "54bc6a02deb800d376b06c0f46bc214938f3ed0350d84d139a3b4c6e49e9d558",
+  "known_observation": {
+    "named_components": {
+      "position_x_m": 1.25,
+      "position_y_m": -2.5,
+      "position_z_m": 3.75,
+      "velocity_x_mps": 4.0,
+      "velocity_y_mps": -8.0,
+      "velocity_z_mps": 16.0,
+      "quaternion_w": 0.09090909090909091,
+      "quaternion_x": -0.18181818181818182,
+      "quaternion_y": -0.36363636363636365,
+      "quaternion_z": -0.9090909090909091,
+      "angular_velocity_x_radps": 0.125,
+      "angular_velocity_y_radps": -0.25,
+      "angular_velocity_z_radps": 0.5,
+      "tt_seconds": 7529673601.00018
+    },
+    "parent_x_in_body": [
+      -0.9173553719008264,
+      -0.03305785123966942,
+      0.39669421487603307
+    ],
+    "expected_parent_x_in_body": [
+      -0.9173553719008265,
+      -0.03305785123966942,
+      0.39669421487603307
+    ],
+    "tolerance": 1e-15
+  },
+  "mutation_rejections": [
+    {
+      "mutation": "quaternion y/z label swap",
+      "rejection": "semantic component mismatch: quaternion_y"
+    },
+    {
+      "mutation": "quaternion y/z wire swap",
+      "rejection": "semantic component mismatch: quaternion_y"
+    },
+    {
+      "mutation": "wrong conjugation",
+      "rejection": "semantic component mismatch: quaternion_x"
+    },
+    {
+      "mutation": "body angular y/z label swap",
+      "rejection": "semantic component mismatch: angular_velocity_y_radps"
+    }
+  ],
+  "scope": "named-component and passive-rotation semantics; not general astronomical frame accuracy",
+  "production_observation": {
+    "named_components": {
+      "position_x_m": 1.25,
+      "position_y_m": -2.5,
+      "position_z_m": 3.75,
+      "velocity_x_mps": 4.0,
+      "velocity_y_mps": -8.0,
+      "velocity_z_mps": 16.0,
+      "quaternion_w": 0.09090909090909093,
+      "quaternion_x": -0.18181818181818185,
+      "quaternion_y": -0.3636363636363637,
+      "quaternion_z": -0.9090909090909092,
+      "angular_velocity_x_radps": 0.125,
+      "angular_velocity_y_radps": -0.25,
+      "angular_velocity_z_radps": 0.5,
+      "tt_seconds": 7529673601.00018
+    },
+    "parent_x_in_body": [
+      -0.9173553719008266,
+      -0.033057851239669395,
+      0.3966942148760332
+    ],
+    "expected_parent_x_in_body": [
+      -0.9173553719008265,
+      -0.03305785123966942,
+      0.39669421487603307
+    ],
+    "tolerance": 1e-15
+  },
+  "production_wire_sha256": "5ae8613b4fbd5da657ae26fc56c86e1aa92da07d372af1684904862bd13c29da",
+  "production_bits_equal_known": false
+}

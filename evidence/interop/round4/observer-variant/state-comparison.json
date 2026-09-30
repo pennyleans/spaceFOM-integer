@@ -1,0 +1,179 @@
+{
+  "recording": "data/published-icrf.sf",
+  "log": "evidence/interop/round4/observer-variant/trickhla.log",
+  "objects": {
+    "orbital_vessel": {
+      "updates_compared": 0,
+      "missing_ticks": 3841,
+      "first_missing": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fields": {
+        "pos_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_w": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "time": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        }
+      }
+    },
+    "body_10": {
+      "updates_compared": 0,
+      "missing_ticks": 3841,
+      "first_missing": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fields": {
+        "pos_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_w": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_x": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_y": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_z": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "time": {
+          "exact_matches": 0,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        }
+      }
+    },
+    "SolarSystemBarycentricInertial": {
+      "updates": 1,
+      "tick": 0,
+      "hla_time_us": 0,
+      "exact_matches": 14,
+      "time_matches": true
+    }
+  }
+}

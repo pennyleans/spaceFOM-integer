@@ -1,0 +1,35 @@
+{
+  "schema": "gmat-finite-burn-v1",
+  "case": "inertial-burn",
+  "gmat_version": "R2026a",
+  "scope": "constant inertial thrust 1000 N, exhaust velocity 4500 m/s, 60 s burn and 60 s coast, negligible point-mass gravity",
+  "origin_note": "GMAT spacecraft starts at x=10000 km to avoid zero-radius validation. This constant offset is subtracted in decimal. Explicit central GM=1e-6 m^3/s^2 prevents GMAT from silently restoring its default Earth force. Outward motion bounds its 120-second gravity displacement below 7.21e-17 m.",
+  "epoch_note": "GMAT epoch 2000; autonomous force law compared by elapsed seconds. The simulation tiny distant source is bounded separately by the analytic receipt.",
+  "duration_seconds": 120,
+  "sample_count": 121,
+  "identical_transition_duplicates": 0,
+  "metrics": {
+    "simulation_vs_gmat_max_position_m": 2.0607336637112894e-07,
+    "simulation_vs_gmat_max_velocity_m_s": 1.021405182655144e-14,
+    "simulation_vs_gmat_max_mass_kg": 2.4666666666667e-11,
+    "analytic_vs_gmat_max_position_m": 2.052364038718224e-07,
+    "analytic_vs_gmat_max_velocity_m_s": 2.6645352591003757e-15,
+    "analytic_vs_gmat_max_mass_kg": 2.4666666666666665e-11,
+    "max_reported_time_roundoff_s": 2.705492079257965e-07
+  },
+  "thresholds": {
+    "position_m": 0.01,
+    "velocity_m_s": 0.0001,
+    "mass_kg": 1e-09
+  },
+  "pass": true,
+  "identities": {
+    "initial_sha256": "2092ca5a6d55dc4d0fcc29c7994cafd31e8a05d369ed525abf30c24e0082c253",
+    "samples_sha256": "f7c1a61ed5df4e0a72dec4275092ba47d2ad1eea778e554208b891e03a22e92b",
+    "script_sha256": "0fe78299118e892b7864f0904f9c6d782eec6c25983f232b0dd9566a47858d9b",
+    "report_sha256": "de1f10a59b0312b271503199697eb5036f15f01064932ad0f0d2e27e823f5fa9",
+    "console_sha256": "36c880ad6c3f5e69b2e7e90c9d9cec4086eced9c1073fc5b289966d54db15f5f",
+    "libGmatBase_sha256": "7fd79302dcd6fd1fd672de2582f4d35c4a7069de6a6791af76dc106b7919caf2",
+    "comparator_sha256": "d012f8696823379a057d8a7becb24f75c8a06044d6e0bcd010a7a4837636aeca"
+  }
+}

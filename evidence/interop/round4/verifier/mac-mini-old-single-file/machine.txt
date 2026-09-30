@@ -1,0 +1,9 @@
+Machine: Apple M4, model Mac16,10, arm64
+Operating system: macOS 26.6.1 (build 25G76)
+Package: iss-verify-9e44426-osx-arm64.tar.gz from round 3 (single-file layout),
+sha256 45d3e11e8a2067ca73dc6eaebcdef4385e02f3a71c94b18282f3257fceafd945
+Preparation: extracted fresh; ran only xattr -dr com.apple.quarantine .; no codesign.
+The archive does not carry the executable bit, so chmod +x was applied (no re-signing).
+Result: FAIL. Both the quick and the full run abort with System.AccessViolationException
+inside the .NET 10.0.12 runtime within a second, exit code 134 (SIGABRT), no receipt.
+Because this run was not re-signed, the round 3 crash was not caused by re-signing.

@@ -1,0 +1,14 @@
+{
+  "schema": "precision-physical-replay-v1",
+  "case": "inertial-burn",
+  "rate_hz": 64,
+  "integration_substeps": 8,
+  "compared_complete_states": 7681,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 120,
+  "elapsed_wall_seconds": 1.7183318,
+  "dynamics": "integer-flight-v4-fixed-substeps-n8",
+  "final_physical_hash": "f91a6052475844e6dde7ae59d727f71fc6f2a9ee57d003f195a171e51b8307e3",
+  "scope": "complete physical comparison every outer tick; full accuracy assessed independently"
+}

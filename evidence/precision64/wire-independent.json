@@ -1,0 +1,8 @@
+{
+  "schema": "independent-wire-compare-v1",
+  "equal": true,
+  "left_sha256": "9e34254eaa24d358ee5f1ca7801a8cebd2302a0d21686501bd8953b0cef6e1e5",
+  "right_sha256": "9e34254eaa24d358ee5f1ca7801a8cebd2302a0d21686501bd8953b0cef6e1e5",
+  "first_divergence": null,
+  "scope": "exact metadata, tick, provenance and binary64 field bits including signed zero"
+}

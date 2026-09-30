@@ -1,0 +1,15 @@
+{
+  "check": "TrickHLA as orbital_observer with the committed publisher, master modes and save and restore",
+  "publisher": "spacefom-publisher at ac5854e, --master-modes --required orbital_observer --save-restore",
+  "observer": "TrickHLA v3.2.2 at the pinned revision with qualification/trickhla/input-observer.py, unmodified",
+  "publisher_exit": 1,
+  "publisher_error": "failure: timeout: federation saved",
+  "trickhla_exit": 0,
+  "join_classification": "early joining federate",
+  "save": "initiateFederateSave delivered at simulation time 30.000000; TrickHLA set the save state and froze, but logged no federateSaveBegun, no checkpoint activity and no federateSaveComplete; the publisher timed out after 30 seconds",
+  "restore": "initiateFederateRestore was never delivered because the run stopped in the save phase",
+  "shutdown": "the publisher deleted the ExCO; TrickHLA resigned with SaveInProgress exceptions from the time management shutdown, exit 0",
+  "states_compared": "orbital_vessel 1920 of 3841 and body_10 1920 of 3841 updates, all fourteen fields bit for bit, 1921 missing; root frame 1 update 14 of 14",
+  "interop_lines": 3843,
+  "evidence": "trickhla-events.log, trickhla-interop.log, publisher.log, state-comparison.json"
+}

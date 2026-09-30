@@ -1,0 +1,130 @@
+{
+  "openrti_revision": "6e31e0cd50de1852813a98679e8731ad2c97e54b",
+  "fom_revision": "9faa0c5e547acb2596047c9bb875cb34ccb0fa2a",
+  "openrti_license_elected": "MPL-2.0",
+  "release_admission": "OpenRTI MPL-2.0 inclusion approved on 2026-09-28",
+  "files": [
+    {
+      "path": "{work}\\source\\native\\spacefom\\CMakeLists.txt",
+      "bytes": 752,
+      "sha256": "6d75079b4e0971fe22e593425dd5153ca9e6763eab2832d819fa10ddcb3dc32c"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\NOTICES.md",
+      "bytes": 2115,
+      "sha256": "f43beb329fb48149cafd6b74dbc0cacdd8a7c63fcdeb7f04a52ecfa0e7a3ed21"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\observer.cpp",
+      "bytes": 11011,
+      "sha256": "93c714e6271d88f399c52bdf0808cc36e0899d6320e1709191446af9c0a3ffde"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\publisher.cpp",
+      "bytes": 8616,
+      "sha256": "1b3fa6aa1dde9fbdd6a872317a70699aee5a6ecb0b418ff4baa75de9803406cb"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\README.md",
+      "bytes": 7237,
+      "sha256": "cd5a3ee58a2153bb2ca352c2c7c4bd1fb2dc4fc128116477274bd3d6fe7b424d"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\run-interop.ps1",
+      "bytes": 3595,
+      "sha256": "921eae2476026ee7d13275dd214cd06d5903856871c8364889a547f9a1616082"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\test-rejections.ps1",
+      "bytes": 3323,
+      "sha256": "cbd1bb236d408266c6f7e40fc4b433a34bee30a29bccf5eb73acaaffb359b9f7"
+    },
+    {
+      "path": "{work}\\source\\native\\spacefom\\transport.hpp",
+      "bytes": 11086,
+      "sha256": "dd7a5610c09852fb37df4d30b25d5e93188ee5ed1080e422f6674bbaf8d120b3"
+    },
+    {
+      "path": "{work}\\source\\tools\\build-spacefom-native.ps1",
+      "bytes": 2386,
+      "sha256": "b7ccdb8dde74594723d40c6af961a78a31a0657a37d759297e4351fca9a3a491"
+    },
+    {
+      "path": "{work}\\transport\\runtime\\bin\\libfedtime1516e.dll",
+      "bytes": 10240,
+      "sha256": "df2af75fbf336f320716df6972d5b510415853b7d9d5440b057cf0325cb27dd2"
+    },
+    {
+      "path": "{work}\\transport\\runtime\\bin\\librti1516e.dll",
+      "bytes": 1033728,
+      "sha256": "745566d92ee85dd5099550d218d2d240e77b7b705219038315c32fe2343e79e5"
+    },
+    {
+      "path": "{work}\\transport\\runtime\\bin\\OpenRTI.dll",
+      "bytes": 1443840,
+      "sha256": "17d894ba191df037a9da7d2eb7c54faf381600767bcb10344fdc163aacd098af"
+    },
+    {
+      "path": "{work}\\transport\\runtime\\bin\\rtinode.exe",
+      "bytes": 23040,
+      "sha256": "4b8ac1701e2a68b2188446cebb5dcae0d9a782efc56434cad4740c04cd6d1d3b"
+    },
+    {
+      "path": "{work}\\transport\\adapter-build\\Release\\spacefom-observer.exe",
+      "bytes": 140800,
+      "sha256": "de598694b21a3824d580b1c5c39721c5331685d8d8b63a869816a93b56c9611e"
+    },
+    {
+      "path": "{work}\\transport\\adapter-build\\Release\\spacefom-publisher.exe",
+      "bytes": 136192,
+      "sha256": "7a121d2f1a0a69127be83d315b606270b886d99a857355128f5664dcfd8c9a24"
+    },
+    {
+      "path": "{work}\\transport\\OpenRTI\\LICENSE",
+      "bytes": 330,
+      "sha256": "b7d81056ce95e13732e22f7312b7dd2ceddd5f2456711f445834443bd843e3f0"
+    },
+    {
+      "path": "{work}\\transport\\OpenRTI\\mpl-2.0.txt",
+      "bytes": 16726,
+      "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+    },
+    {
+      "path": "{work}\\transport\\OpenRTI\\src\\OpenRTI\\xml\\COPYING-expat",
+      "bytes": 1208,
+      "sha256": "f6eeb2310d0b00e5cecac39c73a0696a5bdbfb754b26325ed5a502fc1a6c338c"
+    },
+    {
+      "path": "{work}\\transport\\TrickHLA\\FOMs\\SpaceFOM\\SISO_SpaceFOM_datatypes.xml",
+      "bytes": 22640,
+      "sha256": "f7a75794acabd984b5048558cfbce0ac0255430fe53b6fee69fd9969e9515fa5"
+    },
+    {
+      "path": "{work}\\transport\\TrickHLA\\FOMs\\SpaceFOM\\SISO_SpaceFOM_entity.xml",
+      "bytes": 20472,
+      "sha256": "a40eed014658dee2e16e418748f90b835a12cbc2a9aa2a6a9df5ceb129eb600a"
+    },
+    {
+      "path": "{work}\\transport\\TrickHLA\\FOMs\\SpaceFOM\\SISO_SpaceFOM_environment.xml",
+      "bytes": 5761,
+      "sha256": "a6c590f2fff0f14f72c90c81206cc5d8326650259aa22cafa725d6e9afe47f0f"
+    },
+    {
+      "path": "{work}\\transport\\TrickHLA\\FOMs\\SpaceFOM\\SISO_SpaceFOM_management.xml",
+      "bytes": 18376,
+      "sha256": "57fe29e18b1958cb28527d9ab765fe6c5c68424b6345d53c330b37887bc9873c"
+    },
+    {
+      "path": "{work}\\transport\\TrickHLA\\FOMs\\SpaceFOM\\SISO_SpaceFOM_management2.xml",
+      "bytes": 4251,
+      "sha256": "33167242921053016f2717e976c197544aa3a2bf68ae98b79aef18f5c87efd42"
+    },
+    {
+      "path": "{work}\\transport\\TrickHLA\\FOMs\\SpaceFOM\\SISO_SpaceFOM_switches.xml",
+      "bytes": 3632,
+      "sha256": "fbf953d1f6b6a3a1de38ba5cd0cc52688bb5b9062dcf77ef2d97286cc1a7aa77"
+    }
+  ],
+  "prior_manifest_sha256": "d41e43f700d5105cbef1def09d4b2216f327910ef3e99201516bc23c90a00681",
+  "delta": "NOTICES.md admission wording only; executed runtime/source bytes otherwise unchanged"
+}

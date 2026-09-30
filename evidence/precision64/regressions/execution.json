@@ -1,0 +1,266 @@
+{
+  "schema": "precision-regressions-v1",
+  "started_utc": "2026-09-28T20:09:22.001207+00:00",
+  "working_directory": "{work}\\precision-64hz\\source",
+  "build_performed": false,
+  "execution": "sequential existing Release binaries",
+  "timeout_seconds_per_suite": 900,
+  "excluded": [
+    "Flight.Fp64.Tests parked runtime",
+    "standalone mission expansion",
+    "GUI tests"
+  ],
+  "suites": [
+    {
+      "suite": "Golden.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Golden.Tests\\bin\\Release\\net10.0\\Golden.Tests.dll"
+      ],
+      "dll_sha256": "82980079ce3238ba6d2e50b6f1dff66ede0783fee20c526287e63eee6d61c25c",
+      "runtime_dll_sha256": {
+        "Golden.dll": "8eb094c7524a35c446f74dd1a959c976f4eaf99b0c9cb23bf2ab3a7a19fd3fb8",
+        "Golden.Tests.dll": "82980079ce3238ba6d2e50b6f1dff66ede0783fee20c526287e63eee6d61c25c"
+      },
+      "started_utc": "2026-09-28T20:09:22.081605+00:00",
+      "status": "passed",
+      "pid": 32068,
+      "exit_code": 0,
+      "elapsed_seconds": 0.08715450000090641,
+      "completed_utc": "2026-09-28T20:09:22.169246+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Golden.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Golden.Tests.stderr.log",
+      "stdout_sha256": "4a82f1bfe8d2d17d8b9a2c8f304321e93a39a6f69b58352c20082231ba10da81",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Core.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Core.Tests\\bin\\Release\\net10.0\\Flight.Core.Tests.dll",
+        "--qualification"
+      ],
+      "dll_sha256": "68a7e6ff3436fb174e9f11ecad9a350987b00c18fd16ae2f6d6a6fed38569b87",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Core.Tests.dll": "68a7e6ff3436fb174e9f11ecad9a350987b00c18fd16ae2f6d6a6fed38569b87"
+      },
+      "started_utc": "2026-09-28T20:09:22.177460+00:00",
+      "status": "passed",
+      "pid": 46912,
+      "exit_code": 0,
+      "elapsed_seconds": 6.077140600002167,
+      "completed_utc": "2026-09-28T20:09:28.255024+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Core.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Core.Tests.stderr.log",
+      "stdout_sha256": "43df180ce9470fc4321f4156e07ef72f31781343d9fa4bf9d3e183355763b42d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Rotation.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Rotation.Tests\\bin\\Release\\net10.0\\Flight.Rotation.Tests.dll",
+        "--qualification"
+      ],
+      "dll_sha256": "85cf98fa285bb65f27dbefcd8362c79da97c2a50ded093247d1a871c6d2e7a67",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Rotation.Tests.dll": "85cf98fa285bb65f27dbefcd8362c79da97c2a50ded093247d1a871c6d2e7a67"
+      },
+      "started_utc": "2026-09-28T20:09:28.433441+00:00",
+      "status": "passed",
+      "pid": 34900,
+      "exit_code": 0,
+      "elapsed_seconds": 61.92417600000044,
+      "completed_utc": "2026-09-28T20:10:30.358111+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Rotation.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Rotation.Tests.stderr.log",
+      "stdout_sha256": "4b057fa6006d2ceae5791bc1a3f443ea9a713171338ad39dc4706478c1273b83",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Guidance.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Guidance.Tests\\bin\\Release\\net10.0\\Flight.Guidance.Tests.dll"
+      ],
+      "dll_sha256": "8109f5c37a43118852fd4db609874262ccbaf485528be5df0a338c0415b04765",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Guidance.Tests.dll": "8109f5c37a43118852fd4db609874262ccbaf485528be5df0a338c0415b04765",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "started_utc": "2026-09-28T20:10:30.788007+00:00",
+      "status": "passed",
+      "pid": 37468,
+      "exit_code": 0,
+      "elapsed_seconds": 4.60905830000047,
+      "completed_utc": "2026-09-28T20:10:35.397606+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Guidance.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Guidance.Tests.stderr.log",
+      "stdout_sha256": "d29d9e4aed0a5ec9a5d2a67a8814be1ba5829c79301c9c9f83fb2d72743b10c8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Data.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Data.Tests\\bin\\Release\\net10.0\\Flight.Data.Tests.dll"
+      ],
+      "dll_sha256": "93d4599ac59f71bee385cbd68bd7567c06773d358ca2777d03020a781482a306",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+        "Flight.Data.Tests.dll": "93d4599ac59f71bee385cbd68bd7567c06773d358ca2777d03020a781482a306",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Golden.dll": "8eb094c7524a35c446f74dd1a959c976f4eaf99b0c9cb23bf2ab3a7a19fd3fb8",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "started_utc": "2026-09-28T20:10:35.822026+00:00",
+      "status": "passed",
+      "pid": 46528,
+      "exit_code": 0,
+      "elapsed_seconds": 6.690916399998969,
+      "completed_utc": "2026-09-28T20:10:42.513497+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Data.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Data.Tests.stderr.log",
+      "stdout_sha256": "1c3369058f01263a192a0ce45e3c92fe8b02b14ba9ca32e1b1154093c91231cc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Session.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Session.Tests\\bin\\Release\\net10.0\\Flight.Session.Tests.dll"
+      ],
+      "dll_sha256": "654d1b003fe3d1a0511b857b0223a348340a633ae9b51106565df5ee641c1f60",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+        "Flight.Diagnostics.dll": "d5beb5035a6cdf15835e8ef7bcdda561b95ad75d2ea7455c16324abc0832ee48",
+        "Flight.Fp64.dll": "6b6d99131adbf9d8393412bc46094cb0e6408827af43efe1bcd78828f69f3b3e",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Host.dll": "c78d11adbac0e98378bb554f66032dc76070f8136354a8047c959bf635eb42c9",
+        "Flight.Lan.dll": "27c4867d5d9d0543ef856e0737d8974005c56fb7003ad75d1736611212884351",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Flight.Session.Tests.dll": "654d1b003fe3d1a0511b857b0223a348340a633ae9b51106565df5ee641c1f60",
+        "Flight.Shared.dll": "7035d04ba3a13a056d90709af039f59e3e090e075dfd3e01a62c56acac8cbdf6",
+        "Flight.SpaceFom.dll": "1a01080afbd7e84e0bf2e91e92b9c0256a439949dbd40806f2d8ff60f9fd2263",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "started_utc": "2026-09-28T20:10:43.375671+00:00",
+      "status": "failed",
+      "pid": 48624,
+      "exit_code": 3762504530,
+      "elapsed_seconds": 7.0607792000009795,
+      "completed_utc": "2026-09-28T20:10:50.437062+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Session.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Session.Tests.stderr.log",
+      "stdout_sha256": "370cc0360da8c6985f7982edb670d0e07e69a1f285e510451173e68cac762e07",
+      "stderr_sha256": "f474f2899f856f0e080dfcbd646f4be02a4e533a68f966053e64cd994e841746"
+    },
+    {
+      "suite": "Flight.Shared.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Shared.Tests\\bin\\Release\\net10.0\\Flight.Shared.Tests.dll",
+        "{work}\\precision-64hz\\source\\data"
+      ],
+      "dll_sha256": "42be41a20d6d99077d80028d1baceef1fa88828d180d4197c3091da052ec7cc8",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Flight.Shared.dll": "7035d04ba3a13a056d90709af039f59e3e090e075dfd3e01a62c56acac8cbdf6",
+        "Flight.Shared.Tests.dll": "42be41a20d6d99077d80028d1baceef1fa88828d180d4197c3091da052ec7cc8",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "started_utc": "2026-09-28T20:10:50.844217+00:00",
+      "status": "passed",
+      "pid": 50476,
+      "exit_code": 0,
+      "elapsed_seconds": 2.8252451999978803,
+      "completed_utc": "2026-09-28T20:10:53.670007+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Shared.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Shared.Tests.stderr.log",
+      "stdout_sha256": "2b8b6b1182c106975a43cb8d29428b7172a63f01a7c262b86063ef67e25054bc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Lan.Tests",
+      "command": [
+        "{work}\\precision-64hz\\source\\tests\\Flight.Lan.Tests\\bin\\Release\\net10.0\\Flight.Lan.Tests.exe",
+        "{work}\\precision-64hz\\source\\data"
+      ],
+      "dll_sha256": "c956de6ce664a1286415ad8a7cc587e76d07d3c0f8698b88895298c8e5ee143e",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+        "Flight.Diagnostics.dll": "d5beb5035a6cdf15835e8ef7bcdda561b95ad75d2ea7455c16324abc0832ee48",
+        "Flight.Fp64.dll": "6b6d99131adbf9d8393412bc46094cb0e6408827af43efe1bcd78828f69f3b3e",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Host.dll": "c78d11adbac0e98378bb554f66032dc76070f8136354a8047c959bf635eb42c9",
+        "Flight.Lan.dll": "27c4867d5d9d0543ef856e0737d8974005c56fb7003ad75d1736611212884351",
+        "Flight.Lan.Tests.dll": "c956de6ce664a1286415ad8a7cc587e76d07d3c0f8698b88895298c8e5ee143e",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Flight.Shared.dll": "7035d04ba3a13a056d90709af039f59e3e090e075dfd3e01a62c56acac8cbdf6",
+        "Flight.SpaceFom.dll": "1a01080afbd7e84e0bf2e91e92b9c0256a439949dbd40806f2d8ff60f9fd2263",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "started_utc": "2026-09-28T20:10:54.375485+00:00",
+      "status": "passed",
+      "apphost_reason": "suite spawns workers through Environment.ProcessPath",
+      "apphost_sha256": "fdb616c577252514c1ca0302117fad288e6d0053a3622b6788cd1fb40d202229",
+      "pid": 51712,
+      "exit_code": 0,
+      "elapsed_seconds": 19.102521500000876,
+      "completed_utc": "2026-09-28T20:11:13.498967+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Lan.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Lan.Tests.stderr.log",
+      "stdout_sha256": "c45d5dff1cba27cb9c70332832aca800d89679d1ca4a1d660d0e0e927b32ca9d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.SpaceFom.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.SpaceFom.Tests\\bin\\Release\\net10.0\\Flight.SpaceFom.Tests.dll"
+      ],
+      "dll_sha256": "39c4a8a74fdaa2a758d385c9339ccc55411228b0511b07ab23aeba51d7fa62cb",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Flight.SpaceFom.dll": "1a01080afbd7e84e0bf2e91e92b9c0256a439949dbd40806f2d8ff60f9fd2263",
+        "Flight.SpaceFom.Tests.dll": "39c4a8a74fdaa2a758d385c9339ccc55411228b0511b07ab23aeba51d7fa62cb",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "started_utc": "2026-09-28T20:11:13.915085+00:00",
+      "status": "passed",
+      "pid": 46892,
+      "exit_code": 0,
+      "elapsed_seconds": 0.07097560000329395,
+      "completed_utc": "2026-09-28T20:11:13.986737+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.SpaceFom.Tests.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.SpaceFom.Tests.stderr.log",
+      "stdout_sha256": "363c5a6acc4c15fced99412c8a31ec6b93bd572d4b7acd10b6d87ceaa173919d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "completed_utc": "2026-09-28T20:11:13.993166+00:00",
+  "status": "failed"
+}

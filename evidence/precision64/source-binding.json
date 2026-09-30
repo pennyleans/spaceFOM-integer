@@ -1,0 +1,420 @@
+{
+  "source_identity": "9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f",
+  "core_dll_sha256": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+  "data_dll_sha256": "7777597b61b7cbca3eed8fe65b45d4b2b7588ca6295aadb459bbb97a884b2936",
+  "baseline_files_preserved": 3944,
+  "baseline_inventory_sha256": "62f8cb1390f5441aa1ee5a0b33392889ed969813d9469319c54de1e32b92048a",
+  "baseline_changed_files": [],
+  "goldens_changed": false,
+  "files": [
+    {
+      "path": "src/Flight.App/Flight.App.csproj",
+      "sha256": "b809407d770dace3688986b5b1b6b2241dbea770396fd1827b973dfcf454943e"
+    },
+    {
+      "path": "src/Flight.App/Program.cs",
+      "sha256": "ebcb7a97a3625d29ae0f54a301e1091921af5c022b050962fd6fa9f7c0df10cb"
+    },
+    {
+      "path": "src/Flight.Core/Attitude.cs",
+      "sha256": "bd5c19671518d0d49563d360393a73990e1913594e1feb3dd06db1ee5a07286c"
+    },
+    {
+      "path": "src/Flight.Core/Flight.Core.csproj",
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3"
+    },
+    {
+      "path": "src/Flight.Core/FlightEngine.cs",
+      "sha256": "a0be6bf1f9eb23bb35b5f91ec3c2e65b57219213ae047b23c1d5652ffeee0c38"
+    },
+    {
+      "path": "src/Flight.Core/Gravity.cs",
+      "sha256": "30929f49b78d2fcf2dff05866d69c4f2b40a6123ab59cc525463c25fe525b52e"
+    },
+    {
+      "path": "src/Flight.Core/IntegerMath.cs",
+      "sha256": "dbaf552a57fea70a739a59afc8a262bf476363a3be4aff7ab8b2602159b28878"
+    },
+    {
+      "path": "src/Flight.Core/IntegrationDelivery.cs",
+      "sha256": "1486c6c7105a26d51d6c790f84da59c225f0ff025be603230df9e8383f75371f"
+    },
+    {
+      "path": "src/Flight.Core/PhysicalSnapshot.cs",
+      "sha256": "c24a5070c51ef3ba4e91b8606e45be14a3908eb2d31828c2145a18d31484cc6c"
+    },
+    {
+      "path": "src/Flight.Core/Propulsion.cs",
+      "sha256": "88f65ef903470f496c6165ca5943387d22e9dba1788c3f02778b0201f3135bf0"
+    },
+    {
+      "path": "src/Flight.Core/State.cs",
+      "sha256": "b9e7ab1bdd9fa435cf493e0a0de9841c7af475ccdf39cd992305621160ba786a"
+    },
+    {
+      "path": "src/Flight.Core/StateHash.cs",
+      "sha256": "132356d2e3dea6d8ed4bf83c178a09c05a106bfe6395b488b9beb240da7656d1"
+    },
+    {
+      "path": "src/Flight.Data/CommandSchedule.cs",
+      "sha256": "2975d3ebb30a719e61cbe8d13762d7c4149dccecd7336773c7532c04a8314825"
+    },
+    {
+      "path": "src/Flight.Data/ExactCheckpointCache.cs",
+      "sha256": "eaae684832be7a65b7cf4946c9d6830ac738a26b13bbcb089b8a5c93e31e87bb"
+    },
+    {
+      "path": "src/Flight.Data/ExactCheckpoints.cs",
+      "sha256": "b84453348d934e7d72b8555a19637272d643aeec4a4a5a6d861be1f63ee099e0"
+    },
+    {
+      "path": "src/Flight.Data/ExactRematerializer.cs",
+      "sha256": "73dc5fbe15ae70fe4d8425dec6a37aa24a460e20c4ed3e2eb70e275f1f0750f8"
+    },
+    {
+      "path": "src/Flight.Data/Flight.Data.csproj",
+      "sha256": "7e2819cef987ea298721960c638068635b05152474d83a7e823dfc3bcf9f7b0c"
+    },
+    {
+      "path": "src/Flight.Data/FlightAuthorityIdentity.cs",
+      "sha256": "42b10228ce1218d6566d7326f8d870725353c7c93a94cbd957ed40031c86c460"
+    },
+    {
+      "path": "src/Flight.Data/FlightIntegrationSettings.cs",
+      "sha256": "336cddbb920eec67a9fc361823bba49470bc99f00db06b9f1dbb340cb5a86c25"
+    },
+    {
+      "path": "src/Flight.Data/HistoryLimits.cs",
+      "sha256": "9249a3ee9695bab8956f3dd8b03453f405fc8c7502a8eacc28cee6669618d67e"
+    },
+    {
+      "path": "src/Flight.Data/LunarArrivalBounds.cs",
+      "sha256": "f4d14984f394962b1350ec8cd1da31efaba7f855b4807a039e5b8d00debf2704"
+    },
+    {
+      "path": "src/Flight.Data/MissionForecastCoordinator.cs",
+      "sha256": "aa915bb6efeac13bbc3fe93f5533aecf46baa7ba58aeb7bf0ef26a8396438186"
+    },
+    {
+      "path": "src/Flight.Data/MissionForecastService.cs",
+      "sha256": "89812a50a5e57e3d79fe24916ba122f0d4d9e9cc8b63f36cfcf8ec2fb0e1b806"
+    },
+    {
+      "path": "src/Flight.Data/MissionHistory.cs",
+      "sha256": "6d9ebee26d5bbc385cdbdb7f5501d291683932faf56072eb20cb95caf6099ddd"
+    },
+    {
+      "path": "src/Flight.Data/MissionLoader.cs",
+      "sha256": "729a3fa0a20a9a37111a89ba24fb760592013b9bea6a8755602d091ec7213a36"
+    },
+    {
+      "path": "src/Flight.Data/OrbitalDisplay.cs",
+      "sha256": "fa3a653e5b5c301e8b4432468baeb8cbf3da7033e1bbb79f77b1b1a5d0891526"
+    },
+    {
+      "path": "src/Flight.Data/SessionCodec.cs",
+      "sha256": "12d731d201a53ada3fad9675eb0d34e396378027c2d34947e11b4da716afc8b8"
+    },
+    {
+      "path": "src/Flight.Data/SessionHistory.cs",
+      "sha256": "c0cd0fa0584c0912a28e5120b1c60c152270fbcca8f2d0125444b52c8341db91"
+    },
+    {
+      "path": "src/Flight.Data/SessionMission.cs",
+      "sha256": "649497e2428c57dce30aa171bf72c6c32acad8ad2051b2164c5648803f40dde7"
+    },
+    {
+      "path": "src/Flight.Data/SessionRestoreCoordinator.cs",
+      "sha256": "f27168694cabdb5bdcdc898bcd4d8ae4806c43d7514a29c16b0f99d334d1d6ad"
+    },
+    {
+      "path": "src/Flight.Data/SessionSnapshots.cs",
+      "sha256": "dee1cdc582826dc13a67c7fbf0f6e33413b4bca110f88e14114606012b6ac4a2"
+    },
+    {
+      "path": "src/Flight.Data/ShipLoader.cs",
+      "sha256": "9dd179b78bcb7c659d2e23bc0c11ed530b10a4ee46348854a3eea0bd2160d46f"
+    },
+    {
+      "path": "src/Flight.Data/SimulationSession.cs",
+      "sha256": "23a4a4168f0fed37d836a524217aad25de55a6c0d8b977be7fa4dcb8b323bf1c"
+    },
+    {
+      "path": "src/Flight.Data/SleepCoordinator.cs",
+      "sha256": "6572be6b2ced35f71b1ac42e3bd5b8cfe798e5570572a1dfa9df9419ca18455b"
+    },
+    {
+      "path": "src/Flight.Data/SolarCatalog.cs",
+      "sha256": "9bb719e9c6753eed14d2b722b211b0039d121a088acd7da1b807181973154e24"
+    },
+    {
+      "path": "src/Flight.Desktop/AtmosphereFrame.cs",
+      "sha256": "d16e848a22e40c899da3c3c9305328fc7e9e2a64ea3a743d97fd1f4ecca18c18"
+    },
+    {
+      "path": "src/Flight.Desktop/AtmosphereRenderer.cs",
+      "sha256": "e2aac0d96183cbe15dc1f9582df517d0f68580a3f508b1ed1db04441721a5072"
+    },
+    {
+      "path": "src/Flight.Desktop/AtmosphericScattering.cs",
+      "sha256": "9de6552b98653ac46db235f4b42b382dbc46d8b349702ec0c761adabb8fc17f0"
+    },
+    {
+      "path": "src/Flight.Desktop/CameraProjection.cs",
+      "sha256": "365cbec5835f2c8b0c24366e7f312c37e4ae423620dbcd2ff8bd99c1a931ac46"
+    },
+    {
+      "path": "src/Flight.Desktop/CameraViews.cs",
+      "sha256": "c3728e666e5ceba9565266f6e0ff19733d8e99c748e11bf6054640531741d903"
+    },
+    {
+      "path": "src/Flight.Desktop/ConsoleLayout.cs",
+      "sha256": "9a2d43760d3b936d8951c127dbc69a6115ac9506d1057b40a9d9687487ef969a"
+    },
+    {
+      "path": "src/Flight.Desktop/ConsolePolicy.cs",
+      "sha256": "1f1ea9c56e9bc76554359feb7d5a4c11b3ae8b033ee57b73daf9ebdb21e231eb"
+    },
+    {
+      "path": "src/Flight.Desktop/Flight.Desktop.csproj",
+      "sha256": "ae20469397c8c75ae84226b283e63a744ae63ad7305aa273222f174c3ddb2f1f"
+    },
+    {
+      "path": "src/Flight.Desktop/FlightAssistControls.cs",
+      "sha256": "7487d34bf2fcbb9c15b1aee40065be023489d24ff6d7c5da7011f5e69ab9026b"
+    },
+    {
+      "path": "src/Flight.Desktop/FlightGame.cs",
+      "sha256": "d9418134e4995505d25677a4e71169a8c91313cf812ca2d40f2c31737f436cf3"
+    },
+    {
+      "path": "src/Flight.Desktop/FlightPauseState.cs",
+      "sha256": "818382976543a94fa2524e74d983f77e968ce42c9d35f44d9fcdfbf11dc17731"
+    },
+    {
+      "path": "src/Flight.Desktop/InertialSphere.cs",
+      "sha256": "0b749bb1823d33209435ad8753619375ae758ed2c7aeaf5199dc41a7192ccfd0"
+    },
+    {
+      "path": "src/Flight.Desktop/MfdControls.cs",
+      "sha256": "6eb98cf8372418c9243515e058bda24239a0d0a45b86c3b763eaf53a719b624e"
+    },
+    {
+      "path": "src/Flight.Desktop/MfdRenderer.cs",
+      "sha256": "b47a1f7c3920cf153a4a6e869a931b740ddc021ece7f65fb9f1e236cc2ff23bc"
+    },
+    {
+      "path": "src/Flight.Desktop/PixelFont.cs",
+      "sha256": "cd6148865cf607a5e349a65da15b5c94fb4fb343f0a4a6b6125785a439871d2b"
+    },
+    {
+      "path": "src/Flight.Desktop/PlanetLighting.cs",
+      "sha256": "230ce8e52546881949c17ca946e06acd3403a90ce535b2dccf22fd4a3719df8b"
+    },
+    {
+      "path": "src/Flight.Desktop/SceneRenderer.cs",
+      "sha256": "47e55f56468d594fab05531684a66429ea019af8bb90b1805bfef304342bd937"
+    },
+    {
+      "path": "src/Flight.Desktop/StepScheduler.cs",
+      "sha256": "9feec1f7274f9eca487cb467aef873789b6ba900f7e1c21f8849bca229c58af4"
+    },
+    {
+      "path": "src/Flight.Desktop/TargetAngles.cs",
+      "sha256": "40408921dc6e65e06702ac16d2ee535864497477bc9ee58dbc779842ab2c4b38"
+    },
+    {
+      "path": "src/Flight.Desktop/TerminalPalette.cs",
+      "sha256": "339ef4043586af5db45e11eb8a3997a69f2da5c9c8fc901d787692f483c08923"
+    },
+    {
+      "path": "src/Flight.Diagnostics/AssemblyInfo.cs",
+      "sha256": "b5446b67c1f2d10c11abd0047c42c2c45a00397d273f9bbad724ee6769729427"
+    },
+    {
+      "path": "src/Flight.Diagnostics/DiagnosticArchive.cs",
+      "sha256": "5d593b2d062f2bafb0d7833d5c8c24deaa757ee5148803b12302d032aa09067d"
+    },
+    {
+      "path": "src/Flight.Diagnostics/DiagnosticExporter.cs",
+      "sha256": "84f6224eceb25a37395d3a66ff19921d7299a5f7f4bdcfd9f9e9c327342d6471"
+    },
+    {
+      "path": "src/Flight.Diagnostics/DiagnosticModel.cs",
+      "sha256": "311b5576a1c62711ba6ea4d6f2fd6659ae595398621c59079e3457808a5045cc"
+    },
+    {
+      "path": "src/Flight.Diagnostics/DiagnosticValidation.cs",
+      "sha256": "b31a4b587b29e6f93675ea6524bb9961a6f978d6f060041ce681014d16a131f3"
+    },
+    {
+      "path": "src/Flight.Diagnostics/DiagnosticVerifier.cs",
+      "sha256": "b2bc9385e5ca767d6e5528f938314d517f558732b22c1eea333e7934366b7cce"
+    },
+    {
+      "path": "src/Flight.Diagnostics/Flight.Diagnostics.csproj",
+      "sha256": "47d60c32710d91bb492dd025ce9c514e3e9009bbdbe2ca5641acf06d96416d8f"
+    },
+    {
+      "path": "src/Flight.Diagnostics/LocalDiagnosticDirectory.cs",
+      "sha256": "e7975b06048d83cb9ddc81a1a7f67f545990e845867604b2e8a6c387bca7f5c0"
+    },
+    {
+      "path": "src/Flight.Diagnostics/LocalReadScope.cs",
+      "sha256": "2f9e3231402322bc00624b6f2587dbf488464c9f7749997a6e491baf5ccee51d"
+    },
+    {
+      "path": "src/Flight.Diagnostics/OfflineComparison.cs",
+      "sha256": "13ca9e7fceeb81ab3f6008164153e193abb72a8f77f8872c95f99b0c545fda92"
+    },
+    {
+      "path": "src/Flight.Diagnostics/Program.cs",
+      "sha256": "0923c0cabec11bc9ee2a30fbabf69846dde775ccde5b6834df7411cc09e5faff"
+    },
+    {
+      "path": "src/Flight.Fp64/Arithmetic.cs",
+      "sha256": "d0611f10282fffb2c4caf7f5f9cf1836c25401f3679c4de0a255f920f23602be"
+    },
+    {
+      "path": "src/Flight.Fp64/Commands.cs",
+      "sha256": "fc0c1811f21fe9fd07171549f28096a454e9aed49800bd9f2b62681300a29ae8"
+    },
+    {
+      "path": "src/Flight.Fp64/Engine.cs",
+      "sha256": "e9fbe318975ccc6b08203bac75b45ce287146858482a0df014ec57ee7bc0fcac"
+    },
+    {
+      "path": "src/Flight.Fp64/Flight.Fp64.csproj",
+      "sha256": "3004ee89821e3aa81d7897184282a6b7dab516fe60251eb2e45e5362ee053268"
+    },
+    {
+      "path": "src/Flight.Fp64/RawState.cs",
+      "sha256": "8be54a8521fe5203eb649b9cd2b644bdde36426ee9fc2d688ed20654c18a707f"
+    },
+    {
+      "path": "src/Flight.Fp64/Session.cs",
+      "sha256": "e9a15e6d9a9cf7d476273835e9c7328d2a2db149b39fa15ab5e3c18d83eb7204"
+    },
+    {
+      "path": "src/Flight.Fp64/State.cs",
+      "sha256": "366b6608c29b7c8f1347f5e56c869c527bb51d008adcbdf852a6e23e9df24c70"
+    },
+    {
+      "path": "src/Flight.Guidance/Flight.Guidance.csproj",
+      "sha256": "e025e835811e7fb6b3af10ba2aa75bd394e6294ff1a6ef3bd92ee84bb0f88159"
+    },
+    {
+      "path": "src/Flight.Guidance/GuidanceController.cs",
+      "sha256": "285e1e9df1a5a63431442c88af793ed55efc970e6071724b0988d8fc5670fe28"
+    },
+    {
+      "path": "src/Flight.Guidance/GuidanceHash.cs",
+      "sha256": "b5e4ee5cfdc0fdd0295cb22e5b2cc9eb81322cda7f46100c67eda58ed49767c4"
+    },
+    {
+      "path": "src/Flight.Guidance/GuidanceMath.cs",
+      "sha256": "a61fb8e3f360ac333c806a8a2ecb724a7b10dcf8f3a1cac4c6861d0a876fe223"
+    },
+    {
+      "path": "src/Flight.Guidance/ManeuverSteering.cs",
+      "sha256": "6e60b35029450783620df2ad2354623667a1949ea5f7f072f0559a80875ef315"
+    },
+    {
+      "path": "src/Flight.Host/Flight.Host.csproj",
+      "sha256": "723734c3fba6cc084c40763c30b027c94659205ac370fb32702484eabc8f0481"
+    },
+    {
+      "path": "src/Flight.Host/FlightHostWire.cs",
+      "sha256": "63002c5b901989706d9fc5f8b84d95159b0f5b7fd766ff20f3ba4ddf3a9706ea"
+    },
+    {
+      "path": "src/Flight.Host/Fp64Host.cs",
+      "sha256": "982f40c7ae803cd1d326d8aaebf144fc7d01d1b1fa2c9a3edca31dc45c48d730"
+    },
+    {
+      "path": "src/Flight.Host/Fp64Peer.cs",
+      "sha256": "d7a6df5888bf48bc1b16f6038f27305485f8b2bca7f99f15a5a1c41f37b9d184"
+    },
+    {
+      "path": "src/Flight.Host/Fp64View.cs",
+      "sha256": "c171580f9ba006c63e134c881143ed76fee80c91abd173062abbee701d7c3ba2"
+    },
+    {
+      "path": "src/Flight.Host/LanHost.cs",
+      "sha256": "6e75f5f8632fa1e8d7e23fcd53513d394e85ce31ce3cd5c1260a8cfada3b9c1d"
+    },
+    {
+      "path": "src/Flight.Host/Program.cs",
+      "sha256": "5089e5e7e165f7a6219ea364a31101f8fbd8083d3fde4587fed7435b346cb2d6"
+    },
+    {
+      "path": "src/Flight.Host/SpaceFomViewerHost.cs",
+      "sha256": "b4f075998b9c46cc21dfafabb5930335e9cc99731b22e702137271cb9adc744f"
+    },
+    {
+      "path": "src/Flight.Lan/Flight.Lan.csproj",
+      "sha256": "54f9d482c92b716179ffdbdf156fb2fef1bf913a8b798a8c98ac1ad931c42c24"
+    },
+    {
+      "path": "src/Flight.Lan/FramePacer.cs",
+      "sha256": "b396751ce745a18b920040290791745e7405fdb0fe7de59b1505b71932a2e637"
+    },
+    {
+      "path": "src/Flight.Lan/LanPeer.cs",
+      "sha256": "011de909942c29cdda1554b91942f5317fba5e4f23ad13f64ea11d06611be5d2"
+    },
+    {
+      "path": "src/Flight.Mission/Flight.Mission.csproj",
+      "sha256": "ccf0bb6f952683436c0c924b6f9ffd38aca9f3a750a0f905377372ca5f5de3a0"
+    },
+    {
+      "path": "src/Flight.Mission/MissionPlan.cs",
+      "sha256": "d8fd3aaabfc084c9019233567a0a29a5ed180ea77d8a570a045e26d6ead36869"
+    },
+    {
+      "path": "src/Flight.Mission/MissionScheduler.cs",
+      "sha256": "ab0c77990db4f7ea5df4a39d2de5b0a7c845bb99c95738d1e2192eb17253532b"
+    },
+    {
+      "path": "src/Flight.Presentation/Flight.Presentation.csproj",
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3"
+    },
+    {
+      "path": "src/Flight.Presentation/FlightView.cs",
+      "sha256": "226ce95f562885ce78fb4dcb8640e880e9dcc28399520c9e2f452e4c3d260fa0"
+    },
+    {
+      "path": "src/Flight.Presentation/OrbitTelemetry.cs",
+      "sha256": "2adffa47e77ab835179b31d2c35a553af3891c22daaabc82951d153b6db72033"
+    },
+    {
+      "path": "src/Flight.Shared/Flight.Shared.csproj",
+      "sha256": "ae74bb9756deac09c964643ecacfa9554475d8c0c43abf7174d80454503185cb"
+    },
+    {
+      "path": "src/Flight.Shared/SharedSession.cs",
+      "sha256": "d4bae525a8cf256f46c0a712288edabafda75fecb50fcc78bbb56da4d6e7630c"
+    },
+    {
+      "path": "src/Flight.SpaceFom/Flight.SpaceFom.csproj",
+      "sha256": "21aa57042b3e8dde0f526eb2d03ed6a396f118cc08a9bcde58874a8ae7d00641"
+    },
+    {
+      "path": "src/Flight.SpaceFom/StateTape.cs",
+      "sha256": "f825a9dd7b654858a15f478f568f7f5e846ca300a78e16ea8a2c801bd554d609"
+    },
+    {
+      "path": "src/Flight.SpaceFom/TapeExport.cs",
+      "sha256": "56dc20fe7cb0da01a6822e045042f16dc9aeb7b97a6556734cea87a6c9719930"
+    },
+    {
+      "path": "src/Flight.SpaceFom/TapeView.cs",
+      "sha256": "4aa33c7e3b7cf90814c28b06133e30548b2dd12f6a55641debf89536dc379c5b"
+    },
+    {
+      "path": "src/Flight.SpaceFom/WireState.cs",
+      "sha256": "2a5fcb8dc74985d50393b1fbb6528f15a678ee2c5bca565d1909f684ca410e3e"
+    }
+  ],
+  "scope": "Private implementation identities only. Game-core source and binaries are excluded from this repository."
+}

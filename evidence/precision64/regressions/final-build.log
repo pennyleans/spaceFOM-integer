@@ -1,0 +1,35 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Flight.Core -> {work}\source\src\Flight.Core\bin\Release\net10.0\Flight.Core.dll
+  Flight.Presentation -> {work}\source\src\Flight.Presentation\bin\Release\net10.0\Flight.Presentation.dll
+  Flight.Mission -> {work}\source\src\Flight.Mission\bin\Release\net10.0\Flight.Mission.dll
+  Flight.Guidance -> {work}\source\src\Flight.Guidance\bin\Release\net10.0\Flight.Guidance.dll
+  Flight.Core.Tests -> {work}\source\tests\Flight.Core.Tests\bin\Release\net10.0\Flight.Core.Tests.dll
+  Flight.Fp64 -> {work}\source\src\Flight.Fp64\bin\Release\net10.0\Flight.Fp64.dll
+  Flight.Desktop -> {work}\source\src\Flight.Desktop\bin\Release\net10.0\Flight.Desktop.dll
+  Flight.Rotation.Tests -> {work}\source\tests\Flight.Rotation.Tests\bin\Release\net10.0\Flight.Rotation.Tests.dll
+  Flight.Mission.Tests -> {work}\source\tests\Flight.Mission.Tests\bin\Release\net10.0\Flight.Mission.Tests.dll
+  Golden -> {work}\source\lib\Golden\bin\Release\net10.0\Golden.dll
+  Golden.Tests -> {work}\source\tests\Golden.Tests\bin\Release\net10.0\Golden.Tests.dll
+  Flight.Fp64.Tests -> {work}\source\tests\Flight.Fp64.Tests\bin\Release\net10.0\Flight.Fp64.Tests.dll
+  Flight.Data -> {work}\source\src\Flight.Data\bin\Release\net10.0\Flight.Data.dll
+  Flight.SpaceFom -> {work}\source\src\Flight.SpaceFom\bin\Release\net10.0\Flight.SpaceFom.dll
+  Flight.Shared -> {work}\source\src\Flight.Shared\bin\Release\net10.0\Flight.Shared.dll
+  Flight.App -> {work}\source\src\Flight.App\bin\Release\net10.0\OrbitalFlight.dll
+  Flight.Data.Tests -> {work}\source\tests\Flight.Data.Tests\bin\Release\net10.0\Flight.Data.Tests.dll
+  Flight.Desktop.Tests -> {work}\source\tests\Flight.Desktop.Tests\bin\Release\net10.0\Flight.Desktop.Tests.dll
+  Flight.Guidance.Tests -> {work}\source\tests\Flight.Guidance.Tests\bin\Release\net10.0\Flight.Guidance.Tests.dll
+  Flight.Shared.Tests -> {work}\source\tests\Flight.Shared.Tests\bin\Release\net10.0\Flight.Shared.Tests.dll
+  Flight.SpaceFom.Tests -> {work}\source\tests\Flight.SpaceFom.Tests\bin\Release\net10.0\Flight.SpaceFom.Tests.dll
+  Flight.SpaceFom.Tool -> {work}\source\tools\Flight.SpaceFom.Tool\bin\Release\net10.0\Flight.SpaceFom.Tool.dll
+  Flight.Lan -> {work}\source\src\Flight.Lan\bin\Release\net10.0\Flight.Lan.dll
+  Flight.Diagnostics -> {work}\source\src\Flight.Diagnostics\bin\Release\net10.0\Flight.Diagnostics.dll
+  Flight.Host -> {work}\source\src\Flight.Host\bin\Release\net10.0\Flight.Host.dll
+  Flight.Lan.Tests -> {work}\source\tests\Flight.Lan.Tests\bin\Release\net10.0\Flight.Lan.Tests.dll
+  Flight.Session.Tests -> {work}\source\tests\Flight.Session.Tests\bin\Release\net10.0\Flight.Session.Tests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.54

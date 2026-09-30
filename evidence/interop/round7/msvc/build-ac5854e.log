@@ -1,0 +1,101 @@
+pwsh.exe : CMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+At line:1 char:288
++ ... build.log'; & pwsh -NoProfile -File "{work}\agents\2207-space ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (CMake Warning (...imum_required)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- Could NOT find EXPAT (missing: EXPAT_LIBRARY EXPAT_INCLUDE_DIR) 
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+-- Configuring done (0.9s)
+-- Generating done (1.5s)
+-- Build files have been written to: {work}/2207-spacefom-candidate/out/transport/openrti-build
+MSBuild version 17.14.51+25f168cee for .NET Framework
+
+  fedtime1516eStub.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\lib\Release\fedtime1516eStub.lib
+  OpenRTI.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\OpenRTI.dll
+  socketaddress.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\socketaddress.exe
+  url.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\url.exe
+  rtinode.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\rtinode.exe
+  threads.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\threads.exe
+  RTIambassadorImplementation.cpp
+     Creating library {work}/2207-spacefom-candidate/out/transport/openrti-build/lib/Release/rti1516e.lib and object {work}/2207-spacefom-candidate/out/transport/openrti-build/lib/Release/rti1516e.exp
+  rti1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\librti1516e.dll
+  fedtime1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\libfedtime1516e.dll
+  logical-time-1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\logical-time-1516e.exe
+  modules-1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\modules-1516e.exe
+  encode-1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\encode-1516e.exe
+  fddget-1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\fddget-1516e.exe
+  link-1516e.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\openrti-build\bin\Release\link-1516e.exe
+  1>
+  -- Install configuration: "Release"
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/lib/OpenRTI.lib
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/bin/OpenRTI.dll
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/bin/rtinode.exe
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/lib/fedtime1516e.lib
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/bin/libfedtime1516e.dll
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/lib/rti1516e.lib
+  -- Installing: {work}/2207-spacefom-candidate/out/transport/runtime/bin/librti1516e.dll
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/Enums.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/Exception.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/FederateAmbassador.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/Handle.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/LogicalTimeFactory.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/LogicalTime.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/LogicalTimeInterval.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/RangeBounds.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/NullFederateAmbassador.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/RTI1516.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/RTIambassadorFactory.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/RTIambassador.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/SpecificConfig.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/Typedefs.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/VariableLengthData.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/BasicDataElements.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/DataElement.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/EncodingExceptions.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/EncodingConfig.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/HLAfixedArray.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/HLAfixedRecord.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/HLAopaqueData.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/HLAvariableArray.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/encoding/HLAvariantRecord.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/time/HLAfloat64Interval.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/time/HLAfloat64TimeFactory.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/time/HLAfloat64Time.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/time/HLAinteger64Interval.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/time/HLAinteger64TimeFactory.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/include/rti1516e/RTI/time/HLAinteger64Time.h
+  -- Up-to-date: {work}/2207-spacefom-candidate/out/transport/runtime/share/OpenRTI/rti1516e/HLAstandardMIM.xml
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The CXX compiler identification is MSVC 19.44.35228.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: {work}/2207-spacefom-candidate/out/transport/adapter-build
+MSBuild version 17.14.51+25f168cee for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule {work}/2207-spacefom-candidate/native/spacefom/CMakeLists.txt
+  Building Custom Rule {work}/2207-spacefom-candidate/native/spacefom/CMakeLists.txt
+  observer.cpp
+  publisher.cpp
+  spacefom-observer.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\adapter-build\Release\spacefom-observer.exe
+  spacefom-publisher.vcxproj -> {work}\agents\2207-spacefom-candidate\out\transport\adapter-build\Release\spacefom-publisher.exe
+  Building Custom Rule {work}/2207-spacefom-candidate/native/spacefom/CMakeLists.txt
+native executables: {work}\agents\2207-spacefom-candidate\tools\..\out\transport\adapter-build\Release
+runtime remains separate: {work}\agents\2207-spacefom-candidate\tools\..\out\transport\runtime\bin

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RuntimeFrameworkVersion>10.0.12</RuntimeFrameworkVersion>
+    <RollForward>Disable</RollForward>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <AssemblyName>Flight.Session.Tests</AssemblyName>
+  </PropertyGroup>
+  <Target Name="RequirePrivateSource" BeforeTargets="PrepareForBuild" Condition="'$(FlightSourceRoot)' == ''">
+    <Error Text="Set FlightSourceRoot to the frozen private source root; core source is not included here." />
+  </Target>
+  <ItemGroup>
+    <ProjectReference Include="$(FlightSourceRoot)/src/Flight.Data/Flight.Data.csproj" />
+    <ProjectReference Include="$(FlightSourceRoot)/src/Flight.SpaceFom/Flight.SpaceFom.csproj" />
+    <Compile Include="../CoreProbe/Fixtures.cs" Link="Fixtures.cs" />
+  </ItemGroup>
+</Project>

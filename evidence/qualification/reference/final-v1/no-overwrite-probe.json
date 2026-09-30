@@ -1,0 +1,8 @@
+{
+  "attempt": "write an oracle receipt to an existing evidence path",
+  "exit_code": 1,
+  "expected_refusal_observed": true,
+  "before_sha256": "2a0471b991bee556c335b1d233c605f938a99454009d4db130d183d2fa295421",
+  "after_sha256": "2a0471b991bee556c335b1d233c605f938a99454009d4db130d183d2fa295421",
+  "unchanged": true
+}

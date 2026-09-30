@@ -1,0 +1,38 @@
+{
+  "schema": "precision-regressions-session-rerun-v2",
+  "previous_execution": "{work}\\precision-64hz\\regressions\\execution.json",
+  "previous_execution_sha256": "b34edc905c872095699b5220355eecb79d7e15013759f90ae2a3703226e4ab6e",
+  "reason": "explicit session field inventory updated to include integration substep power",
+  "command": [
+    "dotnet",
+    "{work}\\precision-64hz\\source\\tests\\Flight.Session.Tests\\bin\\Release\\net10.0\\Flight.Session.Tests.dll"
+  ],
+  "working_directory": "{work}\\precision-64hz\\source",
+  "build_performed_by_runner": false,
+  "started_utc": "2026-09-28T20:12:02.211489+00:00",
+  "status": "passed",
+  "timeout_seconds": 900,
+  "runtime_dll_sha256": {
+    "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+    "Flight.Data.dll": "018ea1320e837e2ee6c59e1a80fcbbb259551ce0dfbd0b6845f6e717ac587875",
+    "Flight.Diagnostics.dll": "d5beb5035a6cdf15835e8ef7bcdda561b95ad75d2ea7455c16324abc0832ee48",
+    "Flight.Fp64.dll": "6b6d99131adbf9d8393412bc46094cb0e6408827af43efe1bcd78828f69f3b3e",
+    "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+    "Flight.Host.dll": "c78d11adbac0e98378bb554f66032dc76070f8136354a8047c959bf635eb42c9",
+    "Flight.Lan.dll": "27c4867d5d9d0543ef856e0737d8974005c56fb7003ad75d1736611212884351",
+    "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+    "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+    "Flight.Session.Tests.dll": "2e04541f37f2855ee4aa63b1651df84df1ccae4dbe2780818e15e380560caa10",
+    "Flight.Shared.dll": "7035d04ba3a13a056d90709af039f59e3e090e075dfd3e01a62c56acac8cbdf6",
+    "Flight.SpaceFom.dll": "1a01080afbd7e84e0bf2e91e92b9c0256a439949dbd40806f2d8ff60f9fd2263",
+    "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+  },
+  "pid": 12648,
+  "exit_code": 0,
+  "elapsed_seconds": 58.892805399998906,
+  "completed_utc": "2026-09-28T20:13:01.334536+00:00",
+  "stdout": "{work}\\precision-64hz\\regressions\\Flight.Session.Tests.v2.stdout.log",
+  "stderr": "{work}\\precision-64hz\\regressions\\Flight.Session.Tests.v2.stderr.log",
+  "stdout_sha256": "b77583db4570a9384bec305fc6563474786743f0f8902c6e49184da96f90132a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

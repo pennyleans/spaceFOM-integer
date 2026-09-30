@@ -1,0 +1,10 @@
+--- accepted/oracle.py
++++ wrong-decoder-conjugation/oracle.py
+@@ -52,6 +52,7 @@
+     if offset < 0 or len(raw) - offset < STATE_BYTES:
+         raise Rejected(field, offset, "truncated 14-float64 state")
+     values = struct.unpack_from("<14d", raw, offset)
++    values = tuple(-v if 7 <= i <= 9 else v for i, v in enumerate(values))
+     for i, value in enumerate(values):
+         if not math.isfinite(value):
+             raise Rejected(f"{field}.{FIELDS[i]}", offset + i * 8, "nonfinite")

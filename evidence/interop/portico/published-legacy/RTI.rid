@@ -1,0 +1,4 @@
+portico.logdir = logs
+portico.loglevel = INFO
+portico.container.loglevel = WARN
+portico.jgroups.udp.bindAddress = LOOPBACK

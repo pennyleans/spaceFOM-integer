@@ -1,0 +1,19 @@
+{
+  "check": "TrickHLA in place of our observer, two federates, master-scheduled modes",
+  "rti": "Pitch pRTI Free 5.5.10, central component on the Windows host, restarted before the run (restart 7 of the round)",
+  "federation": "orbital_8989",
+  "publisher": "spacefom-publisher --master-modes --required orbital_observer",
+  "trickhla": "SIM_Entity_Test with a 1/64 s data cycle, qualification/trickhla/input-observer.py, per-update logging override applied",
+  "publisher_exit": 1,
+  "publisher_error": "failure: timeout: synchronize mtr_freeze",
+  "trickhla_exit": 0,
+  "join_classification": "late joining federate; initialization_completed was announced before its role determination completed",
+  "initialization_sync_points": "objects_discovered, root_frame_discovered, prototype_metadata, initialization_started and initialization_completed were announced to TrickHLA; TrickHLA did not achieve them",
+  "mtr_run": "achieved and synchronized",
+  "mtr_freeze": "announced; freeze not scheduled: 'Freeze time specified in the past. specified 29.468750, current_time 29.468750'; not achieved",
+  "resume": "not reached",
+  "shutdown": "ExCO deletion detected after the publisher resigned; TrickHLA resigned cleanly from the federation",
+  "state_comparison": "1913 orbital_vessel updates (ticks 8 to 1920) and 1914 body_10 updates (ticks 7 to 1920) compared; all 14 fields matched bit for bit; no root frame state update was received",
+  "byte_identity": "not applicable, our observer was replaced by TrickHLA",
+  "note": "the publisher timed out at the mtr_freeze synchronization point and destroyed the federation, so the exchange did not complete"
+}

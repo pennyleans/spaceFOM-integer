@@ -1,0 +1,7 @@
+{
+  "schema": "precision-repository-reproduction-v1",
+  "physics_identical_json": true,
+  "timing_identical_json": false,
+  "timing_difference": "Only ordering of higher_factors_without_full_measurement varies; entries and all measured values and acceptance outcomes are identical. The frozen analysis wrapper enumerates a set. Authoritative replay bytes are unrelated and unchanged.",
+  "graphs_byte_identical": true
+}

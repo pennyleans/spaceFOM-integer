@@ -1,0 +1,27 @@
+Verifier packages for source identity 9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+
+Built on the Windows PC with the official .NET SDK 10.0.401 (runtime 10.0.12 present) and
+PowerShell 7.6.6, from the candidate repository's tools/package-verifier.ps1 with SourceRoot
+pointing at the simulator source at revision
+33aa8e6028b9c22a29145e751cb36748aa29c527. The source's stamp check printed the required
+source identity. The NuGet configuration has no package sources; nuget.org was added
+temporarily for the restore and removed afterwards, and the original empty packageSources
+configuration was restored.
+
+Archives and SHA-256 (identical to the SHA256SUMS asset):
+
+ebb3d00059cefec9eec718f3503ced0ad3d399f142d17ad34f39920253e524c8  iss-verify-9e44426-linux-arm64.tar.gz
+28eebd85783d39497bb1f39a6762897db92a8c99e7ad1d6e48a7fa56d9fef7c2  iss-verify-9e44426-linux-x64.tar.gz
+45d3e11e8a2067ca73dc6eaebcdef4385e02f3a71c94b18282f3257fceafd945  iss-verify-9e44426-osx-arm64.tar.gz
+541630c7592247a35748417b13a44d5486bb7be457a4a6037436811b59368fff  iss-verify-9e44426-osx-x64.tar.gz
+fb3c2ecdf2b654522254d0007ec92e3f33addb9feb65154dedab0016eb9969f1  iss-verify-9e44426-win-arm64.zip
+cf77c681c5f2c8e1ba7d8de65e7bec2e67d216bb8d328a9e9721f9ff420ab47f  iss-verify-9e44426-win-x64.zip
+
+Staging: draft release verify-9e44426, release id 398836095, target review/public-candidate,
+never published. It holds the six archives and SHA256SUMS. A second, older draft release with
+the same tag already existed with an exchange-package asset; the verifier assets are in release
+id 398836095 and were downloaded from it by asset id.
+
+The Mac mini could not reach the unpublished release, so the osx-arm64 archive was
+downloaded on the Windows PC by asset id and copied to the Mac over ssh. Its SHA-256 was
+verified on both machines.

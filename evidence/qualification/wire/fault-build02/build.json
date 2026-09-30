@@ -1,0 +1,210 @@
+{
+  "schema": "isolated-fault-build-v1",
+  "passed": true,
+  "accepted_sources": [
+    {
+      "path": "native/spacefom/publisher.cpp",
+      "sha256": "1b3fa6aa1dde9fbdd6a872317a70699aee5a6ecb0b418ff4baa75de9803406cb"
+    },
+    {
+      "path": "native/spacefom/observer.cpp",
+      "sha256": "93c714e6271d88f399c52bdf0808cc36e0899d6320e1709191446af9c0a3ffde"
+    },
+    {
+      "path": "native/spacefom/transport.hpp",
+      "sha256": "dd7a5610c09852fb37df4d30b25d5e93188ee5ed1080e422f6674bbaf8d120b3"
+    },
+    {
+      "path": "native/spacefom/CMakeLists.txt",
+      "sha256": "6d75079b4e0971fe22e593425dd5153ca9e6763eab2832d819fa10ddcb3dc32c"
+    }
+  ],
+  "injected_sources": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "6d75079b4e0971fe22e593425dd5153ca9e6763eab2832d819fa10ddcb3dc32c"
+    },
+    {
+      "path": "observer.cpp",
+      "sha256": "93c714e6271d88f399c52bdf0808cc36e0899d6320e1709191446af9c0a3ffde"
+    },
+    {
+      "path": "publisher.cpp",
+      "sha256": "d3008fa7529bd8a58bafc899dfe683617104aaaae5d3add05f2c360d3d602612"
+    },
+    {
+      "path": "transport.hpp",
+      "sha256": "dd7a5610c09852fb37df4d30b25d5e93188ee5ed1080e422f6674bbaf8d120b3"
+    }
+  ],
+  "patch_sha256": "000d94dfc16430de411f12dfb357db9685f90614049876a34353357f89caa4dc",
+  "publisher_sha256": "a877a4a0f4171aadf69468ad8feccf9399a9b7f0fc54b33429f126d4a083e3d3",
+  "sdk_inputs": [
+    {
+      "path": "include/rti1516e/RTI/encoding/BasicDataElements.h",
+      "sha256": "92baf6115543e92ef76ff36251e085a93edb42bf0a8e2b248c6e1c2de0b38283"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/DataElement.h",
+      "sha256": "0823f62421988b70967768f53707afbe7aa7aa61ca40d712d7e95e3eacd1857e"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/EncodingConfig.h",
+      "sha256": "242dd36761f96e5710fce05c9b2b2c5a6cf1c93fc07e451f6dd4ad5ecdd5949f"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/EncodingExceptions.h",
+      "sha256": "0163c968a03909c0f368b4e3bb9ae7a6333ef38b781f5bddbf62513674a5db1a"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/HLAfixedArray.h",
+      "sha256": "2a5856025e9bc58bc15c00a37612189a6f140271f521ac757c46c68a4551eddb"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/HLAfixedRecord.h",
+      "sha256": "b29fd503f67a5e1159903a538467f4909039ee4e9b9df8dd4d99e08d80c27031"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/HLAopaqueData.h",
+      "sha256": "1353ef69e8e52dc50d5f5cd09b2a70bb41b0a37141ccc3ff88d6b09e058e751c"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/HLAvariableArray.h",
+      "sha256": "8f71b6e54d45dcd92281ec91e18a242cd3946194feb586376ced1f5cd275641c"
+    },
+    {
+      "path": "include/rti1516e/RTI/encoding/HLAvariantRecord.h",
+      "sha256": "f77d7294789033006536cc8323372929bf82c6cb18057a449a00c0700190a33f"
+    },
+    {
+      "path": "include/rti1516e/RTI/Enums.h",
+      "sha256": "741ace9e8c67e7b1ee38bdbce7521118f5698305a7e46162ade64df2c0739fa1"
+    },
+    {
+      "path": "include/rti1516e/RTI/Exception.h",
+      "sha256": "eb52a39a939134a230baa463fc8b059ba5fa7c5bf39b72e04505efd803feed6e"
+    },
+    {
+      "path": "include/rti1516e/RTI/FederateAmbassador.h",
+      "sha256": "fa4f692c1238d958fbf5442b19279935d8d1941a2e60493205bf69700a32e1e3"
+    },
+    {
+      "path": "include/rti1516e/RTI/Handle.h",
+      "sha256": "c87639deff28f693248b21355d8cf6558c598bcb505dd16e11755e74e14cfab4"
+    },
+    {
+      "path": "include/rti1516e/RTI/LogicalTime.h",
+      "sha256": "22922bfe9055cc338dffa71de4ab1e5d93fa9e30a88d183aba318a0af02543ee"
+    },
+    {
+      "path": "include/rti1516e/RTI/LogicalTimeFactory.h",
+      "sha256": "d057a32de5f11483e9aa13dab1832b9c3ec68c7191d22521fc0d07598dd4184e"
+    },
+    {
+      "path": "include/rti1516e/RTI/LogicalTimeInterval.h",
+      "sha256": "eff7c38e2b2714b9008ba1a34e4ac42d41227bccc99a18451cb9ceafbd3cd3c6"
+    },
+    {
+      "path": "include/rti1516e/RTI/NullFederateAmbassador.h",
+      "sha256": "ce7d0c732f734671a3f967cab45ad770206b072de15c095a31dd7cbc434a4fff"
+    },
+    {
+      "path": "include/rti1516e/RTI/RangeBounds.h",
+      "sha256": "07ee4bd36b18a3961143ac1257a99a2a638617e52e9d64a0504ca7e263ef2093"
+    },
+    {
+      "path": "include/rti1516e/RTI/RTI1516.h",
+      "sha256": "66456a85abf146267a1bd4b624a47b1125b074129abe24ddb162783ad4181670"
+    },
+    {
+      "path": "include/rti1516e/RTI/RTIambassador.h",
+      "sha256": "c95ad56c935f229114c3333f8e35aa66b5f53708f9c8981e735966d5926f8cff"
+    },
+    {
+      "path": "include/rti1516e/RTI/RTIambassadorFactory.h",
+      "sha256": "be42f01d7fbdcfcc1ee6448f0bfe40e7782ccc1d9b48c323c03247207b381038"
+    },
+    {
+      "path": "include/rti1516e/RTI/SpecificConfig.h",
+      "sha256": "7ec3181ebcbe13fe340c16f96096721ae8f1c8093b39f2a8e53144a858c2a287"
+    },
+    {
+      "path": "include/rti1516e/RTI/time/HLAfloat64Interval.h",
+      "sha256": "603374ca222ab83d582d2c47d7ab1dfcc60f596708cd56549989952fcbc17c78"
+    },
+    {
+      "path": "include/rti1516e/RTI/time/HLAfloat64Time.h",
+      "sha256": "3820aa5ec9e384bfd4c829ab36d9ca0168f452f1308967a560cae612fab0b397"
+    },
+    {
+      "path": "include/rti1516e/RTI/time/HLAfloat64TimeFactory.h",
+      "sha256": "4c1adf962b0440c1298ded71ccd7835627a0ed5f46e4341c61c56c33092a975c"
+    },
+    {
+      "path": "include/rti1516e/RTI/time/HLAinteger64Interval.h",
+      "sha256": "18172e08727f459fc5e52ebe0ea01b8ebd66b4bc6d7b3e3ef85ef20598afefff"
+    },
+    {
+      "path": "include/rti1516e/RTI/time/HLAinteger64Time.h",
+      "sha256": "455dc5213c171aa247b61845f0fec6722b5d5007ec1bb068288c0bd5a7927f05"
+    },
+    {
+      "path": "include/rti1516e/RTI/time/HLAinteger64TimeFactory.h",
+      "sha256": "e1eec76357840eb01bf20f77737fbbf2d70276b5fa42ae0b1335b740d70a300e"
+    },
+    {
+      "path": "include/rti1516e/RTI/Typedefs.h",
+      "sha256": "8939ce8f1692fb66beff72a537b464d218f0bfa70ad258817c168e09fcf020db"
+    },
+    {
+      "path": "include/rti1516e/RTI/VariableLengthData.h",
+      "sha256": "ed8413588203b9f5e04be57baef25de231efe7abfede5cdbbf8c8b2b00ae9932"
+    },
+    {
+      "path": "lib/rti1516e.lib",
+      "sha256": "8a29b85c9a946a8cf0e300654f7b4b62284840d64f8df6395c24260625e2ecb8"
+    },
+    {
+      "path": "lib/fedtime1516e.lib",
+      "sha256": "ad08582d7bf453ab614d2dac1ea1379f898bb483afb74063ec7aa5aaa199c775"
+    }
+  ],
+  "logs": [
+    {
+      "file": "build-0.log",
+      "original_sha256": "6745ae59784f295c15ce8d88fbca5deb1b79354704e19202f072e5dd8c6d600b",
+      "redacted_sha256": "dbb6eddb70fcd744828e14606ab1b2b1baf705a979f610e991de25c9fb19445e",
+      "exit": 0,
+      "command": [
+        "cmake",
+        "-S",
+        "$SCRATCH\\injected",
+        "-B",
+        "$SCRATCH\\build",
+        "-G",
+        "Visual Studio 17 2022",
+        "-A",
+        "x64",
+        "-DOPENRTI_ROOT=$RTI_SDK"
+      ]
+    },
+    {
+      "file": "build-1.log",
+      "original_sha256": "e85a254bc2cf569329d34757d22c169b28766fe0743cac29074e15b39becc097",
+      "redacted_sha256": "3c0635d3ec98f7ba98844080dcea94b996893ca2131c9789a32e049c81005549",
+      "exit": 0,
+      "command": [
+        "cmake",
+        "--build",
+        "$SCRATCH\\build",
+        "--config",
+        "Release",
+        "--parallel",
+        "2",
+        "--target",
+        "spacefom-publisher"
+      ]
+    }
+  ],
+  "scope": "only fault-injected scratch publisher; accepted adapter not edited"
+}

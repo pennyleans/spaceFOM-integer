@@ -1,0 +1,42 @@
+Round 5 verifier packages
+=========================
+
+Build: pwsh tools/package-verifier.ps1 -SourceRoot <ISS source> -Output <staging>
+from the SpaceFOM candidate tree at bb84ebf, against the ISS source at revision
+33aa8e6028b9c22a29145e751cb36748aa29c527. The stamp check printed
+9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f, matching
+verify/expected.json.
+
+The packaging scripts now copy LICENSE and NOTICE into each package on top of the
+existing contents. Apart from those two files the package layouts are unchanged:
+win-x64, win-arm64, linux-x64 and linux-arm64 are single executables; osx-arm64 and
+osx-x64 are self-contained folders.
+
+SHA-256 of the six archives, as written to SHA256SUMS:
+
+19092c7696dab02298e8971fea4a99cae234cec47133a58db80877ba8093bab1  iss-verify-9e44426-linux-arm64.tar.gz
+b8c59d68edc800299e65da71c7ed400666b3fe0988efb1adb0554866a5a721f1  iss-verify-9e44426-linux-x64.tar.gz
+63de839b8af1f72d09b14ac5df9802b136b9dac1da205cd5339ea687d24d8110  iss-verify-9e44426-osx-arm64.tar.gz
+0ed70cf253175f4750f39a1005eccfcc5ac402df2ddf2b8914141d9ec00b352d  iss-verify-9e44426-osx-x64.tar.gz
+f235f1279bc6714e6338bdc1a0a832821840a2b33b9536a73374a48af585e334  iss-verify-9e44426-win-arm64.zip
+5c990bde2d19636487f70c9151adc7ecb3e25f4783a2f0d523188122bf388298  iss-verify-9e44426-win-x64.zip
+
+Draft release verify-9e44426 (id 398836095), final assets after this round:
+
+597470142 2207-spacefom-exchange-win-x64.zip 3367468
+597470176 iss-verify-9e44426-linux-arm64.tar.gz 30735695
+597470381 iss-verify-9e44426-linux-x64.tar.gz 32508922
+597470665 iss-verify-9e44426-osx-arm64.tar.gz 33527514
+597470869 iss-verify-9e44426-osx-x64.tar.gz 35858597
+597471083 iss-verify-9e44426-win-arm64.zip 31173224
+597471341 iss-verify-9e44426-win-x64.zip 32542799
+597471597 SHA256SUMS 610
+
+Every previous asset of the release was deleted first (the seven from round 5's
+predecessor plus the exchange zip), and the whole set above was uploaded in its place.
+The release is still a draft and was not published.
+
+Quick runs from the new packages:
+
+- windows-win-x64: pass, 12,547 states in 20 s, exit code 0.
+- mac-mini-quick: pass, 12,547 states in 13 s, exit code 0, quarantine cleared only.

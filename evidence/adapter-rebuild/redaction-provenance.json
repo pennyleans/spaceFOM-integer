@@ -1,0 +1,25 @@
+{
+  "scope": "UTF-8 and line-ending normalization, final blank-line trimming and workstation-root replacement only; results unchanged",
+  "files": [
+    {
+      "path": "receipt.json",
+      "original_sha256": "d678976a41e3df3cb9704e2f6865fb5a33a8a11318c63e80abc5f0c9e5a6f306",
+      "export_sha256": "a3b5a3e8264894c9c754db114d9c5227bf5b0d161e922eafa67c82efdafdb3c7"
+    },
+    {
+      "path": "publisher.log",
+      "original_sha256": "ecae4649c0e438bbed69778b371265e4c3d6847829487241afb43c3eb70611cc",
+      "export_sha256": "e692b6c15d7104c34f7e34739208621bd70452de5ecaae090b5bd24d226d50a5"
+    },
+    {
+      "path": "observer.log",
+      "original_sha256": "2439e04f66dc1dc0a34030c3764228e59528bfc039425481aa3e1cadbbd68a2b",
+      "export_sha256": "a1632b422fa61511b1114d8b3452554372e94da4cdd6c01739b99d0a591a5bb9"
+    },
+    {
+      "path": "rejections.json",
+      "original_sha256": "aa303ca3f6f0ab405ddb8f70b81e307773802b1af32119fe76df94cd0a387ffd",
+      "export_sha256": "d39e1729aa8a2fdd9630593db21ec672a1bdad4943661c514d7be1e7a085e686"
+    }
+  ]
+}

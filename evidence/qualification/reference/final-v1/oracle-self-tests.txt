@@ -1,0 +1,10 @@
+test_circle_full_quarter_and_reverse (test_oracle.ReferenceTests.test_circle_full_quarter_and_reverse) ... ok
+test_eccentric_periapsis_to_apoapsis (test_oracle.ReferenceTests.test_eccentric_periapsis_to_apoapsis) ... ok
+test_half_mass_rocket_then_coast (test_oracle.ReferenceTests.test_half_mass_rocket_then_coast) ... ok
+test_reference_is_invariant_under_barycentric_translation_and_boost (test_oracle.ReferenceTests.test_reference_is_invariant_under_barycentric_translation_and_boost) ... ok
+test_rk4_refines_toward_circle (test_oracle.ReferenceTests.test_rk4_refines_toward_circle) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK

@@ -1,0 +1,4 @@
+19:17:32,367 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:17:32,371 INFO  [main] portico.lrc: Opening LRC Connection
+19:17:32,372 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+19:17:36,199 INFO  [main] portico.lrc.jgroups: Found co-ordinator: 55268f8e-7e9c-48ee-a3e1-51cf0a337b57

@@ -1,0 +1,124 @@
+{
+  "schema": "wire-hla-probe-v1",
+  "name": "normal",
+  "expected_success": true,
+  "passed": true,
+  "pass_criterion": "complete exact exchange",
+  "both_federates_terminated_without_deadline_cleanup": true,
+  "recovery_timing_qualified": false,
+  "federation": "qualification_54999",
+  "url": "rti://127.0.0.1:54999",
+  "deadline_seconds": 15.0,
+  "elapsed_seconds": 3.9905967000013334,
+  "deadline_reached": false,
+  "commands": {
+    "rti": [
+      "$REPO\\out\\transport\\runtime\\bin\\rtinode.exe",
+      "-i",
+      "rti://127.0.0.1:54999"
+    ],
+    "publisher": [
+      "$REPO\\out\\transport\\adapter-build\\Release\\spacefom-publisher.exe",
+      "$REPO\\data\\published.sf",
+      "$REPO\\out\\transport\\TrickHLA\\FOMs\\SpaceFOM",
+      "rti://127.0.0.1:54999",
+      "qualification_54999"
+    ],
+    "observer": [
+      "$REPO\\out\\transport\\adapter-build\\Release\\spacefom-observer.exe",
+      "$SCRATCH\\normal\\observed.sf",
+      "rti://127.0.0.1:54999",
+      "qualification_54999"
+    ]
+  },
+  "process_start_seconds": {
+    "rti": 0.005399800000304822,
+    "publisher": 0.1620461000020441,
+    "observer": 0.1675126000009186
+  },
+  "observer_start_delay_seconds": 0.005466499998874497,
+  "requested_observer_delay_seconds": 0.0,
+  "fault_selector": "",
+  "interrupt": null,
+  "natural_exits": {
+    "publisher": {
+      "exit": 0,
+      "seconds": 3.6198820999998134
+    },
+    "observer": {
+      "exit": 0,
+      "seconds": 3.636404600001697
+    }
+  },
+  "forced_cleanup_or_interrupt": [
+    "rti"
+  ],
+  "processes": {
+    "rti": {
+      "pid": 45080,
+      "exit": 1,
+      "reaped": true
+    },
+    "publisher": {
+      "pid": 43244,
+      "exit": 0,
+      "reaped": true
+    },
+    "observer": {
+      "pid": 31924,
+      "exit": 0,
+      "reaped": true
+    }
+  },
+  "observed_committed": true,
+  "partial_output_exists": false,
+  "comparison": {
+    "schema": "independent-wire-compare-v1",
+    "equal": true,
+    "left_sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+    "right_sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+    "first_divergence": null,
+    "scope": "exact metadata, tick, provenance and binary64 field bits including signed zero"
+  },
+  "error": null,
+  "logs": [
+    {
+      "file": "observer.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    },
+    {
+      "file": "observer.stdout.log",
+      "original_sha256": "7013bfa6aad2a8da82c9d1ad3e583207bbe5a885f7832a8e6bc8eba10ed3607a",
+      "redacted_sha256": "7013bfa6aad2a8da82c9d1ad3e583207bbe5a885f7832a8e6bc8eba10ed3607a",
+      "original_bytes": 1515
+    },
+    {
+      "file": "publisher.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    },
+    {
+      "file": "publisher.stdout.log",
+      "original_sha256": "ecae4649c0e438bbed69778b371265e4c3d6847829487241afb43c3eb70611cc",
+      "redacted_sha256": "ecae4649c0e438bbed69778b371265e4c3d6847829487241afb43c3eb70611cc",
+      "original_bytes": 960
+    },
+    {
+      "file": "rti.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    },
+    {
+      "file": "rti.stdout.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    }
+  ],
+  "accepted_input_unchanged": true,
+  "scope": "bounded early-joiner prototype; containment is distinct from graceful peer-failure recovery"
+}

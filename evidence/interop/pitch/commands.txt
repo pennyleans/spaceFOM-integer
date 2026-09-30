@@ -1,0 +1,33 @@
+Pitch pRTI Free 5.5.10 installation
+  We obtained the installer from Pitch:
+  prti1516e-free_5_5_10_linux64.sh
+  sha256 5d2e7e1d35acb38a054878c704818c2b75675e3d38cb03ccdd353ae2589a1ddf
+  It was installed with:
+    cp prti1516e-free_5_5_10_linux64.sh {work}/
+    cd {work} && ./prti1516e-free_5_5_10_linux64.sh -q -dir {work}/pRTI -overwrite
+  Version info: {work}/pRTI/versioninfo.txt contains "Pitch pRTI Free v 5.5.10".
+
+CRC layout
+  The bundled Linux CRC cannot be used in this environment: the Free edition
+  refuses headless mode ("pRTI Free edition does not support running in headless
+  mode") and otherwise blocks on an interactive End User License Agreement
+  dialog. The evidence for that attempt is in published-icrf-local-attempt1.
+  The exchange therefore ran with our federates in WSL and the Pitch pRTI Free
+  CRC in direct mode on the Windows host (same release, version 5.5.10 build 9905,
+  CRC.port 8989), reachable from WSL at {crc-host}.
+
+Adapter build and exchange runs
+  PITCH_SHA256=5d2e7e1d35acb38a054878c704818c2b75675e3d38cb03ccdd353ae2589a1ddf \
+  ./native/spacefom/run-interop-pitch.sh data/published-icrf.sf \
+    evidence/interop/pitch/published-icrf {work}/pRTI {crc-host} 8989
+
+  PITCH_SHA256=5d2e7e1d35acb38a054878c704818c2b75675e3d38cb03ccdd353ae2589a1ddf \
+  ./native/spacefom/run-interop-pitch.sh data/published.sf \
+    evidence/interop/pitch/published-legacy {work}/pRTI {crc-host} 8989
+
+  The runner builds the adapter in a temporary directory against a shim whose
+  headers are a copy of {work}/pRTI/api/cpp/HLA_1516-2010 and whose libraries
+  link to lib/gcc73_64/librti1516e64.so and lib/gcc73_64/libfedtime1516e64.so.
+  The Pitch headers already remove dynamic exception specifications under C++17
+  through their RTI_THROW macro, so the copy is unmodified. The adapter sources
+  were not modified.

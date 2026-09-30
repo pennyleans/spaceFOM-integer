@@ -1,0 +1,31 @@
+INFO  [c++] (Runtime) RID file processing finished
+19:48:57,263 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:48:57,266 INFO  [main] portico.lrc: Opening LRC Connection
+19:48:57,267 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+INFO  [rti-1] Initialized new JavaRTI (rti-1)
+INFO  [c++] (Runtime) Created new JavaRTI [id:1]
+connected hlt_us=0
+
+-------------------------------------------------------------------
+GMS: address={host}-42451, cluster=orbital_31416, physical address=127.0.0.1:42066
+-------------------------------------------------------------------
+19:48:58,548 INFO  [main] portico.lrc.jgroups: Found co-ordinator: 5b9a65fd-fcb8-4c0d-b0ab-11b739cf0abb
+19:49:08,696 WARN  [VERIFY_SUSPECT.TimerThread,orbital_31416,{host}-42451] portico.lrc.jgroups: Detected that federate [orbital_master] may have crashed, investigating...
+19:49:08,801 WARN  [Regular] portico.lrc.jgroups: Federate [orbital_master] has crashed. Sending fake resignation because it was too rude to.
+19:49:08,805 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master] has resigned from [orbital_31416]
+19:49:08,806 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master,1] disconnected, synthesized resign message. All done.
+INFO  [rti-1] Exception received: RTIinternalError
+INFO  [rti-1] hla.rti1516e.exceptions.RTIinternalError: Federation coordinator never acknowledged that we joined
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.joinFederationExecution(Rti1516eAmbassador.java:672)
+	at org.portico.impl.cpp1516e.ProxyRtiAmbassador.joinFederationExecution(ProxyRtiAmbassador.java:346)
+Caused by: org.portico.lrc.compat.JRTIinternalError: Federation coordinator never acknowledged that we joined
+	at org.portico.bindings.jgroups.Federation.sendJoinFederation(Federation.java:301)
+	at org.portico.bindings.jgroups.JGroupsConnection.joinFederation(JGroupsConnection.java:251)
+	at org.portico.lrc.services.federation.handlers.outgoing.JoinFederationHandler.process(JoinFederationHandler.java:110)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:188)
+	at org.portico.impl.hla1516e.Impl1516eHelper.processMessage(Impl1516eHelper.java:130)
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.processMessage(Rti1516eAmbassador.java:5558)
+	at org.portico.impl.hla1516e.Rti1516eAmbassador.joinFederationExecution(Rti1516eAmbassador.java:651)
+	... 1 more
+
+INFO  [c++] (Runtime) Removing removing JavaRTI reference [id:1]

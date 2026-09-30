@@ -1,0 +1,72 @@
+{
+  "epoch": "2207-01-01 00:00:00 TDB",
+  "frame": "solar-system barycentric; ecliptic J2000; geometric vectors",
+  "bodies": [
+    {
+      "id": "10",
+      "name": "sun",
+      "radius_mm": "695700000000",
+      "gm_micro_m3_s2": "132712440041939380000000000"
+    },
+    {
+      "id": "199",
+      "name": "mercury",
+      "radius_mm": "2439400000",
+      "gm_micro_m3_s2": "22031868550000000000"
+    },
+    {
+      "id": "299",
+      "name": "venus",
+      "radius_mm": "6051840000",
+      "gm_micro_m3_s2": "324858592000000000000"
+    },
+    {
+      "id": "301",
+      "name": "moon",
+      "radius_mm": "1737530000",
+      "gm_micro_m3_s2": "4902800066000000000"
+    },
+    {
+      "id": "399",
+      "name": "earth",
+      "radius_mm": "6371010000",
+      "gm_micro_m3_s2": "398600435436000000000"
+    },
+    {
+      "id": "499",
+      "name": "mars",
+      "radius_mm": "3389920000",
+      "gm_micro_m3_s2": "42828375662000000000"
+    },
+    {
+      "id": "5",
+      "name": "jupiter system",
+      "radius_mm": "69911000000",
+      "gm_micro_m3_s2": "126712764100000000000000"
+    },
+    {
+      "id": "606",
+      "name": "titan",
+      "radius_mm": "2575500000",
+      "gm_micro_m3_s2": "8978140000000000000"
+    },
+    {
+      "id": "699",
+      "name": "saturn",
+      "radius_mm": "58232000000",
+      "gm_micro_m3_s2": "37931206234000000000000"
+    },
+    {
+      "id": "799",
+      "name": "uranus",
+      "radius_mm": "25362000000",
+      "gm_micro_m3_s2": "5793950610300000000000"
+    },
+    {
+      "id": "8",
+      "name": "neptune system",
+      "radius_mm": "24624000000",
+      "gm_micro_m3_s2": "6836527100580000000000"
+    }
+  ]
+}

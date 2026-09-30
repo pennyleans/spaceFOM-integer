@@ -1,0 +1,111 @@
+|L   0|2026/09/28,22:26:44.204416|{host}| |T 0|0.000000| [00mFederate::print_version():227
+     TrickHLA-version:'v3.2.2'
+TrickHLA-release-date:'2026-04-01'
+             RTI-name:'pRTI Evolved'
+          RTI-version:'5.5.10'
+[00m|L   2|2026/09/28,22:26:44.205231|{host}| |T 0|0.000000| [33mSpaceFOM::ExecutionControl::set_least_common_time_step():3036 This is not a Master federate so this setting will be ignored.
+[00m|L   0|2026/09/28,22:26:44.205610|{host}| |T 0|0.000000| [00mTimeManagementServices::initialize_thread_state():157 Trick main thread (id:0, data_cycle:0.250).
+[00m|L   0|2026/09/28,22:26:44.205995|{host}| |T 0|0.000000| [00mTrickThreadCoordinator::initialize_thread_coordinator():346 Trick main thread (id:0, data_cycle:0.250000000).
+[00m|L   0|2026/09/28,22:26:44.206714|{host}| |T 0|0.000000| [00mTrickThreadCoordinator::verify_trick_thread_associations():689
+[00m|L   0|2026/09/28,22:26:44.207680|{host}| |T 0|0.000000| [00mFederate::initialize():388 Federate:"orbital_other" Type:"True"
+[00m|L   0|2026/09/28,22:26:44.208004|{host}| |T 0|0.000000| [00mFedAmb::initialize():157 Federate:"orbital_other"
+[00m|L   0|2026/09/28,22:26:44.208354|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::initialize():193 Initialization-Scheme:'SpaceFOM'
+[00m|L   0|2026/09/28,22:26:44.208759|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'ExCO' FOM_name:'ExecutionConfiguration' create_HLA_instance:False
+[00m|L   0|2026/09/28,22:26:44.209123|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::initialize():255
+    I AM NOT THE PRESET MASTER
+[00m|L   0|2026/09/28,22:26:44.209488|{host}| |T 0|0.000000| [00mFederate::restart_initialization():410
+[00m|L   0|2026/09/28,22:26:44.209806|{host}| |T 0|0.000000| [00mTimeManagementServices::restart_initialization():184
+[00m|L   0|2026/09/28,22:26:44.210118|{host}| |T 0|0.000000| [00mManager::setup_all_ref_attributes():1061
+[00m|L   0|2026/09/28,22:26:44.210441|{host}| |T 0|0.000000| [00mManager::setup_object_ref_attributes():1110
+[00m|L   0|2026/09/28,22:26:44.210764|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'ExCO' FOM_name:'ExecutionConfiguration' create_HLA_instance:False
+[00m|L   0|2026/09/28,22:26:44.211147|{host}| |T 0|0.000000| [00mManager::setup_object_ref_attributes():1110
+[00m|L   0|2026/09/28,22:26:44.211461|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'SolarSystemBarycentricInertial' FOM_name:'ReferenceFrame' create_HLA_instance:False
+[00m|L   0|2026/09/28,22:26:44.211821|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'body_10' FOM_name:'ReferenceFrame' create_HLA_instance:False
+[00m|L   0|2026/09/28,22:26:44.212177|{host}| |T 0|0.000000| [00mObject::initialize():245 Name:'orbital_vessel' FOM_name:'PhysicalEntity' create_HLA_instance:False
+[00m|L   0|2026/09/28,22:26:44.212705|{host}| |T 0|0.000000| [00mManager::setup_interaction_ref_attributes():1168
+[00m|L   0|2026/09/28,22:26:44.213101|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::setup_interaction_ref_attributes():374 FOM-Parameter:'execution_mode' NOTE: This is an auto-generated parameter so there is no associated 'Trick-Name'.
+[00m|L   0|2026/09/28,22:26:44.213531|{host}| |T 0|0.000000| [00mFederate::create_RTI_ambassador_and_connect():619 Local settings designator for RTI connection:'crcHost = {crc-host}
+ crcPort = 8989'
+[00mWelcome to Pitch pRTI Free. Note that it is limited to two federates. 
+It may only be used for learning and testing purposes.
+No production or commercial development use allowed.
+Please read the End User License Agreement for more info.
+|L   0|2026/09/28,22:26:44.551892|{host}| |T 0|0.000000| [00mFederate::create_federation():2581 Attempting to create Federation 'orbital_8989'
+[00m|L   0|2026/09/28,22:26:44.555114|{host}| |T 0|0.000000| [00mFederate::create_federation():2636 Federation already exists for 'orbital_8989'
+[00m|L   0|2026/09/28,22:26:44.555595|{host}| |T 0|0.000000| [00mFederate::join_federation():2803 Attempting to Join Federation 'orbital_8989'
+[00m|L   0|2026/09/28,22:26:44.700429|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_completed'
+[00m|L   0|2026/09/28,22:26:44.701187|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'initialization_completed'
+[00m|L   0|2026/09/28,22:26:44.702954|{host}| |T 0|0.000000| [00mFederate::join_federation():2828 Joined Federation 'orbital_8989', Federate-Handle:FederateHandle<10>
+[00m|L   0|2026/09/28,22:26:44.703367|{host}| |T 0|0.000000| [00mFederate::enable_async_delivery():3023 Enabling Asynchronous Delivery
+[00m|L   0|2026/09/28,22:26:44.703986|{host}| |T 0|0.000000| [00mExecutionControl::join_federation_process():354 Checking for shutdown
+[00m|L   0|2026/09/28,22:26:44.704494|{host}| |T 0|0.000000| [00mFederate::initialize_MOM_handles():1626
+[00m|L   0|2026/09/28,22:26:44.705816|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+[00m|L   0|2026/09/28,22:26:44.706248|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():783 This is a Late Joining Federate.
+[00m|L   0|2026/09/28,22:26:44.706607|{host}| |T 0|0.000000| [00mManager::setup_all_RTI_handles():1217
+[00m|L   0|2026/09/28,22:26:44.706951|{host}| |T 0|0.000000| [00mManager::setup_object_RTI_handles():1269
+[00m|L   0|2026/09/28,22:26:44.707372|{host}| |T 0|0.000000| [00mManager::setup_object_RTI_handles():1269
+[00m|L   0|2026/09/28,22:26:44.707842|{host}| |T 0|0.000000| [00mManager::setup_interaction_RTI_handles():1467
+[00m|L   0|2026/09/28,22:26:44.708293|{host}| |T 0|0.000000| [00mManager::setup_interaction_RTI_handles():1467
+[00m|L   0|2026/09/28,22:26:44.708709|{host}| |T 0|0.000000| [00mObject::subscribe_to_object_attributes():1038 For object 'ExCO'.
+[00m|L   0|2026/09/28,22:26:44.710129|{host}| |T 0|0.000000| [00mExecutionConfigurationBase::wait_for_registration():224
+[00m|L   0|2026/09/28,22:26:44.710521|{host}| |T 0|0.000000| [00mExecutionConfigurationBase::wait_for_registration()268
+OBJECTS: 1
+  1:Object instance 'ExCO' for class 'ExecutionConfiguration' is REQUIRED and is Not Registered
+[00m|L   0|2026/09/28,22:26:44.722098|{host}| |T 0|0.000000| [00mFedAmb::discoverObjectInstance():658 DISCOVERED 'ExCO' Instance-ID:HandleKind<102>
+[00m|L   0|2026/09/28,22:26:44.722688|{host}| |T 0|0.000000| [00mManager::discover_object_instance():2652 Data-Object 'ExCO' Instance-ID:HandleKind<102>
+[00m|L   0|2026/09/28,22:26:44.731133|{host}| |T 0|0.000000| [00mExecutionConfigurationBase::wait_for_registration()268
+OBJECTS: 1
+  1:Object instance 'ExCO' (ID:HandleKind<102>) for class 'ExecutionConfiguration' is REQUIRED and is REGISTERED
+[00m|L   0|2026/09/28,22:26:44.731551|{host}| |T 0|0.000000| [00mManager::request_data_update():914 Object:'ExCO'
+[00m|L   0|2026/09/28,22:26:44.732401|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionConfiguration::wait_for_update():652 Waiting...
+[00m|L   0|2026/09/28,22:26:44.738761|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionConfiguration::wait_for_update():698 Received data.
+[00m|L   0|2026/09/28,22:26:44.739165|{host}| |T 0|0.000000| [00m
+=============================================================
+SpaceFOM::ExecutionConfiguration::unpack():307
+        Current Scenario Time: 0 (0)
+      Current Simulation Time: 0 (0)
+     Current HLA Granted Time: 0 (0)
+   Current HLA Requested Time: 0 (0)
+.............................................................
+                  Object-Name: 'ExCO'
+              root_frame_name: 'SolarSystemBarycentricInertial'
+          scenario_time_epoch: 7529673600.00018024
+      next_mode_scenario_time: 7529673600.00018024
+           next_mode_cte_time: -1.79769313486231571e+308
+       current_execution_mode: EXEC_MODE_RUNNING
+          next_execution_mode: EXEC_MODE_RUNNING
+       least_common_time_step: 15625 (unit:microseconds)
+=============================================================
+[00m|L   0|2026/09/28,22:26:44.739499|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::late_joiner_hla_init_process()
+	 current_scenario_time:     7529673600.00018024
+	 scenario_time_epoch:       7529673600.00018024
+	 scenario_time_epoch(ExCO): 7529673600.00018024
+	 scenario_time_sim_offset:  0
+	 Current HLA grant time:    0
+	 Current HLA request time:  0
+	 current_sim_time:          0
+	 simulation_time_epoch:     0
+[00m|L   3|2026/09/28,22:26:44.739879|{host}| |T 0|0.000000| [31mTrickThreadCoordinator::verify_time_constraints():1372 ERROR: The Least Common Time Step (LCTS:0.015625 seconds) must be greater or equal to the data cycle time for the Trick main thread (thread-id:0, data_cycle:0.25 seconds)! Please adjust the LCTS set in your input file as appropriate.
+[00m|L   0|2026/09/28,22:26:46.207766|{host}| |T 0|0.000000| [00m
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: {work}/TrickHLA/source/TrickHLA/DebugHandler.cpp:0
+  DIAGNOSTIC: TrickThreadCoordinator::verify_time_constraints():1372 ERROR: The Least Common Time Step (LCTS:0.015625 seconds) must be greater or equal to the data cycle time for the Trick main thread (thread-id:0, data_cycle:0.25 seconds)! Please adjust the LCTS set in your input file as appropriate.
+
+
+              SIMULATION START TIME:        0.000
+               SIMULATION STOP TIME:        0.000
+            SIMULATION ELAPSED TIME:        0.000
+                 USER CPU TIME USED:        2.225
+               SYSTEM CPU TIME USED:        0.263
+              SIMULATION / CPU TIME:        0.000
+       INITIALIZATION USER CPU TIME:        0.000
+     INITIALIZATION SYSTEM CPU TIME:        0.000
+               SIMULATION RAM USAGE:      202.543MB
+      (External program RAM usage not included!)
+  VOLUNTARY CONTEXT SWITCHES (INIT):            0
+INVOLUNTARY CONTEXT SWITCHES (INIT):            0
+   VOLUNTARY CONTEXT SWITCHES (RUN):         6188
+ INVOLUNTARY CONTEXT SWITCHES (RUN):           13
+
+[00m

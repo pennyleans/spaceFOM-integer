@@ -1,0 +1,18 @@
+{
+  "transport": "OpenRTI IEEE1516e TCP loopback",
+  "url": "rti://127.0.0.1:31528",
+  "federation": "orbital_31528",
+  "server_pid": 51744,
+  "publisher_pid": 11788,
+  "observer_pid": 33920,
+  "publisher_exit": 0,
+  "observer_exit": 0,
+  "published_sha256": "9e34254eaa24d358ee5f1ca7801a8cebd2302a0d21686501bd8953b0cef6e1e5",
+  "observed_sha256": "9e34254eaa24d358ee5f1ca7801a8cebd2302a0d21686501bd8953b0cef6e1e5",
+  "byte_identity": true,
+  "input_bytes": 5316325,
+  "source_spool": "{work}/precision-64hz/precision8.sf",
+  "observed_spool": "{work}/precision-64hz/transport-normal\\observed.sf",
+  "provenance": "transferred source hash is metadata, not receiver authority or authenticity proof",
+  "scope": "bounded two-federate subset; no full SpaceFOM or RTI compliance claim"
+}

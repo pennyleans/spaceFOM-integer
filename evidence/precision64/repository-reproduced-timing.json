@@ -1,0 +1,154 @@
+{
+  "schema": "precision-candidate-timing-v1",
+  "benchmark_sha256": "f35567742459197413fdbaf8eebe79d3c7cc54f760b01ab21133a87c54ba008f",
+  "workload_identities": {
+    "coast": "b285924a5f85f6a51c3fa0c8ce7658e22b6419a16da76bd92645d048fe09487e",
+    "coupled-controls": "b285924a5f85f6a51c3fa0c8ce7658e22b6419a16da76bd92645d048fe09487e"
+  },
+  "runs": [
+    {
+      "platform": "windows-x64",
+      "factor": 8,
+      "workload_id": "coast",
+      "mean_ms": 4.57183212890625,
+      "p99_ms": 6.4637,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.70740274375,
+      "p99_headroom_fraction": 0.5863232,
+      "timing_pass": true
+    },
+    {
+      "platform": "windows-x64",
+      "factor": 8,
+      "workload_id": "coupled-controls",
+      "mean_ms": 4.580317431640625,
+      "p99_ms": 6.2741,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.7068596843749999,
+      "p99_headroom_fraction": 0.5984576,
+      "timing_pass": true
+    },
+    {
+      "platform": "windows-x64",
+      "factor": 16,
+      "workload_id": "coast",
+      "mean_ms": 10.936225610351563,
+      "p99_ms": 14.2514,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.30008156093749994,
+      "p99_headroom_fraction": 0.08791039999999994,
+      "timing_pass": false
+    },
+    {
+      "platform": "windows-x64",
+      "factor": 16,
+      "workload_id": "coupled-controls",
+      "mean_ms": 9.85483514404297,
+      "p99_ms": 13.8141,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.36929055078124995,
+      "p99_headroom_fraction": 0.11589760000000005,
+      "timing_pass": false
+    },
+    {
+      "platform": "macos-arm64",
+      "factor": 8,
+      "workload_id": "coast",
+      "mean_ms": 3.2994744262695312,
+      "p99_ms": 4.1771,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.7888336367187501,
+      "p99_headroom_fraction": 0.7326656,
+      "timing_pass": true
+    },
+    {
+      "platform": "macos-arm64",
+      "factor": 8,
+      "workload_id": "coupled-controls",
+      "mean_ms": 3.3726782592773437,
+      "p99_ms": 4.2572,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.78414859140625,
+      "p99_headroom_fraction": 0.7275392,
+      "timing_pass": true
+    },
+    {
+      "platform": "macos-arm64",
+      "factor": 16,
+      "workload_id": "coast",
+      "mean_ms": 6.293226110839844,
+      "p99_ms": 7.1924,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.59723352890625,
+      "p99_headroom_fraction": 0.5396864,
+      "timing_pass": true
+    },
+    {
+      "platform": "macos-arm64",
+      "factor": 16,
+      "workload_id": "coupled-controls",
+      "mean_ms": 6.4139317016601565,
+      "p99_ms": 7.3207,
+      "measured_ticks": 8192,
+      "warmup_ticks": 1024,
+      "full_workload": true,
+      "coverage_pass": true,
+      "mean_headroom_fraction": 0.58950837109375,
+      "p99_headroom_fraction": 0.5314752,
+      "timing_pass": true
+    }
+  ],
+  "both_platforms_and_workloads_passing_factors": [
+    8
+  ],
+  "highest_measured_timing_pass_factor": 8,
+  "next_higher_factor": 16,
+  "selection_bracket_supported": true,
+  "higher_factors_without_full_measurement": [
+    {
+      "platform": "macos-arm64",
+      "factor": 32,
+      "workload_id": "coast"
+    },
+    {
+      "platform": "macos-arm64",
+      "factor": 32,
+      "workload_id": "coupled-controls"
+    },
+    {
+      "platform": "windows-x64",
+      "factor": 32,
+      "workload_id": "coupled-controls"
+    },
+    {
+      "platform": "windows-x64",
+      "factor": 32,
+      "workload_id": "coast"
+    }
+  ],
+  "globally_highest_measured_claim_supported": false,
+  "physics_status": "requires matching independent physics and held-out acceptance; timing alone never qualifies a factor",
+  "acceptance_sha256": "33bd7bb09b70cdd72b8d13d1d9e0ad93a6f13b74b4d2cf30dda1b307dedd6821",
+  "wrapper_sha256": "e2084b0a38259df62568f54cb50f49b980b8ea33f0ec958f31e85f8b0dc1e9ef"
+}

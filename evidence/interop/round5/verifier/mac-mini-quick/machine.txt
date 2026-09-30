@@ -1,0 +1,9 @@
+Machine: Apple M4, model Mac16,10, arm64
+Operating system: macOS 26.6.1 (build 25G76)
+Runtime: .NET 10.0.12 (bundled self-contained runtime of the package)
+Package: iss-verify-9e44426-osx-arm64.tar.gz (folder layout),
+sha256 63de839b8af1f72d09b14ac5df9802b136b9dac1da205cd5339ea687d24d8110
+Preparation: extracted fresh; ran only xattr -dr com.apple.quarantine .; no codesign
+and no chmod.
+Run: iss-verify --quick --receipt receipt-quick.json
+Result: pass, 12,547 states in 13 s, exit code 0

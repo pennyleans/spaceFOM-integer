@@ -1,0 +1,14 @@
+{
+  "schema": "precision-physical-replay-v1",
+  "case": "moon-orbit",
+  "rate_hz": 64,
+  "integration_substeps": 4,
+  "compared_complete_states": 460801,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 7200,
+  "elapsed_wall_seconds": 68.3946281,
+  "dynamics": "integer-flight-v4-fixed-substeps-n4",
+  "final_physical_hash": "d84fe4934e83fe6e3c97470a602ac70abe8e901d44d4484f5aba4ec4d6fb4d79",
+  "scope": "complete physical comparison every outer tick; full accuracy assessed independently"
+}

@@ -1,0 +1,10 @@
+Machine: WSL2 on the Windows host (AMD Ryzen 9 5900X), 24 virtual cores, 32 GB
+Operating system: Ubuntu 24.04.4 LTS, kernel 6.18.33.2-microsoft-standard-WSL2
+Runtime: .NET 10.0.12 (bundled self-contained runtime of the package)
+Package: 2207-verify-9e44426-linux-x64.tar.gz (single executable), sha256
+c729dbbd7044c2259659815fb4149b737ccfa5f5d1413ce6426acfb9836e884b
+Source: downloaded from draft release verify-9e44426 (id 398836095), asset id
+598691429; hash checked against SHA256SUMS.
+Run: extracted fresh, then ./2207-verify --receipt receipt.json (full run,
+all six checks, one thread each, running in parallel)
+Result: pass, 1,497,350 states in 109 s, exit code 0

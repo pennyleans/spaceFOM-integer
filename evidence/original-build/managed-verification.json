@@ -1,0 +1,194 @@
+{
+  "schema": "spacefom-managed-verification-v1",
+  "unchanged_integer_and_fixture_files": 45,
+  "protected_files": [
+    {
+      "path": "data/missions/lunar-test-2207.json",
+      "sha256": "289e5676ce3db27fa2ddcee6039c24b58291610da0c846f83efc44d235356313"
+    },
+    {
+      "path": "data/scenarios/assistance.json",
+      "sha256": "98138312ca9ab8ff369c0d4b6919d138d99407e5b4bfb56a760aebc6fe3884de"
+    },
+    {
+      "path": "data/scenarios/high-rotation-recovery.json",
+      "sha256": "a5abd56892bee861deb6caa2fefdcc2dc909f8a91e732fa3a3e76fbd64faff6c"
+    },
+    {
+      "path": "data/scenarios/manual-burn.json",
+      "sha256": "94237ec72ec0d34cd811ff6c55b5b624fe1276d20bdafa15633f79d0f9accc05"
+    },
+    {
+      "path": "data/scenarios/mfd-orbit-burn.json",
+      "sha256": "b461b02967618f141e172075fa066a5ac64a66674b60a3af596c8c5b34bfe2b3"
+    },
+    {
+      "path": "data/ships/lunar-test-freighter.flight.json",
+      "sha256": "2c15773607d5e90e80c9861b9f5a6d91b533ffb9735a2273b7f2c6056ea17310"
+    },
+    {
+      "path": "data/ships/lunar-test-freighter.ship.toml",
+      "sha256": "c25a19aa95db93a4d53b848506d5ad986e6ee669841702b421613c7d1da045e1"
+    },
+    {
+      "path": "data/ships/reference-tug.flight.json",
+      "sha256": "852a40b21f04127383a190093cd43513a4b9260f96020955f6b0300b86c6c114"
+    },
+    {
+      "path": "data/ships/reference-tug.ship.toml",
+      "sha256": "eb3ec9463adb5e27957619e1f96a53a5f024c3954822d61e6bbf36ee367d46b4"
+    },
+    {
+      "path": "data/sol-2207.json",
+      "sha256": "6b700c0aaaba37186e41dca3c4a31f8f9b1d2ff32869db28dab867d8193d4a0e"
+    },
+    {
+      "path": "data/sources/horizons/10.json",
+      "sha256": "f39daf38335423cb46c27c9fa524e6de7a0734be792b291d87f213162e9b7116"
+    },
+    {
+      "path": "data/sources/horizons/199.json",
+      "sha256": "de9561a1efbc28b502b17bdc0c3bd7fcb68215c180f9220d07f255c91c71e1d0"
+    },
+    {
+      "path": "data/sources/horizons/299.json",
+      "sha256": "909b6f5b0ca7a65edf4a00d11bf7cffef0f7fbd0dc1b123c99f9719a126692ca"
+    },
+    {
+      "path": "data/sources/horizons/301.json",
+      "sha256": "8913c473d84629c3f459f0eca2409ccb1e653e7f017819dd4102a8739367b799"
+    },
+    {
+      "path": "data/sources/horizons/399.json",
+      "sha256": "458218f04c40a13b37802a2dcca6a71810285b0887173d520966e0761bdc2dca"
+    },
+    {
+      "path": "data/sources/horizons/499.json",
+      "sha256": "73c9a96b7a46029be84a53013ffa2def96ee4d1f13e02aca47e29cd8a91d51c2"
+    },
+    {
+      "path": "data/sources/horizons/5.json",
+      "sha256": "8a29aa94be7726470abaef1b984e45abd870123d07af4d9d2233759c34e849a1"
+    },
+    {
+      "path": "data/sources/horizons/501.json",
+      "sha256": "753ba1b730ed973273044e1c867a95bda8f5cbb6841f74085572a246a8883b61"
+    },
+    {
+      "path": "data/sources/horizons/502.json",
+      "sha256": "b75b1a9de98b07012a4b50dde4276575833c7985daac3bf57863c55811738fab"
+    },
+    {
+      "path": "data/sources/horizons/503.json",
+      "sha256": "e8ae3ac39a6c53aaa3922b9a2e90e5069a24452f212331f1887a61e0d47bbb95"
+    },
+    {
+      "path": "data/sources/horizons/504.json",
+      "sha256": "dc080129f4155397f44f2d2d9800461e5a213f4d739bedb21633101f0910328a"
+    },
+    {
+      "path": "data/sources/horizons/599.json",
+      "sha256": "c52bc583d3544c106fb7e9c37d9baa715b60bc0dd5a1848d3aa1a7ac7ca3313e"
+    },
+    {
+      "path": "data/sources/horizons/606.json",
+      "sha256": "88d0b5346824dd9668a17efe441dc77214504ad403c91a322f8c66cbe0554531"
+    },
+    {
+      "path": "data/sources/horizons/699.json",
+      "sha256": "987e9aedcc12ff188b692ad929749af85122ad85f631d3dae3176a11710bf412"
+    },
+    {
+      "path": "data/sources/horizons/799.json",
+      "sha256": "1da979ffef3b1676ac1e3d6055c5247efaaf7edca5dc18a1b0e997f67e7db2d8"
+    },
+    {
+      "path": "data/sources/horizons/8.json",
+      "sha256": "abe5bd44ee2d81ef5ed117fad0885128d64457479a9f16a36306bb73a3426aa9"
+    },
+    {
+      "path": "data/sources/horizons/801.json",
+      "sha256": "cef2a34d2163dc0e12d9a91b249dee77a6437eeb06cc5fb2e00b92ac38494fcd"
+    },
+    {
+      "path": "data/sources/horizons/899.json",
+      "sha256": "470218abacf2ffbedf16ef40574481e1312a83520ccabfb103d1d72efb5decb8"
+    },
+    {
+      "path": "src/Flight.Core/Attitude.cs",
+      "sha256": "ac5ef794b8df6a5bfe821fa332c90f63af6307416b5dc31ae509e6769cc4337a"
+    },
+    {
+      "path": "src/Flight.Core/Flight.Core.csproj",
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3"
+    },
+    {
+      "path": "src/Flight.Core/FlightEngine.cs",
+      "sha256": "1ae79a1d4fccbce58564dc3993534a6580fd939ae70078740814ab0d7d879542"
+    },
+    {
+      "path": "src/Flight.Core/Gravity.cs",
+      "sha256": "30929f49b78d2fcf2dff05866d69c4f2b40a6123ab59cc525463c25fe525b52e"
+    },
+    {
+      "path": "src/Flight.Core/IntegerMath.cs",
+      "sha256": "dbaf552a57fea70a739a59afc8a262bf476363a3be4aff7ab8b2602159b28878"
+    },
+    {
+      "path": "src/Flight.Core/PhysicalSnapshot.cs",
+      "sha256": "4bfb0ced429bcb57f66a733269658410d12c52c8f64f5410b40bba50db21ec9e"
+    },
+    {
+      "path": "src/Flight.Core/Propulsion.cs",
+      "sha256": "f5f2bbe4b165c5318d6c1a5b9aaeac47eb13ee383449a614511895062062b01d"
+    },
+    {
+      "path": "src/Flight.Core/State.cs",
+      "sha256": "5ee8a47e5547e188456fa04ff8753b9c2a9c32f2fa64904a0ef306b4c9c774d7"
+    },
+    {
+      "path": "src/Flight.Core/StateHash.cs",
+      "sha256": "af21afa6f500dd54bba3d5731e32b5bdf4f31c310b1309c20a3cfb69aa0d6a4a"
+    },
+    {
+      "path": "src/Flight.Guidance/Flight.Guidance.csproj",
+      "sha256": "e025e835811e7fb6b3af10ba2aa75bd394e6294ff1a6ef3bd92ee84bb0f88159"
+    },
+    {
+      "path": "src/Flight.Guidance/GuidanceController.cs",
+      "sha256": "285e1e9df1a5a63431442c88af793ed55efc970e6071724b0988d8fc5670fe28"
+    },
+    {
+      "path": "src/Flight.Guidance/GuidanceHash.cs",
+      "sha256": "b5e4ee5cfdc0fdd0295cb22e5b2cc9eb81322cda7f46100c67eda58ed49767c4"
+    },
+    {
+      "path": "src/Flight.Guidance/GuidanceMath.cs",
+      "sha256": "a61fb8e3f360ac333c806a8a2ecb724a7b10dcf8f3a1cac4c6861d0a876fe223"
+    },
+    {
+      "path": "src/Flight.Guidance/ManeuverSteering.cs",
+      "sha256": "6e60b35029450783620df2ad2354623667a1949ea5f7f072f0559a80875ef315"
+    },
+    {
+      "path": "src/Flight.Mission/Flight.Mission.csproj",
+      "sha256": "ccf0bb6f952683436c0c924b6f9ffd38aca9f3a750a0f905377372ca5f5de3a0"
+    },
+    {
+      "path": "src/Flight.Mission/MissionPlan.cs",
+      "sha256": "d8fd3aaabfc084c9019233567a0a29a5ed180ea77d8a570a045e26d6ead36869"
+    },
+    {
+      "path": "src/Flight.Mission/MissionScheduler.cs",
+      "sha256": "ab0c77990db4f7ea5df4a39d2de5b0a7c845bb99c95738d1e2192eb17253532b"
+    }
+  ],
+  "fresh_process_aa_equal": true,
+  "observed_bytes_equal": true,
+  "tape_sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+  "frames": 3841,
+  "core_regression": "23/23 passed",
+  "encoding_and_parser_gates": "12 passed",
+  "golden_changes": "none",
+  "scope": "reproducibility and declared observational encoding; not independent physical accuracy"
+}

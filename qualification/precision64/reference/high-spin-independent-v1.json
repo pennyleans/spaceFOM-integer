@@ -1,0 +1,52 @@
+{
+  "schema": "precision-high-spin-independent-v1",
+  "scope": "independent recomputation of immutable exported timing arrays; harness implementation and CPU clock instrumentation not inspected",
+  "acceptance_sha256": "33bd7bb09b70cdd72b8d13d1d9e0ad93a6f13b74b4d2cf30dda1b307dedd6821",
+  "not_a_new_selection_workload": "supplemental high-spin evidence; original coast and coupled-controls selection thresholds unchanged",
+  "results": [
+    {
+      "platform": "windows-x64",
+      "integration_substeps": 8,
+      "workload": "high-spin",
+      "mean_ms": 5.53023720703125,
+      "p99_ms": 7.9071,
+      "max_ms": 9.3808,
+      "warmup_ticks": 1024,
+      "measured_ticks": 8192,
+      "over_15_625_ms_ticks": 0,
+      "max_nonoverlapping_64_tick_work_ms": 472.9887,
+      "max_rolling_64_tick_work_ms": 472.9887,
+      "reported_max_64_tick_work_ms": 472.9887000000001,
+      "p99_headroom_fraction": 0.4939456,
+      "supplemental_headroom_pass": true,
+      "reported_final_canonical_hash": "e61204a572c7ab9f76275e8c800ef986e25d9e832b3fa57b58ce5cf3c5ed74f5",
+      "reported_last_display_view_bytes": 16290,
+      "timings_sha256": "9d9957667821d376f751664fd8d4585f94b97e19f45897a1b47d52c703ee67ec",
+      "receipt_sha256": "bad128dc14a0c6686b619d9d1183acfb6b0f9b4178a7e5ffde53407ae0bcdf60"
+    },
+    {
+      "platform": "macos-arm64",
+      "integration_substeps": 8,
+      "workload": "high-spin",
+      "mean_ms": 3.5179691040039063,
+      "p99_ms": 4.3984,
+      "max_ms": 5.1649,
+      "warmup_ticks": 1024,
+      "measured_ticks": 8192,
+      "over_15_625_ms_ticks": 0,
+      "max_nonoverlapping_64_tick_work_ms": 228.282,
+      "max_rolling_64_tick_work_ms": 228.5662,
+      "reported_max_64_tick_work_ms": 228.28199999999995,
+      "p99_headroom_fraction": 0.7185024,
+      "supplemental_headroom_pass": true,
+      "reported_final_canonical_hash": "e61204a572c7ab9f76275e8c800ef986e25d9e832b3fa57b58ce5cf3c5ed74f5",
+      "reported_last_display_view_bytes": 16289,
+      "timings_sha256": "5b28722a977c7782f5a07f9d8381081823a33f569cfe2b7bedd3981e85800a3f",
+      "receipt_sha256": "76f5c37c169c330cecec45e8e684b8ecb48c398b356b99cd8c6f502b5b3c1c84"
+    }
+  ],
+  "both_pass": true,
+  "reported_final_canonical_hashes_match": true,
+  "reported_display_lengths_match": false,
+  "boundary": "display byte equality is not established; canonical hashes match in these two reported endpoint receipts"
+}

@@ -1,0 +1,11 @@
+{
+  "check": "Windows exchange package from bb84ebf",
+  "package": "2207-spacefom-exchange-win-x64.zip",
+  "sha256": "252eaf53e6aa85499e662ddadf3f3a02d28ab4fef1362b314a30b940596ffcac",
+  "bytes": 3367468,
+  "run": "run-exchange.ps1 from the extracted package, port 31417",
+  "byte_identity": true,
+  "observed_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "bin_files": "libfedtime1516e.dll, librti1516e.dll, OpenRTI.dll, rtinode.exe, spacefom-observer.exe, spacefom-publisher.exe",
+  "draft_release_asset_id": 597470142
+}

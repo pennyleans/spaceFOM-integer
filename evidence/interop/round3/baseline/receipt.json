@@ -1,0 +1,12 @@
+{
+  "check": "baseline two federate exchange with our observer",
+  "rti": "Pitch pRTI Free 5.5.10",
+  "federation": "orbital_8989",
+  "publisher": "spacefom-publisher default options",
+  "observer": "spacefom-observer",
+  "publisher_exit": 0,
+  "observer_exit": 0,
+  "published_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "observed_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "byte_identity": true
+}

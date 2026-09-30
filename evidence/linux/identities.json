@@ -1,0 +1,35 @@
+{
+  "schema": "linux-identities-v1",
+  "adapter_sources": {
+    "exchange-ecliptic": {
+      "transport.hpp": "dd7a5610c09852fb37df4d30b25d5e93188ee5ed1080e422f6674bbaf8d120b3",
+      "note": "unmodified adapter as used for the Windows evidence; root SolarSystemBarycentricEclipticJ2000"
+    },
+    "exchange-icrf": {
+      "transport.hpp": "2f5824178fa84d9a9a778ca2015c47aa92310b006cd9d01eda899c32f7e49169",
+      "note": "root SolarSystemBarycentricInertial; only the root name constant differs"
+    }
+  },
+  "unchanged_adapter_sources": {
+    "publisher.cpp": "1b3fa6aa1dde9fbdd6a872317a70699aee5a6ecb0b418ff4baa75de9803406cb",
+    "observer.cpp": "93c714e6271d88f399c52bdf0808cc36e0899d6320e1709191446af9c0a3ffde",
+    "CMakeLists.txt": "6d75079b4e0971fe22e593425dd5153ca9e6763eab2832d819fa10ddcb3dc32c"
+  },
+  "icrf_binaries": {
+    "spacefom-publisher": "f7a67dd651b365cec6ad3bee2fe2abda0161d3e315225427ad84f2187213b12c",
+    "spacefom-observer": "6a9b6e3be111c1ef719283043c36e6ab25ad6316fc2d3d4b48764c81c6a5335d"
+  },
+  "runner": {
+    "run-interop.sh": "9d157f9057775eccfc3e139628f482b667d49921548a4e036081f7babdfcecc3"
+  },
+  "recordings": {
+    "data/published.sf": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+    "data/published-icrf.sf": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+    "ecliptic eight-step export reproduced on Linux": "9e34254eaa24d358ee5f1ca7801a8cebd2302a0d21686501bd8953b0cef6e1e5"
+  },
+  "exporter": {
+    "repository": "2207: Integer Spaceflight Simulator, private",
+    "branch": "spacefom-icrf",
+    "commit": "2c11d1ed55080982515620715e7e38df70c2f175"
+  }
+}

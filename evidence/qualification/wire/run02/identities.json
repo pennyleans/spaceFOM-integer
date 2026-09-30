@@ -1,0 +1,108 @@
+{
+  "accepted_files": [
+    {
+      "path": "data/published.sf",
+      "sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56"
+    },
+    {
+      "path": "native/spacefom/CMakeLists.txt",
+      "sha256": "6d75079b4e0971fe22e593425dd5153ca9e6763eab2832d819fa10ddcb3dc32c"
+    },
+    {
+      "path": "native/spacefom/observer.cpp",
+      "sha256": "93c714e6271d88f399c52bdf0808cc36e0899d6320e1709191446af9c0a3ffde"
+    },
+    {
+      "path": "native/spacefom/publisher.cpp",
+      "sha256": "1b3fa6aa1dde9fbdd6a872317a70699aee5a6ecb0b418ff4baa75de9803406cb"
+    },
+    {
+      "path": "native/spacefom/README.md",
+      "sha256": "91004a52a1d1611af8e0b8410dbc26e90aa9f7b40051afb3e27520afb11ddd54"
+    },
+    {
+      "path": "native/spacefom/run-interop.ps1",
+      "sha256": "ef54c6f8a0121cdcae668e5a617f019ddb7bf1c70ab2a01c5b69861d19a122ce"
+    },
+    {
+      "path": "native/spacefom/test-rejections.ps1",
+      "sha256": "58ba003297ca1da918fbd513dd7fe79e9e04e1aa3445f17c31a199113f76a4a3"
+    },
+    {
+      "path": "native/spacefom/transport.hpp",
+      "sha256": "dd7a5610c09852fb37df4d30b25d5e93188ee5ed1080e422f6674bbaf8d120b3"
+    }
+  ],
+  "binaries": [
+    {
+      "path": "out/transport/runtime/bin/libfedtime1516e.dll",
+      "sha256": "df2af75fbf336f320716df6972d5b510415853b7d9d5440b057cf0325cb27dd2"
+    },
+    {
+      "path": "out/transport/runtime/bin/librti1516e.dll",
+      "sha256": "745566d92ee85dd5099550d218d2d240e77b7b705219038315c32fe2343e79e5"
+    },
+    {
+      "path": "out/transport/runtime/bin/OpenRTI.dll",
+      "sha256": "17d894ba191df037a9da7d2eb7c54faf381600767bcb10344fdc163aacd098af"
+    },
+    {
+      "path": "out/transport/runtime/bin/rtinode.exe",
+      "sha256": "4b8ac1701e2a68b2188446cebb5dcae0d9a782efc56434cad4740c04cd6d1d3b"
+    },
+    {
+      "path": "out/transport/adapter-build/Release/spacefom-observer.exe",
+      "sha256": "d8911b0a5309e5d54754dd556fee49b0c54f8308b5d960c4bb2d07aa988e8d33"
+    },
+    {
+      "path": "out/transport/adapter-build/Release/spacefom-publisher.exe",
+      "sha256": "cccad0b5ae6db16c5df20628b1c32c19aa0bc1fe7b8dca66ee8572799a42c726"
+    }
+  ],
+  "fom": [
+    {
+      "path": "out/transport/TrickHLA/FOMs/SpaceFOM/SISO_SpaceFOM_datatypes.xml",
+      "sha256": "f7a75794acabd984b5048558cfbce0ac0255430fe53b6fee69fd9969e9515fa5"
+    },
+    {
+      "path": "out/transport/TrickHLA/FOMs/SpaceFOM/SISO_SpaceFOM_entity.xml",
+      "sha256": "a40eed014658dee2e16e418748f90b835a12cbc2a9aa2a6a9df5ceb129eb600a"
+    },
+    {
+      "path": "out/transport/TrickHLA/FOMs/SpaceFOM/SISO_SpaceFOM_environment.xml",
+      "sha256": "a6c590f2fff0f14f72c90c81206cc5d8326650259aa22cafa725d6e9afe47f0f"
+    },
+    {
+      "path": "out/transport/TrickHLA/FOMs/SpaceFOM/SISO_SpaceFOM_management.xml",
+      "sha256": "57fe29e18b1958cb28527d9ab765fe6c5c68424b6345d53c330b37887bc9873c"
+    },
+    {
+      "path": "out/transport/TrickHLA/FOMs/SpaceFOM/SISO_SpaceFOM_switches.xml",
+      "sha256": "fbf953d1f6b6a3a1de38ba5cd0cc52688bb5b9062dcf77ef2d97286cc1a7aa77"
+    }
+  ],
+  "fault_publisher_sha256": "a877a4a0f4171aadf69468ad8feccf9399a9b7f0fc54b33429f126d4a083e3d3",
+  "fault_build_receipt_sha256": "46abe247cd649a9c599da1b3b966a6c916311a4e29b0494d388a0df927509337",
+  "test_sources": [
+    {
+      "path": "qualification/wire/build_faults.py",
+      "sha256": "463f33f59bbe55c6366cfde56200cad4b25e8fab52b710dfd780f1e14fba3650"
+    },
+    {
+      "path": "qualification/wire/known_state.json",
+      "sha256": "1527a9097f834dfd35be67191fefe3e95a14a6e026a1f8ba21abed8b384d8dc1"
+    },
+    {
+      "path": "qualification/wire/oracle.py",
+      "sha256": "400c64b58f355d5ee4851c40665e16734a6aaedebeb7d61f46e63653918313ac"
+    },
+    {
+      "path": "qualification/wire/run_probes.py",
+      "sha256": "c7dfd3d0c3b243482c6cc77d4deda322106dde471819005f252ae4ed8ccb680d"
+    },
+    {
+      "path": "qualification/wire/test_oracle.py",
+      "sha256": "b02fa868a6647db5ad7601880742d3c40827f655c88e6c6fe0f30fe252ad38e0"
+    }
+  ]
+}

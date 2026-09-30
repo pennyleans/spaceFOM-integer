@@ -1,0 +1,30 @@
+{
+  "schema": "gmat-matched-reference-v1",
+  "case": "earth-orbit",
+  "gmat_version": "R2026a",
+  "scope": "two-body coast, exact exported relative state and GM, no extra forces",
+  "epoch_note": "GMAT uses 2000-01-01 epoch within bundled ephemeris coverage. The autonomous two-body equation is epoch-independent; only elapsed time and relative Cartesian vectors are compared. This is not a 2207 solar-system ephemeris comparison.",
+  "sample_count": 6001,
+  "duration_seconds": 6000.0,
+  "metrics": {
+    "simulation_vs_gmat_max_position_m": 0.0011596664800202785,
+    "simulation_vs_gmat_max_velocity_m_s": 1.2846407510540577e-06,
+    "analytic_vs_gmat_max_position_m": 1.1967517732682765e-06,
+    "analytic_vs_gmat_max_velocity_m_s": 1.3837725769517704e-09,
+    "max_reported_time_roundoff_s": 1.5692785382270813e-07
+  },
+  "position_threshold_m": 0.1,
+  "velocity_threshold_m_s": 0.0001,
+  "pass": true,
+  "identities": {
+    "initial_sha256": "e50bd4952b46045db2d049d7ee2aedf207c3ad32aac33288ae97872ca0f92796",
+    "samples_sha256": "4418678a5d15ee137d3142b4ac83b48b0db7f78870870521497a11217cc529ca",
+    "gmat_script_sha256": "80aa964a7d5af5560c56511a02fc5e582065070752b8cd91fba4d464bc89cfd2",
+    "gmat_report_sha256": "a56338c821cc650575872c71657d864ce4b25344222c6f701fc18258b1b97d60",
+    "console_executable_sha256": "36c880ad6c3f5e69b2e7e90c9d9cec4086eced9c1073fc5b289966d54db15f5f",
+    "libGmatBase_sha256": "7fd79302dcd6fd1fd672de2582f4d35c4a7069de6a6791af76dc106b7919caf2",
+    "libGmatUtil_sha256": "3f7cb84bae29be9ddc949eca554f1848a1057171e8d130c1e041b5e8277b811e",
+    "startup_sha256": "8dc56c9ef0d66ad430ae3836e50b6538b134bea3711b440bed74590a5c7c27ba",
+    "comparator_sha256": "9565efdafdd6542e7cf2d5540710a0ba3c620bd4729b8775624bf51c7bea6596"
+  }
+}

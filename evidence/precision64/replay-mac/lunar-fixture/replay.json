@@ -1,0 +1,14 @@
+{
+  "schema": "precision-physical-replay-v1",
+  "case": "lunar-fixture",
+  "rate_hz": 64,
+  "integration_substeps": 8,
+  "compared_complete_states": 3841,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 60,
+  "elapsed_wall_seconds": 23.8851195,
+  "dynamics": "integer-flight-v4-fixed-substeps-n8",
+  "final_physical_hash": "d8f7efef09cfd201520beff273d28f6a18f5e7ef33711c9aa879a95d28e5b6eb",
+  "scope": "complete physical comparison every outer tick; full accuracy assessed independently"
+}

@@ -1,0 +1,14 @@
+{
+  "check": "TrickHLA as orbital_observer against the committed publisher from bb84ebf",
+  "publisher": "spacefom-publisher from the ISS source at bb84ebf, options --master-modes --required orbital_observer",
+  "observer": "TrickHLA v3.2.2 at the pinned revision with qualification/trickhla/input-observer.py",
+  "publisher_exit": 0,
+  "trickhla_exit": 0,
+  "join_classification": "early joining federate",
+  "sync_points": "objects_discovered, root_frame_discovered, prototype_metadata, initialization_started, mtr_run, mtr_freeze and mtr_shutdown all announced, achieved and synchronized by both federates",
+  "freeze": "followed at the announced time: scenario freeze 7529673630.00018024, simulation freeze time 30, Freeze ON at 30.000000, hold about 242 ms, Freeze OFF",
+  "resume": "followed: mtr_run announced and synchronized again after the freeze, execution mode back to running",
+  "shutdown": "followed: mtr_shutdown announced at 60.0, shutdown spotted, clean resignation",
+  "states_compared": "orbital_vessel 3841 of 3841 and body_10 3841 of 3841 updates, all fourteen fields bit for bit, no missing ticks; root frame single update 14 of 14 fields",
+  "evidence": "trickhla-events.log (trimmed key lines with source line numbers), trickhla-interop.log (per-update lines), state-comparison.json, publisher.log"
+}

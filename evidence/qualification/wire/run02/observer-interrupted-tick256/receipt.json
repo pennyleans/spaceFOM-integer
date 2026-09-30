@@ -1,0 +1,116 @@
+{
+  "schema": "wire-hla-probe-v1",
+  "name": "observer-interrupted-tick256",
+  "expected_success": false,
+  "passed": true,
+  "pass_criterion": "fault detected or injected and no committed or partial observer output",
+  "both_federates_terminated_without_deadline_cleanup": false,
+  "recovery_timing_qualified": false,
+  "federation": "qualification_55039",
+  "url": "rti://127.0.0.1:55039",
+  "deadline_seconds": 15.0,
+  "elapsed_seconds": 15.01172090000182,
+  "deadline_reached": true,
+  "commands": {
+    "rti": [
+      "$REPO\\out\\transport\\runtime\\bin\\rtinode.exe",
+      "-i",
+      "rti://127.0.0.1:55039"
+    ],
+    "publisher": [
+      "$FAULT_BUILD\\build\\Release\\spacefom-publisher.exe",
+      "$REPO\\data\\published.sf",
+      "$REPO\\out\\transport\\TrickHLA\\FOMs\\SpaceFOM",
+      "rti://127.0.0.1:55039",
+      "qualification_55039"
+    ],
+    "observer": [
+      "$REPO\\out\\transport\\adapter-build\\Release\\spacefom-observer.exe",
+      "$SCRATCH\\observer-interrupted-tick256\\observed.sf",
+      "rti://127.0.0.1:55039",
+      "qualification_55039"
+    ]
+  },
+  "process_start_seconds": {
+    "rti": 0.004836200001591351,
+    "publisher": 0.16105270000116434,
+    "observer": 0.16603270000268822
+  },
+  "observer_start_delay_seconds": 0.0049800000015238766,
+  "requested_observer_delay_seconds": 0.0,
+  "fault_selector": "peer-interrupt",
+  "interrupt": {
+    "target": "observer",
+    "marker": "qualification_interrupt_ready tick=256",
+    "target_alive": true,
+    "seconds": 0.41077410000070813,
+    "exit_after_kill": 1
+  },
+  "natural_exits": {},
+  "forced_cleanup_or_interrupt": [
+    "observer",
+    "publisher",
+    "rti"
+  ],
+  "processes": {
+    "rti": {
+      "pid": 4160,
+      "exit": 1,
+      "reaped": true
+    },
+    "publisher": {
+      "pid": 21712,
+      "exit": 1,
+      "reaped": true
+    },
+    "observer": {
+      "pid": 21316,
+      "exit": 1,
+      "reaped": true
+    }
+  },
+  "observed_committed": false,
+  "partial_output_exists": false,
+  "comparison": null,
+  "error": null,
+  "logs": [
+    {
+      "file": "observer.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    },
+    {
+      "file": "observer.stdout.log",
+      "original_sha256": "9dd2038970a010c7e9cd7b52d9359cc62c2fe05b4c37fa303c2c75254b391bb1",
+      "redacted_sha256": "9dd2038970a010c7e9cd7b52d9359cc62c2fe05b4c37fa303c2c75254b391bb1",
+      "original_bytes": 841
+    },
+    {
+      "file": "publisher.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    },
+    {
+      "file": "publisher.stdout.log",
+      "original_sha256": "b3f3db3793706ed17076f40e9952915339617f5caf90ee72f30a00da8f345c62",
+      "redacted_sha256": "b3f3db3793706ed17076f40e9952915339617f5caf90ee72f30a00da8f345c62",
+      "original_bytes": 452
+    },
+    {
+      "file": "rti.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    },
+    {
+      "file": "rti.stdout.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0
+    }
+  ],
+  "accepted_input_unchanged": true,
+  "scope": "bounded early-joiner prototype; containment is distinct from graceful peer-failure recovery"
+}

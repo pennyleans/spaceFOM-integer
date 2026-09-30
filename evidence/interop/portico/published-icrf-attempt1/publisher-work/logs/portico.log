@@ -1,0 +1,57 @@
+19:16:46,703 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:16:46,707 INFO  [main] portico.lrc: Opening LRC Connection
+19:16:46,708 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+19:16:50,093 WARN  [main] portico.lrc.jgroups: No co-ordinator found - appointing myself!
+19:16:50,133 INFO  [Regular] portico.lrc.jgroups: Federation [orbital_31416] has been created
+19:16:50,135 INFO  [main] portico.lrc.jgroups: SUCCESS createFederation: name=orbital_31416
+19:16:50,136 INFO  [main] portico.lrc: SUCCESS Created federation execution [orbital_31416]
+19:16:50,153 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master] joined federation [orbital_31416]
+19:16:50,571 ERROR [Regular] portico.lrc.jgroups: (Coordinator) Failed to join federate [orbital_observer] to federation [orbital_31416]: Couldn't merge their FOM modules with our base FOM
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at org.portico.bindings.jgroups.channel.Manifest.federateJoined(Manifest.java:204) ~[portico.jar:?]
+	at org.portico.bindings.jgroups.Federation.receiveJoinFederation(Federation.java:610) ~[portico.jar:?]
+	at org.portico.bindings.jgroups.channel.ChannelListener.receive(ChannelListener.java:181) ~[portico.jar:?]
+	at org.jgroups.blocks.MessageDispatcher$ProtocolAdapter.handleUpEvent(MessageDispatcher.java:528) ~[portico.jar:?]
+	at org.jgroups.blocks.MessageDispatcher$ProtocolAdapter.up(MessageDispatcher.java:606) ~[portico.jar:?]
+	at org.jgroups.JChannel.up(JChannel.java:715) ~[portico.jar:?]
+	at org.jgroups.stack.ProtocolStack.up(ProtocolStack.java:1020) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.FLUSH.up(FLUSH.java:504) ~[portico.jar:?]
+	at org.jgroups.protocols.FRAG2.up(FRAG2.java:181) ~[portico.jar:?]
+	at org.jgroups.protocols.FlowControl.up(FlowControl.java:418) ~[portico.jar:?]
+	at org.jgroups.protocols.FlowControl.up(FlowControl.java:418) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.GMS.up(GMS.java:896) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.STABLE.up(STABLE.java:244) ~[portico.jar:?]
+	at org.jgroups.protocols.RSVP.up(RSVP.java:164) ~[portico.jar:?]
+	at org.jgroups.protocols.UNICAST2.up(UNICAST2.java:432) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.NAKACK2.handleMessage(NAKACK2.java:754) ~[portico.jar:?]
+	at org.jgroups.protocols.pbcast.NAKACK2.up(NAKACK2.java:570) ~[portico.jar:?]
+	at org.jgroups.protocols.VERIFY_SUSPECT.up(VERIFY_SUSPECT.java:143) ~[portico.jar:?]
+	at org.jgroups.protocols.FD_ALL.up(FD_ALL.java:177) ~[portico.jar:?]
+	at org.jgroups.protocols.Discovery.up(Discovery.java:359) ~[portico.jar:?]
+	at org.jgroups.protocols.TP.passMessageUp(TP.java:1293) ~[portico.jar:?]
+	at org.jgroups.protocols.TP$IncomingPacket.handleMyMessage(TP.java:1856) ~[portico.jar:?]
+	at org.jgroups.protocols.TP$IncomingPacket.run(TP.java:1829) ~[portico.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+19:16:51,156 INFO  [main] portico.lrc.jgroups: SUCCESS Joined federation with name=orbital_master
+19:16:51,173 INFO  [main] portico.lrc: SUCCESS Joined federate [orbital_master] to federation [orbital_31416]: handle=1
+19:16:51,179 INFO  [main] portico.lrc: SUCCESS Published [736] with attributes [737, 738, 739, 740, 741, 742, 502, 743]
+19:16:51,181 INFO  [main] portico.lrc: SUCCESS Published [746] with attributes [502, 747, 748, 749]
+19:16:51,182 INFO  [main] portico.lrc: SUCCESS Published [755] with attributes [756, 757, 502, 759, 760, 762, 763, 764]
+19:16:51,184 INFO  [main] portico.lrc: SUCCESS Subscribed to interaction class [744]
+19:16:51,187 INFO  [main] portico.lrc: SUCCESS Register instance of class [736], object handle=2
+19:16:51,189 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=3
+19:16:51,191 INFO  [main] portico.lrc: SUCCESS Register instance of class [755], object handle=4
+19:16:51,193 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=5
+19:16:51,195 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=6
+19:16:51,197 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=7
+19:16:51,199 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=8
+19:16:51,201 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=9
+19:16:51,203 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=10
+19:16:51,205 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=11
+19:16:51,207 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=12
+19:16:51,209 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=13
+19:16:51,211 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=14
+19:16:51,213 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=15
+19:16:51,214 WARN  [main] portico.lrc: The IEEE 1516e interface doesn't yet support getFederateHandle()

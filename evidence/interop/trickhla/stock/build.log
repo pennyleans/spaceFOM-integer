@@ -1,0 +1,19 @@
+[32mS_hla.mk:INFO: Falling back to C++14 to compile Trick simulation.[00m
+[32mS_hla.mk:INFO: Using C++14 for Trick ICG code.[00m
+[32mS_hla.mk:INFO: Add this to your .bashrc file: export LD_LIBRARY_PATH={work}/pRTI/jre/lib/server/..:{work}/pRTI/jre/lib/server:{work}/pRTI/lib/gcc73_64[00m
+[34mBuilding with the following compilation flags:[0m
+TRICK_CFLAGS   = [36m-I{work}/pRTI/api/cpp/HLA_1516-2010 -I{work}/TrickHLA/include -I{work}/TrickHLA/models -DIEEE_1516_2010 -Wno-deprecated-declarations -I.[0m
+TRICK_CXXFLAGS = [36m-I{work}/pRTI/api/cpp/HLA_1516-2010 -I{work}/TrickHLA/include -I{work}/TrickHLA/models -DIEEE_1516_2010 -Wno-deprecated-declarations -std=c++14 -I.[0m
+... trimmed: routine SWIG and compile output ...
+[34mSWIGing[0m    build{work}/TrickHLA/include/TrickHLA/utils/Utilities_py.i
+[34mCompiling[0m  build{work}/TrickHLA/include/TrickHLA/utils/Utilities_py.cpp
+[34mSWIGing[0m    build{work}/TrickHLA/sims/SpaceFOM/SIM_Roles_Test/S_source_py.i
+[34mCompiling[0m  build{work}/TrickHLA/sims/SpaceFOM/SIM_Roles_Test/S_source_py.cpp
+[34mSWIGing[0m    build/top.i
+[34mCompiling[0m  build/top.cpp
+[34mCompiling[0m  build/init_swig_modules.cpp
+[34mLinking[0m    S_main_Linux_13.3_x86_64.exe
+[34mWriting[0m    S_sie.resource
+[34mCompiling[0m  Python modules
+[34mZipping[0m    Python modules into trick.zip
+[32mTrick Build Process Complete[00m

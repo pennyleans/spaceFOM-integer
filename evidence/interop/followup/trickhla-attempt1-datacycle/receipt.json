@@ -1,0 +1,13 @@
+{
+  "check": "three federate exchange, TrickHLA started after run mode appears",
+  "rti": "Pitch pRTI IEEE 1516-2010",
+  "rti_version": "Free 5.5.10",
+  "federation": "orbital_8989",
+  "ordering": "TrickHLA started after ^run appears in publisher.log",
+  "publisher_exit": 1,
+  "observer_exit": 1,
+  "trickhla_exit": 0,
+  "published_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "observed_sha256": null,
+  "byte_identity": false
+}

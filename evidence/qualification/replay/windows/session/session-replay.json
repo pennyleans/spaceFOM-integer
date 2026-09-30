@@ -1,0 +1,9 @@
+{
+  "compared_complete_states": 1025,
+  "midpoint_restore": 1,
+  "version_rejection_preserved_state": true,
+  "malformed_rejection_preserved_state": true,
+  "one_microgram_mutation_detected": true,
+  "mutable_physical_inventory_matched": true,
+  "scope": "full physical and guidance snapshots, commands and last accepted command; mission is absent in this fixture; same runtime only"
+}

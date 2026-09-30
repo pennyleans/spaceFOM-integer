@@ -1,0 +1,7 @@
+{
+  "compared_complete_states": 513,
+  "start_tick": 512,
+  "end_tick": 1024,
+  "complete_bytes_equal": true,
+  "scope": "new process after deliberate exit23 following durable snapshot write; no incomplete-write or automatic recovery claim"
+}

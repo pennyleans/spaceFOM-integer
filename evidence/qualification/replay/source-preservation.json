@@ -1,0 +1,31 @@
+{
+  "schema": "qualification-source-preservation-v1",
+  "frozen_private_source_inventory_sha256": "62f8cb1390f5441aa1ee5a0b33392889ed969813d9469319c54de1e32b92048a",
+  "inventory_files": 3944,
+  "original_files_unchanged_except_generated_identity": true,
+  "generated_exclusion": "src/Flight.Data/FlightAuthorityIdentity.cs",
+  "authority_source_identity": "b5a919b1d01c7f61e869cd5ee0ba8fe1400cbda22e3807a64cb46e4c15031c6e",
+  "scope": "original source files only; generated bin/obj are excluded; no dynamics or golden change",
+  "harness": [
+    {
+      "path": "qualification/CoreProbe/CoreProbe.csproj",
+      "sha256": "7091b416dffa51609ca89883bff1b159825be45d4a56a08215d6962f5088ac6c"
+    },
+    {
+      "path": "qualification/CoreProbe/Fixtures.cs",
+      "sha256": "2de377cb782cab2d93ed87d864f88d20159ce99c9c2763dac9704898493f41af"
+    },
+    {
+      "path": "qualification/CoreProbe/Observations.cs",
+      "sha256": "4229048c0c1ec15d3051b8cc149d0888fd080d8670ba9947d1c058307121c2c4"
+    },
+    {
+      "path": "qualification/CoreProbe/Program.cs",
+      "sha256": "e83ce1a489213008e53d5d46c2171e93fa093f1984855f5e2ff3dca0389f8605"
+    },
+    {
+      "path": "qualification/CoreProbe/SessionProbe.cs",
+      "sha256": "fc14dc4639ed2a0a4df307680b4d7386f02da2390e8b5e795bc1e2b71afa2f2e"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "precision-independent-selection-freeze-v1",
+  "recorded_utc": "2026-09-28T20:13:45.487622+00:00",
+  "selected_integration_substeps": 8,
+  "outer_steps_per_second": 64,
+  "timing_bracket": [
+    8,
+    16
+  ],
+  "nominal_physics_pass": true,
+  "held_out_status": "pending; selected factor frozen before reviewing held-out outputs",
+  "held_out_initial_sha256": "7dd1c0c4239d81a2653cfc8a67c19ab091de02fc4e7ae4989da5ad5b61a30728",
+  "local_authority_hashes_match_producer_cross_device_receipt": true,
+  "producer_cross_device_receipt_scope": "856324 physical states plus 1025 complete session records; this review rehashed local selected authority files, not the remote mini files",
+  "presentation_boundary": "canonical authority identity is separate from display serialization; high-spin serialized display lengths differ",
+  "identities": {
+    "nominal_physics_receipt_sha256": "28c4317b8eeddcc7788b6b939ee8e52f98fda5af74cd31e9b7f597317d0f780f",
+    "independent_timing_receipt_sha256": "d15b4e000b39d51c7decbb432545448270fcbd66d0a2acf1bf690430a561039f",
+    "supplemental_high_spin_receipt_sha256": "b22fc5e4d4d8853ae79a57c32194cdece8fbb96ef3f015ded1af171e29e29a9b",
+    "cross_device_nominal_receipt_sha256": "ea7b1bebcbfad84f9ac4f9e64ffea261414aa84ee2b51c615b6b9ccb357eb68e",
+    "acceptance_sha256": "33bd7bb09b70cdd72b8d13d1d9e0ad93a6f13b74b4d2cf30dda1b307dedd6821",
+    "wrapper_sha256": "e2084b0a38259df62568f54cb50f49b980b8ea33f0ec958f31e85f8b0dc1e9ef"
+  }
+}

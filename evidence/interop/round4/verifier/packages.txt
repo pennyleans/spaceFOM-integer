@@ -1,0 +1,27 @@
+Verifier packages, rebuilt from the simulator source at revision
+33aa8e6028b9c22a29145e751cb36748aa29c527.
+The stamp check printed 9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f.
+
+Build: pwsh tools/package-verifier.ps1 -SourceRoot <simulator-source> -Output <new dir> from the
+candidate repository at 131962d, with the official .NET SDK 10.0.401 (runtime 10.0.12) and
+PowerShell 7.6.6. The NuGet configuration has no package sources; the runtime packs
+needed by this build were already in the local NuGet cache, so no source was added and no
+configuration was changed. macOS is now published as a self-contained folder; the other
+platforms stay single-file. The tar writer sets explicit Unix modes.
+
+New archives and SHA-256:
+
+61aae72577b8e900515ad39d2f13bcba6b18a1416801aa1409a373f9a026975f  iss-verify-9e44426-linux-arm64.tar.gz
+36812e7bcafab016895bad87a7808877ffa39a34a52e1fb700c005d05dd0c189  iss-verify-9e44426-linux-x64.tar.gz
+4d1c2e23179a8a32722d0e8472c3ca6f734e4666ed0224cb45a471e82911bc91  iss-verify-9e44426-osx-arm64.tar.gz
+dd7a8f0828fe7a75341f52afa10aa7d3c95a772df5594871393a60dd204583ab  iss-verify-9e44426-osx-x64.tar.gz
+9f90cfb910f4d4729576d8297d447671626448d4c01178e33e5ab5e99bb94099  iss-verify-9e44426-win-arm64.zip
+d01b7f2579f8ac4956686433e60ef76c48e09148174c6459fea0332a7d548433  iss-verify-9e44426-win-x64.zip
+
+Draft release verify-9e44426, release id 398836095, target review/public-candidate, still a
+draft and never published. Every previous asset was deleted and replaced with the new files
+above and SHA256SUMS. The exchange package from part 4 was added to the same draft:
+2207-spacefom-exchange-win-x64.zip, sha256
+6330bb49f7eb003e116e5aeb4d02c4ce756654434808093751c5717147e6b55f, asset id 597402096. No split
+was needed; the archive is 3362780 bytes. An older draft release with the same tag exists from
+earlier work; the assets above are in release id 398836095.

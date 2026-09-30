@@ -1,0 +1,42 @@
+filtered from 354 lines; full log kept out of the repository
+==== mpr federate: join, role, synchronization, errors ====
+33:[00m|L   0|2026/09/28,20:31:53.286011|{host}| |T 0|0.000000| [00mFederate::join_federation():2803 Attempting to Join Federation 'SpaceFOM_Roles_Test'
+34:[00m|L   0|2026/09/28,20:31:53.468113|{host}| |T 0|0.000000| [00mFederate::join_federation():2828 Joined Federation 'SpaceFOM_Roles_Test', Federate-Handle:FederateHandle<6>
+36:[00m|L   0|2026/09/28,20:31:53.468380|{host}| |T 0|0.000000| [00mExecutionControl::join_federation_process():354 Checking for shutdown
+75:[00m|L   0|2026/09/28,20:31:59.386686|{host}| |T 0|0.000000| [00mFederate::wait_for_required_federates_to_join():1610 FOUND ALL REQUIRED FEDERATES!!!
+76:[00m|L   0|2026/09/28,20:31:59.387250|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():751 Sync-point: [initialization_started] -- SYNC_PT_STATE_REGISTERED
+77:[00m|L   0|2026/09/28,20:31:59.388700|{host}| |T 0|0.000000| [00mFedAmb::synchronizationPointRegistrationSucceeded():253 Label:'initialization_started'
+78:[00m|L   0|2026/09/28,20:31:59.388724|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_registration_succeeded():823 Label:'initialization_started'
+79:[00m|L   0|2026/09/28,20:31:59.388762|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_started'
+80:[00m|L   0|2026/09/28,20:31:59.388773|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'initialization_started'
+81:[00m|L   0|2026/09/28,20:31:59.388791|{host}| |T 0|0.000000| [00mFedAmb::synchronizationPointRegistrationSucceeded():253 Label:'objects_discovered'
+82:[00m|L   0|2026/09/28,20:31:59.388798|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_registration_succeeded():823 Label:'objects_discovered'
+83:[00m|L   0|2026/09/28,20:31:59.388813|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'objects_discovered'
+84:[00m|L   0|2026/09/28,20:31:59.388820|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'objects_discovered'
+85:[00m|L   0|2026/09/28,20:31:59.388834|{host}| |T 0|0.000000| [00mFedAmb::synchronizationPointRegistrationSucceeded():253 Label:'root_frame_discovered'
+86:[00m|L   0|2026/09/28,20:31:59.388841|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_registration_succeeded():823 Label:'root_frame_discovered'
+87:[00m|L   0|2026/09/28,20:31:59.388855|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'root_frame_discovered'
+88:[00m|L   0|2026/09/28,20:31:59.388862|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced:'root_frame_discovered'
+89:[00m|L   0|2026/09/28,20:31:59.397360|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [initialization_started] -- SYNC_PT_STATE_ANNOUNCED
+90:[00m|L   0|2026/09/28,20:31:59.397393|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [objects_discovered] -- SYNC_PT_STATE_ANNOUNCED
+91:[00m|L   0|2026/09/28,20:31:59.397402|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_announced():801 Sync-point announced: [root_frame_discovered] -- SYNC_PT_STATE_ANNOUNCED
+142:[00m|L   0|2026/09/28,20:31:59.424547|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'objects_discovered'
+143:[00m|L   0|2026/09/28,20:31:59.424562|{host}| |T 0|0.000000| [00mSyncPointList::achieve_sync_point():877 Known Sync-point [objects_discovered] -- SYNC_PT_STATE_ANNOUNCED
+144:[00m|L   0|2026/09/28,20:31:59.424646|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_synchronized():1118 Sync-point 'objects_discovered'
+145:[00m|L   0|2026/09/28,20:31:59.431304|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'objects_discovered'
+146:[00m|L   0|2026/09/28,20:31:59.431339|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'objects_discovered'
+153:3:'SpaceFOM' Sync-point:[objects_discovered] -- SYNC_PT_STATE_SYNCHRONIZED
+154:4:'SpaceFOM' Sync-point:[root_frame_discovered] -- SYNC_PT_STATE_ANNOUNCED
+156:6:'SpaceFOM' Sync-point:[initialization_started] -- SYNC_PT_STATE_ANNOUNCED
+205:[00m|L   0|2026/09/28,20:31:59.435993|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::wait_for_root_frame_discovered_synchronization():2188
+206:[00m|L   0|2026/09/28,20:31:59.436008|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'root_frame_discovered'
+207:[00m|L   0|2026/09/28,20:31:59.436023|{host}| |T 0|0.000000| [00mSyncPointList::achieve_sync_point():877 Known Sync-point [root_frame_discovered] -- SYNC_PT_STATE_ANNOUNCED
+208:[00m|L   0|2026/09/28,20:31:59.436087|{host}| |T 0|0.000000| [00mSyncPointList::wait_for_synchronized():1118 Sync-point 'root_frame_discovered'
+209:[00m|L   0|2026/09/28,20:31:59.442100|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'root_frame_discovered'
+210:[00m|L   0|2026/09/28,20:31:59.442176|{host}| |T 0|0.000000| [00mSyncPointManagerBase::sync_point_federation_synchronized():947 Sync-point synchronized:'root_frame_discovered'
+217:3:'SpaceFOM' Sync-point:[objects_discovered] -- SYNC_PT_STATE_SYNCHRONIZED
+218:4:'SpaceFOM' Sync-point:[root_frame_discovered] -- SYNC_PT_STATE_SYNCHRONIZED
+220:6:'SpaceFOM' Sync-point:[initialization_started] -- SYNC_PT_STATE_ANNOUNCED
+275:3:'SpaceFOM' Sync-point:[objects_discovered] -- SYNC_PT_STATE_SYNCHRONIZED
+276:4:'SpaceFOM' Sync-point:[root_frame_discovered] -- SYNC_PT_STATE_SYNCHRONIZED
+278:6:'SpaceFOM' Sync-point:[initialization_started] -- SYNC_PT_STATE_ANNOUNCED

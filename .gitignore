@@ -1,0 +1,8 @@
+out/
+runs/
+__pycache__/
+*.pdb
+*.zip
+*.tar.gz
+**/bin/
+**/obj/

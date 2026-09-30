@@ -1,0 +1,9 @@
+{
+  "check": "Trick and TrickHLA installation",
+  "simulation": "sims/SpaceFOM/SIM_Roles_Test",
+  "federation": "SpaceFOM_Roles_Test",
+  "federates": ["RUN_mpr", "RUN_other"],
+  "rti": "Pitch pRTI Free 5.5.10 on the Windows host, CRC port 8989",
+  "result": "both federates joined, all required federates found, initialization synchronization points achieved, no errors; run terminated by test harness at the end of the check window",
+  "note": "the working copy patched crcHost to {crc-host} and linked TrickHLA_data, models and FOMs/SpaceFOM to the TrickHLA clone"
+}

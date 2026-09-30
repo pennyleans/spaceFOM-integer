@@ -1,0 +1,22 @@
+{
+  "schema": "precision-full-session-timing-v1",
+  "substeps": 16,
+  "workload": "coast",
+  "warmup_ticks": 1024,
+  "measured_ticks": 8192,
+  "runtime": ".NET 10.0.12",
+  "architecture": "Arm64",
+  "os": "macOS 26.6.1",
+  "mean_ms": 6.2932261108398535,
+  "p95_ms": 6.3446,
+  "p99_ms": 7.1924,
+  "p999_ms": 7.2357,
+  "max_ms": 7.985,
+  "over_budget_ticks": 0,
+  "max_64_tick_work_ms": 406.2415000000002,
+  "cpu_headroom_gate": true,
+  "qualification_length": true,
+  "lastHash": "5ed3eedc8a4b70547317d2e7a294d2ad702997bc2ed0d856f82d80ccb52e7e79",
+  "lastViewBytes": 16274,
+  "scope": "single peer Candidate clone/restore, coupled 11-body dynamics, full canonical serialization and SHA256, reference-view calculation and JSON serialization every tick; excludes GPU, transport wait and evidence disk IO"
+}

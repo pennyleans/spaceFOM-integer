@@ -1,0 +1,86 @@
+{
+  "schema": "precision-64hz-acceptance-v1",
+  "status": "declared before candidate measurements",
+  "purpose": "select the highest measured power-of-two internal coupled integration factor that preserves 64 outer ticks per second and meets independent numerical and full-workload timing gates",
+  "outer_steps_per_second": 64,
+  "candidate_internal_substeps": [1, 2, 4, 8, 16, 32],
+  "comparison": {
+    "legacy_internal_substeps": 1,
+    "coarser_internal_substeps": "selected factor divided by 2",
+    "selected_factor_minimum": 2,
+    "unchanged_initial_physics": true,
+    "control_interpretation": "commands and burn boundaries remain indexed by the 64 Hz outer ticks; internal substeps do not consume extra commands"
+  },
+  "oracle": {
+    "file": "oracle.py",
+    "sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+    "qualification": "existing independent universal-variable conic, analytic rocket, and refined mutual point-mass RK4 reference; no core imports",
+    "gmatscope": "previous matched-model GMAT results remain corroborating evidence; no repeat needed unless a new mismatch arises"
+  },
+  "numerical_limits_strictly_less_than": {
+    "orbital_position_m": 0.1,
+    "orbital_velocity_m_s": 0.0001,
+    "relative_energy_drift": 0.000002,
+    "relative_angular_momentum_drift": 0.000002,
+    "burn_position_m": 0.01,
+    "burn_velocity_m_s": 0.0001,
+    "burn_mass_kg": 0.000000001,
+    "multibody_position_m": 0.1,
+    "multibody_velocity_m_s": 0.0001,
+    "reference_refinement_position_m": 0.001,
+    "reference_refinement_velocity_m_s": 0.000001,
+    "selected_over_coarser_error_ratio": 0.4
+  },
+  "refinement_floor_exemption": {
+    "position_m_strictly_less_than": 0.00001,
+    "velocity_m_s_strictly_less_than": 0.00000001,
+    "condition": "both position errors and both velocity errors, at selected and half-selected internal factors, must all be below their respective floors"
+  },
+  "additional_physics_gates": {
+    "earth_and_moon_max_position_and_velocity_errors": "each strictly less than legacy factor 1 error",
+    "finite_burn_mass": "mass at every exported time must be decimal-exact equal across selected, coarser and legacy outputs; each also retains the analytic mass gate",
+    "coverage": "every one-second sample from zero through the declared endpoint, with tick equal to seconds times 64"
+  },
+  "nominal_cases": {
+    "earth-orbit": {"duration_seconds": 6000, "samples": 6001},
+    "moon-orbit": {"duration_seconds": 7200, "samples": 7201},
+    "inertial-burn": {"duration_seconds": 120, "samples": 121},
+    "lunar-fixture": {"duration_seconds": 60, "samples": 61}
+  },
+  "held_out": {
+    "case": "earth-eccentric-inclined",
+    "duration_seconds": 10000,
+    "samples": 10001,
+    "initial_file": "held-out-initial.json",
+    "intended_semimajor_axis_m": 10000000,
+    "intended_eccentricity": 0.3,
+    "intended_inclination_degrees": 36.86989764584402,
+    "nominal_period_seconds": 9952.014129051093,
+    "velocity_rounding": "each Cartesian component rounded once to nearest nm/s; oracle uses those actual rounded values",
+    "selection_boundary": "choose factor using nominal cases and timing first, then evaluate this case at selected, half-selected and legacy factors; do not tune to the held-out result",
+    "gates": "same orbital absolute/conservation/refinement gates, plus strict position and velocity improvement over legacy"
+  },
+  "timing": {
+    "required_platforms": ["windows-x64", "macos-arm64"],
+    "required_workloads": ["coast", "coupled-controls"],
+    "outer_tick_budget_ms": 15.625,
+    "required_headroom_fraction": 0.2,
+    "mean_ms_maximum_inclusive": 12.5,
+    "p99_ms_maximum_inclusive": 12.5,
+    "p99_definition": "nearest-rank, sorted sample index ceil(0.99*n)-1",
+    "warmup_ticks_minimum": 1024,
+    "measured_ticks_minimum": 8192,
+    "required_workload_flags": ["includes_physics", "includes_controls_and_shared_session", "includes_transport_serialization", "includes_display_capture"],
+    "display_scope": "headless FlightView serialization and canonical state SHA, with the full 11-body catalogue; network and GPU/rendering time excluded",
+    "identity": "each workload has a consistent identifier and definition hash across factors and platforms; coast and alternating coupled burn/rotation/assist runs are measured separately",
+    "selection": "screen factors first, then fully measure the selected and next-higher factor on both platforms and both workloads; selected must pass and next-higher must fail at least one timing gate, unless selected is the maximum factor 32",
+    "unmeasured": "short screening runs cannot establish acceptance. a confirmed selected/next-higher bracket supports the configured choice; the stronger globally highest-measured claim requires complete measurements of every higher factor"
+  },
+  "boundaries": [
+    "no changes to the numerical thresholds after seeing candidate results",
+    "no claim about error extrema between the exported one-second samples",
+    "same-model numerical accuracy is separate from Horizons model discrepancy and cross-device byte identity",
+    "fixed substep count only; no timing-driven or floating adaptive integration decisions",
+    "runtime headroom is measured on the specified hardware and workload, not a guarantee for every desktop or visible renderer"
+  ]
+}

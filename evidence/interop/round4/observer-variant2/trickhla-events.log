@@ -1,0 +1,122 @@
+# Trimmed view of the complete TrickHLA log; the full log is not committed.
+# Per-update lines are in trickhla-interop.log.
+36:[00m|L   0|2026/09/29,01:52:11.114918|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_started'
+38:[00m|L   0|2026/09/29,01:52:11.116356|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'root_frame_discovered'
+40:[00m|L   0|2026/09/29,01:52:11.117249|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'prototype_metadata'
+45:[00m|L   0|2026/09/29,01:52:11.119398|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'objects_discovered'
+46:[00m|L   0|2026/09/29,01:52:11.119565|{host}| |T 0|0.000000| [00mExecutionControl::join_federation_process():354 Checking for shutdown
+49:[00m|L   0|2026/09/29,01:52:11.121744|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():687 Waiting...
+50:[00m|L   0|2026/09/29,01:52:11.122147|{host}| |T 0|0.000000| [00mSpaceFOM::ExecutionControl::role_determination_process():791 This is an Early Joining Federate.
+118:[00m|L   0|2026/09/29,01:52:11.164124|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'objects_discovered'
+121:[00m|L   0|2026/09/29,01:52:11.166181|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'objects_discovered'
+127:1:'SpaceFOM' Sync-point:[mtr_freeze] -- SYNC_PT_STATE_KNOWN
+128:2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+150:       current_execution_mode: EXEC_MODE_INITIALIZING
+151:          next_execution_mode: EXEC_MODE_INITIALIZING
+185:       current_execution_mode: EXEC_MODE_INITIALIZING
+186:          next_execution_mode: EXEC_MODE_INITIALIZING
+190:[00m|L   0|2026/09/29,01:52:11.179919|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'root_frame_discovered'
+193:[00m|L   0|2026/09/29,01:52:11.181468|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'root_frame_discovered'
+199:1:'SpaceFOM' Sync-point:[mtr_freeze] -- SYNC_PT_STATE_KNOWN
+200:2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+207:[00m|L   0|2026/09/29,01:52:11.191724|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'prototype_metadata'
+289:1:'SpaceFOM' Sync-point:[mtr_freeze] -- SYNC_PT_STATE_KNOWN
+290:2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+304:[00m|L   0|2026/09/29,01:52:11.231780|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'initialization_started'
+307:[00m|L   0|2026/09/29,01:52:11.233682|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'initialization_started'
+309:[00m|L   0|2026/09/29,01:52:11.236118|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'initialization_completed'
+311:[00m|L   0|2026/09/29,01:52:11.240136|{host}| |T 0|0.000000| [00mFedAmb::announceSynchronizationPoint():286 Label:'mtr_run'
+317:1:'SpaceFOM' Sync-point:[mtr_freeze] -- SYNC_PT_STATE_KNOWN
+318:2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+340:       current_execution_mode: EXEC_MODE_INITIALIZING
+341:          next_execution_mode: EXEC_MODE_RUNNING
+345:[00m|L   0|2026/09/29,01:52:11.245431|{host}| |T 0|0.000000| [00mSyncPointManagerBase::achieve_sync_point_and_wait_for_synchronization():713 Label:'mtr_run'
+348:[00m|L   0|2026/09/29,01:52:11.246940|{host}| |T 0|0.000000| [00mFedAmb::federationSynchronized():302 Label:'mtr_run'
+354:1:'SpaceFOM' Sync-point:[mtr_freeze] -- SYNC_PT_STATE_KNOWN
+355:2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+364:[00m|L   0|2026/09/29,01:52:11.259212|{host}| |T 0|0.000000| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0 seconds.
+379:       current_execution_mode: EXEC_MODE_RUNNING
+380:          next_execution_mode: EXEC_MODE_RUNNING
+451:[00m|L   0|2026/09/29,01:52:11.264434|{host}| |T 0|0.000000| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.015625 seconds.
+452:[00m|L   0|2026/09/29,01:52:11.265904|{host}| |T 0|0.015625| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.015625 seconds.
+453:[00m|L   0|2026/09/29,01:52:11.266849|{host}| |T 0|0.015625| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.015625 seconds.
+492:[00m|L   0|2026/09/29,01:52:11.270640|{host}| |T 0|0.015625| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.03125 seconds.
+494:[00m|L   0|2026/09/29,01:52:11.271692|{host}| |T 0|0.031250| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.03125 seconds.
+495:[00m|L   0|2026/09/29,01:52:11.273723|{host}| |T 0|0.031250| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.03125 seconds.
+534:[00m|L   0|2026/09/29,01:52:11.278221|{host}| |T 0|0.031250| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.046875 seconds.
+535:[00m|L   0|2026/09/29,01:52:11.278883|{host}| |T 0|0.046875| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.046875 seconds.
+536:[00m|L   0|2026/09/29,01:52:11.279399|{host}| |T 0|0.046875| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.046875 seconds.
+575:[00m|L   0|2026/09/29,01:52:11.283837|{host}| |T 0|0.046875| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.0625 seconds.
+577:[00m|L   0|2026/09/29,01:52:11.284957|{host}| |T 0|0.062500| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.0625 seconds.
+578:[00m|L   0|2026/09/29,01:52:11.285487|{host}| |T 0|0.062500| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.0625 seconds.
+617:[00m|L   0|2026/09/29,01:52:11.289762|{host}| |T 0|0.062500| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.078125 seconds.
+619:[00m|L   0|2026/09/29,01:52:11.290799|{host}| |T 0|0.078125| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.078125 seconds.
+620:[00m|L   0|2026/09/29,01:52:11.291299|{host}| |T 0|0.078125| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.078125 seconds.
+659:[00m|L   0|2026/09/29,01:52:11.295809|{host}| |T 0|0.078125| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.09375 seconds.
+660:[00m|L   0|2026/09/29,01:52:11.296434|{host}| |T 0|0.093750| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.09375 seconds.
+661:[00m|L   0|2026/09/29,01:52:11.297133|{host}| |T 0|0.093750| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.09375 seconds.
+700:[00m|L   0|2026/09/29,01:52:11.301835|{host}| |T 0|0.093750| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.109375 seconds.
+702:[00m|L   0|2026/09/29,01:52:11.302808|{host}| |T 0|0.109375| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.109375 seconds.
+741:[00m|L   0|2026/09/29,01:52:11.306959|{host}| |T 0|0.109375| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.125 seconds.
+743:[00m|L   0|2026/09/29,01:52:11.308182|{host}| |T 0|0.125000| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.125 seconds.
+744:[00m|L   0|2026/09/29,01:52:11.308735|{host}| |T 0|0.125000| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.125 seconds.
+783:[00m|L   0|2026/09/29,01:52:11.313073|{host}| |T 0|0.125000| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.140625 seconds.
+784:[00m|L   0|2026/09/29,01:52:11.313764|{host}| |T 0|0.140625| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.140625 seconds.
+785:[00m|L   0|2026/09/29,01:52:11.314313|{host}| |T 0|0.140625| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.140625 seconds.
+824:[00m|L   0|2026/09/29,01:52:11.318487|{host}| |T 0|0.140625| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.15625 seconds.
+826:[00m|L   0|2026/09/29,01:52:11.319429|{host}| |T 0|0.156250| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.15625 seconds.
+865:[00m|L   0|2026/09/29,01:52:11.323464|{host}| |T 0|0.156250| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.171875 seconds.
+866:[00m|L   0|2026/09/29,01:52:11.324054|{host}| |T 0|0.171875| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.171875 seconds.
+867:[00m|L   0|2026/09/29,01:52:11.324699|{host}| |T 0|0.171875| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.171875 seconds.
+906:[00m|L   0|2026/09/29,01:52:11.329753|{host}| |T 0|0.171875| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.1875 seconds.
+908:[00m|L   0|2026/09/29,01:52:11.331078|{host}| |T 0|0.187500| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.1875 seconds.
+947:[00m|L   0|2026/09/29,01:52:11.335518|{host}| |T 0|0.187500| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.203125 seconds.
+949:[00m|L   0|2026/09/29,01:52:11.336561|{host}| |T 0|0.203125| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.203125 seconds.
+950:[00m|L   0|2026/09/29,01:52:11.337065|{host}| |T 0|0.203125| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.203125 seconds.
+989:[00m|L   0|2026/09/29,01:52:11.341559|{host}| |T 0|0.203125| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.21875 seconds.
+990:[00m|L   0|2026/09/29,01:52:11.342251|{host}| |T 0|0.218750| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.21875 seconds.
+991:[00m|L   0|2026/09/29,01:52:11.342769|{host}| |T 0|0.218750| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.21875 seconds.
+1030:[00m|L   0|2026/09/29,01:52:11.347481|{host}| |T 0|0.218750| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.234375 seconds.
+1032:[00m|L   0|2026/09/29,01:52:11.348549|{host}| |T 0|0.234375| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.234375 seconds.
+1071:[00m|L   0|2026/09/29,01:52:11.353078|{host}| |T 0|0.234375| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.25 seconds.
+1073:[00m|L   0|2026/09/29,01:52:11.354195|{host}| |T 0|0.250000| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.25 seconds.
+1112:[00m|L   0|2026/09/29,01:52:11.358370|{host}| |T 0|0.250000| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.265625 seconds.
+1113:[00m|L   0|2026/09/29,01:52:11.358931|{host}| |T 0|0.265625| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.265625 seconds.
+1114:[00m|L   0|2026/09/29,01:52:11.359473|{host}| |T 0|0.265625| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.265625 seconds.
+1153:[00m|L   0|2026/09/29,01:52:11.364114|{host}| |T 0|0.265625| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.28125 seconds.
+1155:[00m|L   0|2026/09/29,01:52:11.365355|{host}| |T 0|0.281250| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.28125 seconds.
+1194:[00m|L   0|2026/09/29,01:52:11.370364|{host}| |T 0|0.281250| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.296875 seconds.
+1195:[00m|L   0|2026/09/29,01:52:11.371049|{host}| |T 0|0.296875| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.296875 seconds.
+1196:[00m|L   0|2026/09/29,01:52:11.371612|{host}| |T 0|0.296875| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.296875 seconds.
+1235:[00m|L   0|2026/09/29,01:52:11.375755|{host}| |T 0|0.296875| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.3125 seconds.
+1237:[00m|L   0|2026/09/29,01:52:11.376720|{host}| |T 0|0.312500| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.3125 seconds.
+1276:[00m|L   0|2026/09/29,01:52:11.381150|{host}| |T 0|0.312500| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.328125 seconds.
+1278:[00m|L   0|2026/09/29,01:52:11.382276|{host}| |T 0|0.328125| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.328125 seconds.
+1317:[00m|L   0|2026/09/29,01:52:11.386550|{host}| |T 0|0.328125| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.34375 seconds.
+1318:[00m|L   0|2026/09/29,01:52:11.387052|{host}| |T 0|0.343750| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.34375 seconds.
+1319:[00m|L   0|2026/09/29,01:52:11.387809|{host}| |T 0|0.343750| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.34375 seconds.
+1358:[00m|L   0|2026/09/29,01:52:11.392211|{host}| |T 0|0.343750| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.359375 seconds.
+1360:[00m|L   0|2026/09/29,01:52:11.393237|{host}| |T 0|0.359375| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.359375 seconds.
+1399:[00m|L   0|2026/09/29,01:52:11.397453|{host}| |T 0|0.359375| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.375 seconds.
+1401:[00m|L   0|2026/09/29,01:52:11.398548|{host}| |T 0|0.375000| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.375 seconds.
+1402:[00m|L   0|2026/09/29,01:52:11.399059|{host}| |T 0|0.375000| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.375 seconds.
+1441:[00m|L   0|2026/09/29,01:52:11.402993|{host}| |T 0|0.375000| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.390625 seconds.
+1442:[00m|L   0|2026/09/29,01:52:11.403517|{host}| |T 0|0.390625| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.390625 seconds.
+1443:[00m|L   0|2026/09/29,01:52:11.403997|{host}| |T 0|0.390625| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.390625 seconds.
+1482:[00m|L   0|2026/09/29,01:52:11.408809|{host}| |T 0|0.390625| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.40625 seconds.
+1484:[00m|L   0|2026/09/29,01:52:11.409741|{host}| |T 0|0.406250| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.40625 seconds.
+1523:[00m|L   0|2026/09/29,01:52:11.413748|{host}| |T 0|0.406250| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.421875 seconds.
+1524:[00m|L   0|2026/09/29,01:52:11.414395|{host}| |T 0|0.421875| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.421875 seconds.
+1525:[00m|L   0|2026/09/29,01:52:11.414914|{host}| |T 0|0.421875| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.421875 seconds.
+1564:[00m|L   0|2026/09/29,01:52:11.418966|{host}| |T 0|0.421875| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.4375 seconds.
+1566:[00m|L   0|2026/09/29,01:52:11.420135|{host}| |T 0|0.437500| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.4375 seconds.
+1605:[00m|L   0|2026/09/29,01:52:11.424401|{host}| |T 0|0.437500| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.453125 seconds.
+1607:[00m|L   0|2026/09/29,01:52:11.425461|{host}| |T 0|0.453125| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.453125 seconds.
+1646:[00m|L   0|2026/09/29,01:52:11.429912|{host}| |T 0|0.453125| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.46875 seconds.
+1647:[00m|L   0|2026/09/29,01:52:11.430496|{host}| |T 0|0.468750| [00mTimeManagementServices::wait_for_time_advance_grant():1427 Waiting for Time Advance Grant (TAG) to 0.46875 seconds.
+1648:[00m|L   0|2026/09/29,01:52:11.430955|{host}| |T 0|0.468750| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.46875 seconds.
+1687:[00m|L   0|2026/09/29,01:52:11.435189|{host}| |T 0|0.468750| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.484375 seconds.
+1689:[00m|L   0|2026/09/29,01:52:11.436233|{host}| |T 0|0.484375| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.484375 seconds.
+1728:[00m|L   0|2026/09/29,01:52:11.441116|{host}| |T 0|0.484375| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.5 seconds.
+1730:[00m|L   0|2026/09/29,01:52:11.442252|{host}| |T 0|0.500000| [00mTimeManagementServices::wait_for_time_advance_grant():1483 Time Advance Grant (TAG) to 0.5 seconds.
+1769:[00m|L   0|2026/09/29,01:52:11.446412|{host}| |T 0|0.500000| [00mTimeManagementServices::perform_time_advance_request():1103 Time Advance Request (TAR) to 0.515625 seconds.

@@ -1,0 +1,113 @@
+{
+  "schema": "reference-refinement-summary-v1",
+  "thresholds": {
+    "ratio_strictly_less_than": 0.4,
+    "position_floor_strictly_less_than_m": 1e-05,
+    "velocity_floor_strictly_less_than_m_s": 1e-08,
+    "exemption": "requires both position and velocity below their floors at both rates"
+  },
+  "pairs": [
+    {
+      "case": "earth-orbit",
+      "rates_hz": [
+        64,
+        128
+      ],
+      "position_error_ratio_128_over_64": 0.24999882594245149,
+      "velocity_error_ratio_128_over_64": 0.2499969084221681,
+      "both_position_and_velocity_below_floor_at_both_rates": false,
+      "refinement_pass": true,
+      "absolute_thresholds_pass": true,
+      "sample_count": [
+        6001,
+        6001
+      ],
+      "duration_seconds": [
+        6000.0,
+        6000.0
+      ],
+      "complete_declared_sample_coverage": true,
+      "receipt_sha256": [
+        "2a0471b991bee556c335b1d233c605f938a99454009d4db130d183d2fa295421",
+        "19839ef79a6203a3e8cab8d2165ae97271e53a3e8a722a9d8975a66ce893612d"
+      ]
+    },
+    {
+      "case": "moon-orbit",
+      "rates_hz": [
+        64,
+        128
+      ],
+      "position_error_ratio_128_over_64": 0.25000290370508094,
+      "velocity_error_ratio_128_over_64": 0.2500025940755671,
+      "both_position_and_velocity_below_floor_at_both_rates": false,
+      "refinement_pass": true,
+      "absolute_thresholds_pass": true,
+      "sample_count": [
+        7201,
+        7201
+      ],
+      "duration_seconds": [
+        7200.0,
+        7200.0
+      ],
+      "complete_declared_sample_coverage": true,
+      "receipt_sha256": [
+        "2c02a2e6b9fe2a1277b049ebb781688d1a263a027015d51d1d31063bb6227591",
+        "f4cf084604b877888251f55f250714cc4ef52c114cf1aebef75c493f2425f352"
+      ]
+    },
+    {
+      "case": "inertial-burn",
+      "rates_hz": [
+        64,
+        128
+      ],
+      "position_error_ratio_128_over_64": 0.25001272545260195,
+      "velocity_error_ratio_128_over_64": 0.2608695652173913,
+      "both_position_and_velocity_below_floor_at_both_rates": true,
+      "refinement_pass": true,
+      "absolute_thresholds_pass": true,
+      "sample_count": [
+        121,
+        121
+      ],
+      "duration_seconds": [
+        120.0,
+        120.0
+      ],
+      "complete_declared_sample_coverage": true,
+      "receipt_sha256": [
+        "2d010b7a0e6915feff2949085e23f5804f51661d5841f8aa50b3a8be6344f27c",
+        "7b5806d4618e9e1ea8eac72ab190a1f3de28b28138d7397f42f092ff5fd527a0"
+      ]
+    },
+    {
+      "case": "lunar-fixture",
+      "rates_hz": [
+        64,
+        128
+      ],
+      "position_error_ratio_128_over_64": 0.2500057753437206,
+      "velocity_error_ratio_128_over_64": 0.2499726568431043,
+      "both_position_and_velocity_below_floor_at_both_rates": true,
+      "refinement_pass": true,
+      "absolute_thresholds_pass": true,
+      "sample_count": [
+        61,
+        61
+      ],
+      "duration_seconds": [
+        60.0,
+        60.0
+      ],
+      "complete_declared_sample_coverage": true,
+      "receipt_sha256": [
+        "0bebeab041a4433e8b94da1f587171245cbb2a1c0067a3c9f2b6766d78f2b6f0",
+        "0c70adbc7268a1579c78b08a8c0aa20be7c6545158758269cb633c4ad862743a"
+      ]
+    }
+  ],
+  "all_pass": true,
+  "summarizer_sha256": "235ee01e92e04218287f3a0a85d6488003ebebc97e47427077abb1ffe0edacdf"
+}

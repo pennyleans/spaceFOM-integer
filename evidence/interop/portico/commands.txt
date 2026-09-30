@@ -1,0 +1,36 @@
+Portico build
+  git clone --branch maintenance-2.2.x https://github.com/openlvc/portico.git {work}/portico
+  (commit 5345bf2ad90d1b792a0d89039d166e971152e6de, version 2.2.0)
+  The base image had only the OpenJDK 21 JRE. The official Ubuntu JDK package was
+  downloaded and unpacked into a home directory, no Portico file was changed:
+    apt-get download openjdk-21-jdk-headless
+    dpkg-deb -x openjdk-21-jdk-headless_*.deb {work}/jdk21
+    ln -s /usr/lib/jvm/java-21-openjdk-amd64/release {work}/jdk21/usr/lib/jvm/java-21-openjdk-amd64/release
+    ln -s /usr/lib/jvm/java-21-openjdk-amd64/lib/server {work}/jdk21/usr/lib/jvm/java-21-openjdk-amd64/lib/server
+  Then:
+    cd {work}/portico/codebase
+    ANT_ARGS='-Djdk.home.linux64={work}/jdk21/usr/lib/jvm/java-21-openjdk-amd64' \
+    JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 \
+    LD_LIBRARY_PATH=/usr/lib/jvm/java-21-openjdk-amd64/lib \
+    ./ant sandbox
+  Build attempts before the JDK was available are in portico-build-attempt1.log and
+  portico-build-attempt2.log; the successful build is portico-build-success.log.
+
+Adapter build and exchange runs
+  PORTICO_COMMIT=5345bf2ad90d1b792a0d89039d166e971152e6de \
+  JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 \
+  ./native/spacefom/run-interop-portico.sh data/published-icrf.sf \
+    evidence/interop/portico/published-icrf {work}/portico/codebase/dist/portico-2.2.0 31416
+
+  PORTICO_COMMIT=5345bf2ad90d1b792a0d89039d166e971152e6de \
+  JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 \
+  ./native/spacefom/run-interop-portico.sh data/published.sf \
+    evidence/interop/portico/published-legacy {work}/portico/codebase/dist/portico-2.2.0 31417
+
+  The published-icrf-attempt1 and published-legacy-attempt1 directories hold the
+  first attempts, made with the same runner before the observer start-order change.
+  The runner builds the adapter in a temporary directory against a shim whose
+  headers are a copy of dist/portico-2.2.0/include/ieee1516e with non-empty
+  dynamic exception specifications removed, and whose libraries link to
+  lib/gcc11/librti1516e64.so and lib/gcc11/libfedtime1516e64.so. The adapter
+  sources were not modified.

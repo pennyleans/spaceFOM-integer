@@ -1,0 +1,46 @@
+{
+  "schema": "wire-qualification-v1",
+  "oracle_gates": 61,
+  "passed": true,
+  "pass_scope": "exact exchange plus incomplete-output containment only",
+  "general_failure_recovery_qualified": false,
+  "deadline_cleanup_cases": [
+    "missing-body-update",
+    "observer-interrupted-tick256"
+  ],
+  "probe_results": [
+    {
+      "name": "normal",
+      "passed": true,
+      "deadline_reached": false
+    },
+    {
+      "name": "early-observer-delay-500ms",
+      "passed": true,
+      "deadline_reached": false
+    },
+    {
+      "name": "missing-body-update",
+      "passed": true,
+      "deadline_reached": true
+    },
+    {
+      "name": "publisher-interrupted-tick256",
+      "passed": true,
+      "deadline_reached": false
+    },
+    {
+      "name": "observer-interrupted-tick256",
+      "passed": true,
+      "deadline_reached": true
+    }
+  ],
+  "existing_output_guard": true,
+  "changed_accepted_files": [],
+  "limitations": [
+    "separately implemented oracle, not blind authorship",
+    "related federates on one Windows x64 runtime",
+    "incomplete-output containment is not graceful peer-failure recovery",
+    "no physical accuracy, full compliance or source-hash authentication claim"
+  ]
+}

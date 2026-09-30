@@ -1,0 +1,135 @@
+{
+  "schema": "qualification-cross-device-v1",
+  "platforms": [
+    "windows-x64",
+    "mac-arm64"
+  ],
+  "runtime": ".NET 10.0.12",
+  "cases": [
+    {
+      "case": "earth-orbit",
+      "files": [
+        {
+          "path": "canonical-digests.bin",
+          "bytes": 12288032,
+          "sha256": "a3d446c2af71102b1df2f856022548b0c9c2117c9244fd24e700308dc4965c0f",
+          "byte_equal": true
+        },
+        {
+          "path": "midpoint.json",
+          "bytes": 1704,
+          "sha256": "21556cdfe48f31eaf5cea2b738f0f7086ad9a1d92e75c8af4c674acf76d76a65",
+          "byte_equal": true
+        },
+        {
+          "path": "endpoint.json",
+          "bytes": 1702,
+          "sha256": "2b3c8bba91435dbc15278cb466eece8cd9513f9ef57d0861bd2203e551ff52e6",
+          "byte_equal": true
+        },
+        {
+          "path": "initial.json",
+          "bytes": 642,
+          "sha256": "108b11ea12f4b5f1fdf4726cd1fec175128a8bd0def52a11b6d635fc040bdbe7",
+          "byte_equal": true
+        }
+      ],
+      "complete_state_digests_compared": 384001
+    },
+    {
+      "case": "moon-orbit",
+      "files": [
+        {
+          "path": "canonical-digests.bin",
+          "bytes": 14745632,
+          "sha256": "d566238de7b3edc9161f2fcc5ccedca640fd3e127f06d8243d9cfbdc082b58ff",
+          "byte_equal": true
+        },
+        {
+          "path": "midpoint.json",
+          "bytes": 1699,
+          "sha256": "e79b57df946b1dd884e4c3ffd6af3730905c7a9c2a11431fcec6f58d8c19bf6b",
+          "byte_equal": true
+        },
+        {
+          "path": "endpoint.json",
+          "bytes": 1699,
+          "sha256": "ffc59f6d1cad35c9cfbb630e320ed20f471699e1108c0c58b501f24d583417af",
+          "byte_equal": true
+        },
+        {
+          "path": "initial.json",
+          "bytes": 639,
+          "sha256": "cef1e04f33c86287569328b6536eaeb286d5701ece15767693deaa9fc02a3e86",
+          "byte_equal": true
+        }
+      ],
+      "complete_state_digests_compared": 460801
+    },
+    {
+      "case": "inertial-burn",
+      "files": [
+        {
+          "path": "canonical-digests.bin",
+          "bytes": 245792,
+          "sha256": "23cabf1c095cfd6b09c57eb1a1dac12a1093e799cf4a04fb73c3c2ee831a89e9",
+          "byte_equal": true
+        },
+        {
+          "path": "midpoint.json",
+          "bytes": 1680,
+          "sha256": "369c469d91d13178c87d49146c7e88ba6fcbe89c5afffb9b51b3888602cce1b7",
+          "byte_equal": true
+        },
+        {
+          "path": "endpoint.json",
+          "bytes": 1649,
+          "sha256": "624a8dbe72883780c09d59f4e9325220a71e2d10378d3455369aea9e3ae8603a",
+          "byte_equal": true
+        },
+        {
+          "path": "initial.json",
+          "bytes": 632,
+          "sha256": "2092ca5a6d55dc4d0fcc29c7994cafd31e8a05d369ed525abf30c24e0082c253",
+          "byte_equal": true
+        }
+      ],
+      "complete_state_digests_compared": 7681
+    },
+    {
+      "case": "lunar-fixture",
+      "files": [
+        {
+          "path": "canonical-digests.bin",
+          "bytes": 122912,
+          "sha256": "d85d491bd3411ae1aab23b17cf0bf9661ec60512c4d2f273d96fbc0e7d4c37c4",
+          "byte_equal": true
+        },
+        {
+          "path": "midpoint.json",
+          "bytes": 6287,
+          "sha256": "4a0d95c9ef13d6062cdb11dfc12659900fdc1bd04dca02693d3d4be6a5f13bc1",
+          "byte_equal": true
+        },
+        {
+          "path": "endpoint.json",
+          "bytes": 6298,
+          "sha256": "210f8545e948fb8499338c57fcfbb8c7f3fd68b5c512a740600a28323dea44e1",
+          "byte_equal": true
+        },
+        {
+          "path": "initial.json",
+          "bytes": 2632,
+          "sha256": "3564fe1f96e72641740facc6cefb5c3d4f61ea377a82413cf1b5efd8bd11d930",
+          "byte_equal": true
+        }
+      ],
+      "complete_state_digests_compared": 3841
+    }
+  ],
+  "physical_state_digest_records": 856324,
+  "session_complete_byte_records": 1025,
+  "session_complete_bytes_equal": true,
+  "session_canonical_trace_sha256": "abeee2bf3826521fb4ef5a6be5e5a80de53a07f8ff16ad1aab4f16be97d12923",
+  "scope": "matched fixture genesis, complete physical state canonical SHA256 at every tick; exact midpoint/endpoints; complete session bytes at every tick; these bounded fixtures only"
+}

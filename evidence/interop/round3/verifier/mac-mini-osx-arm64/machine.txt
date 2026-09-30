@@ -1,0 +1,11 @@
+Machine: Apple M4, model Mac16,10, arm64
+Operating system: macOS 26.6.1 (build 25G76)
+Package: iss-verify-9e44426-osx-arm64.tar.gz, sha256 45d3e11e8a2067ca73dc6eaebcdef4385e02f3a71c94b18282f3257fceafd945
+Preparation: chmod +x iss-verify; xattr -d com.apple.quarantine iss-verify; codesign --force --sign - iss-verify
+Result: FAIL. The verifier starts, prints its platform and identity banner, and then aborts with
+System.AccessViolationException inside the .NET 10.0.12 runtime. Four attempts were made: a full run,
+a quick run, a quick run with DOTNET_EnableWriteXorExecute=0, and a quick run with tiered compilation
+disabled. All four crashed in different core library routines, so no receipt was produced.
+The macOS crash report is iss-verify-2026-09-29-010720.ips; an excerpt is in crash-report.txt.
+The verifier could not be run through the fallback dotnet path either: the machine has no dotnet
+command installed and no clone of the simulator source or the candidate repository.

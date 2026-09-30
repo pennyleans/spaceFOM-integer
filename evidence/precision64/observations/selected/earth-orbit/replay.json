@@ -1,0 +1,14 @@
+{
+  "schema": "precision-physical-replay-v1",
+  "case": "earth-orbit",
+  "rate_hz": 64,
+  "integration_substeps": 8,
+  "compared_complete_states": 384001,
+  "compared_bytes_exact": true,
+  "midpoint_serialized_restores": 1,
+  "duration_seconds": 6000,
+  "elapsed_wall_seconds": 106.0036243,
+  "dynamics": "integer-flight-v4-fixed-substeps-n8",
+  "final_physical_hash": "04472982ef1f58edcaec85b97872e133e6d70f5e8be74230981316a731131124",
+  "scope": "complete physical comparison every outer tick; full accuracy assessed independently"
+}

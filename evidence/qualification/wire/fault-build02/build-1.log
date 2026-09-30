@@ -1,0 +1,8 @@
+MSBuild version 17.14.51+25f168cee for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule $SCRATCH/injected/CMakeLists.txt
+  publisher.cpp
+  spacefom-publisher.vcxproj -> $SCRATCH\build\Release\spacefom-publisher.exe
+
+--- stderr ---

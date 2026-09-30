@@ -1,0 +1,11 @@
+{
+  "check": "control: the pre-update publisher with the same three-federate ordering",
+  "purpose": "show whether the observer time grant failure depends on the new answer path",
+  "federation": "orbital_8989",
+  "publisher_exit": 1,
+  "observer_exit": 1,
+  "observer_error": "time grant without complete frame",
+  "trickhla_result": "joined as the third federate",
+  "byte_identity": false,
+  "result": "the pre-update publisher fails the same way, so the answer path is not the cause"
+}

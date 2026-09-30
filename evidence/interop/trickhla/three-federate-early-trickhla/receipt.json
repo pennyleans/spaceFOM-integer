@@ -1,0 +1,12 @@
+{
+  "check": "three federate exchange, TrickHLA started before our observer",
+  "federation": "orbital_8989",
+  "federates": ["orbital_master (ours)", "orbital_other (TrickHLA)", "orbital_observer (ours)"],
+  "publisher_exit": 1,
+  "observer_exit": 1,
+  "observer_error": "No available pRTI federate seats",
+  "publisher_error": "timeout: required observer join",
+  "trickhla_join": "joined the federation as the second of the two seats and waited for initialization",
+  "byte_identity": false,
+  "result": "the Pitch pRTI Free edition admitted only two federates; the third was refused"
+}

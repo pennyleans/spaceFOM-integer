@@ -1,0 +1,231 @@
+{
+  "convergence": [
+    {
+      "case": "earth-orbit",
+      "duration_seconds": 6000.0,
+      "label": "Earth",
+      "max_sampled_position_error_m": 0.004635299069160597,
+      "max_sampled_position_error_mm": 4.635299069160597,
+      "oracle_identities": {
+        "initial_sha256": "108b11ea12f4b5f1fdf4726cd1fec175128a8bd0def52a11b6d635fc040bdbe7",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "eb2d4d66548e13dc104f03a7e93ac295df9e151578133ef13466efc8a053f0d2"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "legacy",
+      "sample_count": 6001,
+      "sample_interval_seconds": 1,
+      "substeps": 1
+    },
+    {
+      "case": "earth-orbit",
+      "duration_seconds": 6000.0,
+      "label": "Earth",
+      "max_sampled_position_error_m": 0.0002897030847530983,
+      "max_sampled_position_error_mm": 0.2897030847530983,
+      "oracle_identities": {
+        "initial_sha256": "fd8f6d6c7a6b76a6b246dc97f933d752fc2009bb0997cf1cf53c8950c54ebef7",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "01d99527700c22247b1aab909212c7f0bb751d1566d81d4a4aa0eb107b806676"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "coarser",
+      "sample_count": 6001,
+      "sample_interval_seconds": 1,
+      "substeps": 4
+    },
+    {
+      "case": "earth-orbit",
+      "duration_seconds": 6000.0,
+      "label": "Earth",
+      "max_sampled_position_error_m": 7.242640673264304e-05,
+      "max_sampled_position_error_mm": 0.07242640673264304,
+      "oracle_identities": {
+        "initial_sha256": "7485d4beff596c1515600a328c07a44c5df8e5222b0c7bba538e046e0aee66ec",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "d922ce255477b26a3b924b26ee819774e7eb5fdb17471902cf4c87eeaa477aaa"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "selected",
+      "sample_count": 6001,
+      "sample_interval_seconds": 1,
+      "substeps": 8
+    },
+    {
+      "case": "moon-orbit",
+      "duration_seconds": 7200.0,
+      "label": "Moon",
+      "max_sampled_position_error_m": 0.0007758902137283504,
+      "max_sampled_position_error_mm": 0.7758902137283504,
+      "oracle_identities": {
+        "initial_sha256": "cef1e04f33c86287569328b6536eaeb286d5701ece15767693deaa9fc02a3e86",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "c144e9bcaa0282e0354ee30903dd56aa09019d172b18a00897fa75770ccdf97b"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "legacy",
+      "sample_count": 7201,
+      "sample_interval_seconds": 1,
+      "substeps": 1
+    },
+    {
+      "case": "moon-orbit",
+      "duration_seconds": 7200.0,
+      "label": "Moon",
+      "max_sampled_position_error_m": 4.849612193356187e-05,
+      "max_sampled_position_error_mm": 0.04849612193356187,
+      "oracle_identities": {
+        "initial_sha256": "bc8b56d265bdd709631d07c25b24f672dbcaf5152f373faa5daec3a1d1a6e4ba",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "eecb75536c38b18c67ab2fea1072d2f1a898d1bb0050de25f2e7ecbf79afcad0"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "coarser",
+      "sample_count": 7201,
+      "sample_interval_seconds": 1,
+      "substeps": 4
+    },
+    {
+      "case": "moon-orbit",
+      "duration_seconds": 7200.0,
+      "label": "Moon",
+      "max_sampled_position_error_m": 1.2127122426776991e-05,
+      "max_sampled_position_error_mm": 0.012127122426776991,
+      "oracle_identities": {
+        "initial_sha256": "376457678a3987bd11c6c928f0e6d415fb9166405885c1d41c9638974584f8be",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "0fc844920ff0af5192d051cf26b5aba83c752f3964007b3f9f17d9b416cd0f54"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "selected",
+      "sample_count": 7201,
+      "sample_interval_seconds": 1,
+      "substeps": 8
+    },
+    {
+      "case": "earth-eccentric-inclined",
+      "duration_seconds": 10000.0,
+      "label": "Earth, inclined holdout",
+      "max_sampled_position_error_m": 0.008050230739556517,
+      "max_sampled_position_error_mm": 8.050230739556516,
+      "oracle_identities": {
+        "initial_sha256": "124d07c35c5a901762695302bb6cc2ed7f240b2a0c4bbf5dc39e2a8b0f145474",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "6bbfe09b15d7424d99abef6bd384e80dbaf5d3a12bb2e24f0eb84ccf85bfc887"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "legacy",
+      "sample_count": 10001,
+      "sample_interval_seconds": 1,
+      "substeps": 1
+    },
+    {
+      "case": "earth-eccentric-inclined",
+      "duration_seconds": 10000.0,
+      "label": "Earth, inclined holdout",
+      "max_sampled_position_error_m": 0.0005031226240398182,
+      "max_sampled_position_error_mm": 0.5031226240398182,
+      "oracle_identities": {
+        "initial_sha256": "6eb28088d9ac234a7eda3b5a47e7170ff09ad3f10e37122c18bc251c5301aa1e",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "f65786ede73fee86c8ec807ed1c147966d249df3e7473eb161cdaf0fb4c8e2a8"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "coarser",
+      "sample_count": 10001,
+      "sample_interval_seconds": 1,
+      "substeps": 4
+    },
+    {
+      "case": "earth-eccentric-inclined",
+      "duration_seconds": 10000.0,
+      "label": "Earth, inclined holdout",
+      "max_sampled_position_error_m": 0.00012576741239725647,
+      "max_sampled_position_error_mm": 0.12576741239725647,
+      "oracle_identities": {
+        "initial_sha256": "6edea1c0c40b64034e781887e5019dee168407c8842d1a10f047a4c492fa32ae",
+        "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b",
+        "samples_sha256": "8f0d304031ef6e07e07e5b955ecd10eab1f9283e168fedf7ee57c56e189095e1"
+      },
+      "reference": "analytic universal-variable two-body",
+      "role": "selected",
+      "sample_count": 10001,
+      "sample_interval_seconds": 1,
+      "substeps": 8
+    }
+  ],
+  "inputs": {
+    "performance_sha256": "2af56dacbe18ade6d7bdf7d8c7a745e9a3f763352a468d059befe4869976b9f0",
+    "physics_sha256": "26f108d01ea7d5212a693d6879254e7295f209bf2fb47d97cfcd46ed11532086"
+  },
+  "outputs_sha256": {
+    "precision64-convergence.png": "6693b88f7a2ccb1d41ef0390638d88dae22d3ba6b7eae2b4c13935751a941679",
+    "precision64-convergence.svg": "2623a9ca9d1d7a61299c27720d50e03e3c119a7ed44da53c2e33a02bd68c1d79",
+    "precision64-timing.png": "9fad2b767d788b7a34c141e531d75340133972682ce4c2ed7b8183bea29091ee",
+    "precision64-timing.svg": "79ebc7edef408bf53b255e410a72d6cc17e516baa83e8e268abaa5e71039b4b7"
+  },
+  "plot_script_sha256": "ad2e56bd3045b376b6cd1f9c3e15faa56528bee120bc6cd47f29939aaf859e54",
+  "rendering": {
+    "backend": "Agg",
+    "date_metadata": null,
+    "freetype": "2.6.1",
+    "matplotlib": "3.10.8",
+    "python": "3.14.7",
+    "svg_hashsalt": "precision64-figures-v1"
+  },
+  "schema": "precision64-plot-data-v1",
+  "timing": [
+    {
+      "label": "Windows x64",
+      "mean_ms": 4.57183212890625,
+      "p99_ms": 6.4637,
+      "platform": "windows-x64",
+      "substeps": 8,
+      "workload": "coast"
+    },
+    {
+      "label": "Windows x64",
+      "mean_ms": 4.580317431640602,
+      "p99_ms": 6.2741,
+      "platform": "windows-x64",
+      "substeps": 8,
+      "workload": "coupled-controls"
+    },
+    {
+      "label": "Windows x64",
+      "mean_ms": 4.8225522460937595,
+      "p99_ms": 7.2429,
+      "platform": "windows-x64",
+      "substeps": 8,
+      "workload": "high-spin"
+    },
+    {
+      "label": "macOS arm64",
+      "mean_ms": 3.2994744262695357,
+      "p99_ms": 4.1771,
+      "platform": "macos-arm64",
+      "substeps": 8,
+      "workload": "coast"
+    },
+    {
+      "label": "macOS arm64",
+      "mean_ms": 3.372678259277351,
+      "p99_ms": 4.2572,
+      "platform": "macos-arm64",
+      "substeps": 8,
+      "workload": "coupled-controls"
+    },
+    {
+      "label": "macOS arm64",
+      "mean_ms": 3.5219803100586,
+      "p99_ms": 4.404,
+      "platform": "macos-arm64",
+      "substeps": 8,
+      "workload": "high-spin"
+    }
+  ],
+  "timing_reference_lines_ms": {
+    "headroom_gate": 12.5,
+    "outer_tick_budget": 15.625
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "exit": 1,
+  "sha256_before": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+  "sha256_after": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+  "original_log_sha256": "3961f2f1fcb8e715bed023bf573401db234019804403dd9e103abf9061cff75e",
+  "redacted_log_sha256": "3961f2f1fcb8e715bed023bf573401db234019804403dd9e103abf9061cff75e"
+}

@@ -1,0 +1,86 @@
+{
+  "version": "R2026a",
+  "source": "https://downloads.sourceforge.net/project/gmat/GMAT/GMAT-R2026a/gmat-win-R2026a.zip",
+  "archive_full_sha256": "f7b00bdeb51e75f5f0a93380a97109f0505e75396f69a43cd5583c21f5fed9fc",
+  "license": "Apache-2.0 for GMAT; selected runtime is local development-only and is not redistributed",
+  "members": [
+    {
+      "path": "bin/GmatConsole.exe",
+      "bytes": 141824,
+      "sha256": "36c880ad6c3f5e69b2e7e90c9d9cec4086eced9c1073fc5b289966d54db15f5f",
+      "zip_crc32": "1e0caf23"
+    },
+    {
+      "path": "bin/gmat_startup_file.txt",
+      "bytes": 11065,
+      "sha256": "12481417fc0b6513fefa4e959d1a19422107bbeecdc46b24219074162c6cdd6a",
+      "zip_crc32": "6a51f2d1"
+    },
+    {
+      "path": "bin/libGmatBase.dll",
+      "bytes": 20321792,
+      "sha256": "7fd79302dcd6fd1fd672de2582f4d35c4a7069de6a6791af76dc106b7919caf2",
+      "zip_crc32": "7a289869"
+    },
+    {
+      "path": "bin/libGmatUtil.dll",
+      "bytes": 1977856,
+      "sha256": "3f7cb84bae29be9ddc949eca554f1848a1057171e8d130c1e041b5e8277b811e",
+      "zip_crc32": "a4f50c37"
+    },
+    {
+      "path": "data/icrf/ICRF_Table.txt",
+      "bytes": 4163249,
+      "sha256": "8b1f3659c7b47e62f9b9e47947ec06840d4a2d850cfea9825d0275b639c7ce51",
+      "zip_crc32": "f31f17f8"
+    },
+    {
+      "path": "data/planetary_coeff/eopc04_08.62-now",
+      "bytes": 3711293,
+      "sha256": "eddd4bf62178dad0ff0a5cb500e639a85a2bd54ff507708dbdac7184e2e7159c",
+      "zip_crc32": "284bb39a"
+    },
+    {
+      "path": "data/planetary_coeff/NUTATION.DAT",
+      "bytes": 34933,
+      "sha256": "633423d201aaed4cf4bf49427f85c5c3ed0e6c6f394f68d5c369dac673e31566",
+      "zip_crc32": "783a00b0"
+    },
+    {
+      "path": "data/planetary_coeff/SPICEPlanetaryConstantsKernel.tpc",
+      "bytes": 135544,
+      "sha256": "9c198f32cbca8050b0a962afade17850fd9cdd13d0835152f41646bd60d8be4e",
+      "zip_crc32": "a926087e"
+    },
+    {
+      "path": "data/planetary_ephem/de/leDE1941.405",
+      "bytes": 24195824,
+      "sha256": "f8695149bc54be449788f4d6007d1f6a7053f5be16eae60229dc89c661f6fe4d",
+      "zip_crc32": "6449a942"
+    },
+    {
+      "path": "data/time/SPICELeapSecondKernel.tls",
+      "bytes": 5409,
+      "sha256": "f15293b0747e5fb01a865596281cb0534f7c77274e78184bd64260cc92be3706",
+      "zip_crc32": "4c928b1c"
+    },
+    {
+      "path": "data/time/tai-utc.dat",
+      "bytes": 3362,
+      "sha256": "96017d361fda96801547dc7846c25d4a529ad48128a2aa849962966ad5b95eeb",
+      "zip_crc32": "6c83363f"
+    },
+    {
+      "path": "License.txt",
+      "bytes": 10377,
+      "sha256": "8c82791a589033a8a85f859f10f9d9ed35057dc42663c02532426cb2e402fd4d",
+      "zip_crc32": "1f2b535f"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 9829,
+      "sha256": "0fcfe11e5f2891418c4435cfe00e96475a919361b56f7f48e933a06bc6f5095f",
+      "zip_crc32": "1d60226b"
+    }
+  ]
+}

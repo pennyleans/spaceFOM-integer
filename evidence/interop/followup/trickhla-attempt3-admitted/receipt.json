@@ -1,0 +1,10 @@
+{
+  "check": "TrickHLA admitted as the third federate (1/64 s sim, pre-fix input)",
+  "federation": "orbital_8989",
+  "ordering": "TrickHLA started after run mode appears in publisher.log",
+  "publisher_exit": 1,
+  "observer_exit": 1,
+  "observer_error": "time grant without complete frame",
+  "trickhla_result": "joined, classified as a late joiner, received the ExCO through the attribute update request path, discovered the root frame, body_10 and orbital_vessel, then terminated with PhysicalEntityBase::initialize(): Unexpected empty federation instance name",
+  "byte_identity": false
+}

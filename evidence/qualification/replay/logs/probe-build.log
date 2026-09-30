@@ -1,0 +1,21 @@
+  Determining projects to restore...
+  Restored {work}\source\src\Flight.Mission\Flight.Mission.csproj (in 94 ms).
+  Restored {work}\source\src\Flight.Presentation\Flight.Presentation.csproj (in 85 ms).
+  Restored {work}\source\src\Flight.Guidance\Flight.Guidance.csproj (in 94 ms).
+  Restored {work}\source\src\Flight.Core\Flight.Core.csproj (in 85 ms).
+  Restored {work}\source\src\Flight.Data\Flight.Data.csproj (in 127 ms).
+  Restored {repository}\qualification\CoreProbe\CoreProbe.csproj (in 127 ms).
+  Restored {work}\source\src\Flight.SpaceFom\Flight.SpaceFom.csproj (in 127 ms).
+  Flight.Core -> {work}\source\src\Flight.Core\bin\Release\net10.0\Flight.Core.dll
+  Flight.Presentation -> {work}\source\src\Flight.Presentation\bin\Release\net10.0\Flight.Presentation.dll
+  Flight.Guidance -> {work}\source\src\Flight.Guidance\bin\Release\net10.0\Flight.Guidance.dll
+  Flight.Mission -> {work}\source\src\Flight.Mission\bin\Release\net10.0\Flight.Mission.dll
+  Flight.Data -> {work}\source\src\Flight.Data\bin\Release\net10.0\Flight.Data.dll
+  Flight.SpaceFom -> {work}\source\src\Flight.SpaceFom\bin\Release\net10.0\Flight.SpaceFom.dll
+  CoreProbe -> {repository}\qualification\CoreProbe\bin\Release\net10.0\Flight.Session.Tests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.46

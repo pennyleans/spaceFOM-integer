@@ -1,0 +1,20 @@
+Trick and TrickHLA installation and stock example
+  git clone --branch 25.1.1 --depth 1 https://github.com/nasa/trick.git {work}/trick
+  cd {work}/trick && PYTHON_VERSION=3 ./configure && make
+  git clone --filter=blob:none --no-checkout https://github.com/nasa/TrickHLA.git {work}/TrickHLA
+  git -C {work}/TrickHLA switch --detach 9faa0c5e547acb2596047c9bb875cb34ccb0fa2a
+  export TRICK_HOME={work}/trick TRICKHLA_HOME={work}/TrickHLA RTI_HOME={work}/pRTI RTI_VENDOR=Pitch_HLA_Evolved
+  cd {work}/trickhla-work/sims/SpaceFOM/SIM_Roles_Test && trick-CP
+  ./S_main_Linux_13.3_x86_64.exe RUN_mpr/input.py --verbose on
+  ./S_main_Linux_13.3_x86_64.exe RUN_other/input.py --verbose on
+
+Three federate attempt
+  The federation was orbital_8989 on the Windows CRC at {crc-host}.
+  Our publisher and observer were built against the Pitch C++ shim and run with
+  'crcHost = {crc-host}\ncrcPort = 8989' as the local settings designator.
+  The TrickHLA federate was built from qualification/trickhla/input.py into a
+  working copy of SIM_Entity_Test and run with:
+  ./S_main_Linux_13.3_x86_64.exe RUN_interop/input.py --verbose on --crc_host {crc-host} --crc_port 8989
+
+A stale federation left by an interrupted attempt was removed with a small
+helper built against the same shim that calls destroyFederationExecution.

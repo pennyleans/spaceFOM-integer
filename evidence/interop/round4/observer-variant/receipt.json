@@ -1,0 +1,12 @@
+{
+  "check": "diagnostic publisher adding the second ExCO update, stock elsewhere",
+  "publisher": "scratch build of native/spacefom/publisher.cpp with one added excoUpdate(1,1,epoch) after the root frame publication",
+  "publisher_exit": 1,
+  "publisher_error": "failure: timeout: synchronize initialization_started",
+  "trickhla_exit": 0,
+  "join_classification": "early joining federate",
+  "sync_points": "objects_discovered, root_frame_discovered and prototype_metadata synchronized; initialization_started not achieved because TrickHLA waits in Manager::receive_init_data for the root frame's initial data change and the publisher sent that data only once, before the multiphase phase",
+  "freeze_resume_shutdown": "not reached; the peer resigned cleanly when the ExCO was deleted",
+  "states_compared": 1,
+  "note": "records the next initialization gate after the missing ExCO update is supplied"
+}

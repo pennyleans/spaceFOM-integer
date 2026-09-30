@@ -1,0 +1,313 @@
+{
+  "schema": "reference-export-provenance-v1",
+  "raw_snapshot": "retained privately outside the repository under reference-raw; no automatic redistribution",
+  "unchanged": "all numeric observations, GMAT state tables, Horizons response bytes, and measurement receipts",
+  "changed_files": [
+    {
+      "path": "final-v1/gmat-burn-128/console.txt",
+      "raw_sha256": "a0ef7a4248c1837db1088dd953ead7503fd2f33a5a62e7bbbb65ad7e2592544e",
+      "exported_sha256": "6d9d02f22a2eb68602a1cacd2db6ead6cb8e8fc110698c72f91f73eda6ffb301",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-burn-128/GmatLog.txt",
+      "raw_sha256": "1fb3bcc95f522d432e809c9b381eaca04763b48f6404e0ec30150cd14ceb7760",
+      "exported_sha256": "af1bd3a09f29b1677e87331d05e16bd636a55b5b4fa58406a1fe3a44b2a3310b",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-burn-128/matched.script",
+      "raw_sha256": "13e699785a2e668055c7bd2e7014b103b29ac4884bc06687e0f6ab292a7117e7",
+      "exported_sha256": "bc879d12deb8da899505ee2ec2b4339d16bc0fc5261484a3a5a1ffa358623624",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-burn-64/console.txt",
+      "raw_sha256": "c15fef4f4cf6160b102db3dfe2413e36a79bb617ec468e74073bc8293f8838d9",
+      "exported_sha256": "f138c66da8b1874c745bd77adbf39c3c59e601973012a0054157f83826b52dfd",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-burn-64/GmatLog.txt",
+      "raw_sha256": "932a6a194ff27f10a5be34a737c64d7a028aeb86ffa30121dfcc383a85d1ea64",
+      "exported_sha256": "7d65d46250bc17e48d848ae7f2f7c858e05bb451925c17c71e761630285288ab",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-burn-64/matched.script",
+      "raw_sha256": "0fe78299118e892b7864f0904f9c6d782eec6c25983f232b0dd9566a47858d9b",
+      "exported_sha256": "1f2f88385ed9d2e92d9029bc9beee7e23f11929712d0f64a21317bc9d9df9c3f",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-earth-orbit-128/console.txt",
+      "raw_sha256": "a9b124bf22b3db7eeeb2460a7053621783019ecf64278989ee6a320b66d83960",
+      "exported_sha256": "ea642e62553d152706c3bf0368c8472d94f0857de4753e775e6ecfedf5b3e38a",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-earth-orbit-128/GmatLog.txt",
+      "raw_sha256": "18799b8bf667385f6b0f965a70c3bfc7154f196a81cd0d502799f0fc56d95312",
+      "exported_sha256": "3702c32497650972ca379c0802f534c298fd1ae7501ea478a0c2ee5c8e84621b",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-earth-orbit-128/matched.script",
+      "raw_sha256": "80aa964a7d5af5560c56511a02fc5e582065070752b8cd91fba4d464bc89cfd2",
+      "exported_sha256": "aac88f118e5424a15bb73a72bb8640439e71c685d50221b2abe62241bb42afab",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-earth-orbit-64/console.txt",
+      "raw_sha256": "e115caa800a97fc1a123c438a84b9e2b782643527e40ed524e78864ef0ff7465",
+      "exported_sha256": "b83f9c98035939051d8d230fd0fc5d60a84e47b766a16e30a0c7b1d25bc71a5a",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-earth-orbit-64/GmatLog.txt",
+      "raw_sha256": "d53613e36c5344795326098086427cfdbf962378634946dc03a04acce643f633",
+      "exported_sha256": "ca29857e25bfc0daa49859db7960d4c5fdcbd9a1fc4de8cf1af9eb8027c0b456",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-earth-orbit-64/matched.script",
+      "raw_sha256": "3f87812c8fd25464e5905bcc74f794443a79de258294020f3594460e3ff759c0",
+      "exported_sha256": "5179f4f5a16e8c8131e182dc868333d8e8982c27b53bf1f54ee869c23c1280e6",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-moon-orbit-128/console.txt",
+      "raw_sha256": "d22c1e45f35480f193721536da0729ce70cec79e886ce2c01c49a2b2a4bf626b",
+      "exported_sha256": "2e2189a655653effe2d4bb57fc84d6c710f07710062bea670f7a209d3ffebf78",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-moon-orbit-128/GmatLog.txt",
+      "raw_sha256": "a267a4a6bff2fb10684b114587af28a340cb1da7f0dde1623819610a044de75e",
+      "exported_sha256": "e6836c02bfe262db78d81a001c9ac4b66e0d2d49ed5d1134e700f683dc2a1058",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-moon-orbit-128/matched.script",
+      "raw_sha256": "4107b7ab4e78b3e17c5beb594e1b97ec087e6546cb1fc10829ad3bc09feda921",
+      "exported_sha256": "7cf23de99caf24504c93e8c71f94eb5c869ba23c9d32fd5eae249dd25204d0d7",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-moon-orbit-64/console.txt",
+      "raw_sha256": "9ab55320ae6828a816cae34de8867e4e9ef4c57705dca3dfa05a2c5a4fb0e085",
+      "exported_sha256": "469db625bb35ccfe6fa27649bd33bab38663c96a7855eb9e895bb7b2f95618ac",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-moon-orbit-64/GmatLog.txt",
+      "raw_sha256": "e1e14499a94691c987dc2952299af399d0fbfae12d327cc6584ece80a5fc1325",
+      "exported_sha256": "fe0a695530e7a8cb2215170484e928473f2549bd0d8947e3ba74ed6c4b195bc6",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "final-v1/gmat-moon-orbit-64/matched.script",
+      "raw_sha256": "5fbfb0f4557772631d2089a9c15363ec16c9dd8c5f77ba8bc83f22f34e6f80e6",
+      "exported_sha256": "d53d45b1f0f139b3743e49ea7f3f0a68e0d5d4483720d45064727d8f23dcac33",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-128-v4/console.txt",
+      "raw_sha256": "32300bfe99e208593c1498409d2ee3e7fa9921009e7fa0ce3c9fc9e0c429d438",
+      "exported_sha256": "ba47ed4ede95086b807e7a2054be6d8f9723a0b21e35220c244d5d228faf4a0b",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-128-v4/GmatLog.txt",
+      "raw_sha256": "15cdd7f6991b6fc36715e923b1f5a35c57d6a5054b8ae837b23a0c8c3d39c0ba",
+      "exported_sha256": "ac7a63621585f49533c415d8fe156bdb17153410f2da2a7b8f34aa22c8ea482b",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-128-v4/matched.script",
+      "raw_sha256": "2336f0978d2d111cb800df9f76dbf41677431ae8eafabb96143e3056e4eea303",
+      "exported_sha256": "02dd1902eaa6b42614d892ce63bba8edc9078cd92c7a368f645bc139938c377e",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v1/console.txt",
+      "raw_sha256": "711d40687cfa81b17146f25f3e0ef224baffc9b19859a1940c58d9a40e876b2c",
+      "exported_sha256": "587b45c45fc3f179d18cb3143df43066d398515722757a84009e021616ba3c41",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v1/GmatLog.txt",
+      "raw_sha256": "50aa29cccc804cfc50508581b2b787514c2d12fa76f4cfcb8dd6aebd00696f8b",
+      "exported_sha256": "a5a9462eb66130ef8f47197f26c55714166ea9e44ec4ee7a7e210ad1f0bc3bf3",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v1/matched.script",
+      "raw_sha256": "0727e05df5f2d192489a94df6c0853d3bca34ae48b52c8c78d480f16e3ef8a08",
+      "exported_sha256": "28adf0f32c0a83855e2c7a4cb563ce98881eefaf3b43351a52d40b2a79863e44",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v2/console.txt",
+      "raw_sha256": "d6cf2bb78ccf9bf5d99f726ce2d643d99f80a3c93ded534806b6e9603e4838db",
+      "exported_sha256": "32860377dd045bcd2e59535f45a83be8fbd3bdcf68c748096d1b0da99ec884d5",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v2/GmatLog.txt",
+      "raw_sha256": "bc4ca3066e9168054de5bb45bf0872ea9a72cae82277f5b16061eba423e0efa7",
+      "exported_sha256": "7857d513e084123afc58c176dab36cd20a4efd1cdad1f5c6d2e64de5a7d9501e",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v2/matched.script",
+      "raw_sha256": "a9d7f35e755a68f966ed2e7c579d5248ce689a7972448b2fa00cebaf956ac91b",
+      "exported_sha256": "d35379dd35b99fe2320838fc7bb0d79cadcbdfee4bfca7a19b192a291aee364f",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v3/console.txt",
+      "raw_sha256": "5b91767dd5d43b577924d6a8e449bf41fe031da9a42a4c2cbd84b75f0917fc96",
+      "exported_sha256": "d017d6926aefc7b2742f9e1a1e8626c4fea9f709b44153978eb33528a5408305",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v3/GmatLog.txt",
+      "raw_sha256": "cacaf7435df298daae2608703d0066d5b6bf15c00c9b3e291b13aa36c38edad9",
+      "exported_sha256": "e56f8dcbab06002b5b358061e26bfc0d7241f3d3ea7b2b75754f775e564768fd",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v3/matched.script",
+      "raw_sha256": "8e7c5a25ab855af939dc31175058dde9f3961e5287617769f0c8da84475de356",
+      "exported_sha256": "a4637eec3674464d91efd7792db02dc9019346513b0084d8a76c217cce7d721a",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v4/console.txt",
+      "raw_sha256": "c4d4ea662366d411c5a5e7323f473ef1cfb3219fda900298b8f957689cde39d2",
+      "exported_sha256": "d601ed79886ab4b7b35ff9f24b7b1572187b7151ff0a9b4661cc05b9d5503d69",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v4/GmatLog.txt",
+      "raw_sha256": "027a679ae7abbaf21faa7b4d6608d4704f555387b1a60efaca512f49338e2e2d",
+      "exported_sha256": "2d66bc5b7f677b42a841bba0437db84a8faf33ceba2f0429b3be61f657b8aff0",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-burn-64-v4/matched.script",
+      "raw_sha256": "70cf3d6c98a3e7b7df1eda8d810514bf7378ec059b9b0324378db9ae0522b8ff",
+      "exported_sha256": "4fd6e71dd57870a642bdda93e9f1d5c15dc2ca3f2345f8af73373a63c1269c77",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v1/console.txt",
+      "raw_sha256": "376ceb14dd56155bd52aa362c4b258f3712a15af64ea1022debfa0708fb2e3da",
+      "exported_sha256": "4924f158e35f8ced77c1cd355c69b3315319f49cb5a23a0b16bb54b8663c7a4c",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v1/GmatLog.txt",
+      "raw_sha256": "912f8b173669fc41675e0ba7c4df09c5e1e8a7a489477f96ab5dfb863003a763",
+      "exported_sha256": "8836b1727cab27af0c749c3344c2137129251455ba23832648128dd4dc7a592a",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v1/matched.script",
+      "raw_sha256": "33ad34e22b76096e35ffaf16b4f22a10421b12e6bf856b27f18e5fcab3fd323b",
+      "exported_sha256": "55ac40f75ac7a6706bdaa0559e14ad3ab0d9e31c5b2c0fc508bbec236ee762ac",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v2/console.txt",
+      "raw_sha256": "45f88f866e7c279f5486d74e6a13e7265a35549620df918874c724bf48900668",
+      "exported_sha256": "b0b87edd870113bcb25163f061779ce2777710b9e2a883a58c041e9287edc4ed",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v2/GmatLog.txt",
+      "raw_sha256": "511ac051c63cdca78ad170851f612b1c664859a97009bd158736ee6990dc7e8c",
+      "exported_sha256": "ea0a940b8ede586e991ff3c2ea00ccc0346809d7cfd50cb144e7d4e3eefbc0fd",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v2/matched.script",
+      "raw_sha256": "58f287a921e75f8b3e75a27760678f68b7623e44c577e6122c43590914b931dc",
+      "exported_sha256": "f65296b3a0a72bba302cf4db8538a9adcbb7c0201535db40e6abaf920b82b608",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v3/console.txt",
+      "raw_sha256": "eb972c43cb96504773fcd13450dd477591e3cbe264a707f2b3baf298d0aa5f02",
+      "exported_sha256": "88f55a521421bdffc33fc4574fd27c20e33cdb610317a241875f2844f2da8437",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v3/GmatLog.txt",
+      "raw_sha256": "bc968d38073d78085945036eb462e124e02d1036bc8e64a4bfcefc05771f7b41",
+      "exported_sha256": "0bc88f002d068811d769aa697dc745c4254e86bd7ee039f53e9a468afa2be479",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-64-v3/matched.script",
+      "raw_sha256": "c62d72d642b244290d5a454cb776074b88e6f6a5d6f1f68ac163cc515cd8ec95",
+      "exported_sha256": "04131d0f2ee596cc91ca0c58281272604d6e7263c3c54835ce456179b26e7a0b",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-orbit-128-v3/console.txt",
+      "raw_sha256": "91159e6103c6493b55420037dd26e1922900c0b8928f3df8d84e39092224d62a",
+      "exported_sha256": "5b8c17711d35dfdc893d87a84933abeca596673df5982a2143eae011c8d6edc8",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-orbit-128-v3/GmatLog.txt",
+      "raw_sha256": "de2ec7b7cfe99b74ac041336b92c5aafb4267f263762839662da99081ad5b3b8",
+      "exported_sha256": "41f9ca0c738548dc4054cefea9ff8a55106feaa6fc28aa62530cdf05918574ea",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-earth-orbit-128-v3/matched.script",
+      "raw_sha256": "49f206961572431f42f1c635de841d6b745a168b47a7e28dfd293c9f524286f7",
+      "exported_sha256": "c1e44bedc1629b76cf6bfbb4f8fab7424e39187ef39a2e71ae2417d3f78257c1",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-moon-orbit-128-v3/console.txt",
+      "raw_sha256": "a8b47d37d6f9f96009f70ed73f6970c5f3837137b2238cf15be66cd9c351f1c6",
+      "exported_sha256": "f4634829b625cda583a6acd7c5896895629952b8c1114774ddddf48fde37adb2",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-moon-orbit-128-v3/GmatLog.txt",
+      "raw_sha256": "4b171e3141178fe33a1d176f73fa62b7acdd023d85533ea72d0e0d16bf6d54d6",
+      "exported_sha256": "bbdd88bda25e1dee000f2f0408f204444d2cfec3b7dbef14d517d4044d5b0f31",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-moon-orbit-128-v3/matched.script",
+      "raw_sha256": "0b47e717f1032165a713941a363ccf6c3808d9bbe38a9e0796d4d91548603109",
+      "exported_sha256": "a7d3dc6bae29d02c61e6f26b4c41b6237b1f0af868b6c694be70485c7bf51eb7",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-moon-orbit-64-v3/console.txt",
+      "raw_sha256": "d98300f035053ff8872cddbf0aacd821cc745eabc6039c1ac8c171d8f1164a04",
+      "exported_sha256": "447e68b90c8512e4a483377165fbc00fbfd6723f4b24f4f21b92152786a3b305",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-moon-orbit-64-v3/GmatLog.txt",
+      "raw_sha256": "cf9510a2f3409e06cd8e77ce30cc4ba6c82e7a352205fe1b1d4cebc53773a4f8",
+      "exported_sha256": "fd7ea05955c1fc9ac453860667c8bb156ea620518ec8ccc0f12c94ceaceed629",
+      "change": "local build path replaced by named placeholder"
+    },
+    {
+      "path": "gmat-moon-orbit-64-v3/matched.script",
+      "raw_sha256": "5fa9c7dac9ba5db2b5e7908268198be08a7a9886f0ec8d8f5e2caf6ff86e9247",
+      "exported_sha256": "15a67bfbe3168b546d7591efc1dcce2bcbd0488521301f1587fdfa734dc22293",
+      "change": "local build path replaced by named placeholder"
+    }
+  ]
+}

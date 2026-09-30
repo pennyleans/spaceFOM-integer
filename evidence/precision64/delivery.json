@@ -1,0 +1,28 @@
+{
+  "archive_bytes": 582660115,
+  "archive_entry_count": 312,
+  "archive_sha256": "a52b4eba5261f0173f9f3b9a0d4507b9763cdf6852aaedef95ebf188279f8d8a",
+  "delivery_file_count": 311,
+  "manifest_bytes": 61163,
+  "manifest_sha256": "12e6a8ffcbd3d127563647984552b2f645f4dba5d456b2baf22a6e666957c61a",
+  "exclusion_rules": [
+    "Exclude every Saved/ subtree, case-insensitively.",
+    "Exclude Cache/, Caches/, DerivedDataCache/, __pycache__/ and .cache/ subtrees, case-insensitively.",
+    "Exclude Log/ and Logs/ subtrees and .log files, case-insensitively.",
+    "Exclude .cache, .pyc and .pyo generated cache files, case-insensitively.",
+    "manifest.json lists all other archived files and excludes itself."
+  ],
+  "verification": {
+    "all_archive_file_hashes_match": true,
+    "all_archive_file_sizes_match": true,
+    "exact_entry_set": true,
+    "excluded_paths_absent": true,
+    "manifest_excludes_itself": true,
+    "unique_entry_names": true
+  },
+  "schema": "precision-private-delivery-v1",
+  "archive": "2207-precision8-playable-win64.zip",
+  "source_receipt_sha256": "843f7faa328bf5b0f7969498465f095354b3fe5cccf91f5ce94f67eb2528da92",
+  "excluded_file_count": 12,
+  "scope": "New private candidate; unchanged Unreal presentation, updated integer flight host. No human handling or rendered frame-rate claim."
+}

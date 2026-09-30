@@ -1,0 +1,10 @@
+Package build:
+6330bb49f7eb003e116e5aeb4d02c4ce756654434808093751c5717147e6b55f  2207-spacefom-exchange-win-x64.zip
+
+Run from the extracted package (run-exchange.ps1, port 31416):
+byte_identity: True
+sha256: bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade
+results: runs\run-20260929T015557
+
+The observed recording hash equals the published recording hash and the hashes recorded in
+data/published-icrf.sf. The package receipt is receipt-run.json beside this file.

@@ -1,0 +1,21 @@
+{
+  "schema": "asymmetric-wire-semantics-v1",
+  "purpose": "distinct parent-to-body quaternion components and body angular rates",
+  "derivation": "q=(1,-2,-4,-10)/11; squared norm=(1+4+16+100)/121=1; parent x maps to ((1+4-16-100),2*(8-10),2*(20+4))/121=(-111,-4,48)/121",
+  "word_provenance": "scalar rational values rounded to binary64 with stdlib Fraction then packed as little endian; expected rotation is hand-derived independently",
+  "expected_by_name": {
+    "position_x_m": "5/4", "position_y_m": "-5/2", "position_z_m": "15/4",
+    "velocity_x_mps": "4", "velocity_y_mps": "-8", "velocity_z_mps": "16",
+    "quaternion_w": "1/11", "quaternion_x": "-2/11", "quaternion_y": "-4/11", "quaternion_z": "-10/11",
+    "angular_velocity_x_radps": "1/8", "angular_velocity_y_radps": "-1/4", "angular_velocity_z_radps": "1/2",
+    "tt_seconds": "7529673601.00018"
+  },
+  "parent_x_in_body": ["-111/121", "-4/121", "48/121"],
+  "quaternion_and_basis_tolerance": 1e-15,
+  "little_endian_words": [
+    "000000000000f43f", "00000000000004c0", "0000000000000e40",
+    "0000000000001040", "00000000000020c0", "0000000000003040",
+    "46175d74d145b73f", "46175d74d145c7bf", "46175d74d145d7bf", "175d74d14517edbf",
+    "000000000000c03f", "000000000000d0bf", "000000000000e03f", "bd001038db0cfc41"
+  ]
+}

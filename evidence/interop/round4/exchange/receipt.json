@@ -1,0 +1,10 @@
+{
+  "check": "Windows exchange package from 131962d",
+  "package": "2207-spacefom-exchange-win-x64.zip",
+  "sha256": "6330bb49f7eb003e116e5aeb4d02c4ce756654434808093751c5717147e6b55f",
+  "bytes": 3362780,
+  "run": "run-exchange.ps1 from the extracted package",
+  "byte_identity": true,
+  "observed_sha256": "bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade",
+  "draft_release_asset_id": 597402096
+}

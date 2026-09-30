@@ -1,0 +1,10 @@
+Redacted fields from the macOS crash report of the old single-file package (the newest report,
+timestamp 2026-09-29 01:36:49, crashing process iss-verify). Incident ids, coalition ids,
+signing identifiers, process ids, timestamps and other identifying fields were removed.
+
+"os_version":"macOS 26.6.1 (25G76)"
+"cpuType" : "ARM-64"
+"exception" : {"codes":"0x0000000000000000, 0x0000000000000000","rawCodes":[0,0],"type":"EXC_CRASH","signal":"SIGABRT"}
+"termination" : {"flags":0,"code":6,"namespace":"SIGNAL","indicator":"Abort trap: 6","byProc":"iss-verify"}
+"asi" : {"libsystem_c.dylib":["abort() called"]}
+"faultingThread" : 13

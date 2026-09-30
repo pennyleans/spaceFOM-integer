@@ -1,0 +1,26 @@
+{
+  "schema": "independent-wire-decode-v1",
+  "sha256": "b83ad5e6eada4626606e1d5358af97e49a25c102a51b5a8364b3b1efdf0efc56",
+  "bytes": 5316325,
+  "frames": 3841,
+  "bodies": 11,
+  "states": 46092,
+  "body_ids": [
+    "10",
+    "199",
+    "299",
+    "301",
+    "399",
+    "499",
+    "5",
+    "606",
+    "699",
+    "799",
+    "8"
+  ],
+  "first_tick": 0,
+  "last_tick": 3840,
+  "epoch_tt_seconds": 7529673600.00018,
+  "hz": 64,
+  "source_hash_scope": "carried provenance, not authentication or reconstructed authority"
+}

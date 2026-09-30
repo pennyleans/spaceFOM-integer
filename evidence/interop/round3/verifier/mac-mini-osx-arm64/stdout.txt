@@ -1,0 +1,96 @@
+Attempt 1: full run
+==================
+iss-verify: replacing existing signature
+2207: Integer Spaceflight Simulator replay verification
+platform   macOS 26.6.1 (Arm64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  all; running in parallel
+
+verify exit=134
+Fatal error.
+System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at System.Security.Cryptography.LiteHash..ctor(PAL_HashAlgorithm)
+   at System.Security.Cryptography.IncrementalHash.CreateHash(System.Security.Cryptography.HashAlgorithmName)
+   at Program.<<Main>$>g__Physical|0_2(Check, System.String)
+   at Program+<>c__DisplayClass0_1.<<Main>$>b__5()
+   at System.Threading.Tasks.Task`1[[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(System.Threading.Thread, System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef, System.Threading.Thread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+
+Attempt 2: quick run with a private bundle extraction directory
+==============================================================
+2207: Integer Spaceflight Simulator replay verification
+platform   macOS 26.6.1 (Arm64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  quick subset; running in parallel
+
+Fatal error.
+System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger, System.Numerics.BigInteger)
+   at Flight.Data.ShipLoader.Inertia(System.Text.Json.JsonElement, System.String)
+   at Flight.Data.ShipLoader.Parse(System.String, System.String)
+   at Flight.Data.ShipLoader.Load(System.String, System.String)
+   at Fixtures.Lunar(System.String)
+   at Program.<<Main>$>g__Session|0_3(Check, System.String)
+   at Program+<>c__DisplayClass0_1.<<Main>$>b__5()
+   at System.Threading.Tasks.Task`1[[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(System.Threading.Thread, System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef, System.Threading.Thread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+
+Attempt 3: quick run with DOTNET_EnableWriteXorExecute=0
+=======================================================
+platform   macOS 26.6.1 (Arm64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  quick subset; running in parallel
+
+Fatal error.
+System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at System.Collections.Generic.SegmentedArrayBuilder`1[[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]..ctor(System.Span`1<System.__Canon>)
+   at System.Linq.Enumerable+IEnumerableSelectIterator`2[[System.Text.Json.JsonElement, System.Text.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51],[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].ToArray()
+   at Flight.Data.SolarCatalog.Load(System.String)
+   at Fixtures.Lunar(System.String)
+   at Program.<<Main>$>g__Session|0_3(Check, System.String)
+   at Program+<>c__DisplayClass0_1.<<Main>$>b__5()
+   at System.Threading.Tasks.Task`1[[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(System.Threading.Thread, System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef, System.Threading.Thread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+
+Attempt 4: quick run with tiered compilation disabled
+====================================================
+2207: Integer Spaceflight Simulator replay verification
+platform   macOS 26.6.1 (Arm64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  quick subset; running in parallel
+
+Fatal error.
+System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at System.Number.TryParseBinaryIntegerStyle[[System.Char, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]](System.ReadOnlySpan`1<Char>, System.Globalization.NumberStyles, System.Globalization.NumberFormatInfo, Int64 ByRef)
+   at Flight.Data.SolarCatalog+<>c.<Load>b__23_0(System.Text.Json.JsonElement)
+   at System.Linq.Enumerable+IEnumerableSelectIterator`2[[System.Text.Json.JsonElement, System.Text.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51],[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].ToArray()
+   at Flight.Data.SolarCatalog.Load(System.String)
+   at Fixtures.Lunar(System.String)
+   at Program.<<Main>$>g__Session|0_3(Check, System.String)
+   at Program+<>c__DisplayClass0_1.<<Main>$>b__5()
+   at System.Threading.Tasks.Task`1[[System.__Canon, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]].InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(System.Threading.Thread, System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef, System.Threading.Thread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()

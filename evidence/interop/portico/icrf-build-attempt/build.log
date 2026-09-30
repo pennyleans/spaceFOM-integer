@@ -1,0 +1,18 @@
+[ 25%] Building CXX object CMakeFiles/spacefom-publisher.dir/publisher.cpp.o
+[ 50%] Building CXX object CMakeFiles/spacefom-observer.dir/observer.cpp.o
+[ 75%] Linking CXX executable spacefom-publisher
+[100%] Linking CXX executable spacefom-observer
+/usr/bin/ld: warning: libjvm.so, needed by {tmp}/shim/lib/rti1516e.lib, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: {tmp}/shim/lib/rti1516e.lib: undefined reference to `JNI_GetCreatedJavaVMs@SUNWprivate_1.1'
+/usr/bin/ld: {tmp}/shim/lib/rti1516e.lib: undefined reference to `JNI_CreateJavaVM@SUNWprivate_1.1'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/spacefom-publisher.dir/build.make:99: spacefom-publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/spacefom-publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: libjvm.so, needed by {tmp}/shim/lib/rti1516e.lib, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: {tmp}/shim/lib/rti1516e.lib: undefined reference to `JNI_GetCreatedJavaVMs@SUNWprivate_1.1'
+/usr/bin/ld: {tmp}/shim/lib/rti1516e.lib: undefined reference to `JNI_CreateJavaVM@SUNWprivate_1.1'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/spacefom-observer.dir/build.make:99: spacefom-observer] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/spacefom-observer.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

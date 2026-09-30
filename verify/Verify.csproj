@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RuntimeFrameworkVersion>10.0.12</RuntimeFrameworkVersion>
+    <RollForward>Disable</RollForward>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Deterministic>true</Deterministic>
+    <AssemblyName>2207-verify</AssemblyName>
+    <RootNamespace>ReplayVerify</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../qualification/precision64/Probe/Fixtures.cs" Link="Fixtures.cs" />
+    <ProjectReference Include="$(FlightSourceRoot)/src/Flight.Data/Flight.Data.csproj" />
+  </ItemGroup>
+</Project>

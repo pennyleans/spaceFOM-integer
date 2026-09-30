@@ -1,0 +1,79 @@
+{
+  "schema": "precision-regressions-final-v3",
+  "started_utc": "2026-09-28T20:20:46.949182+00:00",
+  "reason": "final Data and Diagnostics repair; existing final Release dlls",
+  "previous_receipts": {
+    "execution.json": "b34edc905c872095699b5220355eecb79d7e15013759f90ae2a3703226e4ab6e",
+    "execution-v2.json": "90469780deadbfafb70556439436dc3c339bc5dbba9aecf0658e27aaac8cb83c"
+  },
+  "working_directory": "{work}\\precision-64hz\\source",
+  "build_performed": false,
+  "execution": "sequential existing Release binaries",
+  "timeout_seconds_per_suite": 900,
+  "baseline_core_sha256": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+  "suites": [
+    {
+      "suite": "Flight.Data.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Data.Tests\\bin\\Release\\net10.0\\Flight.Data.Tests.dll"
+      ],
+      "started_utc": "2026-09-28T20:20:46.950014+00:00",
+      "status": "passed",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "7777597b61b7cbca3eed8fe65b45d4b2b7588ca6295aadb459bbb97a884b2936",
+        "Flight.Data.Tests.dll": "51d5f775f7c6ba8a93c820a27a6c59fe0c7cc92ff6d3d17f7c74e0827bb29822",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Golden.dll": "8eb094c7524a35c446f74dd1a959c976f4eaf99b0c9cb23bf2ab3a7a19fd3fb8",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "core_matches_initial_manifest": true,
+      "pid": 37852,
+      "exit_code": 0,
+      "elapsed_seconds": 6.611319099996763,
+      "completed_utc": "2026-09-28T20:20:53.685961+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Data.Tests.v3.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Data.Tests.v3.stderr.log",
+      "stdout_sha256": "1c3369058f01263a192a0ce45e3c92fe8b02b14ba9ca32e1b1154093c91231cc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "suite": "Flight.Session.Tests",
+      "command": [
+        "dotnet",
+        "{work}\\precision-64hz\\source\\tests\\Flight.Session.Tests\\bin\\Release\\net10.0\\Flight.Session.Tests.dll"
+      ],
+      "started_utc": "2026-09-28T20:20:53.688368+00:00",
+      "status": "passed",
+      "runtime_dll_sha256": {
+        "Flight.Core.dll": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535",
+        "Flight.Data.dll": "7777597b61b7cbca3eed8fe65b45d4b2b7588ca6295aadb459bbb97a884b2936",
+        "Flight.Diagnostics.dll": "196a2563d8d0e3c0b8696d6ec0b33b1c3fcedef48dc287789061f4a9141c929d",
+        "Flight.Fp64.dll": "6b6d99131adbf9d8393412bc46094cb0e6408827af43efe1bcd78828f69f3b3e",
+        "Flight.Guidance.dll": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec",
+        "Flight.Host.dll": "06834b29e892df47126e83ec9c0791e0bb78394110233f9350c49a31ca258afa",
+        "Flight.Lan.dll": "ff480ae9d2fd543bc4573aeafb5f14fe727acae4c2556f66792957d1baa04eb0",
+        "Flight.Mission.dll": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810",
+        "Flight.Presentation.dll": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82",
+        "Flight.Session.Tests.dll": "3398c4a77a83a74d0ad4832b3974a152a610d2710feca87fd4b53b519b8d7591",
+        "Flight.Shared.dll": "2d69ea659fd7617ef9f555e954b4e2daf11c4ae6a10af733ffeb0f3d372914d4",
+        "Flight.SpaceFom.dll": "6848f201bb3b1fff56add346552ce4e37fa34c9a33ca604d5bb8c9b15d61ad8e",
+        "Tomlyn.dll": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+      },
+      "core_matches_initial_manifest": true,
+      "pid": 14928,
+      "exit_code": 0,
+      "elapsed_seconds": 53.36360109999805,
+      "completed_utc": "2026-09-28T20:21:47.545462+00:00",
+      "stdout": "{work}\\precision-64hz\\regressions\\Flight.Session.Tests.v3.stdout.log",
+      "stderr": "{work}\\precision-64hz\\regressions\\Flight.Session.Tests.v3.stderr.log",
+      "stdout_sha256": "19a8e7c38202a6be672626cc62bcae12fe2cb0a620053963ac45e3e835a9bae5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "status": "passed",
+  "completed_utc": "2026-09-28T20:21:47.553935+00:00"
+}

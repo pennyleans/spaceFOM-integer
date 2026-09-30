@@ -1,0 +1,43 @@
+connected hlt_us=0
+discovered ExCO hlt_us=0
+discovered SolarSystemBarycentricInertial hlt_us=0
+discovered body_10 hlt_us=0
+discovered body_199 hlt_us=0
+discovered body_299 hlt_us=0
+discovered body_301 hlt_us=0
+discovered body_399 hlt_us=0
+discovered body_499 hlt_us=0
+discovered body_5 hlt_us=0
+discovered body_606 hlt_us=0
+discovered body_699 hlt_us=0
+discovered body_799 hlt_us=0
+discovered body_8 hlt_us=0
+discovered orbital_vessel hlt_us=0
+synchronized objects_discovered hlt_us=0
+exco current=1 next=1 hlt_us=0
+exco current=1 next=1 hlt_us=0
+synchronized root_frame_discovered hlt_us=0
+synchronized prototype_metadata hlt_us=0
+synchronized initialization_started hlt_us=0
+exco current=1 next=2 hlt_us=0
+time_constrained_and_regulating lookahead_us=15625 hlt_us=0
+synchronized mtr_run hlt_us=0
+run hlt_us=0
+exco current=2 next=2 hlt_us=0
+exco current=2 next=2 hlt_us=703125
+sent_mtr mode=3 hlt_us=29984375
+exco current=2 next=3 hlt_us=29984375
+synchronized mtr_freeze hlt_us=30000000
+freeze hlt_us=30000000
+exco current=3 next=3 hlt_us=30000000
+freeze_verified wall_ms=100 no_time_advance hlt_us=30000000
+sent_mtr mode=2 hlt_us=30000000
+exco current=3 next=2 hlt_us=30000000
+synchronized mtr_run hlt_us=30000000
+run hlt_us=30000000
+exco current=2 next=2 hlt_us=30000000
+sent_mtr mode=4 hlt_us=60000000
+exco current=2 next=4 hlt_us=60000000
+shutdown_immediate_marker_not_achieved hlt_us=60000000
+resigned_disconnected hlt_us=60000000
+observed_spool_committed frames=3841 tso_updates=46080 provenance_is_not_authority hlt_us=60000000

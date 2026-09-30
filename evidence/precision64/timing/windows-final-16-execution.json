@@ -1,0 +1,104 @@
+{
+  "mode": "bench",
+  "power": 4,
+  "count": 8192,
+  "exit": 0,
+  "architecture": "AMD64",
+  "started_unix": 1790627140.565055,
+  "wall_seconds": 193.94739842414856,
+  "files_before": [
+    {
+      "path": "probe/Benchmark.cs",
+      "sha256": "b285924a5f85f6a51c3fa0c8ce7658e22b6419a16da76bd92645d048fe09487e"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Core.dll",
+      "sha256": "6bd56bcaa6d0ad15f2185da4412db7d17a4e75f27556997246bb0fcb804eb535"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Core.pdb",
+      "sha256": "c1188c60192c2dc303e855e1c7dcc25c1ae369a4e260b6cfadc498f7e00d9ac4"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Data.dll",
+      "sha256": "7777597b61b7cbca3eed8fe65b45d4b2b7588ca6295aadb459bbb97a884b2936"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Data.pdb",
+      "sha256": "075fc523aa017990f45e6774c42eaebcde16305d278b17f89dba089bee26da38"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Guidance.dll",
+      "sha256": "b878ae4900f8cea46918142740f6df31ae5a0a5295d77c6ba10a4eb9e6be37ec"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Guidance.pdb",
+      "sha256": "f674b44f719713e74387792c1ebb57565752571ab69d1fd1a1f066f1a57109dd"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Mission.dll",
+      "sha256": "35aab7c954427413f70a9e0507a30b71930f51f8993b34268421d500c2e8b810"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Mission.pdb",
+      "sha256": "9ae4853a93790c0a800aeecc604ca217362d40f745c43ef95df7fe5f03f97348"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Presentation.dll",
+      "sha256": "7c40bbb667f440438a78b304f95bfbd08ab3ca75c4e56e3becd929eb2ea67c82"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Presentation.pdb",
+      "sha256": "2b6de7d96890b538899953aa6d259448a59e2c4d0a6e47b15981bd1704c0de9e"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Session.Tests.deps.json",
+      "sha256": "2a5a59ab5d271c9d98db5ca34befa79e06c0532196f17cd4dd5c21100665f2d2"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Session.Tests.dll",
+      "sha256": "409b19663059eee3c90aa65511549354f7d8c2b8cbe9933e29521b4e9696dc89"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Session.Tests.exe",
+      "sha256": "f5edbe6aaa6ea3bf1ee1857d83d2bae5dfda5ec7bf5a749d5b8d351991e88517"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Session.Tests.pdb",
+      "sha256": "f536c7d94925a6d1b14a30484df8867e43b71f9d25872648945a9d06e0bf6e95"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Session.Tests.runtimeconfig.json",
+      "sha256": "0339137aef030f20a6fa58a7c34a03998054256c7888098622976981aeac59fa"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Shared.dll",
+      "sha256": "2d69ea659fd7617ef9f555e954b4e2daf11c4ae6a10af733ffeb0f3d372914d4"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Flight.Shared.pdb",
+      "sha256": "eb8de44c5dab7e876f50af5eae0c1b7f11f664ef0472715b9a28c6230c189b5a"
+    },
+    {
+      "path": "probe/bin/Release/net10.0/Tomlyn.dll",
+      "sha256": "2366b14ae842bf9d4eadf206c8b20c7c2217ff75b5f4567999c5c7a9caae6dea"
+    },
+    {
+      "path": "probe/SpinBenchmark.cs",
+      "sha256": "00f7f26de7f3d8758503e01f6059faabb91332b516fd9a61891bfb18e534bbc5"
+    },
+    {
+      "path": "source/data/ships/reference-tug.flight.json",
+      "sha256": "852a40b21f04127383a190093cd43513a4b9260f96020955f6b0300b86c6c114"
+    },
+    {
+      "path": "source/data/ships/reference-tug.ship.toml",
+      "sha256": "eb3ec9463adb5e27957619e1f96a53a5f024c3954822d61e6bbf36ee367d46b4"
+    },
+    {
+      "path": "source/data/sol-2207.json",
+      "sha256": "6b700c0aaaba37186e41dca3c4a31f8f9b1d2ff32869db28dab867d8193d4a0e"
+    }
+  ],
+  "files_unchanged": true
+}

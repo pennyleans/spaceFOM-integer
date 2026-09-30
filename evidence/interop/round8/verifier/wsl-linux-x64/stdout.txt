@@ -1,0 +1,16 @@
+2207: Integer Spaceflight Simulator replay verification
+platform   Ubuntu 24.04.4 LTS (X64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  all; running in parallel
+
+scenario                      states  seconds  result
+earth-orbit                  384,001     66.2  match
+moon-orbit                   460,801     75.5  match
+inertial-burn                  7,681      2.4  match
+lunar-fixture                  3,841     23.1  match
+earth-eccentric-inclined     640,001    109.4  match
+session                        1,025      6.9  match
+
+PASS: all 1,497,350 states match the published hashes (109 s).

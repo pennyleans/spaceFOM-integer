@@ -1,0 +1,12 @@
+Package build:
+252eaf53e6aa85499e662ddadf3f3a02d28ab4fef1362b314a30b940596ffcac  2207-spacefom-exchange-win-x64.zip
+
+Run from the extracted package (run-exchange.ps1, port 31417):
+byte_identity: True
+sha256: bc70068a89751697ecbe75e45ce7bbdd5cadbc5f3b4b74d2859a3a2baf745ade
+results: runs\run-20260929T022924
+
+The observed recording hash equals the published recording hash and the hashes recorded in
+data/published-icrf.sf. The package receipt is receipt-run.json beside this file. The bin/
+directory holds the RTI server, the two federates and the three shared libraries listed in
+bin.txt.

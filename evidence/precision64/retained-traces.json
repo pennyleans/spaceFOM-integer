@@ -1,0 +1,68 @@
+[
+  {
+    "path": "results/legacy/earth-eccentric-inclined/canonical-digests.bin",
+    "bytes": 20480032,
+    "sha256": "8c1a2a095031a6f639826b3fac4027b5b8d42464fef0d27c6b97fdc0e6dd15af",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/coarse/earth-eccentric-inclined/canonical-digests.bin",
+    "bytes": 20480032,
+    "sha256": "8a9225847c29ed757509f43c3f452afd97cd607eaabe89637b3a792da8c44924",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/coarse/earth-orbit/canonical-digests.bin",
+    "bytes": 12288032,
+    "sha256": "2ab4e06c872403155ee736e323bcdb47aaaa89b75dd0bda6ced678c546205164",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/coarse/inertial-burn/canonical-digests.bin",
+    "bytes": 245792,
+    "sha256": "1c5dda04fe4ac09bc506b4d8e22bb2b46f3048232c255bddfa948335dcf2cab4",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/coarse/lunar-fixture/canonical-digests.bin",
+    "bytes": 122912,
+    "sha256": "56e87d52b58914ef9a3c0f9ed1a40031cfe5dc3dc5d15849e5e3c7dc37026557",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/coarse/moon-orbit/canonical-digests.bin",
+    "bytes": 14745632,
+    "sha256": "e63136e190778ff8605353aee7d84a9c061568f989b028754de5d20ee0005ad3",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/selected/earth-eccentric-inclined/canonical-digests.bin",
+    "bytes": 20480032,
+    "sha256": "af7ae48cde4110f20233b55467f05faae8b49576a8a3885db9f75881ca270839",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/selected/earth-orbit/canonical-digests.bin",
+    "bytes": 12288032,
+    "sha256": "27b76c00c84bd0c7c48e94ce5e25b1f41ab9f2550663dc305c03b8a1fd021aaf",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/selected/inertial-burn/canonical-digests.bin",
+    "bytes": 245792,
+    "sha256": "533cfe6563267a131ab4c785b7fe81b238be75d25f30cdf873fb26cd4163171a",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/selected/lunar-fixture/canonical-digests.bin",
+    "bytes": 122912,
+    "sha256": "a9f206f5bda9cfcfc30d9b944ae4eafdeccf06105b1c3bbd280a99d73a5fd3de",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  },
+  {
+    "path": "results/selected/moon-orbit/canonical-digests.bin",
+    "bytes": 14745632,
+    "sha256": "c5f30dae0001537615d9b14e0b46ac341c33015dff6020e5525b1a430e6447f3",
+    "storage": "Retained privately; full per-tick canonical digest stream."
+  }
+]

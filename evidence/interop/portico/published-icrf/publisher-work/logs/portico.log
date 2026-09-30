@@ -1,0 +1,29 @@
+19:48:53,091 INFO  [main] portico.lrc: LRC initialized (HLA version: IEEE1516e)
+19:48:53,094 INFO  [main] portico.lrc: Opening LRC Connection
+19:48:53,096 INFO  [main] portico.lrc.jgroups: jgroups connection is up and running
+19:48:56,462 WARN  [main] portico.lrc.jgroups: No co-ordinator found - appointing myself!
+19:48:56,502 INFO  [Regular] portico.lrc.jgroups: Federation [orbital_31416] has been created
+19:48:56,504 INFO  [main] portico.lrc.jgroups: SUCCESS createFederation: name=orbital_31416
+19:48:56,505 INFO  [main] portico.lrc: SUCCESS Created federation execution [orbital_31416]
+19:48:56,521 INFO  [Regular] portico.lrc.jgroups: Federate [orbital_master] joined federation [orbital_31416]
+19:48:57,522 INFO  [main] portico.lrc.jgroups: SUCCESS Joined federation with name=orbital_master
+19:48:57,547 INFO  [main] portico.lrc: SUCCESS Joined federate [orbital_master] to federation [orbital_31416]: handle=1
+19:48:57,554 INFO  [main] portico.lrc: SUCCESS Published [736] with attributes [737, 738, 739, 740, 741, 742, 502, 743]
+19:48:57,555 INFO  [main] portico.lrc: SUCCESS Published [746] with attributes [502, 747, 748, 749]
+19:48:57,556 INFO  [main] portico.lrc: SUCCESS Published [755] with attributes [756, 757, 502, 759, 760, 762, 763, 764]
+19:48:57,558 INFO  [main] portico.lrc: SUCCESS Subscribed to interaction class [744]
+19:48:57,562 INFO  [main] portico.lrc: SUCCESS Register instance of class [736], object handle=2
+19:48:57,564 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=3
+19:48:57,566 INFO  [main] portico.lrc: SUCCESS Register instance of class [755], object handle=4
+19:48:57,568 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=5
+19:48:57,570 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=6
+19:48:57,572 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=7
+19:48:57,574 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=8
+19:48:57,576 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=9
+19:48:57,578 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=10
+19:48:57,580 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=11
+19:48:57,582 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=12
+19:48:57,584 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=13
+19:48:57,586 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=14
+19:48:57,588 INFO  [main] portico.lrc: SUCCESS Register instance of class [746], object handle=15
+19:48:57,589 WARN  [main] portico.lrc: The IEEE 1516e interface doesn't yet support getFederateHandle()

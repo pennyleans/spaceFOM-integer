@@ -1,0 +1,18 @@
+{
+  "schema": "precision-environment-v1",
+  "scope": "Read-only processor inventory collected after measurement on the same Windows and Mac mini hosts. No CPU affinity, power-state or background-load control is asserted.",
+  "windows-x64": {
+    "processor": "AMD Ryzen 9 5900X 12-Core Processor",
+    "physical_cores": 12,
+    "logical_processors": 24,
+    "runtime_from_timing_receipt": ".NET 10.0.12",
+    "inventory_command": "Get-CimInstance Win32_Processor | Select-Object Name,NumberOfCores,NumberOfLogicalProcessors"
+  },
+  "macos-arm64": {
+    "processor": "Apple M4",
+    "physical_cores": 10,
+    "logical_processors": 10,
+    "runtime_from_timing_receipt": ".NET 10.0.12",
+    "inventory_command": "/usr/sbin/sysctl -n machdep.cpu.brand_string hw.physicalcpu hw.logicalcpu"
+  }
+}

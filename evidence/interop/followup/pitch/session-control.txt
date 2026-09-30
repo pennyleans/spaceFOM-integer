@@ -1,0 +1,19 @@
+Session control for the two-federate results.
+
+The Pitch central component runs on the Windows host. After it has served
+several runs, two failure modes appeared on a long-lived session: a single
+same-tick update arriving after the observer's time advance grant, and in one
+case no tick 1 updates at all. Restarting the Pitch application produced a
+clean session on which both recordings pass byte-identically.
+
+A/B on the long-lived session (before the restart), alternating the adapter
+built from the pre-update sources and the current sources:
+
+RESULT old1 publisher=1 observer=1 byte_identity=false err_pub='failure: timeout: MTR 3' err_obs='failure: time grant without complete frame'
+RESULT new1 publisher=1 observer=1 byte_identity=false err_pub='failure: timeout: MTR 3' err_obs='failure: time grant without complete frame'
+RESULT old2 publisher=0 observer=0 byte_identity=true
+RESULT new2 publisher=1 observer=1 byte_identity=false err_pub='failure: timeout: MTR 3' err_obs='failure: time grant without complete frame'
+
+Both adapters can fail on a long-lived session, so the failures are not
+specific to the update-request change. The failed attempts are kept under
+this directory; the passing runs were made after a Pitch restart.

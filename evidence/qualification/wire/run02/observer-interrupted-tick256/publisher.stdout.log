@@ -1,0 +1,12 @@
+connected hlt_us=0
+synchronized objects_discovered hlt_us=0
+exco current=1 next=1 hlt_us=0
+synchronized root_frame_discovered hlt_us=0
+synchronized prototype_metadata hlt_us=0
+synchronized initialization_started hlt_us=0
+time_constrained_and_regulating lookahead_us=15625 hlt_us=0
+exco current=1 next=2 hlt_us=0
+synchronized mtr_run hlt_us=0
+exco current=2 next=2 hlt_us=0
+run hlt_us=0
+qualification_interrupt_ready tick=256 hlt_us=4000000

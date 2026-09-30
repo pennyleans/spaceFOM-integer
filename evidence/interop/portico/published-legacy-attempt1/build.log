@@ -1,0 +1,6 @@
+[ 50%] Building CXX object CMakeFiles/spacefom-publisher.dir/publisher.cpp.o
+[ 50%] Building CXX object CMakeFiles/spacefom-observer.dir/observer.cpp.o
+[ 75%] Linking CXX executable spacefom-observer
+[100%] Linking CXX executable spacefom-publisher
+[100%] Built target spacefom-observer
+[100%] Built target spacefom-publisher

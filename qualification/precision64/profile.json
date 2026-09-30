@@ -1,0 +1,4 @@
+{
+  "schema": "flight-integration-v1",
+  "substeps_per_tick": 8
+}

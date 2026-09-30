@@ -1,0 +1,11 @@
+--- accepted/oracle.py
++++ quaternion-yz-label-swap/oracle.py
+@@ -23,7 +23,7 @@
+ FIELDS = (
+     "position_x_m", "position_y_m", "position_z_m",
+     "velocity_x_mps", "velocity_y_mps", "velocity_z_mps",
+-    "quaternion_w", "quaternion_x", "quaternion_y", "quaternion_z",
++    "quaternion_w", "quaternion_x", "quaternion_z", "quaternion_y",
+     "angular_velocity_x_radps", "angular_velocity_y_radps", "angular_velocity_z_radps",
+     "tt_seconds",
+ )

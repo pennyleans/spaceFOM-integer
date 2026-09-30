@@ -1,0 +1,41 @@
+Round 8 verifier packages
+=========================
+
+Build: pwsh tools/package-verifier.ps1 -SourceRoot <simulator source> -Output <new dir>
+from the candidate tree at f71d0e8, against the simulator source at revision
+33aa8e6028b9c22a29145e751cb36748aa29c527. The stamp check printed
+9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f, which is the
+source identity in verify/expected.json. The verifier was renamed to 2207-verify at
+f71d0e8, so the archives are now named 2207-verify-9e44426-<rid>; the replaced
+assets carried the earlier name.
+
+SHA-256 of the six archives, as written to SHA256SUMS:
+
+b11a11ec712edb5743df712de3dfe585c8e79cf98efef414d8179c2b33e9746f  2207-verify-9e44426-linux-arm64.tar.gz
+c729dbbd7044c2259659815fb4149b737ccfa5f5d1413ce6426acfb9836e884b  2207-verify-9e44426-linux-x64.tar.gz
+13f1602c2a14209288b97de9ed9704946a8794dbf23f8a57e7755fb39f3c9387  2207-verify-9e44426-osx-arm64.tar.gz
+40a6e6fbf3239a6ac270ab0d695df1f5fda8b0abb07b23c8983cff261f85f91d  2207-verify-9e44426-osx-x64.tar.gz
+13bc7cddc280e7220b50b81f86faf44f2c83dd837b2ae726e9a57de2563455d4  2207-verify-9e44426-win-arm64.zip
+bc67cf64c8a1b163414b65124f64079b0d3ece42d432fe6001d04aa5e9fa0553  2207-verify-9e44426-win-x64.zip
+
+Draft release verify-9e44426 (id 398836095), final assets after this round:
+
+597470142 2207-spacefom-exchange-win-x64.zip 3367468
+598691425 2207-verify-9e44426-win-arm64.zip 31173317
+598692647 2207-verify-9e44426-win-x64.zip 32542881
+598691426 2207-verify-9e44426-osx-arm64.tar.gz 33527513
+598691430 2207-verify-9e44426-osx-x64.tar.gz 35858711
+598691427 2207-verify-9e44426-linux-arm64.tar.gz 30736836
+598691429 2207-verify-9e44426-linux-x64.tar.gz 32509143
+598692656 SHA256SUMS 616
+
+Every iss-verify-* asset and the previous SHA256SUMS were deleted first; the six
+new archives and the new SHA256SUMS were uploaded; the exchange zip was left in
+place. The release is still a draft and was not published.
+
+Full runs from the release packages, no --quick, receipts beside this file:
+
+- windows-win-x64: pass, all 1,497,350 states in 141 s, exit code 0.
+- wsl-linux-x64: pass, all 1,497,350 states in 109 s, exit code 0.
+- mac-mini-full: pass, all 1,497,350 states in 70 s, exit code 0, quarantine
+  cleared only.

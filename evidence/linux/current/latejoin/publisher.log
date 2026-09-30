@@ -1,0 +1,29 @@
+connected hlt_us=0
+synchronized objects_discovered hlt_us=0
+exco current=1 next=1 hlt_us=0
+exco current=1 next=1 hlt_us=0
+synchronized root_frame_discovered hlt_us=0
+synchronized prototype_metadata hlt_us=0
+synchronized initialization_started hlt_us=0
+time_constrained_and_regulating lookahead_us=15625 hlt_us=0
+exco current=1 next=2 hlt_us=0
+synchronized mtr_run hlt_us=0
+exco current=2 next=2 hlt_us=0
+run hlt_us=0
+provided_update hlt_us=718750
+provided_update hlt_us=718750
+received_mtr mode=3 hlt_us=29984375
+exco current=2 next=3 hlt_us=29984375
+synchronized mtr_freeze hlt_us=30000000
+exco current=3 next=3 hlt_us=30000000
+freeze hlt_us=30000000
+received_mtr mode=2 hlt_us=30000000
+exco current=3 next=2 hlt_us=30000000
+synchronized mtr_run hlt_us=30000000
+exco current=2 next=2 hlt_us=30000000
+run hlt_us=30000000
+received_mtr mode=4 hlt_us=60000000
+exco current=2 next=4 hlt_us=60000000
+shutdown_marker_registered_unachieved hlt_us=60000000
+shutdown frames=3841 hlt_us=60000000
+destroyed_disconnected hlt_us=60000000

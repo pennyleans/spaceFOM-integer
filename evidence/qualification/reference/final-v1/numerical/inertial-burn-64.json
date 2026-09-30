@@ -1,0 +1,40 @@
+{
+  "schema": "independent-reference-receipt-v1",
+  "case": "inertial-burn",
+  "steps_per_second": 64,
+  "reference": "analytic constant inertial thrust rocket",
+  "duration_seconds": 120.0,
+  "sample_count": 121,
+  "sample_interval_seconds": 1,
+  "complete_declared_sample_coverage": true,
+  "sample_scope": "exported samples only; no assertion about extrema between samples",
+  "thresholds": {
+    "max_position_error_m": 0.01,
+    "max_velocity_error_m_s": 0.0001,
+    "max_relative_conservation_drift": 2e-06,
+    "mass_error_kg": 1e-09
+  },
+  "metrics": {
+    "neglected_gravity_position_bound_m": 7.200000008640001e-27,
+    "neglected_gravity_velocity_bound_m_s": 1.2000000014400002e-28,
+    "max_mass_error_kg": 4.444444444444444e-25,
+    "mass_pass": true,
+    "max_position_error_m": 8.375451443498605e-10,
+    "max_velocity_error_m_s": 1.021405182655144e-14,
+    "rms_position_error_m": 6.829550462581803e-10,
+    "final_position_error_m": 8.369624993065372e-10,
+    "final_velocity_error_m_s": 1.021405182655144e-14,
+    "position_pass": true,
+    "velocity_pass": true,
+    "pass": true
+  },
+  "identities": {
+    "initial_sha256": "2092ca5a6d55dc4d0fcc29c7994cafd31e8a05d369ed525abf30c24e0082c253",
+    "samples_sha256": "f7c1a61ed5df4e0a72dec4275092ba47d2ad1eea778e554208b891e03a22e92b",
+    "oracle_sha256": "882e2638096a847911be2e4af20cd934a9b343ab33d6393810ff88d6b235f62b"
+  },
+  "runtime": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

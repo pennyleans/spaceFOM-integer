@@ -1,0 +1,34 @@
+== quick ==
+2207: Integer Spaceflight Simulator replay verification
+platform   Microsoft Windows 10.0.26200 (X64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  quick subset; running in parallel
+
+scenario                      states  seconds  result
+inertial-burn                  7,681      2.4  match
+lunar-fixture                  3,841     24.9  match
+session                        1,025      7.7  match
+
+PASS: all 12,547 states match the published hashes (25 s).
+quick_seconds=25.05
+
+== full ==
+2207: Integer Spaceflight Simulator replay verification
+platform   Microsoft Windows 10.0.26200 (X64)
+runtime    .NET 10.0.12
+source     9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+expected   9e4442614ca9534752166510dcd1ef069fbe66c0c595510ef2423f745dd7be2f
+scenarios  all; running in parallel
+
+scenario                      states  seconds  result
+earth-orbit                  384,001     94.7  match
+moon-orbit                   460,801    111.0  match
+inertial-burn                  7,681      2.4  match
+lunar-fixture                  3,841     30.0  match
+earth-eccentric-inclined     640,001    156.2  match
+session                        1,025      8.8  match
+
+PASS: all 1,497,350 states match the published hashes (156 s).
+full_seconds=156.37
