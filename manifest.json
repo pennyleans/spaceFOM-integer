@@ -23,13 +23,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 10559,
-      "sha256": "b3883403d3c276488002bbefb3503da626a280bc6a534806d8a04997c4a202c0"
+      "bytes": 11521,
+      "sha256": "f84783d07ce85d5fdd3981b0effaa06f032117564c96e18e06f6005065bba9a5"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
-      "bytes": 1822,
-      "sha256": "e0405f6091038419a2f0280e5be99bcb4501633256e929e1d782071143d3321f"
+      "bytes": 2097,
+      "sha256": "d7670d387e356fa8211c1c7ff2722b10c283553aa9e626231b122d937e9be481"
     },
     {
       "path": "data/catalogue.json",
@@ -88,13 +88,13 @@
     },
     {
       "path": "docs/report.md",
-      "bytes": 21361,
-      "sha256": "9d997227ae66bfaa28faa7c6d3cf094bc1e0d01e6a8d1de7dd2777979fee2147"
+      "bytes": 21751,
+      "sha256": "fb674de12390251305e60ecfd9aeef6fd96cb667538eda4d2a29a0c9a4d3c6b5"
     },
     {
       "path": "evidence/README.md",
-      "bytes": 3896,
-      "sha256": "eddac564fdfb235738543b6e88d1bb36c54f1effc30bb55da3bb9246ffb4f994"
+      "bytes": 4389,
+      "sha256": "0bcb635967e57e37cd1ce31f721f4958c35944fac4703e95c1bfa4fc48906099"
     },
     {
       "path": "evidence/adapter-rebuild/README.md",
@@ -1558,8 +1558,8 @@
     },
     {
       "path": "evidence/interop/round7/REPORT.md",
-      "bytes": 9508,
-      "sha256": "c48b930e63b73836fe131d622dd2fad0f8b311f8dfd1b97f48d8e8957c4ddd79"
+      "bytes": 9819,
+      "sha256": "3805fb3a457a1a5865b407778408443668b16fe6faec94f5b0c0d6c4020d5cbd"
     },
     {
       "path": "evidence/interop/round7/control-master/build.log",
@@ -1755,6 +1755,156 @@
       "path": "evidence/interop/round8/verifier/wsl-linux-x64/stdout.txt",
       "bytes": 741,
       "sha256": "4bffd39961c9e1cf293ceb398b381b2b17327cb432c6e56d33ccb23a0f3334ae"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/REPORT.md",
+      "bytes": 4488,
+      "sha256": "8386df28853c420910e91fb7f63edfd0d422fb118cc66f2ec3d1d50c28752098"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/build-stock.json",
+      "bytes": 53,
+      "sha256": "4f8a1efaf28bda6de3c054bae59a03cbd7b5d33b233c1a68bdffaf7fcd18235c"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/build-stock.log",
+      "bytes": 5619,
+      "sha256": "cd7996d49e1c063621b20ba45ca23c89bfcf132e6b5bcf054f13650e9401ad65"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/identity-stock.json",
+      "bytes": 2298,
+      "sha256": "7fd93ecd4ee87555885f6588a6ee457723727dabb3fe8888f477f017986ed31d"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/logging-stock.log",
+      "bytes": 186,
+      "sha256": "aaec2ecb411e8301cb8c535507e36e251d2b198f6e5e916238846126cc08970f"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/publisher-build.json",
+      "bytes": 36,
+      "sha256": "68adf497b5bb66ebe97dabeb739b7a841dfb18332be13713a64e4dddb699e58c"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/publisher-build.log",
+      "bytes": 326,
+      "sha256": "b5a4a9e91a8ac8c01475b968ea40d2ceca46ac8155a35bc70ba3c20022f6b258"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/build/versions.json",
+      "bytes": 164,
+      "sha256": "f989761e8908a82b49b7db859ac25ef4f18479e23411b810c86c78d22b13144d"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/acceptance.json",
+      "bytes": 1430,
+      "sha256": "5287d66b88af9fb253603c0c09ce71db01d008867801e808b7057789b7ceb2d8"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/comparison.json",
+      "bytes": 4632,
+      "sha256": "0f86d26996b69cd32c0243626ae930dcd620a1ace51a0747ae79063f62740076"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/decoded-binary64.json",
+      "bytes": 1339,
+      "sha256": "3bd0f31a683d775b66fe78b9811be7f19e03489cec5914f6128851105323e612"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/phases.json",
+      "bytes": 956,
+      "sha256": "a6971961afa1e9679546459e69f2dda63d28129121fc3b0b68db760ce4a09a72"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/publisher-last50.log",
+      "bytes": 1589,
+      "sha256": "43061dafa8780037adc1ae9fd235b44b4c830f876160318c9496d78999eb2f19"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/publisher-save-restore-trace.log",
+      "bytes": 462,
+      "sha256": "d80aa6d4cf46b8f8b29e6cff293a6dd5f0b1b46c30f533a6dd1031a4e49ad210"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/publisher.log",
+      "bytes": 1589,
+      "sha256": "43061dafa8780037adc1ae9fd235b44b4c830f876160318c9496d78999eb2f19"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/receipt.json",
+      "bytes": 1182,
+      "sha256": "1e498129fe02810eb5b4d8d21bdc069545da1667674ada3970f88627ef5fd22e"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/trickhla-last50.log",
+      "bytes": 4616,
+      "sha256": "7859657f6bb1ef6d17cb935a9fba8f21ca04987eaaf5cc2bbe7cbb91c27333f7"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/trickhla-save-restore-trace.log",
+      "bytes": 6903,
+      "sha256": "9c2affda50d49cff217d5563289cc60dd1f795bc6addba1ef23e79bbb1fa15bd"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-1/trickhla.log.gz",
+      "bytes": 1373919,
+      "sha256": "52135dd06fc5d9252850ca8923f1d2005d81755504dd4dad85a228f67496cd4d"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/acceptance.json",
+      "bytes": 1430,
+      "sha256": "5287d66b88af9fb253603c0c09ce71db01d008867801e808b7057789b7ceb2d8"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/comparison.json",
+      "bytes": 4632,
+      "sha256": "4cce53c25410ccbf4f64c88c7a1b402117ce55377135a4bf97e248370753f6b5"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/decoded-binary64.json",
+      "bytes": 1339,
+      "sha256": "3bd0f31a683d775b66fe78b9811be7f19e03489cec5914f6128851105323e612"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/phases.json",
+      "bytes": 956,
+      "sha256": "5d1299d4decdcbcb1e7f10bad2051376ab8abebe0c87b13530aa5d8154b2a55d"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/publisher-last50.log",
+      "bytes": 1589,
+      "sha256": "43061dafa8780037adc1ae9fd235b44b4c830f876160318c9496d78999eb2f19"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/publisher-save-restore-trace.log",
+      "bytes": 462,
+      "sha256": "d80aa6d4cf46b8f8b29e6cff293a6dd5f0b1b46c30f533a6dd1031a4e49ad210"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/publisher.log",
+      "bytes": 1589,
+      "sha256": "43061dafa8780037adc1ae9fd235b44b4c830f876160318c9496d78999eb2f19"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/receipt.json",
+      "bytes": 1182,
+      "sha256": "933d75b25d8bb0bee068649cacb9f9c198fd03a64a44a67249c229c6359e1306"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/trickhla-last50.log",
+      "bytes": 4616,
+      "sha256": "131fa5b812bef7a5c26a22fb0659423ea850ef42357035aa642524045571ad00"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/trickhla-save-restore-trace.log",
+      "bytes": 6903,
+      "sha256": "b21265c985d8a8d06d405a45789c0a58fdd2d8546036791fafedfc172c340de5"
+    },
+    {
+      "path": "evidence/interop/trickhla-checkpoint/stock-2/trickhla.log.gz",
+      "bytes": 1369559,
+      "sha256": "2131ca58e841eb284321aa9206b8f6c36d9a4f05e2cc2f2ff257846ceca386e9"
     },
     {
       "path": "evidence/interop/trickhla/commands.txt",
@@ -3793,8 +3943,8 @@
     },
     {
       "path": "native/spacefom/README.md",
-      "bytes": 9845,
-      "sha256": "fd66751bb4be9976eb2ad1bceaeb6d6251c5603749ceefe35aaf51eff89e5197"
+      "bytes": 10037,
+      "sha256": "a9365553bbbd9809abc37aca11bde944d78dfe198dc3357a3642877f961f6b5a"
     },
     {
       "path": "native/spacefom/observer.cpp",
@@ -4078,13 +4228,13 @@
     },
     {
       "path": "qualification/trickhla/LoggingSpaceFOM.hh",
-      "bytes": 3117,
-      "sha256": "44e6576418869216ec4176ce43bfdb6ad8fba6c563a64b6f5d48a7dba390d0c5"
+      "bytes": 3457,
+      "sha256": "d10d0642a97192a62951383e844ffd40dd75ea93b83a21603da0bc8a23dcc6bc"
     },
     {
       "path": "qualification/trickhla/README.md",
-      "bytes": 2046,
-      "sha256": "d393d32d0b7c80c42db4627a5b00f5259003a5d23630e2151e0e534c2c31bb0e"
+      "bytes": 3205,
+      "sha256": "91d11ed538e5707ad10e0b24198be687487dca5d815990dacd61aef513e0480d"
     },
     {
       "path": "qualification/trickhla/apply-logging-override.sh",
@@ -4093,13 +4243,18 @@
     },
     {
       "path": "qualification/trickhla/compare-states.py",
-      "bytes": 5460,
-      "sha256": "9fd314a940a6de905165af747d70d33a7fd02e21af57d5ac2a45a84b117c528d"
+      "bytes": 6252,
+      "sha256": "587028c3325dac4ced338e796893e0c318e2d3aee14950b9148aca7745b33faa"
     },
     {
       "path": "qualification/trickhla/input-latejoin.py",
       "bytes": 11865,
       "sha256": "aa7528aa89adc4a556c375a78a638e8085d19ab2f8ec8f10add67a87bcf0f07b"
+    },
+    {
+      "path": "qualification/trickhla/input-observer-checkpoint.py",
+      "bytes": 13326,
+      "sha256": "ed6d0f28f0cd8191008c8c5797e249ba00dfe72df5c9f837bcf52c27a0f71b91"
     },
     {
       "path": "qualification/trickhla/input-observer.py",
@@ -4110,6 +4265,11 @@
       "path": "qualification/trickhla/input.py",
       "bytes": 11645,
       "sha256": "daaebd261c4a65854f7712247c4d06d26ff31f49683cc42a2ceab6b15467048c"
+    },
+    {
+      "path": "qualification/trickhla/observer-timelines.sdefine",
+      "bytes": 1186,
+      "sha256": "f2650e2c3d55ec8fefdf21240464cdbe6cc039398cb227b8b76f65d229b4f279"
     },
     {
       "path": "qualification/trickhla/publisher-multiphase-diag.cpp",

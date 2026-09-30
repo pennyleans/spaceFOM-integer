@@ -1,0 +1,52 @@
+47: |L   0|2026/09/30,19:16:51.382131|{host}| |T 0|0.000000| TrickHLA::ExecutionControlBase::join_federation_process():341 Checking for shutdown
+123: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+193: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+280: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+347: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+388: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+79235: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+79242: |L   1|2026/09/30,19:16:55.238672|{host}| |T 0|30.000000| Freeze ON. Simulation time holding at 30.000000 seconds.
+79259: |L   0|2026/09/30,19:16:55.238970|{host}| |T 0|30.000000| TrickHLA::FedAmb::initiateFederateSave():308 Label:'freeze_1920'
+79265: |L   0|2026/09/30,19:16:55.239332|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'SolarSystemBarycentricInertial'
+79266: |L   0|2026/09/30,19:16:55.239339|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'body_10'
+79267: |L   0|2026/09/30,19:16:55.239346|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'orbital_vessel'
+79268: |L   0|2026/09/30,19:16:55.239353|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'ExCO'
+79271: |L   1|2026/09/30,19:16:55.252687|{host}| |T 0|30.000000| Dumped Checkpoint (floating point values in Hexadecimal) orbital_8989_orbital_observer_freeze_1920.chkpt.
+79272: |L   0|2026/09/30,19:16:55.252885|{host}| |T 0|30.000000| TrickHLA::SaveRestoreServices::save():523 Federate Save Completed.
+90954: |L   0|2026/09/30,19:16:55.349687|{host}| |T 0|30.000000| TrickHLA::FedAmb::federationSaved():353
+90956: |L   0|2026/09/30,19:16:55.349839|{host}| |T 0|30.000000| TrickHLA::ExecutionControlBase::save_process():1084 Save completed for 'freeze_1920'
+90973: |L   1|2026/09/30,19:16:55.601106|{host}| |T 0|30.000000| Freeze OFF.
+90989: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+130443: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+130450: |L   1|2026/09/30,19:16:57.401207|{host}| |T 0|45.000000| Freeze ON. Simulation time holding at 45.000000 seconds.
+130467: |L   0|2026/09/30,19:16:57.406095|{host}| |T 0|45.000000| TrickHLA::FedAmb::federationRestoreBegun():431 Restore begun for Label ''
+130468: |L   0|2026/09/30,19:16:57.406301|{host}| |T 0|45.000000| TrickHLA::FedAmb::initiateFederateRestore():466 Restore initiated for Label 'freeze_1920'
+130469: |L   0|2026/09/30,19:16:57.406327|{host}| |T 0|45.000000| TrickHLA::SaveRestoreServices::restore_initiated():1509 Restoring from checkpoint file: 'orbital_8989_orbital_observer_freeze_1920.chkpt'
+130470: |L   0|2026/09/30,19:16:57.406360|{host}| |T 0|45.000000| TrickHLA::Federate::checkpoint_preload():3494 Preparing to load checkpoint file as part of an HLA Restore process.
+130476: |L   1|2026/09/30,19:16:58.871528|{host}| |T 0|45.000000| Load checkpoint file {work}/spacefom-round12-20260930/runs/stock-1/observer/orbital_8989_orbital_observer_freeze_1920.chkpt.
+130481: |L   1|2026/09/30,19:16:58.932940|{host}| |T 0|45.000000| Finished loading checkpoint file.  Calling restart jobs.
+130485: |L   2|2026/09/30,19:16:58.944183|{host}| |T 0|30.000000| TrickHLA::ExecutionControlBase::checkpoint_restart():1752 WARNING: Resetting Save state to THLASaveProcessEnum::SAVE_NONE!
+130488: |L   0|2026/09/30,19:16:58.944192|{host}| |T 0|30.000000| TrickHLA::ExecutionControlBase::checkpoint_restart():1788 Restarting after loading a checkpoint.
+130489: |L   0|2026/09/30,19:16:58.945503|{host}| |T 0|30.000000| TrickHLA::SaveRestoreServices::restore_after_checkpoint_load():1662 Rebuilding HLA Handles.
+130490: |L   0|2026/09/30,19:16:58.945523|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'SolarSystemBarycentricInertial'
+130491: |L   0|2026/09/30,19:16:58.945532|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'body_10'
+130492: |L   0|2026/09/30,19:16:58.945539|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'orbital_vessel'
+130493: |L   0|2026/09/30,19:16:58.945546|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'ExCO'
+130494: |L   0|2026/09/30,19:16:58.945553|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'SolarSystemBarycentricInertial'
+130495: |L   0|2026/09/30,19:16:58.945576|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'body_10'
+130496: |L   0|2026/09/30,19:16:58.945584|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'orbital_vessel'
+130497: |L   0|2026/09/30,19:16:58.945591|{host}| |T 0|30.000000| TrickHLA::Object::restore_data_after_checkpoint():4157 Object 'ExCO'
+130519: |L   0|2026/09/30,19:16:58.946984|{host}| |T 0|30.000000| TrickHLA::SaveRestoreServices::restore_after_checkpoint_load():1687 Rebuilt HLA federate state.
+130520: |L   0|2026/09/30,19:16:58.946991|{host}| |T 0|30.000000| TrickHLA::SaveRestoreServices::restore_success_notification():1707 Restore succeeded for label: 'freeze_1920'
+130521: |L   0|2026/09/30,19:16:59.315603|{host}| |T 0|30.000000| TrickHLA::FedAmb::federationRestored():495
+130522: |L   0|2026/09/30,19:16:59.315718|{host}| |T 0|30.000000| TrickHLA::ExecutionControlBase::restore_process():1349 Restore completed for 'freeze_1920'
+130542: |L   1|2026/09/30,19:16:59.570305|{host}| |T 0|30.000000| Freeze OFF.
+130555: 2:'SpaceFOM' Sync-point:[mtr_shutdown] -- SYNC_PT_STATE_KNOWN
+209306: |L   0|2026/09/30,19:17:02.830356|{host}| |T 0|60.015625| TrickHLA::FedAmb::announceSynchronizationPoint():244 Label:'mtr_shutdown'
+209307: |L   0|2026/09/30,19:17:02.830383|{host}| |T 0|60.015625| SpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced 'mtr_shutdown'
+209308: |L   2|2026/09/30,19:17:02.830402|{host}| |T 0|60.015625| SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2421 WARNING: his Federate 'orbital_observer' detected the Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+209309: |L   0|2026/09/30,19:17:02.830422|{host}| |T 0|60.015625| TrickHLA::Federate::shutdown():4178
+209318: |L   3|2026/09/30,19:17:03.341718|{host}| |T 0|60.015625| SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2430 ERROR: his Federate 'orbital_observer' detected the Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+209320:      REALTIME SHUTDOWN STATS:
+209324: SIMULATION TERMINATED IN
+209327:   DIAGNOSTIC: SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2430 ERROR: his Federate 'orbital_observer' detected the Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.

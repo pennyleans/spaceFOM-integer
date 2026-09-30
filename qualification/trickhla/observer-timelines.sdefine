@@ -1,0 +1,31 @@
+//=============================================================================
+// Append to the observer's SIM_Entity_Test/S_define (the round 10 port).
+//
+// Trick-managed timelines for HLA save and restore. TrickHLA's default
+// timelines are namespace globals outside Trick-managed memory, so a
+// checkpoint cannot reference them and the restore fails to parse. This
+// follows the THLA_INIT object in the branch's sims/SpaceFOM/SIM_Ball/S_define.
+// input-observer-checkpoint.py points THLA.execution_control at these.
+//=============================================================================
+##include "TrickHLA/time/SimTimeline.hh"
+##include "TrickHLA/time/ScenarioTimeline.hh"
+
+class ObserverTimelinesSimObj : public Trick::SimObject {
+
+ public:
+   TrickHLA::SimTimeline      sim_timeline;
+   TrickHLA::ScenarioTimeline scenario_timeline;
+
+   ObserverTimelinesSimObj()
+      : sim_timeline(),
+        scenario_timeline( sim_timeline, 0.0, 0.0 )
+   {
+      return;
+   }
+
+ private:
+   ObserverTimelinesSimObj( ObserverTimelinesSimObj const &rhs );
+   ObserverTimelinesSimObj &operator=( ObserverTimelinesSimObj const &rhs );
+};
+
+ObserverTimelinesSimObj observer_timelines;

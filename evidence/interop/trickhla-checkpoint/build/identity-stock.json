@@ -1,0 +1,66 @@
+{
+  "variant": "stock",
+  "trickhla_revision": "4f72205772d55301aefe395bda45daecf0d6855d",
+  "status": [
+    " M S_modules/SpaceFOM/PhysicalEntity.sm",
+    " M S_modules/SpaceFOM/RefFrame.sm",
+    " M TrickHLA_data/SpaceFOM/SpaceFOMPhysicalEntityObject.py",
+    " M sims/SpaceFOM/SIM_Entity_Test/S_define",
+    "?? S_modules/SpaceFOM/PhysicalEntity.sm.orig",
+    "?? S_modules/SpaceFOM/RefFrame.sm.orig",
+    "?? TrickHLA_data/SpaceFOM/SpaceFOMPhysicalEntityObject.py.orig",
+    "?? include/SpaceFOM/LoggingSpaceFOM.hh"
+  ],
+  "artifacts": [
+    {
+      "path": "sims/SpaceFOM/SIM_Entity_Test/S_define",
+      "bytes": 10948,
+      "sha256": "67a87246f8a35451c028d3e254f161e85b4144d7272ec0405eb726872f3da939"
+    },
+    {
+      "path": "sims/SpaceFOM/SIM_Entity_Test/S_overrides.mk",
+      "bytes": 1064,
+      "sha256": "3ab297517be548484123f3a63d012cd8107972a3603761e076ddb86df5421566"
+    },
+    {
+      "path": "sims/SpaceFOM/SIM_Entity_Test/S_main_Linux_13.3_x86_64.exe",
+      "bytes": 76524488,
+      "sha256": "0ff7177eedce1a419be712d60423ad8f0996ec92c777e3ca6727847a2ceab627"
+    },
+    {
+      "path": "source/TrickHLA/Object.cpp",
+      "bytes": 193498,
+      "sha256": "d446558d1432960938a70ed79fe17e4b6ccad356114d98290f8a8d7e69920b01"
+    },
+    {
+      "path": "source/TrickHLA/OwnershipHandler.cpp",
+      "bytes": 21389,
+      "sha256": "d079229c16cae0bd2e65de59cd2fe85ca1cd0f2b955c85b8cf34648e84a85619"
+    },
+    {
+      "path": "S_modules/SpaceFOM/PhysicalEntity.sm",
+      "bytes": 5193,
+      "sha256": "264054a05976809dc2dd8c3237797ec6d1a27688b1074b1ff6624ccdb349c50d"
+    },
+    {
+      "path": "S_modules/SpaceFOM/RefFrame.sm",
+      "bytes": 5440,
+      "sha256": "575b2bc5a2036d3a41f0e6e00e8b16b96c08b33af792f0eff6af59482d497692"
+    },
+    {
+      "path": "TrickHLA_data/SpaceFOM/SpaceFOMPhysicalEntityObject.py",
+      "bytes": 11565,
+      "sha256": "7a31061e2123b24dc5ef9cd28569e02c4b475d0b89d247d2736d2d0ce138f957"
+    },
+    {
+      "path": "include/SpaceFOM/LoggingSpaceFOM.hh",
+      "bytes": 3457,
+      "sha256": "d10d0642a97192a62951383e844ffd40dd75ea93b83a21603da0bc8a23dcc6bc"
+    }
+  ],
+  "core_source_diff": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "round10_instrumentation_present": false
+}

@@ -6,6 +6,12 @@
 
 This is a bounded interoperability prototype. We have not established full SpaceFOM compliance or operational navigation accuracy.
 
+## Update, 30 September 2026
+
+- **HLA save and restore with TrickHLA.** An unmodified federate from the `Checkpoint` development branch of NASA's TrickHLA (commit `4f72205`) saved and restored mid-run in our federation on Pitch pRTI Free, in two runs, with both processes exiting cleanly. Every update it received matched the recording in all fourteen fields, and the 959 ticks it received again after the restore matched their first reception exactly.
+- **What restore needed:** a TrickHLA simulation must declare its timelines in Trick-managed memory, as the branch's `SIM_Ball` example does; otherwise the checkpoint cannot be restored.
+- **Receipts:** [report and evidence](evidence/interop/trickhla-checkpoint/REPORT.md). Statements below that this update supersedes are marked.
+
 ## Verify it yourself
 
 Download the verifier package for your platform from the [release page](https://github.com/pennyleans/spaceFOM-integer/releases/tag/verify-9e44426), extract it and run `2207-verify` (`2207-verify.exe` on Windows). It reruns five orbital scenarios and a scripted session, hashes the complete state at every 64 Hz tick, and compares the result with the hashes recorded on our machines. A full run takes a few minutes; `--quick` takes under a minute.
@@ -65,7 +71,7 @@ On Pitch pRTI Free the federation also saves and restores through HLA: the Maste
 - The force model is mutual point-mass gravity for the Sun, the planets or planet systems, the Moon and Titan. Nonspherical gravity, small bodies, relativity and atmospheres are absent.
 - Accuracy figures are maxima at one-second samples for the declared scenarios. They are not bounds between samples and do not describe arbitrary missions.
 - SpaceFOM time stamps use a constant TDB-to-TT offset, described in the [federation profile](docs/federation-profile.md#time).
-- The exchange passes on OpenRTI and Pitch pRTI Free and fails on Portico, which lacks a service our publisher uses. The Pitch results were obtained with the RTI restarted before each run; on long-lived Free sessions, runs failed with a time advance grant that arrived before every update for that tick, which we have not explained. TrickHLA ran only as a follower, on Pitch pRTI, subscribed to the root frame, the vessel and one body. Arbitrary mode changes and failure recovery are untested. HLA save and restore pass on Pitch pRTI between our own federates for one scripted case; TrickHLA's SpaceFOM mode does not support them. See the [interoperability reports](evidence/README.md).
+- The exchange passes on OpenRTI and Pitch pRTI Free and fails on Portico, which lacks a service our publisher uses. The Pitch results were obtained with the RTI restarted before each run; on long-lived Free sessions, runs failed with a time advance grant that arrived before every update for that tick, which we have not explained. TrickHLA ran only as a follower, on Pitch pRTI, subscribed to the root frame, the vessel and one body. Arbitrary mode changes and failure recovery are untested. HLA save and restore pass on Pitch pRTI between our own federates for one scripted case. **Superseded 30 September 2026:** TrickHLA 3.2.2's SpaceFOM mode does not support them, but its `Checkpoint` development branch does, and passed with our federation ([update](evidence/interop/trickhla-checkpoint/REPORT.md)). See the [interoperability reports](evidence/README.md).
 - The prototype departs from SpaceFOM conventions in several places, listed in the [federation profile](docs/federation-profile.md#deviations-from-spacefom-conventions).
 - Binary64 wire values are observations of the integer state and cannot restore a simulation session.
 

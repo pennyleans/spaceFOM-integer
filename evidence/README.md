@@ -28,5 +28,10 @@ These are lab notes, written by the AI coding agent that ran each round on our W
 | 4 | [`interop/round4/REPORT.md`](interop/round4/REPORT.md) | Two Master initialization steps found missing; macOS verifier fixed by the folder layout |
 | 5 | [`interop/round5/REPORT.md`](interop/round5/REPORT.md) | Complete TrickHLA exchange with the corrected publisher; packages rebuilt with licence files |
 | 6 | [`interop/round6/REPORT.md`](interop/round6/REPORT.md) | First HLA save and restore on Pitch; observer timing and MSVC build faults |
-| 7 | [`interop/round7/REPORT.md`](interop/round7/REPORT.md) | Save and restore pass; TrickHLA's SpaceFOM scheme does not support them |
+| 7 | [`interop/round7/REPORT.md`](interop/round7/REPORT.md) | Save and restore pass; TrickHLA 3.2.2's SpaceFOM scheme does not support them (superseded for the `Checkpoint` branch, below) |
 | 8 | [`interop/round8/REPORT.md`](interop/round8/REPORT.md) | Verifier renamed `2207-verify`; full runs from the release pass on Windows, macOS and Linux |
+
+## TrickHLA Checkpoint branch
+
+[`interop/trickhla-checkpoint/REPORT.md`](interop/trickhla-checkpoint/REPORT.md), 30 September 2026: an unmodified federate from TrickHLA's `Checkpoint` development branch saves and restores in our federation, and every update it receives again after the restore matches the first reception bit for bit. This is a summary with its receipts; the lab notes of the rounds that led to it are not yet included.
+

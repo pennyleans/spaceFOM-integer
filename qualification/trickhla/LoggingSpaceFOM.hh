@@ -31,6 +31,12 @@ inline void interop_log_state(
    SpaceFOM::SpaceTimeCoordinateData const &state )
 {
    static const double epoch_tt = 7529673600.00018;
+   // Log only states inside the recording's time window. An update without
+   // state carries a sentinel time (for example -DBL_MAX); multiplying it
+   // would overflow, which Trick traps as a floating-point exception.
+   if ( !std::isfinite( state.time ) || state.time < epoch_tt || state.time > epoch_tt + 1.0e6 ) {
+      return;
+   }
    long long tick = static_cast<long long>( std::llround( ( state.time - epoch_tt ) * 64.0 ) );
 
    std::ostringstream line;

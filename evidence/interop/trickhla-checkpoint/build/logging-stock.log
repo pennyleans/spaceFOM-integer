@@ -1,0 +1,4 @@
+RefFrame.sm already patched
+PhysicalEntity.sm already patched
+SpaceFOMPhysicalEntityObject.py already patched
+logging override applied to {work}/spacefom-round11-20260930/TrickHLA-stock

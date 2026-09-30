@@ -1,0 +1,35 @@
+{
+  "run": "stock-2",
+  "exit_codes": {
+    "publisher": 0,
+    "trickhla": 0
+  },
+  "full_pass": false,
+  "follower": {
+    "initiate_federate_save": true,
+    "checkpoint_dumped": true,
+    "federate_save_completed": true,
+    "federation_saved": true,
+    "initiate_federate_restore": true,
+    "checkpoint_load_attempted": true,
+    "checkpoint_parser_failed": false,
+    "restore_success_notification_reached": true,
+    "object_restore_entries_after_checkpoint_load": 8,
+    "federation_restored": true,
+    "error_counts": {
+      "integration_without_integrator": 0,
+      "save_in_progress_warning": 10208,
+      "checkpoint_parse_error": 0,
+      "invalid_declarations_summary": 0,
+      "checkpoint_restore_failed": 0
+    }
+  },
+  "publisher": {
+    "federation_saved": true,
+    "local_state_restored": true,
+    "federation_restored": true,
+    "rewound_tick_1920": true,
+    "resumed_after_restore": true,
+    "shutdown_complete": true
+  }
+}

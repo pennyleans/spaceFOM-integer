@@ -1,0 +1,40 @@
+{
+  "full_pass": false,
+  "failures": [
+    "orbital_vessel.updates_compared: expected 4801, observed 4800",
+    "orbital_vessel.repeated_ticks: expected 960, observed 959",
+    "orbital_vessel.repeated_range: expected [1921, 2880], observed [1921, 2879]",
+    "orbital_vessel: all fourteen fields must have 4801 exact numeric matches.",
+    "body_10.updates_compared: expected 4801, observed 4800",
+    "body_10.repeated_ticks: expected 960, observed 959",
+    "body_10.repeated_range: expected [1921, 2880], observed [1921, 2879]",
+    "body_10: all fourteen fields must have 4801 exact numeric matches.",
+    "orbital_vessel: bit audit must match all 4801 updates.",
+    "body_10: bit audit must match all 4801 updates."
+  ],
+  "observed": {
+    "orbital_vessel": {
+      "updates_compared": 4800,
+      "missing_ticks": 0,
+      "first_missing": [],
+      "repeated_ticks": 959,
+      "repeated_range": [
+        1921,
+        2879
+      ],
+      "repeats_differing_from_first": 0
+    },
+    "body_10": {
+      "updates_compared": 4800,
+      "missing_ticks": 0,
+      "first_missing": [],
+      "repeated_ticks": 959,
+      "repeated_range": [
+        1921,
+        2879
+      ],
+      "repeats_differing_from_first": 0
+    }
+  },
+  "scope": "Full acceptance requires the supplied numeric comparator and the additional bit audit of all fourteen printed decoded binary64 fields. This is not a raw RTI wire-byte comparison."
+}

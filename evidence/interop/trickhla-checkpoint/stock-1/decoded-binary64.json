@@ -1,0 +1,51 @@
+{
+  "scope": "Offline bit comparison of the fourteen decoded binary64 fields reconstructed from printed values, not raw RTI packet equality. HLA tags in these lines are derived from state time.",
+  "objects": {
+    "orbital_vessel": {
+      "updates_compared": 4800,
+      "updates_bit_equal": 4800,
+      "field_bit_matches": {
+        "pos_x": 4800,
+        "pos_y": 4800,
+        "pos_z": 4800,
+        "vel_x": 4800,
+        "vel_y": 4800,
+        "vel_z": 4800,
+        "quat_w": 4800,
+        "quat_x": 4800,
+        "quat_y": 4800,
+        "quat_z": 4800,
+        "ang_x": 4800,
+        "ang_y": 4800,
+        "ang_z": 4800,
+        "time": 4800
+      },
+      "first_differences": [],
+      "all_observed_fields_bit_equal": true
+    },
+    "body_10": {
+      "updates_compared": 4800,
+      "updates_bit_equal": 4800,
+      "field_bit_matches": {
+        "pos_x": 4800,
+        "pos_y": 4800,
+        "pos_z": 4800,
+        "vel_x": 4800,
+        "vel_y": 4800,
+        "vel_z": 4800,
+        "quat_w": 4800,
+        "quat_x": 4800,
+        "quat_y": 4800,
+        "quat_z": 4800,
+        "ang_x": 4800,
+        "ang_y": 4800,
+        "ang_z": 4800,
+        "time": 4800
+      },
+      "first_differences": [],
+      "all_observed_fields_bit_equal": true
+    }
+  },
+  "unparsed_interop_lines": [],
+  "out_of_recording_range": []
+}

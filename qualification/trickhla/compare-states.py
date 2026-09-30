@@ -7,6 +7,10 @@ fourteen decoded state values at full precision. This script matches those
 lines to the recording decoded with the independent wire oracle, tick by tick,
 and reports which fields match bit for bit and the largest difference for the
 fields that do not.
+
+After an HLA federation restore the federate receives some ticks a second
+time. Every occurrence is compared with the recording, and ticks received
+more than once are reported with whether each repeat equals the first.
 """
 
 import argparse
@@ -49,7 +53,7 @@ def parse_log(path: Path) -> dict:
             match.group("time"),
         )
         key = (match.group("object"), int(match.group("tick")))
-        updates[key] = (int(match.group("hla")), tuple(float(value) for value in values))
+        updates.setdefault(key, []).append((int(match.group("hla")), tuple(float(value) for value in values)))
     return updates
 
 
@@ -83,6 +87,8 @@ def main() -> int:
         worst_tick = {field: None for field in FIELDS}
         compared = 0
         missing = []
+        repeated = []
+        repeats_differ = []
         for tick in range(spool.frame_count):
             key = (name, tick)
             if key not in updates:
@@ -94,22 +100,30 @@ def main() -> int:
                 EPOCH_TT + tick / 64,
                 f"{name}[{tick}]",
             )
-            hla_time, received = updates[key]
-            compared += 1
-            if hla_time != tick * 15625:
-                report.setdefault("hla_time_mismatch", []).append([name, tick, hla_time])
-            for field_index, field in enumerate(FIELDS):
-                if recorded[field_index] == received[field_index]:
-                    exact[field] += 1
-                else:
-                    difference = relative(recorded[field_index], received[field_index])
-                    if difference > worst[field]:
-                        worst[field] = difference
-                        worst_tick[field] = tick
+            occurrences = updates[key]
+            if len(occurrences) > 1:
+                repeated.append(tick)
+                if any(values != occurrences[0][1] for _, values in occurrences[1:]):
+                    repeats_differ.append(tick)
+            for hla_time, received in occurrences:
+                compared += 1
+                if hla_time != tick * 15625:
+                    report.setdefault("hla_time_mismatch", []).append([name, tick, hla_time])
+                for field_index, field in enumerate(FIELDS):
+                    if recorded[field_index] == received[field_index]:
+                        exact[field] += 1
+                    else:
+                        difference = relative(recorded[field_index], received[field_index])
+                        if difference > worst[field]:
+                            worst[field] = difference
+                            worst_tick[field] = tick
         report["objects"][name] = {
             "updates_compared": compared,
             "missing_ticks": len(missing),
             "first_missing": missing[:5],
+            "repeated_ticks": len(repeated),
+            "repeated_range": [repeated[0], repeated[-1]] if repeated else None,
+            "repeats_differing_from_first": len(repeats_differ),
             "fields": {
                 field: {
                     "exact_matches": exact[field],
@@ -120,7 +134,7 @@ def main() -> int:
             },
         }
 
-    root_updates = {tick: values for (name, tick), values in updates.items() if name == "SolarSystemBarycentricInertial"}
+    root_updates = {tick: occurrences[0] for (name, tick), occurrences in updates.items() if name == "SolarSystemBarycentricInertial"}
     root = {"updates": len(root_updates)}
     if root_updates:
         tick, (hla_time, values) = sorted(root_updates.items())[0]

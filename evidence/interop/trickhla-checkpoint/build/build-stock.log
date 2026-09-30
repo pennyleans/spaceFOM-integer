@@ -1,0 +1,100 @@
+S_hla.mk:INFO: Using the c++14 standard.
+Building with the following compilation flags:
+TRICK_CFLAGS   = -I{work}/pRTI/api/cpp/HLA_1516-2010 -I{work}/spacefom-round11-20260930/TrickHLA-stock/include -I{work}/spacefom-round11-20260930/TrickHLA-stock/models -DIEEE_1516_2010 -Wno-deprecated-declarations -DTRICK_PATCH=1 -I.
+TRICK_CXXFLAGS = -I{work}/pRTI/api/cpp/HLA_1516-2010 -I{work}/spacefom-round11-20260930/TrickHLA-stock/include -I{work}/spacefom-round11-20260930/TrickHLA-stock/models -DIEEE_1516_2010 -Wno-deprecated-declarations -DTRICK_PATCH=1 -std=c++14 -I.
+Running    configuration_processor
+Parsing    S_define
+Processing S_define
+Processing /usr/include/stdc-predef.h
+Continuing S_define
+Processing {work}/trick/share/trick/sim_objects/default_trick_sys.sm
+Processing SysSimObject
+Processing MonteCarloSimObject
+Processing MemoryManagerSimObject
+Processing CheckPointRestartSimObject
+Processing SieSimObject
+Processing CommandLineArgumentsSimObject
+Processing MessageSimObject
+Processing JITSimObject
+Processing InputProcessorSimObject
+Processing ThreadProcessEventSimObject
+Processing EventManagerSimObject
+Processing VariableServerSimObject
+Processing DataRecordDispatcherSimObject
+Processing RTSyncSimObject
+Processing FrameLogSimObject
+Processing MasterSlaveSimObject
+Processing InstrumentationSimObject
+Processing InjectorExecSimObject
+Processing InjectorSimObject
+Processing ZeroconfSimObject
+Processing UnitTestSimObject
+Processing UdUnitsSimObject
+Continuing S_define
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/SpaceFOM.sm
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/THLABase.sm
+Processing THLABaseSimObject
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/SpaceFOM.sm
+Processing SpaceFOMSimObject
+Continuing S_define
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/TestRefFrameTree.sm
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/RefFrameTreeBase.sm
+Processing SpaceFOMRefFrameTreeBaseSimObject
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/TestRefFrameTree.sm
+Processing SpaceFOMTestRefFrameTreeSimObject
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/RefFrame.sm
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/THLAObjectBase.sm
+Processing TrickHLAObjectBaseSimObject
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/RefFrame.sm
+Processing SpaceFOMRefFrameSimObject
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/TestRefFrameTree.sm
+Continuing S_define
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/PhysicalEntity.sm
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/THLAObjectBase.sm
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/PhysicalEntity.sm
+Processing SpaceFOMPhysicalEntitySimObject
+Continuing S_define
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/DynamicalEntity.sm
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/THLAObjectBase.sm
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/DynamicalEntity.sm
+Processing SpaceFOMDynamicalEntitySimObject
+Continuing S_define
+Processing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/PhysicalInterface.sm
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/THLAObjectBase.sm
+Continuing {work}/spacefom-round11-20260930/TrickHLA-stock/S_modules/SpaceFOM/PhysicalInterface.sm
+Processing SpaceFOMPhysicalInterfaceSimObject
+Continuing S_define
+Processing THLAInitSimObject
+Processing EntityDynamicsSimObject
+Processing RelStateTestSimObject
+Processing ObserverTimelinesSimObj
+Finished   S_define
+Writing    S_source.c
+Writing    Makefile_swig
+Running    ICG
+Writing    build{work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/io_LoggingSpaceFOM.cpp
+Warning    {work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/LoggingSpaceFOM.hh
+           No Trick header comment found
+Writing    build{work}/spacefom-round11-20260930/TrickHLA-stock/sims/SpaceFOM/SIM_Entity_Test/io_S_source.cpp
+Writing    Makefile_io_src
+Writing    Makefile_src
+DepTracing {work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/LoggingSpaceFOM.hh
+S_hla.mk:INFO: Using the c++14 standard.
+Compiling  build/S_source.cpp
+Compiling  build{work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/io_LoggingSpaceFOM.cpp
+Compiling  build{work}/spacefom-round11-20260930/TrickHLA-stock/sims/SpaceFOM/SIM_Entity_Test/io_S_source.cpp
+Compiling  build/class_map.cpp
+Writing    build{work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/LoggingSpaceFOM_py.i
+Writing    build{work}/spacefom-round11-20260930/TrickHLA-stock/sims/SpaceFOM/SIM_Entity_Test/S_source_py.i
+Compiling  build/init_swig_modules.cpp
+SWIGing    build{work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/LoggingSpaceFOM_py.i
+SWIGing    build{work}/spacefom-round11-20260930/TrickHLA-stock/sims/SpaceFOM/SIM_Entity_Test/S_source_py.i
+SWIGing    build/top.i
+Compiling  build{work}/spacefom-round11-20260930/TrickHLA-stock/include/SpaceFOM/LoggingSpaceFOM_py.cpp
+Compiling  build/top.cpp
+Compiling  build{work}/spacefom-round11-20260930/TrickHLA-stock/sims/SpaceFOM/SIM_Entity_Test/S_source_py.cpp
+Compiling  Python modules
+Zipping    Python modules into trick.zip
+Linking    S_main_Linux_13.3_x86_64.exe
+Writing    S_sie.resource
+Trick Build Process Complete

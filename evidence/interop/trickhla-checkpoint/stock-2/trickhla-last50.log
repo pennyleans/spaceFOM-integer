@@ -1,0 +1,50 @@
+ center of mass (cm): 	0, 		0, 		0
+Body frame orientation:
+      attitude (s,v): 	1; 		0, 		0, 		0
+ attitude (RPY){deg}: 	-0, 		0, 		-0
+INTEROP object=orbital_vessel tick=3840 hla_time_us=60000000 time=7529673660.0001802 pos=-16661989133.395931,133459223270.78377,57768866753.331352 vel=-29189.707970201747,-1398.6529564298571,-691.02527568286257 quat=0.69236588269302779,-0.14362967827961096,0.14362967827961096,-0.69236588269302779 ang_vel=0,0,0
+|L   0|2026/09/30,19:19:21.497614|{host}| |T 0|60.000000| TrickHLA::TrickThreadCoordinator::announce_data_available():775
+|L   0|2026/09/30,19:19:21.497622|{host}| |T 0|60.000000| TrickHLA::TrickThreadCoordinator::wait_to_send_data():831
+|L   0|2026/09/30,19:19:21.497630|{host}| |T 0|60.000000| TrickHLA::ObjectServices::send_cyclic_and_requested_data():1526 HLA-time:60.015625 seconds.
+|L   0|2026/09/30,19:19:21.497637|{host}| |T 0|60.000000| TrickHLA::TrickThreadCoordinator::announce_data_sent():808
+|L   0|2026/09/30,19:19:21.497645|{host}| |T 0|60.000000| TrickHLA::TimeManagementServices::perform_time_advance_request():986 Time Advance Request (TAR) to 60.015625 seconds.
+|L   0|2026/09/30,19:19:21.497710|{host}| |T 0|60.015625| TrickHLA::TimeManagementServices::wait_for_time_advance_grant():1289 Waiting for Time Advance Grant (TAG) to 60.015625 seconds.
+|L   0|2026/09/30,19:19:21.498826|{host}| |T 0|60.015625| TrickHLA::FedAmb::announceSynchronizationPoint():244 Label:'mtr_shutdown'
+|L   0|2026/09/30,19:19:21.498849|{host}| |T 0|60.015625| SpaceFOM::ExecutionControl::sync_point_announced():466 Marked sync-point announced 'mtr_shutdown'
+|L   2|2026/09/30,19:19:21.498903|{host}| |T 0|60.015625| SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2421 WARNING: his Federate 'orbital_observer' detected the Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+|L   0|2026/09/30,19:19:21.498952|{host}| |T 0|60.015625| TrickHLA::Federate::shutdown():4178
+|L   0|2026/09/30,19:19:21.498972|{host}| |T 0|60.015625| TrickHLA::TimeManagementServices::disable_time_constrained():1380 Disabling HLA Time Constrained.
+|L   0|2026/09/30,19:19:21.499458|{host}| |T 0|60.015625| TrickHLA::TimeManagementServices::disable_time_regulating():1431 Disabling HLA Time Regulation.
+|L   0|2026/09/30,19:19:21.502228|{host}| |T 0|60.015625| TrickHLA::Federate::resign():4318 Attempting to resign from Federation 'orbital_8989'
+|L   0|2026/09/30,19:19:21.505118|{host}| |T 0|60.015625| TrickHLA::Federate::resign():4329 Resigned from Federation 'orbital_8989'
+|L   0|2026/09/30,19:19:21.505144|{host}| |T 0|60.015625| TrickHLA::Federate::destroy():4447 Attempting to Destroy Federation 'orbital_8989'
+|L   2|2026/09/30,19:19:21.505778|{host}| |T 0|60.015625| TrickHLA::Federate::destroy():4474 WARNING: RTI Exception 'Federation Execution Does Not Exist (909146015)'
+|L   0|2026/09/30,19:19:21.505797|{host}| |T 0|60.015625| TrickHLA::Federate::destroy():4490 Attempting to disconnect from RTI.
+|L   0|2026/09/30,19:19:21.509407|{host}| |T 0|60.015625| TrickHLA::Federate::destroy():4499 Disconnected from RTI.
+|L   3|2026/09/30,19:19:22.009657|{host}| |T 0|60.015625| SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2430 ERROR: his Federate 'orbital_observer' detected the Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+|L   0|2026/09/30,19:19:22.049341|{host}| |T 0|60.015625|
+     REALTIME SHUTDOWN STATS:
+            ACTUAL INIT TIME:        2.288
+         ACTUAL ELAPSED TIME:       14.656
+|L   0|2026/09/30,19:19:23.173356|{host}| |T 0|60.015625|
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: {work}/spacefom-round11-20260930/TrickHLA-stock/source/TrickHLA/DebugHandler.cpp:0
+  DIAGNOSTIC: SpaceFOM::ExecutionControl::check_for_shutdown_with_termination():2430 ERROR: his Federate 'orbital_observer' detected the Shutdown sync-point 'mtr_shutdown', for the 'orbital_8989' Federation.
+
+
+              SIMULATION START TIME:        0.000
+               SIMULATION STOP TIME:       60.016
+            SIMULATION ELAPSED TIME:       60.016
+                 USER CPU TIME USED:        8.533
+               SYSTEM CPU TIME USED:        4.121
+              SIMULATION / CPU TIME:        4.743
+       INITIALIZATION USER CPU TIME:        2.481
+     INITIALIZATION SYSTEM CPU TIME:        0.277
+               SIMULATION RAM USAGE:      381.301MB
+      (External program RAM usage not included!)
+  VOLUNTARY CONTEXT SWITCHES (INIT):         7347
+INVOLUNTARY CONTEXT SWITCHES (INIT):            8
+   VOLUNTARY CONTEXT SWITCHES (RUN):       214395
+ INVOLUNTARY CONTEXT SWITCHES (RUN):           47
+

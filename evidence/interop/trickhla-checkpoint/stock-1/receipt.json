@@ -1,0 +1,38 @@
+{
+  "run": "stock-1",
+  "variant": "stock",
+  "publisher_options": "--master-modes --save-restore --required orbital_observer",
+  "deadline_seconds": 120,
+  "cleanup_grace_seconds_per_child": 10,
+  "comparison_deadline_seconds": 30,
+  "audit_deadline_seconds": 30,
+  "timed_out": false,
+  "manual_readiness_confirmed": true,
+  "observer_binary_sha256": "0ff7177eedce1a419be712d60423ad8f0996ec92c777e3ca6727847a2ceab627",
+  "exit_codes": {
+    "publisher": 0,
+    "trickhla": 0
+  },
+  "cleanup_terminated": [],
+  "elapsed_seconds": 15.621,
+  "artifacts": [
+    {
+      "path": "observer/orbital_8989_orbital_observer_freeze_1920.chkpt",
+      "bytes": 265501,
+      "sha256": "10d6f8d8b05eac6b6630df09ceb29b68140c4a2c849c63eeb73bc5ccf0ec020b"
+    },
+    {
+      "path": "observer/orbital_8989_orbital_observer_freeze_1920.feds",
+      "bytes": 82,
+      "sha256": "9b1c723a70ecb76820737726fde81bea4774aff06c8bea3c0ed651c1e7e9002d"
+    },
+    {
+      "path": "publisher/freeze_1920.orbital_master.state",
+      "bytes": 36,
+      "sha256": "fb77a50117a1e41d9fe3b229948a9d398dd0080f67500ab67cf2286cb9cad473"
+    }
+  ],
+  "full_pass": false,
+  "comparison_exit": 0,
+  "audit_exit": 0
+}

@@ -37,3 +37,9 @@ Known limits of this configuration, described in the report:
   logging instead.
 - The Pitch pRTI Free edition states that it supports no more than two
   federates. The three-federate exchange is described in the report.
+
+`compare-states.py` compares every INTEROP line with the recording. After an HLA federation restore some ticks are received a second time; the report counts them (`repeated_ticks`, `repeated_range`) and how many repeats differ from the first reception (`repeats_differing_from_first`).
+
+`input-observer-checkpoint.py` is `input-observer.py` ported to the TrickHLA `Checkpoint` branch, which removed `TrickHLA::Manager` from the `SpaceFOMFederateConfig` constructor. It also writes Trick checkpoints with hexadecimal floating-point values, as the branch's `SIM_Ball` does, so an HLA restore reloads exact values. Use it with the branch's own `sims/SpaceFOM/SIM_Entity_Test` definition.
+
+For HLA save and restore, append `observer-timelines.sdefine` to the observer's `S_define`. TrickHLA's default timelines are globals outside Trick-managed memory; a checkpoint cannot reference them, so the restore fails to parse. The file declares Trick-managed timelines as the branch's `SIM_Ball` does, and `input-observer-checkpoint.py` points the execution control at them. The input also gives the kept `pe_integloop` an integrator, as the stock `RUN_PE` input does.

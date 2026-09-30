@@ -1,0 +1,179 @@
+{
+  "recording": "{work}/spacefom-round12-20260930/source/data/published-icrf.sf",
+  "log": "{work}/spacefom-round12-20260930/raw/stock-2/trickhla.log",
+  "objects": {
+    "orbital_vessel": {
+      "updates_compared": 4800,
+      "missing_ticks": 0,
+      "first_missing": [],
+      "repeated_ticks": 959,
+      "repeated_range": [
+        1921,
+        2879
+      ],
+      "repeats_differing_from_first": 0,
+      "fields": {
+        "pos_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_w": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "time": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        }
+      }
+    },
+    "body_10": {
+      "updates_compared": 4800,
+      "missing_ticks": 0,
+      "first_missing": [],
+      "repeated_ticks": 959,
+      "repeated_range": [
+        1921,
+        2879
+      ],
+      "repeats_differing_from_first": 0,
+      "fields": {
+        "pos_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "pos_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "vel_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_w": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "quat_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_x": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_y": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "ang_z": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        },
+        "time": {
+          "exact_matches": 4800,
+          "max_relative_difference": 0.0,
+          "worst_tick": null
+        }
+      }
+    },
+    "SolarSystemBarycentricInertial": {
+      "updates": 1,
+      "tick": 0,
+      "hla_time_us": 0,
+      "exact_matches": 14,
+      "time_matches": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+16: run hlt_us=0
+20: freeze hlt_us=30000000
+21: saved label=freeze_1920 bytes=36 hlt_us=30000000
+22: federation_saved hlt_us=30000000
+26: run hlt_us=30000000
+30: freeze hlt_us=45000000
+31: restored label=freeze_1920 bytes=36 reencoded_identical hlt_us=30000000
+32: federation_restored hlt_us=30000000
+33: rewound tick=1920 hlt_us=30000000
+37: run hlt_us=30000000
+39: shutdown_marker_registered_unachieved hlt_us=60000000
+40: shutdown frames=3841 hlt_us=60000000
