@@ -6,6 +6,16 @@
 
 This is a bounded interoperability prototype. We have not established full SpaceFOM compliance or operational navigation accuracy.
 
+## Why bit-for-bit
+
+The idea at the heart of this work is not ours. Lockstep games, deterministic testing of distributed systems and reproducible software builds all rely on it. It is rarer in engineering simulation, where results usually differ slightly from one machine to the next and every comparison needs a tolerance.
+
+Our simulator holds its authoritative state in integers, with explicit units, rounding rules and order, so the same scenario produces the same bytes on different processors. We have checked this on x86-64 and on ARM (AArch64), under Windows, macOS and Linux: 1,497,350 states, identical on every machine. The verifier is free to download, so anyone, anywhere, can check that on their own machine rather than taking our word for it.
+
+When the answer is known to the bit, debugging changes character. Every run either reproduces the expected bytes or it does not, and any difference is a real defect, never noise to be argued about. In this prototype that let us check a NASA TrickHLA federate's received states exactly, and compare every frame received again after an HLA restore with its first reception, with no threshold to choose.
+
+We think of this as a small gesture of goodwill. The International Space Station showed what people from many countries can build when they agree on shared rules and trust each other's measurements. A computation that gives the same answer on any machine, for anyone, is a modest contribution in that spirit. We are grateful to the people who built the standards this work stands on, and we offer it freely.
+
 ## Update, 30 September 2026
 
 - **HLA save and restore with TrickHLA.** An unmodified federate from the `Checkpoint` development branch of NASA's TrickHLA (commit `4f72205`) saved and restored mid-run in our federation on Pitch pRTI Free, in two runs, with both processes exiting cleanly. Every update it received matched the recording in all fourteen fields, and the 959 ticks it received again after the restore matched their first reception exactly.
